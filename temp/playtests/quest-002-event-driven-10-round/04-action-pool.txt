@@ -1,0 +1,38 @@
+Action / Resource Pool: Event-Driven Prototype Catalog
+
+Important note:
+This is still a template catalog, not a one-copy finalized deck list.
+
+Setup and engine cards
+1. Sharpen Edge - Ongoing. Your next damaging action gets +1 damage.
+2. Treasure Nose - Ongoing. The first time you claim a reward, draw 2.
+3. Map the Tunnels - Ongoing. Later, reroll one save.
+4. Pocket the Spoils - If a reward is claimed this scene, you gain 1 extra draw.
+5. Hidden Stash - Draw 2.
+6. Study the Signs - Peek ahead or gain +1 to your next non-combat test.
+
+Summons and allies
+7. Cinder Familiar - Ally. 1 HP. Exhaust: +1 to a magical action or scout effect.
+8. Tin Golem - Ally. 3 HP. Exhaust: prevent 1 damage to the party.
+9. Lantern Sprite - Ally. 1 HP. Exhaust: another player draws 1, then discards 1.
+10. Grave Hound - Ally. 2 HP. Exhaust: +1 damage if you attack the same target as another player.
+
+Immediate scene cards
+11. Quick Slash - Deal 1 damage.
+12. Shield Breaker - Deal 2 damage.
+13. Arc Bolt - Deal 2 damage to a magical or flying target, otherwise 1.
+14. Battle Prayer - Another player gets +1 to a save or damaging action.
+15. Dive for Cover - Prevent 2 damage from a hazard or scene backlash.
+16. Field Bandage - Heal 2 party HP after the scene.
+
+Greed, utility, and rescue cards
+17. Haggle - In a merchant or social scene, gain 1 reward draw.
+18. Smoke Route - Cancel one forced discard from a trap or collapse.
+19. Mercy Prayer - Another player discards 1 fewer card; you draw 1.
+20. Bold Claim - If you dealt the last damage to a monster, gain 1 extra Spotlight.
+
+Opening Hands Used In This Simulation
+- Kael: Sharpen Edge, Quick Slash, Bold Claim
+- Brin: Treasure Nose, Haggle, Hidden Stash
+- Mira: Tin Golem, Smoke Route, Map the Tunnels
+- Tamsin: Cinder Familiar, Battle Prayer, Mercy Prayer

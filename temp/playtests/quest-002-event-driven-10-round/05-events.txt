@@ -1,0 +1,34 @@
+Event Sequence For Quest 002
+
+1. Camp at the Sealed Stair
+- Prep scene only. No hostile threat.
+
+2. Wandering Merchant
+- Social scene. Players may trade, haggle, or scout for supplies.
+
+3. Ash Imp Nest
+- Danger scene. Spawn 2 Ash Imps.
+
+4. Falling Causeway
+- Hazard scene. Each player attempts a save or risks losing a card.
+
+5. Shrine of Echoes
+- Temptation scene. Players may invest in future power, but greed can create a persistent enchantment.
+
+6. Bound Pilgrim
+- Rescue scene. The party chooses whether to spend effort on someone who cannot pay them back.
+
+7. Ashen Ambush
+- Escalating danger scene.
+- Low tension version: spawn 2 Goblin Skulkers.
+- Mid tension version: spawn 2 Orc Raiders.
+- High tension version: spawn 1 Ogre Brute.
+
+8. Vault Gallery
+- Trap and loot scene. Players can chase reward at the risk of losing cards.
+
+9. Brood Wyrm Hunt
+- Danger scene. Spawn 1 Brood Wyrm.
+
+10. Dragon in the Deep
+- Final scene. Resolve two boss stages in sequence if the party survives.

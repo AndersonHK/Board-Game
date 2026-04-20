@@ -1,0 +1,26 @@
+Simulation Roster: Four Imaginary Friends
+
+1. Kael Stonehand
+- Archetype: Aggressive
+- Table vibe: loud, competitive, loves landing the killing blow
+- Passive: your first committed card each round gets +1 impact if you are first to act
+- Active: once per round, Overextend for +2 impact; if the party still fails, add +1 extra party damage
+
+2. Brin Ashvale
+- Archetype: Aggressive
+- Table vibe: cocky looter, always eyeing the best reward line
+- Passive: your first committed card each round gets +1 impact if you are first to act
+- Active: once per round, Overextend for +2 impact; if the party still fails, add +1 extra party damage
+
+3. Mira Fen
+- Archetype: Defensive
+- Table vibe: quiet planner, keeps backup plans and hates losing value
+- Passive: if you end the round with 2 or more cards in hand, gain 1 Ward, max 3
+- Ward rule for this run: each Ward prevents 1 party damage later
+- Active: once per round, spend 1 Ward or discard 1 card to prevent 2 damage
+
+4. Tamsin Vale
+- Archetype: Support
+- Table vibe: negotiator, stabilizer, tries to keep everyone pointed the same direction
+- Passive: when your card directly boosts another player or prevents or heals damage, draw 1
+- Active: once per round, give another player +1 impact; if the encounter clears, both players draw 1

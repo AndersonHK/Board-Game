@@ -4,7 +4,7 @@ This file defines the current four-deck structure. The broader design brief live
 
 ## Overview
 
-The game currently has four deck systems:
+The game currently has four core deck systems:
 
 1. world / quest system
 2. encounter deck
@@ -14,9 +14,11 @@ The game currently has four deck systems:
 These four layers appear to divide responsibilities cleanly:
 
 - quest sets the scenario spine
-- encounter sets the current problem or opportunity
+- encounter sets the current scene, problem, or opportunity
 - resource-action cards give players their tools
 - secret agendas create private incentives
+
+There may also be an auxiliary reserve of entity cards or tokens for spawned monsters, persistent obstacles, and allied summons. That reserve is not yet treated as a full fifth core deck, but the design is clearly moving in that direction.
 
 ## World / Quest System
 
@@ -35,9 +37,9 @@ This is not necessarily a normal shuffled deck. It defines the overarching story
 
 For a D&D-style quest:
 
-- tension 0: players begin outside or near the top of the dungeon
+- tension 0: players begin outside or near the top of the dungeon with a prep scene
 - tension 10: players face the dragon
-- scenario trait example: each player may take 1 additional action each round
+- scenario trait example: the first round is setup only, before the descent begins
 
 ### Design Notes
 
@@ -49,19 +51,47 @@ For a D&D-style quest:
 
 ### Role
 
-Each round, the party draws an encounter card representing what the group discovered or must deal with that round.
+Each round after the prep beat, the party draws an encounter card representing the scene they just entered. This is not best understood as a fixed threat number. It is the event frame for the round.
 
 ### Current Example Space
 
 - ambush
 - mysterious room
 - trader
+- collapsing bridge
+- cursed shrine
+- rescue scene
+- trapped vault
 
 ### Design Notes
 
-- Encounters appear to be the main source of short-term threats and opportunities.
-- They should force meaningful decisions about whether to spend strong action cards now or save them.
-- Different escalation bands may cause the same encounter to behave differently.
+- Encounters are the main source of short-term threats, opportunities, and scene framing.
+- An encounter may spawn monster cards, hazards, save throws, bargains, or downtime-style preparation windows.
+- Different escalation bands may cause the same encounter to spawn nastier entities, harsher losses, or more tempting rewards.
+- Not every encounter should be combat. Variety is part of the pacing.
+
+### Important Correction
+
+Encounters do not inherently carry a single assigned threat value.
+
+Instead, the event text determines what mechanics matter in that scene. For example:
+
+- "Falling Causeway" may trigger save rolls and card loss
+- "Wandering Merchant" may create a bargaining and draw opportunity
+- "Ashen Ambush" may spawn goblins at low tension, orcs at mid tension, and an ogre at high tension
+
+That means the encounter deck is closer to a scene-authoring system than a stack of simple challenge ratings.
+
+### Spawned Entities
+
+Encounter cards may create persistent or temporary scene cards such as:
+
+- monsters
+- heavy doors
+- miasma or enchantments
+- environmental hazards
+
+Those entities should ideally live in a reusable reserve with one lightweight rules grammar, so the encounter deck can stay focused on authored scene blurbs instead of carrying all mechanical detail itself.
 
 ## Resource / Artifact / Action Deck
 
@@ -72,9 +102,10 @@ This is the shared action-economy deck, closest to the "cards in hand" layer of 
 ### Current Function
 
 - players collect these cards over time
-- these cards represent equipment, spells, or actions
-- players use them to solve encounters and pursue their own incentives
+- these cards represent equipment, spells, actions, preparations, and personal engines
+- players use them to solve scenes and pursue their own incentives
 - players want to acquire more of them and save their best ones
+- players can also use them selfishly to build future advantage instead of immediately helping the party
 
 ### Design Notes
 
@@ -84,6 +115,23 @@ This is the shared action-economy deck, closest to the "cards in hand" layer of 
   - support gains more through team play
   - defensive gains more through independent slow play and preservation
   - aggressive wants to spike, rush, and claim credit
+
+### Broader Action Scope
+
+The action deck should support both battle and non-battle scenes.
+
+That means cards in this layer can reasonably include:
+
+- direct attacks
+- buffs to future attacks
+- draw or scouting engines
+- anti-discard protection
+- negotiation or merchant tools
+- ally summons
+- setup pieces that persist across scenes
+- dispels or counters for persistent obstacles and enchantments
+
+This broader scope is important because it gives selfish players something interesting to do besides simply refusing to help.
 
 ### Tension Scaling Idea
 
@@ -113,6 +161,7 @@ After choosing a class, each player takes a hidden agenda card.
 - collect the most cards
 - do the most kills
 - ensure a chosen player has the least of something
+- become the most visibly heroic in the story
 
 ### Design Notes
 
@@ -124,8 +173,9 @@ After choosing a class, each player takes a hidden agenda card.
 The four systems currently imply this layered structure:
 
 - public scenario pressure from the quest
-- public round pressure from encounters
-- private tactical options from hand cards
+- public round pressure from scene events
+- public board-state pressure from spawned entities and persistent scene cards
+- private and public tactical options from hand cards
 - private strategic incentives from agendas
 
 That is a strong shape for a short game.

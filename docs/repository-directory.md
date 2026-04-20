@@ -6,8 +6,35 @@ This file is the canonical map of the repository structure and the purpose of im
 
 ```text
 /
+|-- assets/
+|   `-- README.md
 |-- CODEX.md
+|-- defines/
+|   `-- README.md
 |-- README.md
+|-- temp/
+|   `-- playtests/
+|       `-- quest-001-standard-10-round/
+|           |-- 00-source-map.md
+|           |-- 01-quest-frame.txt
+|           |-- 02-player-roster.txt
+|           |-- 03-agendas.txt
+|           |-- 04-resource-pool.txt
+|           |-- 05-encounters.txt
+|           |-- 06-simulation-log.txt
+|           |-- 07-rulings-log.txt
+|           `-- 08-findings.md
+|       `-- quest-002-event-driven-10-round/
+|           |-- 00-source-map.md
+|           |-- 01-quest-frame.txt
+|           |-- 02-player-roster.txt
+|           |-- 03-agendas.txt
+|           |-- 04-action-pool.txt
+|           |-- 05-events.txt
+|           |-- 06-entities.txt
+|           |-- 07-simulation-log.txt
+|           |-- 08-rulings-log.txt
+|           `-- 09-findings.md
 `-- docs/
     |-- design/
     |   |-- class-archetypes.md
@@ -28,7 +55,9 @@ This file is the canonical map of the repository structure and the purpose of im
 
 ## File Guide
 
+- [../assets/README.md](../assets/README.md): notes for the future canonical art and print-asset folder.
 - [../CODEX.md](../CODEX.md): root operating instructions for Codex, including how to maintain project documentation.
+- [../defines/README.md](../defines/README.md): notes for the future canonical numeric and rules-define folder.
 - [../README.md](../README.md): lightweight project overview and pointer hub for the repository.
 - [design/core-concept.md](./design/core-concept.md): evolving design brief, current concept framing, and system-level implications.
 - [design/class-archetypes.md](./design/class-archetypes.md): stable mechanical class identities, player personas, and ability design notes.
@@ -43,6 +72,8 @@ This file is the canonical map of the repository structure and the purpose of im
 - [research/stellaris-crises.md](./research/stellaris-crises.md): notes on midgame and endgame crisis structure for escalation milestones.
 - [research/secret-objectives-risk-ticket-to-ride.md](./research/secret-objectives-risk-ticket-to-ride.md): notes on hidden objectives, secrecy, and endgame scoring tension.
 - [repository-directory.md](./repository-directory.md): this file; the current repository map and documentation conventions.
+- [../temp/playtests/quest-001-standard-10-round/](../temp/playtests/quest-001-standard-10-round/): temporary first-pass simulation package for a 10-round fantasy quest, including source extraction, mock content, a full roleplayed run, live rulings, and recommendations.
+- [../temp/playtests/quest-002-event-driven-10-round/](../temp/playtests/quest-002-event-driven-10-round/): temporary second-pass simulation package built around scene events, spawned entities, non-combat pacing, and stronger relationship drama.
 
 ## Documentation Conventions
 

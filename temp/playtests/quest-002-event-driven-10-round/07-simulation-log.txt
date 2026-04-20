@@ -1,0 +1,199 @@
+Quest 002 Simulation Log
+Run style: event scenes, spawned entities, prep round, and stronger relationship drama
+Dice results consumed in order: 4, 5, 3, 6, 1, 2, 6, 6, 3, 5, 2, 3, 1, 5
+
+Starting state
+- Party HP: 12
+- Tension: 0
+- Hand limit: 6
+- Mira starts with 1 Ward
+
+ROUND-01: Camp at the Sealed Stair
+State at start: HP 12, tension 0
+Scene:
+- This is the prep round before the party enters the dungeon.
+Play:
+- Kael plays Sharpen Edge, announcing that the first thing he sees underground is already dead.
+- Brin plays Treasure Nose and immediately asks whether treasure taken before a rescue still counts as "evil."
+- Mira quietly assembles Tin Golem.
+- Tamsin summons Cinder Familiar and says, "Good. Now at least one creature here listens."
+Outcome:
+- No Spotlight awarded. The prep beat does exactly what it should: players declare intention before danger starts.
+- End-of-round draws: Kael draws Shield Breaker, Brin draws Pocket the Spoils, Mira draws Dive for Cover, Tamsin draws Field Bandage.
+State at end: HP 12, tension 1
+
+ROUND-02: Wandering Merchant
+State at start: HP 12, tension 1
+Scene:
+- A smoke-stained merchant offers charms, rope, gossip, and prices that change depending on who looks desperate.
+Play:
+- Brin jumps in first with Haggle.
+- d6 roll = 4, so the haggle succeeds.
+- Tamsin uses Cinder Familiar to scout the next crate and quietly tips Kael toward a better blade oil, but Brin still takes center stage.
+- Kael mutters that Brin managed to make the first real scene entirely about pockets.
+Outcome:
+- Brin claims 1 Spotlight.
+- Treasure Nose triggers because Brin claimed the first reward of the run; he draws 2.
+- End-of-round draws: Kael draws Grave Hound, Brin draws Bold Claim, Mira draws Hidden Stash, Tamsin draws Battle Prayer.
+State at end: HP 12, tension 2
+
+ROUND-03: Ash Imp Nest
+State at start: HP 12, tension 2
+Scene:
+- The party opens a cracked furnace niche and two Ash Imps scramble out shrieking.
+- Spawn: 2 Ash Imps, each HP 2, attack 1.
+Play:
+- Kael goes first with Shield Breaker. Sharpen Edge pushes it to 3 damage, deleting the first imp in one swing.
+- Brin chooses Hidden Stash instead of helping, drawing deeper while everyone stares at him.
+- Tamsin spends Battle Prayer on Mira, letting her guide the Tin Golem into the second imp.
+- Mira exhausts Tin Golem to help pin the imp and Kael finishes it with Quick Slash.
+Outcome:
+- The party clears the nest without losing HP, but the emotional result matters more than the board state.
+- Kael claims 1 Spotlight and openly tells Brin he built a bigger hand while the rest of the table fought a furnace full of knives.
+- End-of-round draws: Kael draws Field Bandage, Brin draws Shield Breaker, Mira draws Study the Signs, Tamsin draws Mercy Prayer.
+State at end: HP 12, tension 3
+
+ROUND-04: Falling Causeway
+State at start: HP 12, tension 3
+Scene:
+- The stone bridge flexes over lava vents. Each hero must make a save or lose a card to the collapse.
+Play:
+- Kael rolls 5 and keeps his footing.
+- Brin rolls 3. Tamsin uses her passive to push it to 4, changing failure into success.
+- Because her +1 made the difference, Tamsin rolls again and gets a 6. The card Brin would have lost slides into Tamsin's hand instead of the abyss.
+- Brin says "Thank you" like it physically hurts him.
+- Mira rolls 1 but uses Smoke Route to cancel the forced discard.
+- Tamsin rolls 2 and loses Field Bandage to the lava.
+Outcome:
+- Tamsin claims 1 Spotlight. This is the run's first truly relationally charged beat.
+- End-of-round draws: Kael draws Arc Bolt, Brin draws Arc Bolt, Mira draws Lantern Sprite, Tamsin draws Dive for Cover.
+State at end: HP 12, tension 4
+
+ROUND-05: Shrine of Echoes
+State at start: HP 12, tension 4
+Scene:
+- A shrine offers power to anyone willing to leave something of themselves behind.
+Play:
+- Brin takes the greedy line and uses Pocket the Spoils, framing the shrine as free upside.
+- Mira uses Study the Signs to read the room and avoids the obvious curse.
+- Kael takes a minor boon for future damage because he wants the dragon, not the shrine, to remember him.
+- Tamsin plays Mercy Prayer when Kael's boon would have forced a discard; he keeps the card, and she draws 1.
+- Brin's line wakes Clinging Miasma, a persistent enchantment that will follow the party until dispelled.
+Outcome:
+- Brin claims 1 Spotlight because he manipulates the room into paying out more than it should.
+- The scene pushes tension harder than a battle would have. Everyone learns that Brin will choose future advantage if the rules allow it.
+- End-of-round draws: Kael draws Shield Breaker, Brin draws Hidden Stash, Mira draws Field Bandage, Tamsin draws Lantern Sprite.
+- Tension reaches 5. The dragon stirs.
+State at end: HP 12, tension 5
+
+ROUND-06: Bound Pilgrim
+State at start: HP 12, tension 5
+Scene:
+- A half-burned pilgrim begs to be cut loose from a ritual stake. Clinging Miasma is still in play, making the whole chamber feel poisoned.
+Play:
+- Brin asks whether the chains are made of anything saleable before he offers aid.
+- The group realizes someone has to address the miasma first or it will keep stripping cards from the player with the biggest hand, which is currently Brin.
+- Tamsin uses Cinder Familiar and her active to help Kael break the stake cleanly while Mira directs Tin Golem through the fumes to disperse the enchantment's last hold.
+- Clinging Miasma is dispelled during the scene.
+Outcome:
+- The pilgrim is saved and the persistent enchantment is cleared.
+- Tamsin claims 1 Spotlight.
+- Because her active directly helped resolve the scene, Kael and Tamsin each draw 1.
+- Kael does not thank her out loud, which somehow makes the moment feel more sincere.
+- End-of-round draws: Kael draws Bold Claim, Brin draws Map the Tunnels, Mira draws Shield Breaker, Tamsin draws Quick Slash.
+State at end: HP 12, tension 6
+
+ROUND-07: Ashen Ambush
+State at start: HP 12, tension 6
+Scene:
+- The corridor erupts into an ambush.
+- Because tension is in the mid band, the event spawns 2 Orc Raiders instead of goblins.
+Play:
+- Kael opens on the first orc with Shield Breaker for 3 total damage after his passive, killing it cleanly.
+- Mira backs him up with Tin Golem positioning while Brin waits for a better spotlight line.
+- The second orc is nearly down when Brin fires Arc Bolt and then slaps down Bold Claim to take the last damage.
+- Kael looks furious because Brin undeniably kill-stole the scene again.
+Outcome:
+- Brin claims 1 Spotlight.
+- One orc swing still gets through in the scramble, forcing Brin to discard 1 card.
+- End-of-round draws: Kael draws Battle Prayer, Brin draws Haggle, Mira draws Hidden Stash, Tamsin draws Arc Bolt.
+State at end: HP 12, tension 7
+
+ROUND-08: Vault Gallery
+State at start: HP 12, tension 7
+Scene:
+- The gallery is all mirrors, locked chests, and a Heavy Door sealing the best reward behind it.
+- Spawn: Heavy Door, durability 4. Until broken, the scene reward cannot be claimed.
+Play:
+- Brin immediately lunges for the reward line anyway and rolls 6 on the vault save.
+- Kael and Mira are the ones who actually break the door: Kael hacks into the hinges while Mira directs Tin Golem through the frame.
+- Kael then rolls 3 on the trap follow-up. Tamsin again uses her passive to turn it into a 4, and the follow-up salvage roll is 5, so the card he would have dropped gets pulled into Tamsin's hand instead.
+Outcome:
+- Brin still takes the visible loot once the door is open, which is technically fair and emotionally infuriating.
+- Brin claims 1 Spotlight because he ends the scene with the relic, even though the others made it possible.
+- End-of-round draws: Kael draws Quick Slash, Brin draws Pocket the Spoils, Mira draws Dive for Cover, Tamsin draws Field Bandage.
+State at end: HP 12, tension 8
+
+ROUND-09: Brood Wyrm Hunt
+State at start: HP 12, tension 8
+Scene:
+- A Brood Wyrm drops from the ceiling in a rain of stone and molted scales.
+- Spawn: 1 Brood Wyrm, HP 4, attack 2. On reveal, tension +1.
+Play:
+- The reveal pushes tension to 9.
+- Kael commits first with Arc Bolt for 1 only, because the wyrm is armored rather than magical.
+- Tamsin uses Battle Prayer on Kael to bring the hit up and keep him relevant.
+- Mira exhausts Tin Golem to blunt the Brood Wyrm's counterattack, then finishes the setup with Shield Breaker.
+- Brin hesitates, clearly hoping to line up another last-hit.
+Outcome:
+- Mira claims 1 Spotlight because the golem's body-block plus her follow-through are what actually stabilize the scene.
+- Tin Golem is destroyed in the process, and that feels surprisingly sad at the table.
+- The party still takes 1 damage from the tail sweep that gets past the golem.
+- End-of-round draws: Kael draws Dive for Cover, Brin draws Quick Slash, Mira draws Lantern Sprite, Tamsin draws Mercy Prayer.
+State at end: HP 11, tension 9
+
+ROUND-10: Dragon in the Deep
+State at start: HP 11, tension 9
+Scene:
+- The chains snap. The dragon arrives as a two-step fight: first the Chainbound Head, then the Heartfire body behind it.
+- Stage 1: Chainbound Head, HP 5, attack 2.
+- Stage 2: Heartfire Dragon, HP 6, attack 3. On reveal, each player either discards 1 or the party takes 1.
+Stage 1 play:
+- Kael commits first with Shield Breaker for 3 after his passive.
+- Brin swings in with Quick Slash and tries to set up Bold Claim.
+- Tamsin uses her active on Kael for +1 damage.
+- Mira spends her last Ward to prevent the head's lash damage from softening the party before stage 2.
+- Kael lands the finishing hit on stage 1 and gains the extra Spotlight from his aggressive active.
+Stage 2 play:
+- Heartfire Dragon appears.
+- Kael chooses to discard 1 to keep party HP intact.
+- Brin refuses to discard and makes the table eat 1 party damage instead.
+- Mira uses Dive for Cover to prevent 2 of the incoming 3 attack when the dragon breathes.
+- Tamsin plays Mercy Prayer to save Kael from losing another card and draws 1.
+- Brin tries to set up a final Bold Claim line, but Tamsin chooses Kael for Battle Prayer instead.
+- Kael lands the last damage on the dragon while Brin actually makes the math possible with a late Arc Bolt.
+Outcome:
+- Kael claims 2 Spotlight for the final scene and gets the heroic story beat he wanted.
+- Brin immediately points out that his damage was still essential, which is true and makes the victory feel properly messy.
+- The party survives on 10 HP.
+
+End state snapshot
+- Kael Spotlight: 6
+- Brin Spotlight: 4
+- Mira Spotlight: 1
+- Tamsin Spotlight: 3
+
+Agenda check
+- Kael / First Name in the Song: succeeded
+- Brin / Richer Than the Tale: succeeded
+- Mira / Prepared for Anything: succeeded
+- Tamsin / Everyone Owes Me: succeeded
+
+Immediate feel summary
+- Prep made the opening breathe.
+- Non-combat scenes produced more interesting feelings than pure repeated fighting.
+- Tamsin's save-flip ability created the most memorable moments in the whole run.
+- Brin using build cards during danger scenes produced exactly the kind of resentment the design seems to want.
+- The dragon scene felt more dramatic with two stages than the previous one-roll boss.
+- The ambush scaling cleanly from the same blurb to different enemies felt right.
+- Persistent cards like miasma and the heavy door made the dungeon feel more like a place and less like a sequence of isolated tests.

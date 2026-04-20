@@ -1,0 +1,26 @@
+Simulation Roster: Same Four Friends, Sharper Personalities
+
+1. Kael Stonehand
+- Archetype: Aggressive
+- Persona: wants the song to remember him first
+- Passive: first damaging action you take each scene gets +1 damage if you commit before anyone else
+- Active: once per scene, Press the Advantage for +1 damage; if that action defeats a monster, gain 1 extra Spotlight
+
+2. Brin Ashvale
+- Archetype: Aggressive
+- Persona: wants to be richer than the legend itself
+- Passive: first damaging action you take each scene gets +1 damage if you commit before anyone else
+- Active: once per scene, Press the Advantage for +1 damage; if that action defeats a monster, gain 1 extra Spotlight
+
+3. Mira Fen
+- Archetype: Defensive
+- Persona: never wants to look surprised or underprepared
+- Starts with: 1 Ward
+- Passive: once per scene, when an event would make you discard or take damage, prevent 1 of that loss
+- Active: spend 1 Ward or discard a setup card to prevent 2 party damage or ignore 1 forced discard
+
+4. Tamsin Vale
+- Archetype: Support
+- Persona: wants everyone to need her, even if they dislike that fact
+- Passive: once per scene, give +1 to another player's save roll; if that changes a failure into a success, roll a d6 and on 4-6 move one card that would have been discarded into your own hand instead
+- Active: once per scene, give another player +1 damage or +1 to a non-combat test; if that help directly resolves the scene, both players draw 1

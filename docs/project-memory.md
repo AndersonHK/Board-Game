@@ -9,7 +9,7 @@ This file is the long-term memory for the project. It should retain the durable 
 - Collaboration model: user provides the evolving vision; Codex helps design, document, structure, and iterate
 - Delivery strategy: build a nearly complete minimal horizontal slice first, then turn it into a fully playable vertical slice
 - Art plan: use fully AI-generated art that the user can print for the physical game
-- Current phase: early concept definition and inspiration research
+- Current phase: early concept definition, rules correction, and simulation-driven prototyping
 
 ## Current Understanding
 
@@ -20,6 +20,10 @@ Later on 2026-04-20, the user added the first real concept brief. The game shoul
 The game is intended to be system-agnostic across theme packs. The same mechanical skeleton should support fantasy, sci-fi, steampunk, grimdark, and similar settings, while the flavor names and presentation change. For the first vertical-slice demo, the user is leaning toward a classic D&D-like fantasy setting. A fuller evolving brief is tracked in [design/core-concept.md](./design/core-concept.md), current class identity notes live in [design/class-archetypes.md](./design/class-archetypes.md), and the deck model lives in [design/deck-architecture.md](./design/deck-architecture.md).
 
 Later on 2026-04-20, the user corrected the component structure: the game actually has four decks or deck-like systems, not three. The four are the [world or quest system](./design/deck-architecture.md#world--quest-system), [encounter deck](./design/deck-architecture.md#encounter-deck), [resource-artifact-action deck](./design/deck-architecture.md#resource--artifact--action-deck), and [secret agenda deck](./design/deck-architecture.md#secret-agenda-deck). The game has no explicit traitor. All players are in the same party and share the lose condition of survival, but each player also has a secret agenda and wants to finish with the most points. The current round-flow hypothesis and escalation model are tracked in [design/round-structure.md](./design/round-structure.md).
+
+Later on 2026-04-20, the user corrected a more important misunderstanding in the earlier prototype framing. Encounter cards should not be treated as fixed threat-value cards. They are event or scene cards that may spawn monster cards, force save throws, trigger discards, create bargains, or open preparation windows. Monster cards and player-controlled allied entities such as familiars or golems should likely share a common rules grammar rather than becoming a separate fifth core deck immediately. The action deck should include both battle tools and selfish setup cards that can be used outside battle, so a greedy player can spend time improving their own future position instead of merely skipping help. The desired experience is emergent relationship storytelling: players should feel invested in who was brave, selfish, rescued, indebted, or resentful by the end of the story.
+
+Later that same day, the user clarified that the same event can scale across escalation bands by spawning different enemy cards, such as goblins at low tension, orcs at mid tension, and an ogre at high tension. The user also asked us to design toward the possibility of an auxiliary enemy or entity reserve that could hold monster cards, persistent obstacles like heavy doors, and persistent enchantments like miasma. Those ideas are not yet confirmed as a formal fifth deck, but they are now part of the working direction tracked in [design/core-concept.md](./design/core-concept.md), [design/deck-architecture.md](./design/deck-architecture.md), and [design/round-structure.md](./design/round-structure.md).
 
 ## Goals
 
@@ -80,18 +84,26 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 19. The world/quest system defines the setting frame, threshold events, and at least one light rules modifier.
 20. The user wants research on [Stellaris crisis structure](./research/stellaris-crises.md) to inform midpoint and endpoint escalation beats.
 21. The user wants research on [Risk and Ticket to Ride secret-objective patterns](./research/secret-objectives-risk-ticket-to-ride.md) to inform the agenda deck.
+22. Encounter cards are scene events, not simple fixed threat cards.
+23. Events may spawn monsters, hazards, save throws, bargains, or prep windows.
+24. The opening tension-0 round should be a prep beat instead of an immediate battle.
+25. Action cards should support selfish setup and future advantage outside battle, not only direct combat participation.
+26. Emergent relationship storytelling is the guiding principle for the game's feel.
+27. The same event may scale across escalation bands by spawning different entity cards.
+28. Persistent obstacles and enchantments such as heavy doors or miasma are in scope.
 
 ### Not Yet Decided
 
-- Exact resolution mechanics for encounters
+- Exact resolution mechanics for events, monsters, hazards, and persistent scene cards
 - Final player count range
 - Final scoring and point model
 - Core mechanics
 - Exact functions and card composition of the four deck systems
 - Exact dice system
-- How players survive or fail within a round
+- How players survive or fail within a scene
 - Exact mid-escalation and end-escalation events for the first quest
 - Whether classes, cards, encounters, or all three scale by tension
+- Whether the game needs a formal enemy or entity reserve in addition to the four core decks
 - Print format requirements
 - Testing cadence
 
@@ -100,12 +112,14 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 - What is the game's core concept and player fantasy?
 - What is the intended player count range beyond the known four-player classroom case?
 - What is the minimum loop required for the first horizontal slice?
-- How exactly do players resolve an encounter each round?
-- How do dice enter the system?
+- How exactly do players resolve a scene each round when that scene may be combat, hazard, social, or persistent?
+- How do dice enter the system: save throws, combat, card effects, or all three?
 - What are points actually measuring, and how are they awarded?
 - What specific secret agenda patterns create tension without making cooperation collapse?
 - Is the HOI4-style tension meter a literal shared track, or more of a design inspiration for threshold-based escalation? Current evidence suggests a literal shared track from 0 to 10, but its exact effects remain open.
 - What is the precise economy or resource model that the aggressive, cautious, and support classes are manipulating?
+- What exact stats or tags should monster cards, persistent scene cards, and allied entity cards share?
+- How should hero credit or narrative spotlight be awarded when several players contributed to the same scene?
 - What kind of AI art style best fits the game and printing constraints?
 - What rubric or evaluation criteria does the class project need to satisfy?
 
@@ -118,8 +132,9 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 5. Capture the four-deck model in [design/deck-architecture.md](./design/deck-architecture.md).
 6. Capture the current round and escalation model in [design/round-structure.md](./design/round-structure.md).
 7. Identify the smallest end-to-end playable loop.
-8. Lock the first horizontal-slice scope.
-9. Create component, rules, and production docs as needed.
+8. Use simulation passes to test that loop and correct misunderstandings quickly.
+9. Lock the first horizontal-slice scope.
+10. Create component, rules, and production docs as needed.
 
 ## Documentation Notes
 

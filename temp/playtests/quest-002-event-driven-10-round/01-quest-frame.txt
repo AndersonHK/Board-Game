@@ -1,0 +1,23 @@
+Quest: Ashen Depths, Event-Driven Pass
+Theme: Classic fantasy dungeon descent
+
+Premise:
+The party camps outside the sealed stair at dusk, choosing what kind of heroes they intend to be before they descend. Inside the ruin, each chamber is a story beat first and a mechanical problem second.
+
+Quest Track:
+- Tension 0: prep scene outside the dungeon
+- Tension 5: "The dragon stirs"
+- Tension 10: Dragon in the Deep
+
+Quest Trait:
+- The table begins with one prep round before entering the dungeon.
+- During the prep round, each player may play one setup card or summon one allied entity.
+
+Midpoint Effect:
+- Once tension reaches 5, danger scenes are more likely to spawn persistent enemies, harsher discard effects, or stronger versions of the same encounter.
+
+Lose Condition:
+- If shared party HP reaches 0, everyone loses.
+
+Win Condition For This Simulation:
+- Survive all 10 rounds and resolve the dragon's two-step final scene.

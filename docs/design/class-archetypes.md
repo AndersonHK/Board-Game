@@ -37,6 +37,7 @@ This class should convert volatility into upside. It wants explosive turns, shar
 - weak protection against retaliation or attrition
 - better burst than sustainability
 - incentives to escalate the table state rather than stabilize it
+- incentives to claim visible credit for decisive moments, especially on spawned enemies or dramatic scene turns
 
 ### Ability Design Direction
 
@@ -73,6 +74,7 @@ This class should convert patience and restraint into compounding value. It want
 - strong protection against loss, theft, or waste
 - slower access to peak power
 - preference for predictable gains over swingy spikes
+- strength in discard-heavy, hazard-heavy, or save-heavy scenes, not only straightforward combat
 
 ### Ability Design Direction
 
@@ -107,6 +109,7 @@ This class should profit from relationships. It wants systems where helping, bar
 - can facilitate trades, pacts, or shared triggers
 - strong at turning table communication into concrete advantage
 - should still have a path to win, not just help others
+- should be especially potent when a rescue, save modifier, or last-second intervention changes another player's fate
 
 ### Ability Design Direction
 

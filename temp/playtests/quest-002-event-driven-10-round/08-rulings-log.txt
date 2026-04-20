@@ -1,0 +1,73 @@
+Rulings Log For Quest 002
+
+RUL-01 - Spotlight scoring
+Issue:
+- A scene-driven model needs a lightweight way to award hero credit without pretending every scene is just damage math.
+Patch used:
+- Award 1 Spotlight to the player who most defined a cleared scene. Award 2 for the final boss scene.
+Impact:
+- Better matched the emergent-story goal, but still involved table interpretation.
+
+RUL-02 - Shared entity grammar
+Issue:
+- Events can spawn monsters, persistent scene cards, and allied entities, but the canonical docs do not yet define a shared format.
+Patch used:
+- All entities in this run use HP or durability, attack or support value if relevant, and one short text ability.
+Impact:
+- Kept the run legible and made monsters, doors, miasma, and summons feel like part of the same world.
+
+RUL-03 - Prep round at tension 0
+Issue:
+- The user wanted the opening beat to be setup, not immediate harassment.
+Patch used:
+- Round 1 is a dedicated prep scene with no hostile threat.
+Impact:
+- Greatly improved pacing and player expression.
+
+RUL-04 - Save roll default
+Issue:
+- Hazard and trap scenes needed a fast universal baseline.
+Patch used:
+- Default save succeeds on 4+ on a d6 unless a card or class modifies it.
+Impact:
+- Simple enough to run and flexible enough for support rescues.
+
+RUL-05 - Support salvage clause
+Issue:
+- The support rescue example needed a concrete implementation.
+Patch used:
+- If Tamsin's +1 flips a failed save into a success, roll a d6; on 4-6 one would-be discarded card goes into Tamsin's hand instead.
+Impact:
+- Created the strongest relational beats in the run, especially with Brin and Kael.
+
+RUL-06 - Hand limit
+Issue:
+- The previous run showed runaway hand growth.
+Patch used:
+- Cleanup hand limit of 6.
+Impact:
+- Prevented hoarding from fully exploding while still allowing greed to matter.
+
+RUL-07 - Midpoint escalation expression
+Issue:
+- With event scenes instead of fixed threats, escalation needed a new outlet.
+Patch used:
+- After tension 5, scenes lean harder into persistent enemies, discard pressure, and stronger versions of the same event blurb.
+Impact:
+- Felt much more natural than flat scaling.
+
+RUL-08 - Persistent scene cards
+Issue:
+- Obstacles and enchantments needed a way to remain meaningful across scenes.
+Patch used:
+- Persistent scene cards stay in play until dispelled, destroyed, or otherwise resolved by later scenes.
+Impact:
+- Made the dungeon feel continuous instead of episodic.
+
+RUL-09 - Two-stage boss
+Issue:
+- The first run showed that a one-test dragon was emotionally too thin.
+Patch used:
+- Final scene resolves Chainbound Head first, then Heartfire Dragon.
+Impact:
+- Much better climax feel without needing a huge additional rules layer.
