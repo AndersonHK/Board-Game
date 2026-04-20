@@ -10,6 +10,8 @@ This file is the canonical map of the repository structure and the purpose of im
 |   `-- README.md
 |-- CODEX.md
 |-- defines/
+|   |-- core-rules.md
+|   |-- creature-deck.md
 |   `-- README.md
 |-- README.md
 |-- temp/
@@ -57,7 +59,9 @@ This file is the canonical map of the repository structure and the purpose of im
 
 - [../assets/README.md](../assets/README.md): notes for the future canonical art and print-asset folder.
 - [../CODEX.md](../CODEX.md): root operating instructions for Codex, including how to maintain project documentation.
-- [../defines/README.md](../defines/README.md): notes for the future canonical numeric and rules-define folder.
+- [../defines/README.md](../defines/README.md): index for canonical numeric and rules-define files.
+- [../defines/core-rules.md](../defines/core-rules.md): canonical baseline hand rules, round flow, and escalation timing.
+- [../defines/creature-deck.md](../defines/creature-deck.md): canonical creature deck definition and its scene-spawn role.
 - [../README.md](../README.md): lightweight project overview and pointer hub for the repository.
 - [design/core-concept.md](./design/core-concept.md): evolving design brief, current concept framing, and system-level implications.
 - [design/class-archetypes.md](./design/class-archetypes.md): stable mechanical class identities, player personas, and ability design notes.

@@ -6,7 +6,7 @@ This file is the evolving design brief for the game. Durable high-level project 
 
 - The game should work for the classroom use case of four players, but the system should ideally scale beyond that.
 - The system should support multiple theme packs while preserving the same mechanics.
-- The current component concept is four decks or deck-like systems, three classes, some dice, and likely a shared reserve of spawned entity cards.
+- The current component concept is four player-facing decks or deck-like systems, a formal creature deck, three classes, and some dice.
 - The initial vertical-slice theme is leaning toward classic D&D-style fantasy.
 - The class layer should be simple enough to explain in about a minute but meaningful enough to create a real strategic meta.
 - The current target playtime is about 30 to 40 minutes.
@@ -88,14 +88,16 @@ The same event can also scale by escalation band. For example, an ambush scene m
 
 ## Entity Layer Direction
 
-Monster cards are not yet confirmed as a full fifth core deck, but the design may want an auxiliary enemy or entity reserve to hold:
+The creature deck now exists as a formal support deck for spawned enemies and creature packages.
+
+The broader entity layer may still want a shared reserve to hold:
 
 - monsters
 - persistent obstacles such as heavy doors
 - persistent scene effects such as miasma or enchantments
 - player-controlled allies such as familiars or golems
 
-That reserve should ideally share one lightweight grammar so the game does not splinter into too many separate micro-systems.
+That layer should ideally share one lightweight grammar so the game does not splinter into too many separate micro-systems.
 
 ## Action Economy Direction
 

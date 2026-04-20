@@ -1,6 +1,6 @@
 # Round Structure
 
-This file captures the current round-flow hypothesis and escalation logic. The broader concept brief lives in [core-concept.md](./core-concept.md). The deck roles live in [deck-architecture.md](./deck-architecture.md). Relevant escalation research lives in [../research/hearts-of-iron-iv-world-tension.md](../research/hearts-of-iron-iv-world-tension.md) and [../research/stellaris-crises.md](../research/stellaris-crises.md).
+This file captures the current round-flow hypothesis and escalation logic. The broader concept brief lives in [core-concept.md](./core-concept.md). The deck roles live in [deck-architecture.md](./deck-architecture.md). Canonical numeric and timing baselines live in [../../defines/core-rules.md](../../defines/core-rules.md) and [../../defines/creature-deck.md](../../defines/creature-deck.md). Relevant escalation research lives in [../research/hearts-of-iron-iv-world-tension.md](../research/hearts-of-iron-iv-world-tension.md) and [../research/stellaris-crises.md](../research/stellaris-crises.md).
 
 ## Current Round Hypothesis
 
@@ -12,11 +12,17 @@ The better working model is:
 2. reveal the next encounter event
 3. resolve the event's immediate text
 4. spawn any monsters, hazards, doors, enchantments, or tests created by that event
-5. players negotiate and play action cards, including selfish setup cards if they choose
-6. resolve attacks, save rolls, discards, and surviving entities
-7. clean up, draw, and raise or lower tension as the event dictates
+5. `Action Turn 1`: each player takes 1 action
+6. mid-encounter draw: each player draws 1 card only once per encounter unless an effect says otherwise
+7. `Action Turn 2`: each player takes 1 action
+8. creatures attack or defend once per turn as allowed by the scene
+9. resolve cleanup, unresolved hurdles, round-end card effects, and escalation
 
 Some rounds will be battles. Some will be hazards, merchants, shrines, rescues, or pacing beats.
+
+Unless changed by card effects, class abilities, or scene text, players get one action per turn and creatures get one attack or defense opportunity per turn.
+
+If an encounter lasts more than one round, the default draw between turns 1 and 2 does not repeat on later rounds of that same encounter. That rule helps stop players from farming one nearly-cleared scene for free card flow before the final ordeal.
 
 ## Escalation Track
 
@@ -39,6 +45,8 @@ Based on the user's intent, escalation may affect:
 - overall stakes and survival pressure
 
 It does not need to mean that every later round is just a larger combat number.
+
+At escalation 10, the normal two-turn round cap stops applying. The final ordeal continues until it resolves or the party is defeated.
 
 ## Good Design Opportunity
 
@@ -72,7 +80,6 @@ This keeps encounter text reusable while letting escalation visibly change the f
 
 ## Current Unknowns
 
-- Do players draw resources every round automatically, or only through card effects and rewards?
 - Is scene resolution simultaneous, negotiated, or turn-based?
 - What exactly counts as "dealing with" an event when the scene is a trap, bargain, or rescue instead of a fight?
 - Can players refuse to contribute to a group problem?

@@ -1,24 +1,25 @@
 # Deck Architecture
 
-This file defines the current four-deck structure. The broader design brief lives in [core-concept.md](./core-concept.md). Round timing lives in [round-structure.md](./round-structure.md). Research that informs quest escalation and secret objectives lives in [../research/stellaris-crises.md](../research/stellaris-crises.md) and [../research/secret-objectives-risk-ticket-to-ride.md](../research/secret-objectives-risk-ticket-to-ride.md).
+This file defines the current deck structure. The broader design brief lives in [core-concept.md](./core-concept.md). Round timing lives in [round-structure.md](./round-structure.md). Canonical baseline rules live in [../../defines/core-rules.md](../../defines/core-rules.md) and [../../defines/creature-deck.md](../../defines/creature-deck.md). Research that informs quest escalation and secret objectives lives in [../research/stellaris-crises.md](../research/stellaris-crises.md) and [../research/secret-objectives-risk-ticket-to-ride.md](../research/secret-objectives-risk-ticket-to-ride.md).
 
 ## Overview
 
-The game currently has four core deck systems:
+The game currently has four player-facing core deck systems plus a formal creature deck:
 
 1. world / quest system
 2. encounter deck
 3. resource / artifact / action deck
 4. secret agenda deck
+5. creature deck
 
-These four layers appear to divide responsibilities cleanly:
+These player-facing layers appear to divide responsibilities cleanly:
 
 - quest sets the scenario spine
 - encounter sets the current scene, problem, or opportunity
 - resource-action cards give players their tools
 - secret agendas create private incentives
 
-There may also be an auxiliary reserve of entity cards or tokens for spawned monsters, persistent obstacles, and allied summons. That reserve is not yet treated as a full fifth core deck, but the design is clearly moving in that direction.
+The creature deck supplies the concrete monsters and creature packages that encounters put into play. Persistent obstacles and enchantments are adjacent to that layer and may continue to share its grammar even if they later become a broader entity reserve.
 
 ## World / Quest System
 
@@ -92,6 +93,38 @@ Encounter cards may create persistent or temporary scene cards such as:
 - environmental hazards
 
 Those entities should ideally live in a reusable reserve with one lightweight rules grammar, so the encounter deck can stay focused on authored scene blurbs instead of carrying all mechanical detail itself.
+
+### Creature Deck Role
+
+The creature deck is the formal source of spawned enemies and creature packages.
+
+This lets encounters specify either:
+
+- exact named spawns, such as `1 Goblin Chieftain and 2 Goblin Warriors`
+- typed criteria, such as `1 Strength 2 humanoid and 2 Strength 1 beasts`
+
+without bloating the encounter text itself.
+
+When an encounter uses criteria instead of exact names, players go through the creature deck in order and take the first cards that satisfy the instruction. That gives the encounter text some flexibility without turning spawning into a search-heavy rules mini-game.
+
+Low-complexity creatures may simply attack and defend, while tougher creatures often carry undesirable round-end text. That expressive range belongs in the creature deck and supporting design work rather than in the core rules defines.
+
+### Creature Taxonomy Direction
+
+The creature deck now appears to want a small amount of formal taxonomy beyond just names.
+
+Useful candidate fields are:
+
+- creature type, such as humanoid, beast, undead, or construct
+- strength or threat value, so encounters can request a rough power band without naming a specific card
+- a split such as minor versus elite, or normal versus major, to communicate whether round-end effects are likely
+
+One promising interpretation is:
+
+- weaker or minor creatures usually attack and defend without extra round-end text
+- elite or major creatures at the same rough strength band are more likely to carry undesirable round-end effects
+
+That direction is not fully formalized yet, but it already seems useful for writing encounters and organizing the creature deck.
 
 ## Resource / Artifact / Action Deck
 
@@ -174,7 +207,7 @@ The four systems currently imply this layered structure:
 
 - public scenario pressure from the quest
 - public round pressure from scene events
-- public board-state pressure from spawned entities and persistent scene cards
+- public board-state pressure from spawned creatures and persistent scene cards
 - private and public tactical options from hand cards
 - private strategic incentives from agendas
 

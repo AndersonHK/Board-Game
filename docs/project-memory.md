@@ -23,7 +23,11 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 
 Later on 2026-04-20, the user corrected a more important misunderstanding in the earlier prototype framing. Encounter cards should not be treated as fixed threat-value cards. They are event or scene cards that may spawn monster cards, force save throws, trigger discards, create bargains, or open preparation windows. Monster cards and player-controlled allied entities such as familiars or golems should likely share a common rules grammar rather than becoming a separate fifth core deck immediately. The action deck should include both battle tools and selfish setup cards that can be used outside battle, so a greedy player can spend time improving their own future position instead of merely skipping help. The desired experience is emergent relationship storytelling: players should feel invested in who was brave, selfish, rescued, indebted, or resentful by the end of the story.
 
-Later that same day, the user clarified that the same event can scale across escalation bands by spawning different enemy cards, such as goblins at low tension, orcs at mid tension, and an ogre at high tension. The user also asked us to design toward the possibility of an auxiliary enemy or entity reserve that could hold monster cards, persistent obstacles like heavy doors, and persistent enchantments like miasma. Those ideas are not yet confirmed as a formal fifth deck, but they are now part of the working direction tracked in [design/core-concept.md](./design/core-concept.md), [design/deck-architecture.md](./design/deck-architecture.md), and [design/round-structure.md](./design/round-structure.md).
+Later that same day, the user clarified that the same event can scale across escalation bands by spawning different enemy cards, such as goblins at low tension, orcs at mid tension, and an ogre at high tension. The user also asked us to design toward the possibility of an auxiliary enemy or entity reserve that could hold monster cards, persistent obstacles like heavy doors, and persistent enchantments like miasma. After that, the user formalized a real [creature deck](../defines/creature-deck.md) and a canonical [core round structure](../defines/core-rules.md): starting hand 3, hand limit 6, standard rounds use two action turns, each player takes one action per turn unless modified, each creature attacks or defends once per turn, each encounter grants one default draw between turns 1 and 2 unless modified, unresolved hurdles raise escalation at round end, round-end effects from cards are then triggered, and escalation 10 removes the normal turn cap.
+
+Later still, the user cleaned up the creature-deck wording. Encounters should not use abstract level-based creature packages. Instead, encounter cards either name exact creature cards or specify valid card types, and players then go through the creature deck in order to take the first cards that satisfy the criteria. The user also asked that [defines](../defines/README.md) stay rulebook-like and avoid design-rationale language; broader pacing and interpretation notes should live in the design docs instead.
+
+Later still, the user refined the spawn examples again. The `Ashen Ambush` example should keep its high-escalation `Ogre Brute`, while the medium-escalation example should demonstrate criteria-based spawning with strength references instead of named cards. The user also suggested a likely future creature taxonomy: monsters may carry a threat or strength value, and each rough band may eventually split into a simpler minor versus elite or normal versus major distinction, with round-end effects being much more common on the stronger side of that split. That taxonomy is not yet canonical defines text, but it is now part of the active design direction in [design/deck-architecture.md](./design/deck-architecture.md).
 
 ## Goals
 
@@ -91,6 +95,20 @@ Later that same day, the user clarified that the same event can scale across esc
 26. Emergent relationship storytelling is the guiding principle for the game's feel.
 27. The same event may scale across escalation bands by spawning different entity cards.
 28. Persistent obstacles and enchantments such as heavy doors or miasma are in scope.
+29. Starting hand size is 3 cards.
+30. Hand limit is 6 cards.
+31. A standard round has two action turns with a draw between them.
+32. Each player takes 1 action per turn unless an effect changes that.
+33. Each creature attacks or defends once per turn unless an effect changes that.
+34. If hurdles remain unresolved at round end, escalation rises by 1 and round-end card effects are then triggered.
+35. At escalation 10, the normal turn limit no longer applies.
+36. The creature deck now exists as a formal support deck.
+37. Encounter creature spawning uses exact names or card-type criteria, not abstract level packages.
+38. When criteria are used, players go through the creature deck in order and take the first matching cards.
+39. `defines/` should stay rulebook-like and avoid design rationale.
+40. Criteria-based creature spawning may include strength references.
+41. A future creature taxonomy may use threat or strength values and a minor versus elite split.
+42. The default draw between turns 1 and 2 happens once per encounter, not once per round of a prolonged encounter.
 
 ### Not Yet Decided
 
@@ -103,7 +121,7 @@ Later that same day, the user clarified that the same event can scale across esc
 - How players survive or fail within a scene
 - Exact mid-escalation and end-escalation events for the first quest
 - Whether classes, cards, encounters, or all three scale by tension
-- Whether the game needs a formal enemy or entity reserve in addition to the four core decks
+- Whether persistent obstacles and enchantments should stay in the creature deck's rules layer or move to a broader entity reserve
 - Print format requirements
 - Testing cadence
 
@@ -119,6 +137,7 @@ Later that same day, the user clarified that the same event can scale across esc
 - Is the HOI4-style tension meter a literal shared track, or more of a design inspiration for threshold-based escalation? Current evidence suggests a literal shared track from 0 to 10, but its exact effects remain open.
 - What is the precise economy or resource model that the aggressive, cautious, and support classes are manipulating?
 - What exact stats or tags should monster cards, persistent scene cards, and allied entity cards share?
+- How much of the persistent obstacle and enchantment layer belongs inside the creature deck versus a broader entity reserve?
 - How should hero credit or narrative spotlight be awarded when several players contributed to the same scene?
 - What kind of AI art style best fits the game and printing constraints?
 - What rubric or evaluation criteria does the class project need to satisfy?
