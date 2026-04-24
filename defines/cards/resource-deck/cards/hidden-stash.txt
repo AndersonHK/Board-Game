@@ -1,0 +1,15 @@
+Card ID: resource-hidden-stash
+Display Name: Hidden Stash
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Setup
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: Your action.
+Target: Yourself.
+Rules Text: Draw 2 cards.
+Reminder Text: This is a simple greed and setup card.
+Flavor Text: The old ruin always pays someone first.
+Art Brief: A stash of coins and tools hidden behind a cracked stone panel.

@@ -1,0 +1,18 @@
+Card ID: creature-blessing-brazier
+Display Name: Blessing Brazier
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Artifact
+Creature Type: Relic
+Rarity: Elite
+Threat: 2
+Treasure Value: 4
+Hit Points: 3
+Attack: 0
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: This artifact enters under party control.
+Active Ability: Once per scene, place 1 shield token on the party.
+Round End Text: None.
+Flavor Text: Some relics defend the faithful by making them harder to kill than they deserve.
+Art Brief: A sacred furnace brazier on a pedestal, glowing gold amid soot and ruin.

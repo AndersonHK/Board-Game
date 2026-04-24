@@ -1,0 +1,98 @@
+﻿Rulings Log For Quest 006
+
+RUL-01 - Claiming printed scene rewards
+Issue:
+- Reliquary of Cinders requires the chamber reward to be claimed, but the printed materials do not formalize a default "claim reward" action.
+Smallest ruling used:
+- If a scene clearly has a claimable reward and no other procedure is printed, a player may spend an action to claim that reward once the blocking conditions are gone.
+Why this was minimal:
+- It adds no new widget and uses the same action economy players already understand.
+Impact on the run:
+- Reliquary of Cinders became fully playable without inventing a new subsystem.
+Promotion target:
+- quick start encounter-actions wording or encounter glossary
+
+RUL-02 - Hostile and blocking claim procedure
+Issue:
+- Prestige scoring names hostile and blocking cards you claimed, but the player-facing materials still do not explain who claims those cards.
+Smallest ruling used:
+- The player whose damage or clearing action removes the final point of resistance from a hostile or blocking card claims it.
+Why this was minimal:
+- It matches the most intuitive "who finished it" reading while covering both combat kills and cleared blockers.
+Impact on the run:
+- Garrick's Ashes to Ashes agenda, Lyra's Iron Gate claim, and final prestige scoring all became executable.
+Promotion target:
+- quick start prestige section
+
+RUL-03 - Party-controlled versus player-owned permanents
+Issue:
+- Blessing Brazier enters under party control, but scoring and agendas care about player-owned cards on the field.
+Smallest ruling used:
+- Party-controlled permanents stay on the shared field but are not counted as player-owned unless a card explicitly gives one player control.
+Why this was minimal:
+- It avoids silently gifting shared cards to one player for prestige.
+Impact on the run:
+- Keeper of Relics stayed readable, and Blessing Brazier did not accidentally swing endgame scoring.
+Promotion target:
+- quick start prestige example
+
+RUL-04 - `Current claimant`
+Issue:
+- Gray Wolf and Kennel Vault use the term `current claimant`, but no player-facing document defines it.
+Smallest ruling used:
+- The current claimant is the player currently closest to claiming the scene reward, tracked here as the player who most recently advanced any remaining hostile or blocking hurdle.
+Why this was minimal:
+- It turns the term into visible board-state memory rather than requiring a new token.
+Impact on the run:
+- Kennel Vault's unresolved-round discard resolved without argument.
+Promotion target:
+- quick start glossary or encounter glossary
+
+RUL-05 - `Active player`
+Issue:
+- Bound Pilgrim says the active player may heal 1 party HP if the rescue clears this round, but the current quickstart never defines `active player` as a term.
+Smallest ruling used:
+- Treat the active player as the player whose current action completed the clear condition.
+Why this was minimal:
+- It maps the term to the acting player the table is already watching.
+Impact on the run:
+- Garrick's Rusted Chains clear also determined who got the rescue heal.
+Promotion target:
+- quick start glossary or specific card wording cleanup
+
+RUL-06 - Creature deck duplicate counts
+Issue:
+- Ember-Bell Nursery requires 2 Ember Bats, but the creature deck files still do not define copy counts for creature cards.
+Smallest ruling used:
+- Add one extra Ember Bat instance to the session reserve because the live encounter explicitly needs it.
+Why this was minimal:
+- It changes only the duplicate actually required by the printed scene.
+Impact on the run:
+- Ember-Bell Nursery could run without rewriting the encounter.
+Promotion target:
+- creature deck or card-data schema
+
+RUL-07 - `Exhaust` refresh timing
+Issue:
+- Tin Golem and Cinder Familiar use `Exhaust`, but no visible rule says when exhausted permanents ready again.
+Smallest ruling used:
+- Exhausted permanents refresh at the start of a new round.
+Why this was minimal:
+- It creates a stable cadence without adding another status tracker beyond the card's turned state.
+Impact on the run:
+- Tin Golem could matter once per round in the Warden, Kennel Vault, and Dragon scenes without dominating every enemy turn.
+Promotion target:
+- quick start permanents section or creature deck rules
+
+RUL-08 - Escalation-10 extra turns
+Issue:
+- The canon says the normal two-turn round cap no longer applies at escalation 10, but it does not spell out exactly how extra turns are sequenced after `Enemy Turn 2`.
+Smallest ruling used:
+- Run the normal round skeleton through `Enemy Turn 2`, then continue alternating extra player and enemy turns without another mandatory standard draw until the ordeal resolves or the round ends.
+Why this was minimal:
+- It preserves the printed round structure while honoring the "no cap" exception.
+Impact on the run:
+- Dragon in the Deep remained tense without becoming a refill engine.
+Promotion target:
+- core rules or quick start final-ordeal wording
+

@@ -1,0 +1,42 @@
+﻿Quest: Ashen Depths, Quickstart-First Three-Player Relics And Claims Run
+Theme: Classic fantasy dungeon descent through ash-choked ruins
+
+Purpose:
+Run a fresh three-player simulation from the current quickstart and live card files, with special attention on what real players can and cannot execute around claims, owned permanents, carried-over blockers, and post-clear round flow.
+
+Premise:
+Three adventurers enter the Ashen Depths with enough greed to care about trophies, relics, and endgame wealth, but only the quickstart sheet, printed cards, and table widgets to tell them how the dungeon actually works.
+
+Quest Card Used:
+- Ashen Depths
+- Player count: 3
+- Starting party HP: 18
+- Starting hand size: 4
+- Escalation track: 0 to 10
+
+Quest Thresholds Used:
+- Escalation 0: prep scene instead of a hostile battle
+- Threshold 5: after the current scene ends, resolve Furnace Warden Rises
+- Threshold 5 ongoing rider: starting with the next scene, the first player each scene to gain extra reward draws must discard 1 card after that reward resolves
+- Threshold 8: in hostile scenes, the first hostile creature attack each scene gets +1 Attack
+- Threshold 10: after the current scene ends, reveal Dragon in the Deep; the normal two-turn round cap is removed
+
+Widgets Used:
+- one red d20 tracking party HP from 18
+- one escalation tracker from 0 to 10
+- red damage tokens for damageable creatures and artifacts
+- blue shield tokens for shield effects
+- one d6 for saves, tests, Haggle, Warrior passive rolls, and Dragon's Breath
+
+Lose Condition:
+- If party HP reaches 0, everyone loses immediately.
+
+Win Condition For This Simulation:
+- Reach escalation 10, survive Dragon in the Deep, and defeat Heartfire Dragon.
+
+Session Intent:
+- use one Warrior, one Wizard, and one Cleric so the run stays inside the current three-player quickstart
+- use the full live random encounter library as the shuffled pool, not an older session-size cap
+- obey the current "finish the round structure even after the scene clears" rule
+- log every place where a real human group would still need a table ruling
+

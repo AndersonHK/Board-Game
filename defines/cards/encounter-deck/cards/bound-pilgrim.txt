@@ -1,0 +1,17 @@
+Card ID: encounter-bound-pilgrim
+Display Name: Bound Pilgrim
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: rescue, artifact, support
+Escalation Use: Random encounter
+Reveal Text: Spawn Rusted Chains. If Ash Miasma is already in play from a previous scene, it remains part of this scene.
+Spawn Text: Spawn Rusted Chains.
+Scene Rule: The pilgrim is not freed until Rusted Chains is gone and any carried-over blocking card is gone.
+Clear Condition: Rusted Chains and any carried-over blocking card are gone.
+Reward Text: If the rescue is cleared this round, the active player may heal 1 party HP.
+Failure Text: If unresolved at end of round, the party takes 1 damage.
+Treasure Value: 0
+Rules Text: This scene is meant to stress teamwork, artifact targeting, support timing, and scene carry-over pressure.
+Flavor Text: Someone is still alive under the ash. That is either hope or a trap.
+Art Brief: A smoke-blackened traveler hanging from chained masonry in a collapsed rescue chamber.

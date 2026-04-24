@@ -1,0 +1,97 @@
+Rulings Log For Quest 004
+
+RUL-01 - Duplicate class selection in a four-player game
+Issue:
+- The quick start currently lists `Warrior`, `Wizard`, and `Cleric`, but the immediate real table size is four players.
+Smallest ruling used:
+- Duplicate classes are allowed, so this run used two Warriors, one Wizard, and one Cleric.
+Why this was minimal:
+- It made the existing quick-start package playable for four humans without inventing a fourth class.
+Impact on the run:
+- The duplicate-Warrior rivalry again created strong selfish-pressure evidence.
+Promotion target:
+- quick start
+
+RUL-02 - Action order inside each action turn
+Issue:
+- The quick start says each player takes 1 action per turn, but it does not say whether order is fixed, rotating, or freely chosen.
+Smallest ruling used:
+- The table chooses the order of actions inside each action turn.
+Why this was minimal:
+- It required no new widget and let support timing matter without inventing initiative stats.
+Impact on the run:
+- Tamsin could boost the right player at the right moment, and selfish delays became visible behavior instead of just scripted narration.
+Promotion target:
+- design doc or quick start
+
+RUL-03 - Temporary scene-credit tracker
+Issue:
+- The quick start confirms hidden agendas and prestige pressure, but it does not yet define a playable endgame credit or tie-break procedure.
+Smallest ruling used:
+- Keep using temporary Spotlight as a simulation-only prestige proxy: the player who removes the last hostile creature or blocking hurdle gets the scene credit unless the solve is genuinely inseparable.
+Why this was minimal:
+- It reuses prior precedent without pretending the scoring system is finalized.
+Impact on the run:
+- Agenda pressure stayed legible, but this is still not ready as player-facing canon.
+Promotion target:
+- keep temporary
+
+RUL-04 - Prototype draw pool versus finalized deck list
+Issue:
+- The quick start assumes a real shuffled resource / action deck, but the repo still stores a prototype catalog rather than a finalized one-copy deck list.
+Smallest ruling used:
+- Simulated draws come from the catalog as a representative pool instead of a strict finite deck.
+Why this was minimal:
+- It let the run stress the rules layer without pretending the production deck list is already locked.
+Impact on the run:
+- The playtest remains structurally useful, but real printtesting still needs a concrete deck composition.
+Promotion target:
+- keep temporary
+
+RUL-05 - Creature reserve refresh between scenes
+Issue:
+- The canon creature-deck rules still do not say whether defeated non-boss creatures stay unavailable later in the same session.
+Smallest ruling used:
+- Defeated non-boss creatures return to an abstract reserve between scenes, and each new criteria search checks the printed order fresh.
+Why this was minimal:
+- It avoids adding depletion logistics before the creature deck has a finalized session procedure.
+Impact on the run:
+- Criteria spawning stayed readable and teachable from the visible materials.
+Promotion target:
+- design doc
+
+RUL-06 - Escalation 10 reached during a non-final scene
+Issue:
+- The quick start says "When escalation reaches 10, begin the final ordeal," but this run hit 10 during `Brood Wyrm Hunt`.
+Smallest ruling used:
+- Finish the current scene first, then reveal the final ordeal on the next encounter.
+Why this was minimal:
+- It prevents a mid-scene interruption while still respecting the quest's escalation-10 endpoint.
+Impact on the run:
+- The transition into the dragon fight felt cleaner and easier for a real table to execute.
+Promotion target:
+- design doc or quick start
+
+RUL-07 - Wizard forced-discard protection target
+Issue:
+- The quick-start Wizard active says to discard 1 card to "ignore 1 forced discard," but the exact target flexibility is not spelled out.
+Smallest ruling used:
+- The Wizard may cancel one forced discard from the current effect, regardless of which player it would have hit, but this run only needed self-targeted use on damage prevention instead.
+Why this was minimal:
+- It follows the plain-language reading without adding a new target restriction.
+Impact on the run:
+- No direct conflict occurred, but the wording remains worth clarifying before printtesting.
+Promotion target:
+- design doc
+
+RUL-08 - Furnace-smoke threshold timing
+Issue:
+- The quest card introduced a threshold effect at escalation 5, and the table needed to know whether it started immediately during the same partially resolved scene or from the next scene onward.
+Smallest ruling used:
+- The escalation-5 furnace-smoke rule became active starting with the next scene, `Bound Pilgrim`.
+Why this was minimal:
+- It avoided retroactively rewriting actions already taken in `Shrine of Echoes`.
+Impact on the run:
+- The threshold felt like a clean phase change instead of a timing argument.
+Promotion target:
+- keep on quest card

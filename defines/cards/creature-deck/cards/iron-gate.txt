@@ -1,0 +1,18 @@
+Card ID: creature-iron-gate
+Display Name: Iron Gate
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Artifact
+Creature Type: Structure
+Rarity: Common
+Threat: 2
+Treasure Value: 2
+Hit Points: 4
+Attack: 0
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: While this artifact is in play, the exit and reward remain blocked.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: It gives just enough hope to waste a turn.
+Art Brief: A dungeon iron gate slamming down in a kennel vault.

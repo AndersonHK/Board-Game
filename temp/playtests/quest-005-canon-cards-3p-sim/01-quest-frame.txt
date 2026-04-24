@@ -1,0 +1,40 @@
+Quest: Ashen Depths, Canon Card Definitions, Three-Player Repro Run
+Theme: Classic fantasy dungeon descent through ash-choked ruins
+
+Purpose:
+Use the canonical quest, encounter, resource, creature, and agenda card files to run a full three-player simulated session from the same information a real table would mostly have: the quickstart guide, printed cards, and widgets.
+
+Premise:
+Three adventurers descend into the Ashen Depths with more actual card text than the earlier sims had, but still not enough table procedure to remove every ambiguity. This run is meant to show what now works, what still needs a ruling, and which missing instructions would confuse real players first.
+
+Quest Card Used:
+- Ashen Depths
+- Player count: 3
+- Starting party HP: 18
+- Starting hand size: 4
+- Escalation track: 0 to 10
+
+Quest Thresholds Used:
+- Escalation 0: prep scene instead of a hostile battle
+- Threshold 5: after the current scene ends, resolve Furnace Warden Rises; starting with the next scene, the first player each scene to gain extra reward draws discards 1 after that reward resolves
+- Threshold 8: in hostile scenes, the first hostile creature attack each scene gets +1 Attack
+- Threshold 10: after the current scene ends, reveal Dragon in the Deep; the normal two-turn round cap is removed
+
+Widgets Used:
+- one red d20 tracking party HP from 18
+- one escalation tracker from 0 to 10
+- red damage tokens for damageable creatures and artifacts
+- blue shield tokens for shield effects
+- one d6 for saves, tests, Haggle, Warrior passive rolls, and Dragon's Breath
+
+Lose Condition:
+- If party HP reaches 0, everyone loses immediately.
+
+Win Condition For This Simulation:
+- Reach escalation 10, survive Dragon in the Deep, and defeat Heartfire Dragon.
+
+Session Intent:
+- use unique classes because three-player setup no longer forces duplicate-class rulings
+- use actual card-file text whenever possible instead of older prototype shorthand
+- keep the path legible to human players even when the docs leave a gap
+- log every missing player-facing instruction instead of silently smoothing it over

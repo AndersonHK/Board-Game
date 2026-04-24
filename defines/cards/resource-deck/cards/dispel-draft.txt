@@ -1,0 +1,15 @@
+Card ID: resource-dispel-draft
+Display Name: Dispel Draft
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Utility
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 2
+Cost: None.
+Timing: Your action.
+Target: One enchantment or artifact.
+Rules Text: Remove 1 enchantment from the scene, or deal 2 damage to one artifact.
+Reminder Text: Choose one mode when played.
+Flavor Text: Some curses leave if you open a better door for the air.
+Art Brief: A sweep of magical wind tearing through smoke and old wards.

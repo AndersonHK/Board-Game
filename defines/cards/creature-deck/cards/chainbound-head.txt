@@ -1,0 +1,18 @@
+Card ID: creature-chainbound-head
+Display Name: Chainbound Head
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Boss
+Creature Type: Dragon
+Rarity: Elite
+Threat: 3
+Treasure Value: 6
+Hit Points: 5
+Attack: 2
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: While this card is in play, Heartfire Dragon cannot be targeted.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: The ruin chained the wrong end of the dragon.
+Art Brief: A chained dragon skull and neck thrashing loose over a furnace abyss.

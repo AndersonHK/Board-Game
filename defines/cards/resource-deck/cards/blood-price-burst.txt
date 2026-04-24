@@ -1,0 +1,15 @@
+Card ID: resource-blood-price-burst
+Display Name: Blood Price Burst
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Attack
+Rarity: Elite
+Copies In Deck: 2
+Treasure Value: 5
+Cost: Pay 1 party HP.
+Timing: Your action.
+Target: One creature or artifact.
+Rules Text: Deal 4 damage to the target.
+Reminder Text: This is a direct HP-payment damage spike.
+Flavor Text: Some doors only open after somebody pays in red.
+Art Brief: A violent blood-fueled spell detonating against a heavy target.

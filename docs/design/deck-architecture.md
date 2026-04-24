@@ -1,6 +1,6 @@
 # Deck Architecture
 
-This file defines the current deck structure. The broader design brief lives in [core-concept.md](./core-concept.md). Round timing lives in [round-structure.md](./round-structure.md). Canonical baseline rules live in [../../defines/core-rules.md](../../defines/core-rules.md) and [../../defines/creature-deck.md](../../defines/creature-deck.md). Research that informs quest escalation and secret objectives lives in [../research/stellaris-crises.md](../research/stellaris-crises.md) and [../research/secret-objectives-risk-ticket-to-ride.md](../research/secret-objectives-risk-ticket-to-ride.md).
+This file defines the current deck structure. The broader design brief lives in [core-concept.md](./core-concept.md). Round timing lives in [round-structure.md](./round-structure.md). Canonical baseline rules live in [../../defines/core-rules.md](../../defines/core-rules.md) and [../../defines/creature-deck.md](../../defines/creature-deck.md). Research that informs quest escalation and secret objectives lives in [../research/stellaris-crises.md](../research/stellaris-crises.md) and [../research/secret-objectives-risk-ticket-to-ride.md](../research/secret-objectives-risk-ticket-to-ride.md). Current draft cost and rarity direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md).
 
 ## Overview
 
@@ -118,6 +118,7 @@ Useful candidate fields are:
 - creature type, such as humanoid, beast, undead, or construct
 - strength or threat value, so encounters can request a rough power band without naming a specific card
 - a split such as minor versus elite, or normal versus major, to communicate whether round-end effects are likely
+- a shared rarity field that can also exist on resource cards, so search criteria and effect expectations can use one common language across both systems
 
 One promising interpretation is:
 
@@ -125,6 +126,20 @@ One promising interpretation is:
 - elite or major creatures at the same rough strength band are more likely to carry undesirable round-end effects
 
 That direction is not fully formalized yet, but it already seems useful for writing encounters and organizing the creature deck.
+
+## Shared Rarity Direction
+
+The current design discussion is moving toward exactly two rarity bands shared by:
+
+- monster cards
+- player resource / artifact / action cards
+
+This is not in `defines/` yet, but it has clear structural benefits:
+
+- encounter cards can search by strength plus rarity
+- elite monsters can more easily imply stronger round-end consequences
+- elite player cards can more easily imply heavier discard or sacrifice costs
+- both sides of the game can teach one common power language instead of two unrelated labels
 
 ## Resource / Artifact / Action Deck
 
@@ -144,6 +159,7 @@ This is the shared action-economy deck, closest to the "cards in hand" layer of 
 
 - This deck appears to be the main economic engine of the game.
 - It is where class identities may become most legible.
+- It is also the layer most affected by the user's new directive that stronger cards should be paid for through discards and sacrifices rather than through a separate mana-style currency.
 - The user's current intuition is:
   - support gains more through team play
   - defensive gains more through independent slow play and preservation
@@ -165,6 +181,15 @@ That means cards in this layer can reasonably include:
 - dispels or counters for persistent obstacles and enchantments
 
 This broader scope is important because it gives selfish players something interesting to do besides simply refusing to help.
+
+### Current Cost Direction
+
+The newest design push suggests this deck should divide broadly into:
+
+- faster cards that can be used with little or no additional payment
+- stronger cards that ask for discard, sacrifice, or loss of stored value
+
+That direction appears compatible with the existing simulation evidence, but it needs more balancing discussion before becoming canonical rules text.
 
 ### Tension Scaling Idea
 

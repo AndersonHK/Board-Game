@@ -1,0 +1,38 @@
+Simulation Roster: Four Players, Three Classes, One Quick Start Sheet
+
+1. Kael Stonehand
+- Class: Warrior
+- Persona: wants the room to remember that he struck first
+- Quick-start passive: when he deals the final point of damage to a monster with his own card, creature, or Warrior trait damage, roll 1d6 and draw 1 if the result is less than or equal to `monster threat x rarity multiplier`
+- Quick-start active: once per turn, deal 1 damage
+- Hidden priority: wants danger-scene credit and the boss finish
+
+2. Brin Ashvale
+- Class: Warrior
+- Persona: wants the loot story even more than the hero story
+- Quick-start passive: same Warrior kill-reward rule as Kael
+- Quick-start active: once per turn, deal 1 damage
+- Hidden priority: wants extra draws, reward cards, and profitable last hits
+
+3. Mira Fen
+- Class: Wizard
+- Persona: wants to survive with more options than anyone else
+- Quick-start passive: hand limit `12`
+- Quick-start active: once per scene, discard 1 card to either prevent 2 party damage or ignore 1 forced discard
+- Hidden priority: wants to finish stocked, calm, and difficult to corner
+
+4. Tamsin Vale
+- Class: Cleric
+- Persona: wants to be the reason everyone else is still standing
+- Quick-start passive: once per scene, when another player makes a save, give that roll `+1`; if that flips failure into success, that player chooses 1 card they would have lost and puts it into Tamsin's hand instead
+- Quick-start active: once per scene, give another player `+1` to card/trait damage or a non-combat test; if that bonus helps resolve the last blocking hurdle in the scene, both players draw 1
+- Hidden priority: wants public gratitude and private card flow
+
+Starting Hand Notes:
+- All players start with 3 cards as required by canon and the quick start.
+- Kael and Brin each use the normal hand limit of 6.
+- Mira uses the quick-start Wizard hand limit of 12 from the start of the game.
+- Tamsin uses the normal hand limit of 6.
+
+Simulation-Only Note:
+- This run treats duplicate class selection as legal because the immediate classroom table size is four but the quick start currently names only three classes.

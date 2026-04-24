@@ -1,0 +1,15 @@
+Card ID: resource-summon-tin-golem
+Display Name: Summon Tin Golem
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Summon
+Rarity: Elite
+Copies In Deck: 2
+Treasure Value: 4
+Cost: Discard 1 card.
+Timing: Your action.
+Target: Your field.
+Rules Text: Place Tin Golem on the field under your control.
+Reminder Text: Tin Golem is a durable defensive summon with summon sickness.
+Flavor Text: A better shield if you can afford the metal and the memory.
+Art Brief: A small armored construct assembling itself from tin plates and glowing joints.

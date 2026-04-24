@@ -1,0 +1,18 @@
+Card ID: creature-ember-bat
+Display Name: Ember Bat
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Beast
+Rarity: Common
+Threat: 1
+Treasure Value: 1
+Hit Points: 1
+Attack: 1
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: Flying.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: A coal with teeth and a wingspan.
+Art Brief: A small flaming bat creature scattering embers in a dungeon vault.

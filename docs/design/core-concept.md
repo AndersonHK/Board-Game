@@ -1,6 +1,6 @@
 # Core Concept
 
-This file is the evolving design brief for the game. Durable high-level project context lives in [../project-memory.md](../project-memory.md). Class identity details live in [class-archetypes.md](./class-archetypes.md). Research references live in [../research/research-index.md](../research/research-index.md).
+This file is the evolving design brief for the game. Durable high-level project context lives in [../project-memory.md](../project-memory.md). Class identity details live in [class-archetypes.md](./class-archetypes.md). Current cost and rarity direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md). Research references live in [../research/research-index.md](../research/research-index.md).
 
 ## Current Brief
 
@@ -12,6 +12,8 @@ This file is the evolving design brief for the game. Durable high-level project 
 - The current target playtime is about 30 to 40 minutes.
 - The game has no spatial map board, but it will use table widgets or trackers for escalation and status.
 - The guiding principle is emergent relationship storytelling: players should feel like competing heroes in the same tale, sometimes grateful to one another and sometimes resentful.
+- The current component direction also includes tiny red damage tokens for tracking entity HP and a printed escalation meter with clear early, mid, and late danger zones.
+- The future Quick Start Guide should stay fully inside the fantasy presentation and teach the game in player-facing language rather than internal design terminology.
 
 ## Inspiration Frame
 
@@ -102,6 +104,8 @@ That layer should ideally share one lightweight grammar so the game does not spl
 ## Action Economy Direction
 
 The resource / artifact / action deck should include both immediate conflict tools and selfish long-term setup cards.
+
+The current draft cost philosophy now also points toward stronger cards being paid for through discards and sacrifices rather than through a separate mana-style economy. The more detailed discussion of that direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md).
 
 That matters because a greedy player should be able to spend a scene making themselves stronger, drawing deeper, or setting up future dominance instead of merely "passing" while others do the hard work. That choice is part of the drama.
 

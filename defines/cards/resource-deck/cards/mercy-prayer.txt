@@ -1,0 +1,15 @@
+Card ID: resource-mercy-prayer
+Display Name: Mercy Prayer
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Support
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 2
+Cost: None.
+Timing: When another player would discard.
+Target: Another player.
+Rules Text: That player discards 1 fewer card. You draw 1 card.
+Reminder Text: This card turns rescue into card flow.
+Flavor Text: Compassion is easiest to remember when it pays.
+Art Brief: A quiet protective prayer muttered over a collapsing ally.

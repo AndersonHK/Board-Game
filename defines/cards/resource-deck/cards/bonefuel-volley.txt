@@ -1,0 +1,15 @@
+Card ID: resource-bonefuel-volley
+Display Name: Bonefuel Volley
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Attack
+Rarity: Elite
+Copies In Deck: 2
+Treasure Value: 5
+Cost: Sacrifice 1 friendly creature.
+Timing: Your action.
+Target: Up to two creatures or artifacts.
+Rules Text: Deal 5 total damage divided as you choose among the targets.
+Reminder Text: This is the sacrifice-cost example card for the first pass.
+Flavor Text: The worst ammunition always used to have a name.
+Art Brief: A summoned creature bursting into shards of force aimed at multiple enemies.

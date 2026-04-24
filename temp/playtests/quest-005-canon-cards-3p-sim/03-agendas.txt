@@ -1,0 +1,24 @@
+Secret Agendas Used For This Run
+
+Important note:
+- Unlike Quest 004, this run uses the actual canonical agenda cards instead of temporary tighter-threshold prototypes.
+- The session still needs a ruling for how hostile-card claiming works, because the visible materials do not yet teach that procedure clearly enough.
+
+Assignments
+
+1. Rowan Flintbrand -> First Name in the Ballad
+- Goal Text: succeed if you defeat Heartfire Dragon or finish with the highest total Treasure Value from hostile cards you claimed
+- Reward Text: gain 20 prestige points
+
+2. Elira Ashglass -> Prepared Beyond Reason
+- Goal Text: succeed if you end the game with at least 12 Treasure Value in hand and on-field owned cards
+- Reward Text: gain 20 prestige points
+
+3. Sister Maelin -> By My Grace
+- Goal Text: succeed if you cause 3 shared-success moments or 2 failed saves to become successes
+- Reward Text: gain 20 prestige points
+
+Why This Mix Was Chosen
+- Rowan's agenda pressures last hits and boss credit.
+- Elira's agenda pressures draw, retention, and safe storage.
+- Maelin's agenda pressures exactly the rescue-and-profit behavior the Cleric class is meant to create.

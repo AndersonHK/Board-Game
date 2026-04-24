@@ -12,17 +12,19 @@ The better working model is:
 2. reveal the next encounter event
 3. resolve the event's immediate text
 4. spawn any monsters, hazards, doors, enchantments, or tests created by that event
-5. `Action Turn 1`: each player takes 1 action
-6. mid-encounter draw: each player draws 1 card only once per encounter unless an effect says otherwise
-7. `Action Turn 2`: each player takes 1 action
-8. creatures attack or defend once per turn as allowed by the scene
-9. resolve cleanup, unresolved hurdles, round-end card effects, and escalation
+5. `Action Turn 1`: every player takes 1 action if able, in an order chosen by the players
+6. `Enemy Turn 1`: every enemy monster takes 1 action if able, from strongest to weakest, with toss-ups chosen by the players
+7. standard draw: each player draws 1 card once per round
+8. `Action Turn 2`: every player takes 1 action if able, in an order chosen by the players
+9. `Enemy Turn 2`: every enemy monster takes 1 action if able, from strongest to weakest, with toss-ups chosen by the players
+10. resolve cleanup, unresolved hurdles, round-end card effects, and escalation
 
 Some rounds will be battles. Some will be hazards, merchants, shrines, rescues, or pacing beats.
 
-Unless changed by card effects, class abilities, or scene text, players get one action per turn and creatures get one attack or defense opportunity per turn.
+Unless changed by card effects, class abilities, or scene text, players get one action in each player action turn and enemy monsters get one action in each enemy turn.
 
-If an encounter lasts more than one round, the default draw between turns 1 and 2 does not repeat on later rounds of that same encounter. That rule helps stop players from farming one nearly-cleared scene for free card flow before the final ordeal.
+If a round ends before the normal between-turn draw window is reached, that standard draw still happens at round end. The default draw is once per round, not once per encounter.
+If a scene clears during a round, finish the current round structure unless a card or quest says the scene ends immediately.
 
 ## Escalation Track
 
@@ -64,6 +66,17 @@ Not yet confirmed, but a clean first pass could be:
 - 10: climax / boss or final ordeal
 
 That banding is an inference, not a settled rule.
+
+## Tracker Presentation Direction
+
+The user wants the printed escalation meter to communicate the three main pressure bands visually:
+
+- green for the early band
+- yellow for the mid band
+- red for the late band
+- a skull symbol next to `10` for the final ordeal
+
+This presentation also lines up cleanly with the current draft assumption of three strength tiers for monsters and reward scaling.
 
 ## Event Scaling Example
 

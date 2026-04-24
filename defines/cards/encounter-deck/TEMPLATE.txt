@@ -1,0 +1,41 @@
+Template Name: Encounter Deck Template
+Template Version: 1
+Purpose: One file per encounter card, including random encounters and scripted ordeal cards.
+
+Required Fields:
+- Card ID
+- Display Name
+- Deck
+- Card Type
+- Encounter Class
+- Scene Tags
+- Escalation Use
+- Reveal Text
+- Spawn Text
+- Scene Rule
+- Clear Condition
+- Reward Text
+- Failure Text
+- Treasure Value
+- Rules Text
+- Flavor Text
+- Art Brief
+
+Field Order:
+Card ID:
+Display Name:
+Deck:
+Card Type:
+Encounter Class:
+Scene Tags:
+Escalation Use:
+Reveal Text:
+Spawn Text:
+Scene Rule:
+Clear Condition:
+Reward Text:
+Failure Text:
+Treasure Value:
+Rules Text:
+Flavor Text:
+Art Brief:

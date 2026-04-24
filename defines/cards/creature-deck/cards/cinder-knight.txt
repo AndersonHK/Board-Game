@@ -1,0 +1,18 @@
+Card ID: creature-cinder-knight
+Display Name: Cinder Knight
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Construct
+Rarity: Elite
+Threat: 3
+Treasure Value: 4
+Hit Points: 5
+Attack: 2
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: Basic attacks against this creature deal 1 less damage, to a minimum of 0.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: The armor still remembers who it was sworn to kill.
+Art Brief: A burned-out knightly construct holding a heavy sword in a smoke-filled hall.

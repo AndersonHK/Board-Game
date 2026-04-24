@@ -1,0 +1,17 @@
+Card ID: encounter-shrine-of-echoes
+Display Name: Shrine of Echoes
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: temptation, reward, enchantment
+Escalation Use: Random encounter
+Reveal Text: Each player may take the shrine bargain once. A player who takes it draws 1 card, then discards 1 card.
+Spawn Text: If 2 or more players take the bargain, spawn Ash Miasma.
+Scene Rule: Players may still use normal actions while the shrine bargain is active.
+Clear Condition: The bargain has been resolved and no blocking card remains.
+Reward Text: The player who resolves the shrine may claim 1 extra draw.
+Failure Text: If Ash Miasma is spawned and remains at end of scene, it stays in play for the next scene.
+Treasure Value: 0
+Rules Text: This scene creates a selfish setup choice that can carry pressure into later scenes.
+Flavor Text: The shrine gives exactly what you ask for, and always keeps a little of your voice.
+Art Brief: A cracked prayer alcove full of ember candles and whispering smoke.

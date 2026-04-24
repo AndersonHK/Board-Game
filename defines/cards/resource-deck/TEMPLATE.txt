@@ -1,0 +1,37 @@
+Template Name: Resource Deck Template
+Template Version: 1
+Purpose: One file per player card in the resource / action deck.
+
+Required Fields:
+- Card ID
+- Display Name
+- Deck
+- Card Type
+- Subtype
+- Rarity
+- Copies In Deck
+- Treasure Value
+- Cost
+- Timing
+- Target
+- Rules Text
+- Reminder Text
+- Flavor Text
+- Art Brief
+
+Field Order:
+Card ID:
+Display Name:
+Deck:
+Card Type:
+Subtype:
+Rarity:
+Copies In Deck:
+Treasure Value:
+Cost:
+Timing:
+Target:
+Rules Text:
+Reminder Text:
+Flavor Text:
+Art Brief:

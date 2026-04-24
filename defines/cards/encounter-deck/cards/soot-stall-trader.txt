@@ -1,0 +1,17 @@
+Card ID: encounter-soot-stall-trader
+Display Name: Soot-Stall Trader
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: social, trader, greed, setup
+Escalation Use: Random encounter
+Reveal Text: Reveal the top 5 cards of the resource deck as trader stock.
+Spawn Text: No hostile spawn.
+Scene Rule: Each player gets exactly 1 trader interaction in this scene. On that interaction, choose a direct trade or Haggle. Direct trade: swap 1 card from hand with 1 trader card. Haggle: roll 1d6. On 1-2, discard 1 card, then trade 1-for-1. On 3-4, trade 1-for-1. On 5-6, trade 1 hand card for 2 trader cards.
+Clear Condition: All players have either used or passed their one trader interaction.
+Reward Text: None beyond the trader exchanges themselves.
+Failure Text: None.
+Treasure Value: 0
+Rules Text: Leave unrecruited trader cards face up until the scene ends, then discard them.
+Flavor Text: Rope, oil, knives, and half-truths are cheaper underground if you sound certain.
+Art Brief: A soot-streaked merchant stall wedged into dungeon masonry, lit by a hanging lantern and piled with scavenged gear.

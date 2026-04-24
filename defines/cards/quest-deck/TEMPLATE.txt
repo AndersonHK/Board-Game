@@ -1,0 +1,51 @@
+Template Name: Quest Deck Template
+Template Version: 1
+Purpose: One file per quest card or quest sheet.
+
+Required Fields:
+- Card ID
+- Display Name
+- Deck
+- Card Type
+- Theme
+- Player Count
+- Starting Party HP (4P)
+- Starting Party HP (3P)
+- Starting Hand Size (4P)
+- Starting Hand Size (3P)
+- Escalation Track
+- Setup Text
+- Ongoing Quest Rule
+- Threshold 5
+- Threshold 8
+- Threshold 10
+- Lose Condition
+- Win Condition
+- Treasure Value
+- Rules Text
+- Flavor Text
+- Art Brief
+
+Field Order:
+Card ID:
+Display Name:
+Deck:
+Card Type:
+Theme:
+Player Count:
+Starting Party HP (4P):
+Starting Party HP (3P):
+Starting Hand Size (4P):
+Starting Hand Size (3P):
+Escalation Track:
+Setup Text:
+Ongoing Quest Rule:
+Threshold 5:
+Threshold 8:
+Threshold 10:
+Lose Condition:
+Win Condition:
+Treasure Value:
+Rules Text:
+Flavor Text:
+Art Brief:

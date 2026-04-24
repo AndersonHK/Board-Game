@@ -1,0 +1,48 @@
+Simulation Roster: Four Players, Three Classes, One Quick Start Sheet
+
+Seat order and draw order:
+1. Kael Stonehand
+2. Brin Ashvale
+3. Mira Fen
+4. Tamsin Vale
+
+1. Kael Stonehand
+- Class: Warrior
+- Persona: wants the story to remember who finished the impossible fight
+- Passive used: when he deals the final point of damage to a monster with his own card, creature, or Warrior active, roll 1d6 and draw 1 on `monster threat x rarity multiplier`
+- Active used: once per turn, deal 2 damage
+- Hand limit: 6
+- Hidden priority: finish the dragon if the table leaves even a one-point opening
+
+2. Brin Ashvale
+- Class: Warrior
+- Persona: wants the ruin to pay him in trophies, not gratitude
+- Passive used: same Warrior kill-reward rule as Kael
+- Active used: once per turn, deal 2 damage
+- Hand limit: 6
+- Hidden priority: stack claimed hostile Treasure Value high enough to make everyone else feel late
+
+3. Mira Fen
+- Class: Wizard
+- Persona: wants to survive with more options than anyone else
+- Passive used: hand limit 12
+- Active used: once per scene, place 2 shield tokens on the party or any creature
+- Hand limit: 12
+- Hidden priority: finish the game rich in cards and still protected by a live engine
+
+4. Tamsin Vale
+- Class: Cleric
+- Persona: wants to matter in every crisis even when that costs her the win
+- Passive used: once per scene, when another player makes a save, give that roll +1; if that flips failure to success, the helped player chooses 1 card they would have lost and puts it into Tamsin's hand instead
+- Active used: once per scene, heal 1 party HP or 2 HP to any creature
+- Hand limit: 6
+- Hidden priority: prove the table needed her, even if her actual agenda ends up harder than it looks
+
+Starting-Hand Summary:
+- Kael: `Shield Breaker`, `Dispel Draft`, `Quick Slash`
+- Brin: `Shield Breaker`, `Rally Push`, `Quick Slash`
+- Mira: `Arc Bolt`, `Greedfire Vow`, `Prepared Ground`
+- Tamsin: `Summon Cinder Familiar`, `Summon Grave Hound`, `Last Step`
+
+Quickstart Reality Check:
+- Duplicate classes are legal and explicitly supported in the current quick start, so the table used two Warriors without additional house text.

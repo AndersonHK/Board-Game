@@ -1,0 +1,18 @@
+Card ID: creature-gray-wolf
+Display Name: Gray Wolf
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Beast
+Rarity: Common
+Threat: 1
+Treasure Value: 1
+Hit Points: 2
+Attack: 1
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: On hit, the current claimant discards 1 card unless another player used a support effect this turn.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: It bites hardest when the table stops helping each other.
+Art Brief: A scarred wolf prowling through ash and chains.

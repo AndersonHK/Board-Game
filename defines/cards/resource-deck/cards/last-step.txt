@@ -1,0 +1,15 @@
+Card ID: resource-last-step
+Display Name: Last Step
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Attack
+Rarity: Elite
+Copies In Deck: 2
+Treasure Value: 4
+Cost: None.
+Timing: Your action.
+Target: One combat target or damageable blocking hurdle.
+Rules Text: Deal 1 damage. If this defeats a creature or clears the last blocking hurdle, draw 1 card.
+Reminder Text: This is a finisher and credit card.
+Flavor Text: Heroes remember the final inch more than the whole climb.
+Art Brief: A decisive finishing strike against a nearly-fallen enemy.

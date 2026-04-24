@@ -1,0 +1,15 @@
+Card ID: resource-warding-circle
+Display Name: Warding Circle
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Enchantment
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 2
+Cost: None.
+Timing: Your action.
+Target: Your field.
+Rules Text: Place Warding Circle on the field under your control.
+Reminder Text: Warding Circle is an enchantment entity, not a combat target.
+Flavor Text: Draw the line first. Explain it later.
+Art Brief: A glowing blue protective sigil traced onto stone.

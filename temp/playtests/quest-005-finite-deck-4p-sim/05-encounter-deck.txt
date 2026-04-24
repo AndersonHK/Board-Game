@@ -1,0 +1,35 @@
+Session Encounter Deck
+
+Quest-facing requirement used:
+- The quest and encounter README still say this run should use `8` random encounters plus the two scripted ordeals.
+
+Random encounter pool chosen for this session:
+1. Soot-Stall Trader
+2. Cracked Causeway
+3. Ember-Bell Nursery
+4. Shrine of Echoes
+5. Bound Pilgrim
+6. Reliquary of Cinders
+7. Kennel Vault
+8. Kennel Break
+
+Random encounter file intentionally omitted from the live session deck:
+- Smoke-Flood Gallery
+
+Scripted ordeals held outside the random stack:
+- Furnace Warden Rises
+- Dragon in the Deep
+
+Actual reveal order in play:
+1. Soot-Stall Trader
+2. Cracked Causeway
+3. Ember-Bell Nursery
+4. Shrine of Echoes
+5. Furnace Warden Rises
+6. Bound Pilgrim
+7. Reliquary of Cinders
+8. Kennel Vault
+9. Dragon in the Deep
+
+Unrevealed card left in the random stack when escalation hit 10:
+- Kennel Break

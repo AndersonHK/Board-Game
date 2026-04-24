@@ -32,6 +32,8 @@ The creature deck can include:
 
 - monsters
 - allied creatures or summons, if the same grammar remains useful there
+- artifacts that use the same stat line as creatures but have `Attack 0`
+- enchantments that share the same file structure even when they are not combat targets
 
 Persistent obstacles or enchantments such as `Heavy Door` or `Miasma` are closely related and may share the same reserve or card grammar, even if they are eventually separated into a broader entity layer.
 
@@ -51,3 +53,9 @@ Example:
 ## Creature Turn Rules
 
 - Every creature gets to attack or defend once per turn.
+- On its action, an enemy monster uses a named active ability instead of attacking if it has one it can legally use.
+- If an enemy monster attacks and a friendly creature is a legal target, it must target a friendly creature first.
+- If no friendly creature is a legal target, that enemy monster attacks the party.
+- Summoned creatures cannot attack on the turn they are summoned unless a card says otherwise.
+- Effects such as `silence`, target restrictions, or card text can stop an ability from being usable or can override this default behavior.
+- High-threat boss cards may use a named active ability and still attack in the same turn if their card says so.

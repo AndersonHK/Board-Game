@@ -1,0 +1,101 @@
+Entity Set For Quest 003
+
+Creature Deck Order Used For Canon Stress
+
+1. Goblin Warrior A
+- Type: humanoid
+- Strength: 1
+- HP: 2
+- Attack: 1
+- Text: no extra rule text
+
+2. Goblin Warrior B
+- Type: humanoid
+- Strength: 1
+- HP: 2
+- Attack: 1
+- Text: no extra rule text
+
+3. Gray Wolf
+- Type: beast
+- Strength: 1
+- HP: 2
+- Attack: 1
+- Text: on hit, the current claimant discards 1 unless another player used a support effect this turn
+
+4. Goblin Chieftain
+- Type: humanoid
+- Strength: 2
+- HP: 4
+- Attack: 2
+- Text: while another goblin is in play, the first goblin attack each turn gets +1
+
+5. Ember Wolf
+- Type: beast
+- Strength: 1
+- HP: 2
+- Attack: 1
+- Text: if it survives the round, scorch 1 party HP
+
+6. Orc Raider
+- Type: humanoid
+- Strength: 2
+- HP: 3
+- Attack: 2
+- Text: on hit, one player discards 1
+
+7. Ogre Brute
+- Type: humanoid
+- Strength: 3
+- HP: 5
+- Attack: 3
+- Text: if it survives the round, tension +1
+
+8. Brood Wyrm
+- Type: beast
+- Strength: 3
+- HP: 4
+- Attack: 2
+- Text: on reveal, tension +1
+
+9. Chainbound Head
+- Type: dragon
+- Strength: 4
+- HP: 5
+- Attack: 2
+- Text: while it lives, the body behind it cannot be targeted
+
+10. Heartfire Dragon
+- Type: dragon
+- Strength: 5
+- HP: 7
+- Attack: 3
+- Text: on reveal, each player discards 1 or the party takes 1
+
+Provisional Persistent Obstacles And Enchantments
+
+- Heavy Door
+  - Durability: 4
+  - Text: while closed, the reward cannot be claimed and the scene remains blocked
+
+- Clinging Miasma
+  - Durability: 2
+  - Text: at end of each scene, the player with the most cards discards 1 unless a magical or support action dispels it
+
+Provisional Allied Entities
+
+- Cinder Familiar
+  - HP: 1
+  - Text: exhaust for +1 on an arcane or support action
+
+- Tin Golem
+  - HP: 3
+  - Text: exhaust to prevent 1 damage to party HP
+
+- Lantern Sprite
+  - HP: 1
+  - Text: exhaust so another player draws 1, then discards 1
+
+- Grave Hound
+  - HP: 2
+  - Text: exhaust for +1 damage if attacking the same target as another player

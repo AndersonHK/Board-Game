@@ -1,0 +1,28 @@
+Simulation Roster: Three Players, Three Unique Classes
+
+1. Rowan Flintbrand
+- Class: Warrior
+- Persona: wants the story to remember who ended the biggest threats
+- Quick-start passive: when Rowan deals the final point of damage to a monster with his own action card, creature, or Warrior trait damage, roll 1d6 and draw 1 if the result is less than or equal to `monster threat x rarity multiplier`
+- Quick-start active: once per turn, Rowan may deal `2` damage
+- Hidden priority: boss credit, hostile-card claims, and visible kills
+
+2. Elira Ashglass
+- Class: Wizard
+- Persona: wants to leave the ruin with the most options and the calmest hands
+- Quick-start passive: hand limit `12`
+- Quick-start active: once per scene, place `2` shield tokens on the party or any creature
+- Hidden priority: end the game loaded with Treasure Value and enough retained cards to validate the Wizard plan
+
+3. Sister Maelin
+- Class: Cleric
+- Persona: wants every rescue to matter and every ally to remember the rescue
+- Quick-start passive: once per scene, when another player makes a save, give that roll `+1`; if that flips failure into success, that player chooses `1` card they would have lost and puts it into Maelin's hand instead
+- Quick-start active: once per scene, heal `1` party HP or `2` HP to any creature
+- Hidden priority: create enough shared-success moments that her help is both useful and profitable
+
+Starting Hand Notes:
+- All players use the quest card's three-player starting hand size of `4`.
+- Rowan and Maelin use the baseline hand limit of `6`.
+- Elira uses the Wizard hand limit of `12` from the start of the game.
+- This run keeps class selection unique because three-player mode no longer needs the four-player duplicate-class patch.

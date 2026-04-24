@@ -1,0 +1,15 @@
+Card ID: resource-summon-cinder-familiar
+Display Name: Summon Cinder Familiar
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Summon
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 2
+Cost: None.
+Timing: Your action.
+Target: Your field.
+Rules Text: Place Cinder Familiar on the field under your control.
+Reminder Text: Summoned creatures cannot attack on the turn they are summoned unless a card says otherwise.
+Flavor Text: Small fire listens best when it has a name.
+Art Brief: A wizard calling a fox-like fire familiar into a ring of ash.

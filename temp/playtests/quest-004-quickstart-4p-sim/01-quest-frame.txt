@@ -1,0 +1,41 @@
+Quest: Ashen Depths, Quickstart Visibility Pass
+Theme: Classic fantasy dungeon descent
+
+Purpose:
+Test whether a real four-player table could run the fantasy vertical slice from the quick start, cards, and widgets alone.
+
+Premise:
+The party descends into the Ashen Depths carrying only a teaching sheet, their chosen class text, and whatever courage survives the first few rooms. This pass is less about raw balance than about whether the visible materials actually teach the game.
+
+Quest Track:
+- Escalation 0: prep scene at the sealed stair
+- Escalation 5: furnace smoke wakes; the first player each scene to gain extra reward draws must discard 1 after that reward resolves
+- Escalation 8: ash pressure rises; hostile scenes feel tighter, but no new subsystem is added
+- Escalation 10: Dragon in the Deep unlocks as the final ordeal
+
+Quest Traits Used In This Run:
+- The first round is a prep scene, but it still uses the standard two-turn round structure.
+- When a new scene is fully cleared, escalation rises by 1.
+- If hostile or blocking hurdles remain at end of round, escalation also rises by 1.
+- If escalation reaches 10 during another scene, finish that scene first, then reveal the final ordeal next.
+- The final ordeal begins only after escalation 10 has been reached.
+
+Widgets Used:
+- shared party HP tracker starting at 11
+- escalation tracker from 0 to 10
+- damage tokens on creatures and blocking obstacles
+- one d6 for saves and the Warrior kill-reward roll
+
+Lose Condition:
+- If shared party HP reaches 0, everyone loses.
+
+Win Condition For This Simulation:
+- Reach escalation 10, survive the final ordeal, and clear the Dragon in the Deep.
+
+Quickstart-Visibility Stress Points:
+- one duplicate class choice in a four-player table
+- one exact-name spawn scene
+- one criteria-based spawn scene that depends on deck order
+- one persistent enchantment that only the cards and quick start have to explain
+- one multi-round hostile encounter with no repeated default mid-encounter draw
+- one escalation-10 ordeal using the quick-start class abilities instead of older prototype class text

@@ -1,0 +1,70 @@
+Creature And Entity Session Map
+
+Session reserve order used for criteria spawning
+- This order matters only for criteria-based searches.
+- Exact-name spawns search the reserve for the named cards without rewriting the criteria order used later.
+
+1. Gray Wolf
+2. Orc Raider
+3. Ember Bat
+4. Furnace Hound
+5. Smoke Seer
+6. Dire Wolf
+7. Ash Cultist
+8. Goblin Bruiser
+9. Goblin Cutthroat
+10. Goblin Chieftain
+11. Cinder Knight
+12. Ash Ogre
+13. Skeletal Porter
+14. Heavy Door
+15. Iron Gate
+16. Rusted Chains
+17. Ash Miasma
+18. Blessing Brazier
+19. Cinder Familiar
+20. Grave Hound
+21. Tin Golem
+22. Warding Circle
+23. Greedfire Vow
+24. Ashen Warden
+25. Chainbound Head
+26. Heartfire Dragon
+
+Exact-Name Spawns Used
+
+Kennel Break
+- Goblin Chieftain
+- Goblin Bruiser
+- Goblin Cutthroat
+
+Bound Pilgrim
+- Rusted Chains
+- carried-over Ash Miasma if still in play
+
+Furnace Warden Rises
+- Ashen Warden
+
+Dragon In The Deep
+- Chainbound Head
+- then Heartfire Dragon when Chainbound Head is defeated
+
+Criteria Spawn Used
+
+Kennel Vault instruction
+- Spawn 1 Threat 2 humanoid and 2 Threat 1 beasts in a single top-to-bottom pass.
+
+Result from the session reserve order
+- Gray Wolf satisfies the first Threat 1 beast slot.
+- Orc Raider satisfies the Threat 2 humanoid slot.
+- Ember Bat satisfies the second Threat 1 beast slot.
+- Iron Gate is then added by the encounter card.
+
+Friendly Permanents Used
+- Tin Golem under Elira's control
+- Cinder Familiar under Maelin's control
+- Warding Circle under Maelin's control
+
+Claim Tracking Used
+- Defeated hostile creature cards go to the player who dealt the final point of damage.
+- Blocking artifacts such as Rusted Chains and Iron Gate were cleared for scene resolution but were not added to hostile-claim agenda tracking in this run.

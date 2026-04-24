@@ -1,0 +1,327 @@
+Quest 004 Simulation Log
+Run style: quickstart visibility test, four players, duplicate class stress, and one multi-round hostile scene
+Dice results consumed in order: 5, 4, 3, 2, 4, 5, 3, 6, 1
+
+Starting state
+- Party HP: 11
+- Escalation: 0
+- Hand limit: 6 for Kael, Brin, and Tamsin; 12 for Mira
+
+ROUND-01: Camp at the Sealed Stair
+State at start: HP 11, escalation 0
+Scene:
+- The party camps at the sealed descent and still uses the standard round structure even though nothing hostile is in play yet.
+Action Turn 1:
+- Kael plays Sharpen Edge and declares that the first real fight is already his.
+- Brin plays Treasure Nose and starts counting which rooms probably contain reward text.
+- Mira summons Tin Golem because she trusts widgets more than promises.
+- Tamsin summons Cinder Familiar.
+Mid-encounter draw:
+- Kael draws Chain Cutter.
+- Brin draws Haggle.
+- Mira draws Prepared Ground.
+- Tamsin draws Field Bandage.
+Action Turn 2:
+- Kael keeps Quick Slash visible on purpose.
+- Brin plays Hidden Stash and quietly increases his own future options.
+- Mira keeps Study the Signs for the first real obstacle.
+- Tamsin holds Battle Prayer because she already knows the Warriors will compete for visible credit.
+Outcome:
+- The prep beat proves the standard round structure can still teach a non-hostile opening.
+- The scene is fully clear, so escalation rises to 1.
+
+ROUND-02: Soot-Stall Trader
+State at start: HP 11, escalation 1
+Scene:
+- A soot-streaked trader offers rope, lamp oil, and a suspiciously polished dagger.
+Action Turn 1:
+- Brin takes the lead with Haggle.
+- d6 roll = 5, so the bargain succeeds.
+- Kael refuses to help because there is nothing here to kill.
+- Mira studies the trader's cart seams and memorizes where the next doorway probably opens.
+- Tamsin lets Brin own the conversation because being owed later feels better than being thanked now.
+Mid-encounter draw:
+- Kael draws Arc Bolt.
+- Brin draws Last Step as part of the trader reward.
+- Mira draws Lockpick Kit.
+- Tamsin draws Lantern Sprite.
+Action Turn 2:
+- Brin claims the best reward and Treasure Nose gives him 1 extra draw.
+- Mira keeps Smoke Route in hand in case the dungeon starts taxing cards instead of HP.
+- Tamsin chooses not to contest scene credit in a room that mainly rewarded greed.
+Outcome:
+- Brin claims 1 Spotlight as the scene-defining player.
+- The trader scene is fully cleared, so escalation rises to 2.
+
+ROUND-03: Kennel Break
+State at start: HP 11, escalation 2
+Scene:
+- The party cracks open a barred chamber and wakes the kennel before it can be looted quietly.
+- Spawn: Goblin Chieftain, Goblin Warrior A, Goblin Warrior B.
+Action Turn 1:
+- Kael opens with Shield Breaker, discards Chain Cutter, and spends Sharpen Edge for 4 total damage on Goblin Chieftain.
+- The Chieftain dies immediately.
+- Kael triggers the Warrior passive on a Threat 2 Elite kill.
+- d6 roll = 4, which succeeds, so Kael draws 1.
+- Brin plays Pocket the Spoils before any reward actually exists.
+- Mira plays Prepared Ground so the first hostile attack this scene is reduced by 1.
+- Tamsin brings out Lantern Sprite instead of spending Battle Prayer too early.
+Creature turn:
+- Goblin Warrior A attacks for 1.
+- Goblin Warrior B attacks for 1.
+- Prepared Ground prevents 1 and Tin Golem prevents 1 more.
+- Party HP stays at 11.
+Mid-encounter draw:
+- Kael draws Grave Hound.
+- Brin draws Arc Bolt.
+- Mira draws Dive for Cover.
+- Tamsin draws Mercy Prayer.
+Action Turn 2:
+- Kael uses the Warrior active to deal 1 damage to Goblin Warrior A.
+- Tamsin uses Battle Prayer on Mira instead of on either Warrior, which both aggressive players notice.
+- Mira fires Arc Bolt for 1 plus Tamsin's +1, defeating Goblin Warrior B.
+- Brin uses Last Step to finish the already-wounded Goblin Warrior A and draws 1 from the card.
+- Brin also triggers the Warrior passive on a Threat 1 Common kill.
+- d6 roll = 5, so the passive fails.
+Outcome:
+- Brin claims 1 Spotlight for landing the final hostile kill.
+- The exact-name spawn grammar is easy to run from the cards plus the quick start.
+- The scene is fully cleared, so escalation rises to 3.
+
+ROUND-04: Cracked Causeway
+State at start: HP 11, escalation 3
+Scene:
+- The bridge flexes over an ash vent.
+- Immediate text: each player makes a save or loses 1 card to the collapse.
+Immediate saves:
+- Kael rolls 3 and would lose Arc Bolt.
+- Tamsin uses the Cleric passive to give the save +1, changing it to 4.
+- Because the failure became a success, Kael chooses Arc Bolt as the would-have-been-lost card and places it into Tamsin's hand instead.
+- Brin rolls 2 and loses Pocket the Spoils.
+- Mira rolls 4 and succeeds cleanly.
+- Tamsin rolls 5 and succeeds cleanly.
+Action Turn 1:
+- Brin uses Hidden Stash to recover cards instead of helping anyone else across.
+- Kael complains that the bridge has no face to hit.
+- Mira waits for the safest exact line rather than improvising.
+- Tamsin keeps Mercy Prayer because the collapse has already exposed enough selfishness on its own.
+Mid-encounter draw:
+- Kael draws Quick Slash.
+- Brin draws Lockpick Kit.
+- Mira draws Dispel Draft.
+- Tamsin draws Study the Signs.
+Action Turn 2:
+- Mira uses Study the Signs to secure the actual crossing and mark the safe footing.
+- Kael arrives first physically, but Mira is the reason the group gets over the causeway at all.
+Outcome:
+- Mira claims 1 Spotlight for resolving the last blocking hurdle, the safe crossing.
+- The Cleric passive reads cleanly in live play and creates exactly the intended "I saved you, but I also profited" feeling.
+- The scene is fully cleared, so escalation rises to 4.
+
+ROUND-05: Shrine of Echoes
+State at start: HP 11, escalation 4
+Scene:
+- The shrine offers future strength to anyone willing to leave a little of themselves behind.
+Action Turn 1:
+- Brin takes the greedy shrine line immediately and frames it as efficient teamwork.
+- Kael accepts a smaller boon because he wants damage later, not caution now.
+- Mira refuses the shrine entirely.
+- Tamsin uses Mercy Prayer so Kael discards 1 fewer card to the shrine tax and draws 1.
+- Brin's greed wakes Ash Miasma as a persistent enchantment.
+Mid-encounter draw:
+- Kael draws Shield Breaker.
+- Brin draws Field Bandage.
+- Mira draws Warded Satchel.
+- Tamsin draws Battle Prayer.
+Action Turn 2:
+- Brin claims the visible reward and Treasure Nose grants an extra draw.
+- Kael wants to move on immediately and resents that Brin has turned the room into a story about himself again.
+- Mira declines to dispel the miasma yet because the cry for help deeper below sounds more urgent than punishing greed on schedule.
+Outcome:
+- Brin claims 1 Spotlight because he resolved the shrine's bargain.
+- The chamber's bargain is resolved, so baseline progress raises escalation to 5.
+- Ash Miasma remains as a blocking enchantment, so unresolved escalation adds +1 more.
+- Escalation rises to 6.
+- End-of-scene miasma text hits the player with the most cards.
+- Brin discards 1.
+
+ROUND-06: Bound Pilgrim
+State at start: HP 11, escalation 6
+Scene:
+- A half-burned pilgrim hangs from Rusted Chains while Ash Miasma still clings to the air.
+- The quest's escalation-5 furnace smoke rule is now live: the first player this scene to gain extra reward draws must discard 1 after that reward resolves.
+Action Turn 1:
+- Kael uses Chain Cutter on Rusted Chains.
+- Tamsin spends the Cleric active on Kael's restraint test for +1.
+- Mira fires Dispel Draft into Ash Miasma and removes it from the scene.
+- Brin pockets a charm from the pilgrim's satchel before the rescue is done; because it is the first extra reward draw after escalation 5, he must discard 1 afterward.
+Mid-encounter draw:
+- Kael draws Dive for Cover.
+- Brin draws Quick Slash.
+- Mira draws Arc Bolt.
+- Tamsin draws Rally Push.
+Action Turn 2:
+- Kael's Chain Cutter line plus Tamsin's +1 finish the last point of Rusted Chains.
+- Because Tamsin's active helped clear the last blocking hurdle, Kael and Tamsin each draw 1.
+- Mira keeps the pilgrim steady while Brin tries to make the charm theft sound like practical rescue.
+Outcome:
+- Kael claims 1 Spotlight because his line physically broke the last chain.
+- Tamsin's active again creates value while still leaving an emotionally messy table memory.
+- The scene is fully cleared, so escalation rises to 7.
+
+ROUND-07: Kennel Vault
+State at start: HP 11, escalation 7
+Scene:
+- The next chamber is split by cages, torn chain, and an Iron Gate sealing the exit.
+- Criteria spawn: 1 Threat 2 humanoid and 2 Threat 1 beasts.
+- Using the creature deck in order, this yields Gray Wolf, Goblin Chieftain, and Ember Bat.
+Action Turn 1:
+- Tamsin opens with Battle Prayer on Kael.
+- Kael uses Shield Breaker for 3 plus Tamsin's +1 and deletes Goblin Chieftain.
+- Kael triggers the Warrior passive on a Threat 2 Elite kill.
+- d6 roll = 3, so Kael succeeds and draws 1.
+- Brin ignores the open monsters and starts on Iron Gate with Lockpick Kit.
+- Mira keeps Tin Golem ready because the room is now visibly two problems at once.
+Creature turn:
+- Gray Wolf attacks for 1.
+- Ember Bat attacks for 1.
+- Tin Golem prevents 1.
+- Party HP drops from 11 to 10.
+Mid-encounter draw:
+- Kael draws Quick Slash.
+- Brin draws Arc Bolt.
+- Mira draws Chain Cutter.
+- Tamsin draws Last Step.
+Action Turn 2:
+- Kael uses the Warrior active to deal 1 damage to Gray Wolf.
+- Brin kills Ember Bat with Arc Bolt and triggers the Warrior passive on a Threat 1 Common kill.
+- d6 roll = 6, so the passive fails.
+- Mira works Iron Gate but only gets it halfway open.
+- Tamsin keeps Rally Push because the real problem is now whether the party clears both the wolf and the gate before another full hostile round.
+Creature turn:
+- Gray Wolf attacks for 1.
+- No support effect was used this turn, so Gray Wolf's hit also forces the current claimant to discard 1.
+- Party HP drops from 10 to 9.
+- Brin discards 1 because he had been arguing that the gate, not the wolf, was the "real" solve.
+Outcome:
+- Gray Wolf and Iron Gate remain, so the scene is unresolved.
+- No Spotlight is awarded.
+- Because the scene was not cleared, escalation rises to 8.
+
+ROUND-08: Continue Kennel Vault
+State at start: HP 9, escalation 8
+Scene:
+- The same encounter continues.
+- No new reveal occurs.
+- No default mid-encounter draw occurs because this encounter already used its one draw.
+Action Turn 1:
+- Mira uses Chain Cutter on Iron Gate.
+- Tamsin uses the Cleric active on Mira's gate line for +1.
+- Kael uses Quick Slash to finish Gray Wolf.
+- Kael triggers the Warrior passive on a Threat 1 Common kill.
+- d6 roll = 1, so the passive succeeds and Kael draws 1.
+- Brin finally contributes direct damage to Iron Gate once the room is nearly safe anyway.
+Creature turn:
+- No hostile creature remains to attack.
+Action Turn 2:
+- Mira finishes Iron Gate.
+- Because Tamsin's active helped clear the last blocking hurdle, Mira and Tamsin each draw 1.
+- Brin tries to claim that his late hit mattered more than the two-turn gate work, but nobody on the table buys it.
+Outcome:
+- Mira claims 1 Spotlight because the final blocking hurdle was Iron Gate and she removed it.
+- This round cleanly verifies the quick-start rule that a continued encounter does not grant another default mid-encounter draw.
+- The scene is fully cleared, so escalation rises to 9.
+
+ROUND-09: Brood Wyrm Hunt
+State at start: HP 9, escalation 9
+Scene:
+- A Brood Wyrm drops from the rafters and its arrival alone ratchets the ruin closer to collapse.
+- On reveal, escalation rises to 10.
+Action Turn 1:
+- Kael opens with a damaging line to make sure the monster does not become Brin's easy last hit.
+- Tamsin uses Battle Prayer to keep that first hit relevant.
+- Mira plays Dive for Cover because the party no longer has room for bravado.
+- Brin hesitates, waiting for a cleaner credit window.
+Creature turn:
+- Brood Wyrm attacks for 2.
+- Dive for Cover prevents 2.
+- Party HP stays at 9.
+Mid-encounter draw:
+- Kael draws Arc Bolt.
+- Brin draws Hidden Stash.
+- Mira draws Field Bandage.
+- Tamsin draws Mercy Prayer.
+Action Turn 2:
+- Mira finishes the Brood Wyrm instead of waiting for Kael and Brin to stop posturing.
+- Tamsin says, "Escalation 10 is not a place for vanity."
+Outcome:
+- Mira claims 1 Spotlight for resolving the last hostile creature.
+- Escalation is now 10, but the current scene finishes before the final ordeal begins.
+
+ROUND-10: Dragon in the Deep
+State at start: HP 9, escalation 10
+Scene:
+- The chains split. The final ordeal begins.
+- Stage 1: Chainbound Head, HP 5, attack 2.
+- Stage 2: Heartfire Dragon, HP 8, attack 3.
+Action Turn 1:
+- Tamsin uses Battle Prayer on Kael.
+- Kael uses Shield Breaker, discards a spare card, and deals 4 total damage to Chainbound Head.
+- Brin uses the Warrior active for 1 and takes the last point off Chainbound Head.
+- Because Brin got the last hit on a Threat 3 Elite monster, the Warrior passive automatically succeeds and he draws 1.
+- Heartfire Dragon now reveals.
+- On reveal, each player discards 1 or the party takes 1.
+- Kael discards 1.
+- Mira discards 1.
+- Tamsin discards 1.
+- Brin refuses to discard and makes the party take 1.
+- Party HP drops from 9 to 8.
+- Mira spends her own action on Arc Bolt against the newly revealed dragon for 2 damage.
+Creature turn:
+- Heartfire Dragon attacks for 3.
+- Mira uses the Wizard active, discards 1 card, and prevents 2 of that damage.
+- Party HP drops from 8 to 7.
+Mid-encounter draw:
+- Kael draws Quick Slash.
+- Brin draws Field Bandage.
+- Mira draws nothing more defensive.
+- Tamsin draws Rally Push.
+Action Turn 2:
+- Kael uses the Warrior active to deal 1 damage.
+- Brin uses Quick Slash to deal 1 damage.
+- Tamsin spends the Cleric active on Mira's next attack for +1 damage.
+- Mira fires a second Arc Bolt for 2 plus Tamsin's +1, dealing 3 more.
+- Heartfire Dragon is reduced to 1 HP.
+Creature turn:
+- Heartfire Dragon attacks for 3.
+- No default prevention remains.
+- Party HP drops from 7 to 4.
+Escalation-10 exception:
+- The normal two-turn cap no longer applies, so the ordeal continues with no extra default draw.
+Ordeal Turn 3:
+- Brin finally contributes honest damage early instead of holding for a prettier window.
+- Kael lands the final point with Quick Slash before the dragon gets another full attack step.
+- Because Kael got the last hit on a Threat 3 Elite monster, the Warrior passive automatically succeeds and he draws 1.
+Outcome:
+- Kael claims 2 Spotlight for ending the final ordeal.
+- The party survives on 4 HP.
+
+End state snapshot
+- Kael Spotlight: 3
+- Brin Spotlight: 2
+- Mira Spotlight: 3
+- Tamsin Spotlight: 0
+- Final party HP: 4
+- Final escalation: 10, cleared
+
+Agenda check
+- Kael / First Name in the Ballad: succeeded
+- Brin / Richer Than the Ruin: failed; he generated plenty of value but not clearly 4 extra gains ahead of the table
+- Mira / Prepared Beyond Reason: succeeded
+- Tamsin / By My Grace: failed; she created one flipped save and two shared-success draws, but the agenda wording asked for 2 flipped saves or 3 draw moments
+
+Immediate feel summary
+- The quick start now carries much more of the session than the older passes needed.
+- The game is still playable from visible materials, but four-player class selection, action order, and prestige/scoring remain under-taught.
+- The quick-start class text held up well in live scenes, especially the Warrior reward ladder and the Cleric rescue trigger.
+- The tightened agendas produced a healthier split of successes and failures than the previous all-success pattern.

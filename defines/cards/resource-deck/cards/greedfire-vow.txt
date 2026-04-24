@@ -1,0 +1,15 @@
+Card ID: resource-greedfire-vow
+Display Name: Greedfire Vow
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Enchantment
+Rarity: Elite
+Copies In Deck: 2
+Treasure Value: 5
+Cost: Pay 1 party HP.
+Timing: Your action.
+Target: Your field.
+Rules Text: Place Greedfire Vow on the field under your control.
+Reminder Text: Greedfire Vow is a player-played enchantment entity.
+Flavor Text: Promise the fire a little now and it offers much more later.
+Art Brief: A red pact sigil burning above treasure and blood drops.

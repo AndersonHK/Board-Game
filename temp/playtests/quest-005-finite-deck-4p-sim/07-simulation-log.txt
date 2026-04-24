@@ -1,0 +1,212 @@
+Simulation Log For Quest 005
+
+Cross-reference:
+- Session rules stack: [00-source-map.md](./00-source-map.md)
+- Session decks: [04-resource-deck.txt](./04-resource-deck.txt), [05-encounter-deck.txt](./05-encounter-deck.txt), [06-creature-deck.txt](./06-creature-deck.txt)
+- Ambiguities and smallest-continuation rulings: [08-rulings-log.txt](./08-rulings-log.txt)
+
+Log note:
+- This file is a narrative simulation summary, not a strict action-by-action ledger.
+- It reflects an older timing assumption from before the current canon required a mandatory standard draw every round and full player/enemy turn participation if able.
+- In longer unresolved scenes, routine actions were sometimes compressed instead of being logged one by one.
+
+Starting state:
+- Party HP: 11
+- Escalation: 0
+- Starting hands are the four hands listed in [02-player-roster.txt](./02-player-roster.txt)
+
+Scene 0 - Sealed Stair Landing
+- Mira spends her first action on `Prepared Ground`, turning the descent into a safer room before anyone sees a monster.
+- Tamsin spends her first action on `Summon Cinder Familiar`, giving the party a live allied piece before the dungeon starts taxing hands.
+- Those two prep actions satisfy the session prep-scene clear condition immediately.
+- The scene ends before the normal mid-round draw because the run used an immediate-end-on-clear ruling.
+- End state: party HP 11, escalation 1.
+
+Scene 1 - Soot-Stall Trader
+- Trader stock revealed from the top of the resource deck: `Warding Circle`, `Battle Prayer`, `Warding Circle`, `Prepared Ground`, `Chain Cutter`.
+- Kael keeps `Dispel Draft` because he does not trust the ruin to stop making enchantments.
+- Brin haggles high, trades away `Quick Slash`, and takes `Prepared Ground` plus `Chain Cutter`.
+- Mira swaps out `Greedfire Vow` for `Warding Circle`; she wants durable value, not party-HP debt.
+- Tamsin passes, preferring to keep both summons and `Last Step`.
+- All four players used or passed their one trader interaction in Action Turn 1, so the scene ended immediately.
+- End state: party HP 11, escalation 2.
+
+Scene 2 - Cracked Causeway
+- Save results:
+  - Kael rolls 5 and passes.
+  - Brin rolls 3; Tamsin spends her once-per-scene Cleric passive to make it 4, flipping the failure to success.
+  - Because Brin would have lost a card, he chooses `Chain Cutter` as the saved card and puts it into Tamsin's hand instead of discarding it.
+  - Mira rolls 2 and fails, discarding the `Warding Circle` she had just picked up from the trader.
+  - Tamsin rolls 4 and passes.
+- Tamsin immediately uses the rescued `Chain Cutter` on the crossing test, rolls safely above the session's default `4+` target, and secures the causeway in Action Turn 1.
+- Mira uses the scene reward to scout the next encounter and sees `Ember-Bell Nursery`.
+- End state: party HP 11, escalation 3.
+
+Scene 3 - Ember-Bell Nursery
+- The scene spawns `Ash Cultist`, `Ember Bat A`, and `Ember Bat B`.
+- `Ash Cultist`'s reveal discard is aimed at Kael; he drops `Quick Slash` to keep `Shield Breaker` and `Dispel Draft`.
+- Kael uses his Warrior active to kill `Ember Bat A`, but misses the Warrior reward roll.
+- Brin uses his Warrior active to kill `Ash Cultist`, succeeds on the low-threshold Warrior roll, and draws `Field Bandage`.
+- Mira uses `Arc Bolt` for full flying damage and removes `Ember Bat B`.
+- The room is clear before Tamsin even needs to act.
+- Claimed pile changes:
+  - Kael claims `Ember Bat A` (Treasure Value 1).
+  - Brin claims `Ash Cultist` (Treasure Value 2).
+  - Mira claims `Ember Bat B` (Treasure Value 1).
+- End state: party HP 11, escalation 4.
+
+Scene 4 - Shrine of Echoes
+- Kael and Tamsin decline the bargain.
+- Brin and Mira each take it once.
+- Brin draws `Quick Slash`, decides it is not worth the slot, and discards it immediately.
+- Mira draws `Lockpick Kit`, keeps it for a moment, then discards it because her hand is already tilted toward long-game value.
+- Because two players took the bargain, `Ash Miasma` spawns.
+- No one can or wants to spend the resources to dispel the miasma here, and the shrine's own clear condition is already satisfied.
+- Brin takes the optional extra reward draw from the shrine and gets `Smoke Route`.
+- The party leaves with a selfish win on paper and a hostile enchantment still hanging in the air.
+- End state: party HP 11, escalation 5.
+
+Scene 5 - Furnace Warden Rises
+- `Ashen Warden` enters play.
+- `Ash Miasma` from the shrine is treated as still affecting the room because the previous scene explicitly carried it to the next scene.
+
+Round 1
+- Mira uses her Wizard active immediately, placing 2 shields on the party.
+- Kael spends his Warrior active for 2 damage on `Ashen Warden`.
+- Brin uses `Prepared Ground` instead of pushing damage, making the table slightly safer but obviously also saving his own removal for later.
+- Tamsin summons `Grave Hound`, accepting a slow setup line instead of emergency healing.
+- The scene is not cleared, so the party gets its single default mid-encounter draw for this ordeal.
+- On Turn 2, the players visibly sandbag the last few damage points instead of overcommitting, mostly because Kael and Brin both want the kill.
+- Creature step:
+  - `Ashen Warden` uses `Furnace Sweep`, removing Mira's 2 party shields.
+  - It then attacks; `Prepared Ground` reduces that first hostile attack by 1, so the party only loses 1 HP.
+- Round end:
+  - The ordeal is unresolved, so escalation rises to 6.
+  - `Ashen Warden` survives, so the party loses another 1 HP.
+  - `Ash Miasma` forces the player with the most cards to discard; Mira throws away `Hidden Stash` rather than lose her stored burst cards.
+
+Round 2
+- Kael finally spends `Shield Breaker`, discarding a weaker card and dealing the final 3 damage to `Ashen Warden`.
+- Because `Ashen Warden` is Threat 3 and Elite, Kael's Warrior draw is guaranteed.
+- On clear, each player draws 1 card from the finite resource deck as printed on the ordeal card.
+- Claimed pile changes:
+  - Kael claims `Ashen Warden` (Treasure Value 5).
+- End state: party HP 9, escalation 7.
+
+Scene 6 - Bound Pilgrim
+- `Rusted Chains` enters as the blocking artifact.
+- The miasma from earlier is present as lingering pressure, but the rescue scene itself only cares about removing `Rusted Chains` and any actually blocking carry-over card.
+- Kael uses `Lockpick Kit` on the restraint test and clears `Rusted Chains` cleanly in Action Turn 1.
+- The active rescue reward heals 1 party HP.
+- Tamsin never needs to cash in her healing active here because the room clears too quickly.
+- Claimed pile changes:
+  - Kael claims `Rusted Chains` as the cleared blocking hurdle (Treasure Value 1).
+- End state: party HP 10, escalation 8.
+
+Scene 7 - Reliquary of Cinders
+- `Blessing Brazier` enters under party control.
+- `Ash Miasma` enters as the hostile enchantment for this scene.
+- Kael finally uses the `Dispel Draft` he refused to trade away at the merchant, removing the miasma outright.
+- Brin spends his action to claim the reliquary reward once the room is safe enough to loot.
+- Mira uses the downtime to put `Warding Circle` onto her field, continuing her slow-value line.
+- Brin chooses to take the scene's extra reward draw anyway and gets `Blood Price Burst`, but because the quest's threshold-5 penalty is now live, he must discard 1 card immediately after the reward resolves.
+- Claimed pile changes:
+  - Brin is treated as the claimant for the reliquary reward.
+- End state: party HP 10, escalation 9.
+
+Scene 8 - Kennel Vault
+- Criteria spawn check against the session reserve produces `Smoke Seer`, `Gray Wolf`, `Ember Bat A`, and `Iron Gate`.
+- Because escalation 8 is already live, the first hostile creature attack this scene would get +1 Attack if any hostile survives to attack.
+
+Round 1
+- Kael kills `Ember Bat A` with his Warrior active but again misses the low Warrior roll.
+- Brin pays 1 party HP for `Blood Price Burst` and cleanly erases `Smoke Seer`, which is both efficient and very on-brand for his agenda.
+- Mira banks value instead of chasing the remaining claim, adding another defensive permanent instead of racing Kael.
+- Tamsin pings `Iron Gate` so she becomes the current claimant on the still-blocking hurdle.
+- The encounter reaches the default mid-encounter draw because `Gray Wolf` and `Iron Gate` remain.
+- On Turn 2, Tamsin spends her active to heal the party back up by 1, while Kael uses his Warrior active to kill `Gray Wolf`.
+- No one finishes `Iron Gate`, partly because the table is short on exact gate text and partly because Kael wants the next round's cleaner claim line.
+- Round end:
+  - The scene remains unresolved, so escalation rises from 9 to 10.
+  - Because `Iron Gate` is still the last blocking hurdle and Tamsin was the last player to progress it, she is treated as the current claimant for the encounter's discard penalty and loses 1 card.
+- Claimed pile changes:
+  - Brin claims `Smoke Seer` (Treasure Value 3).
+  - Kael claims `Ember Bat A` / vault copy (Treasure Value 1).
+  - Kael claims `Gray Wolf` (Treasure Value 1).
+
+Round 2
+- The final ordeal is not revealed yet because the vault scene is still live.
+- Brin uses `Battle Prayer` on Kael to give him +1 damage against the gate.
+- Kael uses his Warrior active for 3 total damage and breaks `Iron Gate`.
+- Because Kael cleared the last blocking hurdle, he gets the encounter's extra reward draw, then discards 1 card immediately due to the threshold-5 quest tax.
+- Claimed pile changes:
+  - Kael claims `Iron Gate` (Treasure Value 2).
+- The scene ends. Escalation is already 10, so the final ordeal now begins.
+
+Scene 9 - Dragon in the Deep
+- Stage 1 starts with `Chainbound Head`.
+- When that stage falls, `Heartfire Dragon` enters.
+- The escalation-10 no-turn-cap rule is now active.
+
+Round 1
+- Mira uses her Wizard active again for this new scene, placing 2 shields on the party.
+- Kael and Brin split early damage onto `Chainbound Head` while Tamsin spends her turn preserving board presence instead of cashing out her hand.
+- The party gets the single default mid-encounter draw for the final ordeal.
+- In Action Turn 2, Brin delivers the final damage to `Chainbound Head` and claims it.
+- `Heartfire Dragon` appears immediately after the head is destroyed and still takes the creature step that round.
+- Kael lands the first point of damage on the dragon before creature step, but not enough to stop the counterattack.
+- Creature step:
+  - `Heartfire Dragon` uses `Dragon's Breath`. Two players discard and two rolls convert into party damage.
+  - The dragon's first hostile attack of the scene is boosted by the escalation-8 quest threshold, but Mira's shields, `Prepared Ground`, and a live defensive summon absorb the entire hit.
+- End state after round 1 of the ordeal: party HP 8, dragon wounded but still very live.
+
+Round 2
+- Brin spends more of his hand trying to stay ahead in hostile Treasure Value.
+- Mira stops chasing kills and shifts fully into preservation, making sure the party can actually live long enough for the agenda math to matter.
+- Tamsin finally uses her Cleric active to buy back 1 party HP instead of holding it forever.
+- Kael and Brin push the dragon down to low HP, but Brin cannot quite line up the last hit before the creature step.
+- `Dragon's Breath` fires again. This time the party loses enough cards and incidental HP that the finish suddenly matters more than score greed.
+- `Warding Circle` and the surviving defensive pieces still keep the party alive, but only barely.
+- End state after round 2 of the ordeal: party HP 5, Heartfire Dragon at 1 HP.
+
+Round 3
+- The table clearly sees the boss-kill race now.
+- Brin has the better hostile-score pile, but Kael still has first crack at a clean finishing line.
+- Kael uses his Warrior active for the last 2 damage needed, defeats `Heartfire Dragon`, and closes the game before another dragon turn happens.
+- Because the dragon is Threat 3 Elite, Kael's Warrior reward draw is guaranteed, but by then the important part is the claim.
+- Claimed pile changes:
+  - Brin claims `Chainbound Head` (Treasure Value 6).
+  - Kael claims `Heartfire Dragon` (Treasure Value 7).
+
+Final Prestige Tally
+
+Kael Stonehand
+- Treasure Points: 12
+- Glory Points: 18
+- Agenda reward: 20
+- Total: 50
+
+Brin Ashvale
+- Treasure Points: 5
+- Glory Points: 11
+- Agenda reward: 20
+- Total: 36
+
+Mira Fen
+- Treasure Points: 21
+- Glory Points: 1
+- Agenda reward: 20
+- Total: 42
+
+Tamsin Vale
+- Treasure Points: 12
+- Glory Points: 0
+- Agenda reward: 0
+- Total: 17
+
+Session result:
+- Party survival: success
+- Final party HP: 5
+- Prestige winner: Kael Stonehand
+- Second place under the updated scoring model: Mira Fen
+- Most informative failed agenda: Tamsin's `By My Grace`

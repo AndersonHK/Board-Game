@@ -1,0 +1,15 @@
+Card ID: resource-field-bandage
+Display Name: Field Bandage
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Healing
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: After a scene is cleared.
+Target: The party.
+Rules Text: Heal 2 party HP.
+Reminder Text: This does not target creatures.
+Flavor Text: Rough hands and clean cloth still beat brave speeches.
+Art Brief: Blood-stained bandages, herbs, and a leather healer's kit.
