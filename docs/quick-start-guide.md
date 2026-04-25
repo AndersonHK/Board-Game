@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-This guide is the current player-facing baseline for teaching and simulating the fantasy vertical slice. It is written for play at the table, not for internal design discussion. Future simulations should use this guide as their default teaching sheet unless a quest or later canon rule explicitly overrides it.
+This guide teaches the current fantasy quest rules for table play.
 
 ## What You Need On The Table
 
@@ -43,7 +43,10 @@ Set up the shared table like this:
 - shuffle the secret agenda deck and place it face down
 - place the red damage tokens where all players can reach them
 - place the blue shield tokens where all players can reach them
-- leave room for encounter cards, spawned monsters, persistent obstacles, and discard piles
+- leave room for encounter cards, spawned monsters, persistent obstacles, discard piles, and personal score piles
+- choose a fixed player order before the first round
+
+Use table or seat order as the default player order. If that is unclear, players choose the order once before play begins.
 
 ### 3. Choose A Class
 
@@ -188,6 +191,28 @@ If more than one player has the same class passive, those passives stack unless 
 
 ## Core Card And Table Terms
 
+### Table Terms
+
+- `Scene`: the current encounter, prep room, ordeal, hazard, trader, rescue, or other room being resolved.
+- `Round`: one full pass through the round structure.
+- `Party`: all players together and the shared party HP total.
+- `Hostile`: an enemy, curse, trap, or other card opposing the party.
+- `Friendly`: controlled by a player or by the party.
+- `Blocking hurdle`: any hostile or other card, test, hazard, door, restraint, enchantment, or condition that prevents the scene from being fully cleared.
+- `Clear`: remove or resolve every hostile and blocking hurdle required by the scene.
+- `Claim`: place a hostile or blocking card in a personal score pile for Glory Points.
+- `Own`: a card or permanent belongs to that player for scoring.
+- `Control`: a player or party may use that card's effects.
+- `Party-controlled`: shared by the party and not owned or scored by one player unless a card says otherwise.
+- `Discarded`: no longer in hand or on the field, and not scored unless a card says otherwise.
+- `Active player`: the player currently resolving an action, card, trait, test, or effect.
+- `Current claimant`: the player who most recently advanced a remaining hostile or blocking hurdle in the current scene. If no player qualifies, players choose the current claimant.
+- `Extra draw`: any card draw that is not the mandatory standard draw once per round.
+- `Support effect`: a card, class trait, or creature ability that helps another player, prevents or reduces a discard, grants a modifier, heals, or places shield tokens without directly dealing damage.
+- `Magical`: a target or effect whose card uses the word `magical` or whose card type, creature type, or rules text clearly marks it as magical.
+- `Flying`: a flying target.
+- `Exhaust`: rotate or mark a card after using an exhaust ability. Exhausted cards ready at the start of each new round.
+
 ### Resource / Action Cards
 
 These are the cards in player hands.
@@ -202,6 +227,8 @@ They may do things like:
 - create future advantages
 
 If a card tells you to discard cards as a cost, you must pay that discard before getting the effect.
+
+When a resource card creates a permanent, discard the resource card after paying its costs and resolving the effect. Then place the matching permanent under the control named by the card.
 
 ### Creature Cards
 
@@ -229,15 +256,24 @@ Some cards in this shared entity layer are not normal attackers:
 - `Artifacts` use the same card grammar as creatures but have `Attack 0`
 - `Enchantments` do not use HP and attack values by default, so they are not combat targets unless a card says otherwise
 - summoned creatures cannot attack on the turn they are summoned unless a card says otherwise
+- friendly summoned creatures do not take independent full turns unless a card says otherwise
 
 Some high-threat bosses may use a named active ability and still attack on the same turn if their card says so.
+
+Friendly summons:
+
+- a player may spend their action to attack with one friendly creature they control if it can attack
+- a player may use a friendly creature's printed exhaust ability at its allowed timing
+- if an exhaust ability has no printed timing, use it during that player's action
+- to exhaust a card, rotate or mark it after use
+- exhausted cards ready at the start of each new round
 
 Enemy-monster default behavior:
 
 - if an enemy monster has a named active ability it can legally use, it uses that instead of attacking
 - if an enemy monster attacks and a friendly creature is a legal target, it targets a friendly creature first
 - if no friendly creature is a legal target, it attacks the party
-- card text can override this, and future effects such as `silence` can stop an ability from being usable
+- card text can override this, and effects such as `silence` can stop an ability from being usable
 
 ### Common And Elite
 
@@ -246,33 +282,37 @@ Both monsters and player cards now use the same two rarity words:
 - `Common`
 - `Elite`
 
-As a general rule:
+Use these copy counts unless a card says otherwise:
 
-- `Common` cards are simpler and weaker
-- `Elite` cards are stronger and more likely to matter at round end
+- `Common`: `4` copies
+- `Elite`: `2` copies
+- `Rare`: `2` copies, if a later card uses that word
+- quest-unique scripted cards: `1` copy
+
+Quest-unique scripted cards include unique bosses and ordeal stages such as `Ashen Warden`, `Chainbound Head`, and `Heartfire Dragon`.
+
+If a required copy runs out, use a coin or other small token as a proxy copy. The proxy uses the original card's name, stats, rules text, and Treasure Value.
 
 ### Threat Tiers
 
-For this draft baseline, monsters use three threat tiers:
+Monsters use three threat tiers:
 
 - `Threat 1` for early pressure
 - `Threat 2` for mid pressure
 - `Threat 3` for late pressure
 
-These tiers line up with the three major escalation zones of the game.
-
 ## The Escalation Track
 
 Escalation runs from `0` to `10`.
 
-The printed track should read visually like this:
+The escalation track uses these bands:
 
 - green zone: early game
 - yellow zone: mid game
 - red zone: late game
 - skull symbol at `10` for the final ordeal
 
-Use these draft bands:
+Use these bands:
 
 - `0-3`: early
 - `4-6`: mid
@@ -293,7 +333,7 @@ Each round follows this order:
 6. Standard draw: each player draws `1` card between `Action Turn 1` and `Action Turn 2`. This standard draw is mandatory once per round.
 7. `Action Turn 2`: every player takes `1` action if able. The players choose their own order.
 8. `Enemy Turn 2`: every enemy monster takes `1` action if able. Resolve enemy monsters from strongest to weakest. If there is a toss-up, the players choose that order.
-9. Resolve cleanup, unresolved hurdles, round-end card effects, and escalation.
+9. Resolve the end of round.
 
 Unless a card, quest, or trait changes it:
 
@@ -305,6 +345,19 @@ Unless a card, quest, or trait changes it:
 
 If a round ends before the normal standard-draw window is reached, each player still makes that mandatory standard draw as the round ends.
 
+If a scene is fully cleared during a round, finish the current round structure unless a card or quest says the scene ends immediately.
+
+Players may still use action windows in non-hostile rooms or after all scene hurdles are cleared.
+
+At the end of round, resolve effects in this order:
+
+1. Players resolve player-controlled round-end effects in fixed player order.
+2. Monsters and hostile cards resolve round-end effects in monster order, strongest to weakest. If there is a tie, players choose the order.
+3. The encounter resolves unresolved text and failure text.
+4. The quest resolves escalation changes and threshold triggers.
+5. Players discard down to hand limit.
+6. The round ends.
+
 ## Actions
 
 On your action, you usually do one meaningful thing, such as:
@@ -315,6 +368,7 @@ On your action, you usually do one meaningful thing, such as:
 - use a class active trait
 - solve a non-combat test
 - contribute to clearing a blocking hurdle
+- attack with one friendly creature you control, if it can attack
 
 If a card or trait deals damage, place damage tokens equal to the damage dealt.
 
@@ -322,7 +376,7 @@ Basic attacks may target creatures and other damageable blocking hurdles unless 
 
 ## Saves And Tests
 
-If a save is required and no other number is given, succeed on `4+` on a d6.
+If a save or non-combat test is required and no other number is given, succeed on `4+` on a d6.
 
 That means:
 
@@ -334,6 +388,8 @@ If a card, class trait, or encounter gives a modifier, apply it to the roll befo
 ## Spawning Monsters By Criteria
 
 Some encounters name exact monsters.
+
+For exact-name spawns, take the named card from the creature deck or reserve.
 
 Other encounters use criteria such as:
 
@@ -362,15 +418,25 @@ Blocking hurdles can include:
 
 If the scene is fully cleared, it ends after the current round structure finishes unless a card or quest says it ends immediately.
 
+## Claiming Cards And Rewards
+
+When your action removes the final HP, resistance, or blocking condition from a hostile or blocking card, claim that card.
+
+Put claimed cards into your personal score pile. Claimed cards count for Glory Points at the end of the game.
+
+If a reward is tied to clearing the last hurdle, the player who cleared that hurdle receives the reward unless the encounter says otherwise.
+
+If a card says a reward must be claimed but gives no timing, any player may spend an action to claim that reward once all blocking hurdles are gone.
+
+Party-controlled cards are not claimed or scored by one player unless a card says otherwise.
+
 ## Escalation Advancement
 
-For this draft baseline:
+Use these escalation rules:
 
 - when the party fully clears a new scene, advance escalation by `1`
 - if hostile or blocking hurdles remain at the end of a round, escalation also rises by `1`
 - if a scene is unresolved, it does not grant the normal clear-scene advance
-
-This means good play still moves the quest forward, while bad play makes danger rise faster.
 
 ## Multi-Round Encounters
 
@@ -384,12 +450,9 @@ If the same encounter lasts two or more rounds, each round still gives its own m
 
 ## Cleanup
 
-At cleanup:
+Cleanup is part of the end-of-round order.
 
-- resolve round-end card text
-- check unresolved hostile or blocking hurdles
-- raise escalation if required
-- discard down to hand limit
+After round-end effects, unresolved text, and escalation are resolved, discard down to hand limit.
 
 Hand limits at cleanup are:
 
@@ -426,6 +489,10 @@ At escalation `10`:
 - the final ordeal continues until the scene is resolved or the party is defeated
 - the ordeal still gives the normal mandatory standard draw once each round
 
+Resolve the normal round through `Enemy Turn 2`.
+
+If the final ordeal is still unresolved after `Enemy Turn 2`, continue alternating extra player turns and enemy turns without another standard draw until the ordeal resolves or the party is defeated.
+
 ## Prestige Scoring
 
 At the end of the game, total `prestige points`.
@@ -437,6 +504,12 @@ First total your `Treasure Points`:
 - the Treasure Value of cards in your hand
 - the Treasure Value of cards you own on the field
 
+Do not score discarded cards unless a card says otherwise.
+
+If a resource card created a permanent, score only the resulting permanent if you own it on the field at the end of the game. Do not also score the spent resource card.
+
+Party-controlled cards do not count as one player's Treasure Points unless a card says otherwise.
+
 Then total your `Glory Points`:
 
 - the Treasure Value of hostile and blocking cards you claimed during the run
@@ -446,17 +519,3 @@ Then add:
 - your Treasure Points
 - your Glory Points
 - your agenda reward
-
-Agendas are meant to be decisive, so expect them to be worth a large share of your final score.
-
-## Simulation Use Rule
-
-Future simulations should use this guide as the baseline player-facing rules document.
-
-If a simulation encounters any mechanic that is:
-
-- ambiguous
-- missing from this guide
-- contradicted by another document
-
-that ambiguity should be written into that simulation's rulings log and findings log so it can be resolved and folded back into the guide later.

@@ -12,6 +12,6 @@ Clear Condition: Rusted Chains and any carried-over blocking card are gone.
 Reward Text: If the rescue is cleared this round, the active player may heal 1 party HP.
 Failure Text: If unresolved at end of round, the party takes 1 damage.
 Treasure Value: 0
-Rules Text: This scene is meant to stress teamwork, artifact targeting, support timing, and scene carry-over pressure.
+Rules Text: Use the active player definition for this scene's rescue reward.
 Flavor Text: Someone is still alive under the ash. That is either hope or a trap.
 Art Brief: A smoke-blackened traveler hanging from chained masonry in a collapsed rescue chamber.

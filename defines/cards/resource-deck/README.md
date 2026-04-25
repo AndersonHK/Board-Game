@@ -8,8 +8,9 @@ Current first-pass printable minimum: `64` cards total.
 
 Composition rule:
 
-- each `Common` card appears no more than `4` times
-- each `Elite` card appears no more than `2` times
+- each `Common` card appears `4` times
+- each `Elite` card appears `2` times
+- each `Rare` card appears `2` times, if a later card uses that word
 
 One clean way to hit that minimum is:
 

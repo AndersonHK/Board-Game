@@ -12,7 +12,7 @@ Attack: 1
 Combat Targetable: Yes
 Summon Sickness: Yes
 Rules Text: This creature cannot attack on the turn it is summoned.
-Active Ability: Exhaust: Give +1 to a magical or support action.
+Active Ability: Exhaust: Give +1 to a magical action or support effect.
 Round End Text: None.
 Flavor Text: It is half spark, half helpful habit.
 Art Brief: A small fox-like fire familiar hovering beside a spellcaster.

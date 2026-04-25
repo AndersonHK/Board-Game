@@ -9,9 +9,9 @@ Reveal Text: The party cracks open a barred chamber and wakes the kennel before 
 Spawn Text: Spawn 1 Goblin Chieftain, 1 Goblin Bruiser, and 1 Goblin Cutthroat.
 Scene Rule: None.
 Clear Condition: Defeat all hostile creatures in this scene.
-Reward Text: The player who defeats the last hostile creature claims 1 extra resource draw.
+Reward Text: The player who defeats the last hostile creature gains 1 extra resource draw.
 Failure Text: If this scene is unresolved at end of round, each surviving goblin gets +1 Attack next round.
 Treasure Value: 0
-Rules Text: This is the baseline exact-name hostile scene for the vertical slice.
+Rules Text: Exact-name spawns use the named creature cards or proxies.
 Flavor Text: The growl comes before the latch finishes breaking.
 Art Brief: A rusted gate giving way into a pen of goblins and half-starved attack beasts.

@@ -11,7 +11,7 @@ Hit Points: 3
 Attack: 1
 Combat Targetable: Yes
 Summon Sickness: No
-Rules Text: The first time a player draws an extra card each scene, that player discards 1 card.
+Rules Text: Magical. The first time a player gains an extra draw each scene, that player discards 1 card.
 Active Ability: None.
 Round End Text: None.
 Flavor Text: Every bargain sounds better after enough smoke.
