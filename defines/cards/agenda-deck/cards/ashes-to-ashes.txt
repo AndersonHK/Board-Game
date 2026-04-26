@@ -1,0 +1,11 @@
+Card ID: agenda-ashes-to-ashes
+Display Name: Ashes to Ashes
+Deck: Agenda Deck
+Card Type: Agenda
+Treasure Value: 0
+Goal Text: Succeed if the total Treasure Value of hostile cards you claimed is 10 or higher.
+Reward Text: Gain 20 prestige points.
+Failure Text: Gain 0 prestige points.
+Reveal Timing: Reveal at end of game.
+Flavor Text: If the dungeon burns, someone should at least count the coals.
+Art Brief: A triumphant hunter standing over multiple fallen dungeon threats.

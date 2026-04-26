@@ -1,0 +1,26 @@
+Simulation Roster: Same Four Friends, Sharper Canon Stress
+
+1. Kael Stonehand
+- Archetype: Aggressive
+- Persona: wants the dungeon to remember that he went first
+- Passive: the first damaging action you take each scene gets +1 damage if you committed before anyone else
+- Active: once per scene, Press the Advantage for +1 damage; if that action resolves the last hostile creature or blocking hurdle, gain 1 extra Spotlight
+
+2. Brin Ashvale
+- Archetype: Aggressive
+- Persona: wants the loot story even more than the hero story
+- Passive: the first damaging action you take each scene gets +1 damage if you committed before anyone else
+- Active: once per scene, Press the Advantage for +1 damage; if that action resolves the last hostile creature or blocking hurdle, gain 1 extra Spotlight
+
+3. Mira Fen
+- Archetype: Defensive
+- Persona: refuses to be caught empty-handed or surprised
+- Starts with: 1 Ward
+- Passive: once per scene, when an event would make you discard or take damage, prevent 1 of that loss
+- Active: spend 1 Ward or discard a setup card to prevent 2 party damage or ignore 1 forced discard
+
+4. Tamsin Vale
+- Archetype: Support
+- Persona: wants everyone to need her help, even when that help comes with a memory attached
+- Passive: once per scene, give +1 to another player's save roll; if that flips a failure into a success, roll a d6 and on 4-6 move one card that would have been lost into your own hand instead
+- Active: once per scene, give another player +1 damage or +1 to a non-combat test; if that help resolves the last blocking hurdle, both players draw 1

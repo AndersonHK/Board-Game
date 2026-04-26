@@ -1,0 +1,97 @@
+Rulings Log For Quest 007
+
+RUL-01 - Escalation-0 prep scene procedure
+Issue:
+- Ashen Depths says to begin at escalation 0 with a prep scene, and the quickstart says this still uses the normal round structure, but there is no printed prep encounter card with a clear condition or explicit action menu.
+Smallest ruling used:
+- Run one normal non-hostile round. If no hostile or blocking hurdles are created, the prep scene clears at end of round.
+Why this was minimal:
+- It uses the existing round structure and does not require inventing a new prep card.
+Impact on the run:
+- Players got one setup round and escalation advanced to 1 cleanly.
+Promotion target:
+- Quest card reminder text or a tiny prep-scene insert.
+
+RUL-02 - `Graveyard` on Smoke-Flood Gallery
+Issue:
+- Smoke-Flood Gallery rewards one player returning a card from `graveyard` to hand, but the quickstart uses `discarded` and discard piles rather than `graveyard`.
+Smallest ruling used:
+- Treat `graveyard` as the discard pile.
+Why this was minimal:
+- It maps an old or genre-common word onto the current quickstart vocabulary.
+Impact on the run:
+- Merek returned Field Bandage from discard to hand.
+Promotion target:
+- Card wording cleanup on Smoke-Flood Gallery.
+
+RUL-03 - Threshold-5 reward-draw tax scope
+Issue:
+- Ashen Depths says the first player each scene to gain an extra draw from a reward must discard 1 card after that reward resolves. The quickstart defines `extra draw`, but the threshold text says `from a reward`, which leaves trader exchanges, Shrine bargains, Hidden Stash, and Warrior passive draws unclear.
+Smallest ruling used:
+- Apply the tax only to extra draws caused by encounter Reward Text or a clearly labeled scene reward.
+Why this was minimal:
+- It preserves the exact word `reward` and avoids making ordinary card draw effects unexpectedly punitive.
+Impact on the run:
+- Shrine bargains and Hidden Stash were not taxed. Oren's Kennel Vault reward draw was taxed.
+Promotion target:
+- Quest threshold wording or quickstart reward glossary.
+
+RUL-04 - Shrine of Echoes carry-over timing
+Issue:
+- Shrine of Echoes says Ash Miasma remains for the next scene if spawned and still present at end of scene, but the normal clear condition says no blocking card can remain. That creates a timing knot: if Ash Miasma blocks clearing, when does `end of scene` happen?
+Smallest ruling used:
+- If the bargain is resolved and only Ash Miasma remains, the Shrine scene can end unresolved and Ash Miasma carries into the next scene.
+Why this was minimal:
+- It honors the printed carry-over text without rewriting Ash Miasma or the quickstart's clearing rule.
+Impact on the run:
+- Escalation rose to 8, Ash Miasma discarded one card from Selene, and Bound Pilgrim began with Ash Miasma already in play.
+Promotion target:
+- Shrine of Echoes wording. This probably wants explicit "Then the scene ends" or "This overrides normal clearing."
+
+RUL-05 - `Shared-success moments`
+Issue:
+- By My Grace can succeed through `3 shared-success moments`, but no player-facing rule defines what counts.
+Smallest ruling used:
+- Count a support effect as a shared-success moment if it directly changes or enables a successful save, kill, clear, or survival result that would not have happened the same way without that support.
+Why this was minimal:
+- It keeps the agenda focused on visible support plays rather than every friendly gesture.
+Impact on the run:
+- Oren succeeded by one save flip and three support-enabled success moments.
+Promotion target:
+- Agenda wording. The card should probably list examples or avoid the phrase.
+
+RUL-06 - Friendly creature targeting and damage prevention distinction
+Issue:
+- Enemy monsters must attack friendly creatures first if legal. Tin Golem is a friendly summoned creature, but its exhaust ability prevents damage to the party, not to itself.
+Smallest ruling used:
+- Enemy attacks can hit Tin Golem. Tin Golem's exhaust prevention is only usable when damage would be dealt to the party.
+Why this was minimal:
+- It follows the exact target wording on Tin Golem and the enemy targeting rule.
+Impact on the run:
+- Tin Golem absorbed Ashen Warden, Gray Wolf, and Heartfire Dragon attacks but did not also prevent that damage with its exhaust ability.
+Promotion target:
+- No canon change required unless players keep misreading Tin Golem as self-protecting.
+
+RUL-07 - Post-clear reward timing
+Issue:
+- Several scenes clear during Action Turn 1 but still finish the full round. The quickstart says to finish the round, but reward text often sounds immediate.
+Smallest ruling used:
+- Resolve clearly triggered reward text as soon as its condition is met, then continue the remaining round structure.
+Why this was minimal:
+- It lets rewards happen while the event is still in memory and preserves the finish-the-round rule.
+Impact on the run:
+- Kennel Break, Kennel Vault, and Bound Pilgrim rewards resolved during the round instead of waiting until cleanup.
+Promotion target:
+- Optional quickstart sentence if timing confusion appears in human tests.
+
+RUL-08 - Excess damage to friendly creature targets
+Issue:
+- Heartfire Dragon attacked a damaged Tin Golem for more damage than the Tin Golem had remaining HP. The rules say the creature is defeated when damage equals or exceeds HP, but do not say whether excess damage carries over to the party.
+Smallest ruling used:
+- Excess damage does not carry over unless a card says otherwise.
+Why this was minimal:
+- It follows the ordinary single-target reading of an attack without adding trample-style spillover.
+Impact on the run:
+- Tin Golem absorbed the dragon's first normal attack and was defeated; the party took no excess damage from that attack.
+Promotion target:
+- Optional damage example in quickstart creature section.

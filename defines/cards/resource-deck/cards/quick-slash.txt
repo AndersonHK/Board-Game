@@ -1,0 +1,15 @@
+Card ID: resource-quick-slash
+Display Name: Quick Slash
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Attack
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: Your action.
+Target: One combat target.
+Rules Text: Deal 1 damage.
+Reminder Text: This can target creatures and damageable artifacts unless they say otherwise.
+Flavor Text: Fast enough to matter is sometimes all a hero gets.
+Art Brief: A clean blade strike cutting across an enemy silhouette.

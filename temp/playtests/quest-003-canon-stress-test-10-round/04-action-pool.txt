@@ -1,0 +1,43 @@
+Action / Resource Pool: Canon Stress Prototype Catalog
+
+Important note:
+This remains a prototype catalog, not a one-copy finalized deck list.
+
+Setup and engine cards
+1. Sharpen Edge - Ongoing. Your next damaging action gets +1 damage.
+2. Treasure Nose - Ongoing. The first time you claim a reward, draw 2.
+3. Map the Tunnels - Ongoing. Later, reroll one save.
+4. Pocket the Spoils - If a reward is claimed this scene, you gain 1 extra draw.
+5. Hidden Stash - Draw 2.
+6. Study the Signs - Peek ahead or gain +1 to your next non-combat test.
+7. Ward Sigil - Ongoing. Gain 1 Ward.
+8. Chain Cutter - Gain +2 to break an obstacle or free a captive.
+
+Summons and allies
+9. Cinder Familiar - Ally. 1 HP. Exhaust: +1 to a magical or support action.
+10. Tin Golem - Ally. 3 HP. Exhaust: prevent 1 damage to the party.
+11. Lantern Sprite - Ally. 1 HP. Exhaust: another player draws 1, then discards 1.
+12. Grave Hound - Ally. 2 HP. Exhaust: +1 damage if you attack the same target as another player.
+
+Immediate scene cards
+13. Quick Slash - Deal 1 damage.
+14. Shield Breaker - Deal 2 damage to a creature or 2 durability to an obstacle.
+15. Arc Bolt - Deal 2 damage to a magical or flying target, otherwise 1.
+16. Battle Prayer - Another player gets +1 to a save or damaging action.
+17. Dive for Cover - Prevent 2 damage from a hazard or creature attack.
+18. Field Bandage - Heal 2 party HP after the scene.
+
+Greed, utility, and rescue cards
+19. Smoke Route - Cancel one forced discard or trap loss.
+20. Mercy Prayer - Another player discards 1 fewer card; you draw 1.
+21. Lockpick Kit - Gain +2 to a vault, door, or restraint test.
+22. Dispel Draft - Deal 2 durability to an enchantment or ongoing curse.
+23. Bold Claim - If you removed the last hostile creature this scene, gain 1 extra Spotlight.
+24. Rally Cry - All allies may exhaust immediately this turn.
+25. Haggle - In a merchant or social scene, gain 1 reward draw or +2 on the bargain test.
+
+Opening Hands Used In This Simulation
+- Kael: Sharpen Edge, Shield Breaker, Bold Claim
+- Brin: Treasure Nose, Hidden Stash, Pocket the Spoils
+- Mira: Tin Golem, Smoke Route, Map the Tunnels
+- Tamsin: Cinder Familiar, Battle Prayer, Mercy Prayer

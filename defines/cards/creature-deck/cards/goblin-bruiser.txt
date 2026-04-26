@@ -1,0 +1,18 @@
+Card ID: creature-goblin-bruiser
+Display Name: Goblin Bruiser
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Humanoid
+Rarity: Common
+Threat: 1
+Treasure Value: 1
+Hit Points: 2
+Attack: 1
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: The first time this creature survives damage each scene, it gets +1 Attack until end of round.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: It does not know when a fight is already lost.
+Art Brief: A stocky goblin with a club and patched leather, charging through cinders.

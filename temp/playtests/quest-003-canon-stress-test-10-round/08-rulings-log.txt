@@ -1,0 +1,109 @@
+Rulings Log For Quest 003
+
+RUL-01 - Baseline quest progression cadence
+Issue:
+- `defines/core-rules.md` explains unresolved-hurdle escalation, but it does not yet define how a successful descent normally advances from tension 0 toward tension 10.
+Smallest ruling used:
+- A fully cleared new scene advances baseline tension by 1. If relevant hostile or blocking hurdles remain, the canonical unresolved-hurdle escalation still adds +1. Unresolved scenes do not grant baseline progress.
+Why this was minimal:
+- It preserved the canonized escalation rule while adding only the smallest quest-cadence bridge needed to make a 10-step arc playable.
+Impact on the run:
+- The session could actually reach escalation 10 without pretending that perfect play should stall the quest forever.
+Promotion target:
+- design doc
+
+RUL-02 - Prep scene uses the standard round structure
+Issue:
+- The design docs want a prep round at tension 0, but the canon round structure is now explicit and does not carve prep scenes out from the normal two-turn format.
+Smallest ruling used:
+- The prep scene still uses `Action Turn 1`, one default mid-encounter draw, and `Action Turn 2`; it simply has no hostile spawns.
+Why this was minimal:
+- It preserved the canon round skeleton instead of inventing a separate prep-phase subsystem.
+Impact on the run:
+- The opening scene felt more consistent with the rules and still gave players space to reveal personality.
+Promotion target:
+- design doc
+
+RUL-03 - Default save baseline
+Issue:
+- Hazard scenes still need a quick universal save number, and no canonical save baseline exists yet.
+Smallest ruling used:
+- Default saves succeed on 4+ on a d6 unless modified.
+Why this was minimal:
+- It reused the simplest baseline from the previous pass without adding new stat layers.
+Impact on the run:
+- Hazard and trap scenes remained runnable and support rescue effects stayed legible.
+Promotion target:
+- keep temporary
+
+RUL-04 - Mixed criteria creature search
+Issue:
+- The creature-deck define says to go through the deck in order and take the first valid cards, but it does not spell out how a mixed request such as `1 Strength 2 humanoid and 2 Strength 1 beasts` should be resolved in one pass.
+Smallest ruling used:
+- Walk the creature deck top to bottom once and fill requested slots as matching cards appear.
+Why this was minimal:
+- It stayed faithful to the existing ordered-search idea without adding a second search pass or category sorting.
+Impact on the run:
+- Caged Hunt resolved cleanly into Gray Wolf, Goblin Chieftain, and Ember Wolf.
+Promotion target:
+- define
+
+RUL-05 - Creature reserve refresh between scenes
+Issue:
+- The canon defines create a creature deck but do not yet say whether defeated creatures remain unavailable for later criteria searches in the same session.
+Smallest ruling used:
+- For this simulation, defeated non-boss creatures return to an abstract reserve between scenes, and each new spawn checks the printed creature order fresh.
+Why this was minimal:
+- It avoided inventing creature-depletion logistics before the broader deck procedure exists.
+Impact on the run:
+- Criteria spawning stayed predictable and the package remained easy to execute.
+Promotion target:
+- design doc
+
+RUL-06 - Spotlight tie-break and cleanup timing
+Issue:
+- The current design notes want Spotlight-like hero credit, but they do not define tie resolution or when temporary overdraw must be corrected.
+Smallest ruling used:
+- The player who resolves the last blocking hurdle gets scene Spotlight; if inseparable, award none. Players may exceed hand limit during a scene but must discard to 6 at cleanup.
+Why this was minimal:
+- It settled only the execution gaps needed to keep the simulation moving.
+Impact on the run:
+- Spotlight stayed readable and greed draws mattered without breaking the hand cap.
+Promotion target:
+- design doc
+
+RUL-07 - Persistent cards count as blocking hurdles
+Issue:
+- Canon unresolved escalation refers to hostile or blocking hurdles, but the docs do not yet say clearly whether persistent enchantments and doors count.
+Smallest ruling used:
+- Persistent obstacles and enchantments count as blocking hurdles whenever they still obstruct safety, reward, or forward progress.
+Why this was minimal:
+- It applied the existing wording directly instead of inventing a separate category.
+Impact on the run:
+- Clinging Miasma and Heavy Door created meaningful continuity and justified escalation pressure.
+Promotion target:
+- define
+
+RUL-08 - Escalation 10 extra-turn draw cadence
+Issue:
+- The canon define removes the normal turn cap at escalation 10, but it does not say whether the default mid-encounter draw repeats during the extra ordeal turns.
+Smallest ruling used:
+- The encounter still gets only its normal single default draw between turns 1 and 2. Extra ordeal turns grant no additional default draws.
+Why this was minimal:
+- It extended the existing once-per-encounter draw rule rather than adding a new climax-only refill rule.
+Impact on the run:
+- The final ordeal stayed tense instead of becoming a free refill engine.
+Promotion target:
+- define
+
+RUL-09 - Survival at 1 during the final ordeal
+Issue:
+- The final dragon turn stack created a borderline lethal moment after several earlier prevention effects had already partially absorbed the fight's pressure, and the current docs do not define how finely damage windows are segmented in a climax with extra turns.
+Smallest ruling used:
+- Treat the earlier mitigation stack as enough fictional carryover to keep the party alive at 1 rather than retroactively reopening the whole attack sequence.
+Why this was minimal:
+- It avoided rewriting the scene while still recording that the damage-window model remains underspecified.
+Impact on the run:
+- The finale stayed narratively usable, but this was the least clean ruling in the entire package.
+Promotion target:
+- keep temporary

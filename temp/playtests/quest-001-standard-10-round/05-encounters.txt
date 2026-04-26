@@ -1,0 +1,41 @@
+Encounter Sequence For Quest 001
+
+1. Goblin Sentries - Threat 3
+- Two torch-bearing scouts on a broken stair.
+- If cleared: claimant gains 1 Glory.
+
+2. Collapsed Entry - Threat 4
+- The descent caves in and the party must cut a path through stone and smoke.
+- If cleared: claimant gains 1 Glory.
+
+3. Wandering Merchant - Threat 4
+- A soot-covered trader offers shortcuts, rumors, and suspiciously useful supplies.
+- If cleared: claimant gains 1 Glory and may draw 1.
+
+4. Cursed Idol - Threat 5
+- A shrine leaks heat and spite; disturbing it awakens a backlash.
+- If failed: the party takes shortfall damage after prevention.
+
+5. Ash Drake Scout - Threat 6
+- A juvenile drake circles overhead and calls deeper things awake.
+- If cleared: claimant gains 1 Glory.
+
+6. Falling Causeway - Threat 6
+- Cracked stone spans a lava vent. Every hesitation makes the bridge worse.
+- If failed: narrate the loss as attrition, panic, or dropped gear.
+
+7. Captive Pilgrim - Threat 7
+- A wounded traveler is chained beside a rune brazier while cultists close in.
+- If cleared: claimant gains 1 Glory and the party heals 1.
+
+8. Fire Cult Ambush - Threat 7
+- Fanatics rush from side tunnels with oil, hooks, and ash masks.
+- If cleared: claimant gains 1 Glory.
+
+9. Molten Vault - Threat 8
+- A treasure chamber opens under pressure seals and unstable magma locks.
+- If cleared: claimant gains 1 Glory and may draw 1.
+
+10. Dragon in the Deep - Threat 10
+- The chained dragon tears free enough to flood the hall with flame and wingbeats.
+- If cleared in this simulation: claimant gains 2 Glory.

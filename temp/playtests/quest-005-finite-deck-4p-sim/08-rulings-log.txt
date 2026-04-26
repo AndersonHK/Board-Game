@@ -1,0 +1,145 @@
+Rulings Log For Quest 005
+
+RUL-01 - Resource deck count conflict
+Issue:
+- The resource-deck README still says `64` cards, but the live card files total `72` copies.
+Smallest ruling used:
+- Build the session deck from the explicit card-file `Copies In Deck` values and treat the live deck as `72` cards.
+Why this was minimal:
+- It deferred to the more specific card data rather than inventing new counts.
+Impact on the run:
+- The session could use a real finite deck without silently deleting card copies.
+Promotion target:
+- `defines/cards/resource-deck/README.md`
+
+RUL-02 - Encounter pool count conflict
+Issue:
+- The encounter-deck README and quest card say the quest uses `8` random encounters, but there are currently `9` random encounter files.
+Smallest ruling used:
+- Build an `8`-card random encounter stack for the session and leave one legal random encounter file out.
+Why this was minimal:
+- It preserved the quest card's visible promise to players.
+Impact on the run:
+- `Smoke-Flood Gallery` was left out of this session deck.
+Promotion target:
+- quest card or encounter-deck README
+
+RUL-03 - Creature copy counts are still incomplete
+Issue:
+- Unique creature files exist, but at least one encounter explicitly asks for multiple copies of the same named card.
+Smallest ruling used:
+- Treat the creature files as definitions plus a session reserve, and add one extra `Ember Bat` instance for this run.
+Why this was minimal:
+- It solved the exact live spawn demand without inventing a full copy-count system for every creature.
+Impact on the run:
+- `Ember-Bell Nursery` was playable as written.
+Promotion target:
+- creature-deck documentation
+
+RUL-04 - Summon retrieval procedure is not taught
+Issue:
+- Resource summon cards tell players to place named allies on the field, but the quick start does not explain how those cards are fetched from the creature layer.
+Smallest ruling used:
+- Summon cards fetch their named ally directly from the session creature reserve.
+Why this was minimal:
+- It matches normal player expectation and avoids random summon resolution.
+Impact on the run:
+- Tamsin's summons were executable from card text plus the reserve list.
+Promotion target:
+- quick start or creature-deck rules
+
+RUL-05 - Scene ending timing after an early clear
+Issue:
+- The quick start defines round order and also says a cleared scene ends, but it does not say whether players still take the remaining steps if the room is solved during Action Turn 1.
+Smallest ruling used:
+- Once a scene is fully cleared, the scene ends immediately and unused later steps are skipped.
+Why this was minimal:
+- It prevents free post-clear farming and matches plain-language reading of "the scene ends."
+Impact on the run:
+- Several scenes ended in Action Turn 1, which materially reduced card churn and clarified pacing.
+Promotion target:
+- quick start
+
+RUL-06 - Default target number for non-combat tests
+Issue:
+- Encounters and utility cards reference securing, venting, opening, or cutting tests, but many of those tests do not print a target number.
+Smallest ruling used:
+- Use the quick-start default save number of `4+` for non-combat tests when no other number is printed.
+Why this was minimal:
+- It reused an existing visible number rather than inventing a separate test ladder.
+Impact on the run:
+- `Cracked Causeway` and `Bound Pilgrim` were playable without extra hidden tables.
+Promotion target:
+- quick start
+
+RUL-07 - How hostile and blocking cards become scoreable claims
+Issue:
+- Prestige scoring and agendas both depend on players knowing which hostile or blocking cards they personally claimed for `Glory Points`, but the player-facing materials do not currently define that claim procedure.
+Smallest ruling used:
+- The player who deals the final damage or performs the final clearing action on a hostile or blocking card claims it for `Glory Points`.
+Why this was minimal:
+- It maps naturally onto existing kill-credit intuition.
+Impact on the run:
+- Kael and Brin had legible competing `Glory Points`, and endgame prestige could be calculated without a proxy system.
+Promotion target:
+- quick start or quest/scoring reference
+
+RUL-08 - Current claimant tracking
+Issue:
+- `Gray Wolf` and `Kennel Vault` refer to the current claimant, but that term is not defined in the quick start.
+Smallest ruling used:
+- The current claimant is the player who most recently made progress toward the scene's remaining reward or last blocking hurdle.
+Why this was minimal:
+- It gave the phrase a concrete table meaning without adding a new widget.
+Impact on the run:
+- Tamsin was the current claimant when Kennel Vault stalled and therefore took the discard penalty.
+Promotion target:
+- quick start or encounter terminology glossary
+
+RUL-09 - Threshold-5 reward-draw tax timing
+Issue:
+- The quest card says the threshold-5 ordeal happens after the current scene, then says the extra reward-draw tax starts with the next scene.
+Smallest ruling used:
+- The tax started with the first scene after `Furnace Warden Rises`, not during the ordeal itself.
+Why this was minimal:
+- It follows the most literal reading of "the next scene."
+Impact on the run:
+- Brin's shrine greed was untaxed, but his later reliquary greed was not.
+Promotion target:
+- quest card wording
+
+RUL-10 - Threshold-10 mid-scene handling
+Issue:
+- Escalation reached `10` during `Kennel Vault`, not between scenes.
+Smallest ruling used:
+- Finish the current scene first, then reveal `Dragon in the Deep`.
+Why this was minimal:
+- It avoids interrupting a live scene with a second live scene.
+Impact on the run:
+- The transition into the final ordeal stayed readable for a human table.
+Promotion target:
+- quick start or quest card wording
+
+RUL-11 - Party-controlled versus player-owned permanents
+Issue:
+- `Blessing Brazier` explicitly enters under party control, but prestige scoring refers to player-owned cards on the field.
+Smallest ruling used:
+- Party-controlled permanents were not counted as player-owned prestige unless a scene or card explicitly transferred ownership.
+Why this was minimal:
+- It avoids silently assigning ownership that the cards do not print.
+Impact on the run:
+- `Blessing Brazier` affected play but not final individual scoring.
+Promotion target:
+- scoring rules
+
+RUL-12 - Select-target forced discards
+Issue:
+- Several cards and creatures say one player discards, but the visible rules do not consistently say who chooses that player when the card also omits a target rule.
+Smallest ruling used:
+- The table chose the most immediately sensible legal target and logged that choice when it mattered.
+Why this was minimal:
+- It kept the run moving without inventing a full threat-targeting system.
+Impact on the run:
+- The run stayed playable, but the missing targeting language remained noticeable.
+Promotion target:
+- card text cleanup

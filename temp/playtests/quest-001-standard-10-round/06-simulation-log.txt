@@ -1,0 +1,228 @@
+Quest 001 Simulation Log
+Run style: one continuous 10-round roleplay using the v0 numbers from 00-source-map.md
+Dice results used, round by round: 4, 6, 4, 1, 6, 1, 4, 6, 3, 2
+
+Starting state
+- Party HP: 14
+- Tension: 0
+- Starting hands are listed in 04-resource-pool.txt
+- Mira starts with 0 Ward and can build up through her passive
+
+ROUND-01: Goblin Sentries
+State at start: HP 14, tension 0, threat 3
+Table talk:
+- Kael: "They are barely even warm-up."
+- Tamsin: "Please do not turn warm-up into a funeral."
+Play:
+- Kael goes first and throws Quick Slash. Base 1 becomes 2 from the aggressive passive.
+- Brin spends Battle Plan on Kael, pushing him to 3 total impact.
+- No one else commits.
+- d6 roll = 4, so no change.
+Outcome:
+- Final impact 3 vs threat 3. Clear exactly.
+- Kael claims the Glory for dropping the sentries before they can shout.
+- End-of-round draws: Kael draws Finishing Blow, Brin draws Risky Shortcut, Mira draws Brace, Tamsin draws Field Dressing.
+- Mira ends with 4 cards in hand and gains 1 Ward.
+State at end: HP 14, tension 1
+
+ROUND-02: Collapsed Entry
+State at start: HP 14, tension 1, threat 4
+Table talk:
+- Mira: "Do not spend half the deck on rubble."
+- Kael: "One card. Watch."
+Play:
+- Tamsin uses the quest Scout action on herself, drawing Battle Plan and discarding Brace.
+- Scout Ahead is not needed here; she saves it.
+- Kael goes first and commits Reckless Lunge. Base 3 becomes 4 from the aggressive passive.
+- d6 roll = 6, so total impact gets +1.
+Outcome:
+- Final impact 5 vs threat 4. Clear.
+- Kael again claims the Glory because he did the whole thing himself in-fiction by leaping the blockage and breaking a weak point.
+- End-of-round draws: Kael draws Shield Breaker, Brin draws Fire Flask, Mira draws Arc Bolt, Tamsin draws Lucky Find.
+- Mira ends with 5 cards in hand and rises to 2 Ward.
+State at end: HP 14, tension 2
+
+ROUND-03: Wandering Merchant
+State at start: HP 14, tension 2, threat 4
+Table talk:
+- Brin: "Finally, someone who understands loot."
+- Tamsin: "Try not to mug the only shopkeeper in the volcano."
+Play:
+- Brin acts first with Sure Shot. Base 2 becomes 3 from the aggressive passive.
+- Tamsin follows with Battle Plan on Brin, raising him to 4 and triggering her passive draw. She draws Calm the Room.
+- The merchant encounter is treated as a normal threat check even though the fiction is social and transactional.
+- d6 roll = 4, so no change.
+Outcome:
+- Final impact 4 vs threat 4. Clear.
+- Brin claims the Glory and draws 1 from the encounter reward, taking a copy of Hidden Cache.
+- End-of-round draws: Kael draws Quick Slash, Brin draws Reckless Lunge, Mira draws Warding Sigil, Tamsin draws Brace.
+- Mira ends with 6 cards in hand and reaches 3 Ward, her cap.
+State at end: HP 14, tension 3
+
+ROUND-04: Cursed Idol
+State at start: HP 14, tension 3, threat 5
+Table talk:
+- Tamsin: "This is the first one I do not want us to improvise."
+- Brin, already rifling through his hand: "Improvising is how I found the good cards."
+- Mira: "That sentence is the reason we are about to take damage."
+Play:
+- Kael goes first with Shield Breaker. At tension 3 it stays 2, then becomes 3 from his passive.
+- Brin chooses Hidden Cache instead of helping, drawing Fire Flask and Shield Breaker.
+- Tamsin spends Battle Plan on Kael, pushing the total to 4 and drawing 1 from her passive. She draws Rally Cry.
+- d6 roll = 1, so total impact drops by 1.
+Outcome:
+- Final impact 3 vs threat 5. Shortfall 2.
+- Mira spends Brace to prevent 1 damage, but prevention does not turn the encounter into a success.
+- The party still takes 1 damage from the idol backlash.
+- No Glory is awarded.
+- End-of-round draws: Kael draws Fire Flask, Brin draws Arc Bolt, Mira draws Guard Wall, Tamsin draws Scout Ahead.
+- Mira remains at 3 Ward.
+State at end: HP 13, tension 4
+
+ROUND-05: Ash Drake Scout
+State at start: HP 13, tension 4, threat 6
+Table talk:
+- A drake scream echoes deeper in the ruin.
+- Kael grins. Mira does not.
+Play:
+- Kael goes first with Fire Flask. Base 2 becomes 3 from his passive.
+- Brin adds Arc Bolt for +2, bringing the total to 5.
+- Tamsin uses her active on Kael for +1 impact, and promises him the claim if he keeps the drake away from the group.
+- d6 roll = 6, so total impact gets +1.
+Outcome:
+- Final impact 7 vs threat 6. Clear.
+- Kael claims the Glory.
+- Because Tamsin's active helped clear the encounter, both Kael and Tamsin draw 1. Kael draws Torch Jab. Tamsin draws Battle Plan.
+- End-of-round baseline draws: Kael draws Finishing Blow, Brin draws Shield Breaker, Mira draws Lucky Find, Tamsin draws Field Dressing.
+- End-of-round threshold: tension rises to 5, triggering "The dragon stirs." All later encounters gain +1 threat.
+- Mira remains at 3 Ward.
+State at end: HP 13, tension 5
+
+ROUND-06: Falling Causeway
+State at start: HP 13, tension 5, printed threat 6, live threat 7 after quest escalation
+Table talk:
+- The stone bridge shakes, the lava beneath it bright enough to light every bad decision.
+- Kael: "I can punch the line open."
+- Mira: "You cannot punch a bridge."
+- Kael: "You do not know that."
+Play:
+- Kael goes first with Torch Jab. Base 1 becomes 2 from his passive.
+- He also uses Overextend for +2, taking the total to 4.
+- Tamsin uses Battle Plan on Kael for +1, drawing 1 from her passive. She draws Rally Cry.
+- Brin chooses another Hidden Cache line instead of committing impact, drawing Sure Shot and Finishing Blow.
+- d6 roll = 1, so total impact drops by 1.
+Outcome:
+- Final impact 4 vs threat 7. Shortfall 3.
+- Because Kael overextended and the encounter still failed, add +1 extra party damage.
+- Mira uses Guard Wall to prevent 2 damage.
+- Final party damage taken: 2.
+- No Glory is awarded.
+- End-of-round draws: Kael draws Shield Breaker, Brin draws Shield Breaker, Mira draws Hidden Cache, Tamsin draws Lucky Find.
+- Mira stays at 3 Ward because her hand is still loaded.
+State at end: HP 11, tension 6
+
+ROUND-07: Captive Pilgrim
+State at start: HP 11, tension 6, printed threat 7, live threat 8
+Table talk:
+- Tamsin: "If we save the pilgrim, we get an ally. If we don't, the dungeon gets another corpse."
+- Brin: "If we save the pilgrim and I claim the reward, everyone wins."
+- Kael: "That is not what 'everyone' means."
+Play:
+- Brin goes first with Shield Breaker. At tension 6 it becomes 3, then 4 from his aggressive passive.
+- Tamsin uses her active on Brin for +1, taking him to 5 and setting up a draw for both of them if the party clears.
+- Mira contributes Arc Bolt for +2.
+- Kael adds Quick Slash for +1.
+- d6 roll = 4, so no change.
+Outcome:
+- Final impact 8 vs threat 8. Clear exactly.
+- Brin claims the Glory, which also counts toward his high-tension agenda.
+- Encounter reward heals the party for 1.
+- Because Tamsin's active helped clear, Brin and Tamsin each draw 1. Brin draws Fire Flask. Tamsin draws Calm the Room.
+- End-of-round draws: Kael draws Reckless Lunge, Brin draws Torch Jab, Mira draws Brace, Tamsin draws Battle Plan.
+- Mira stays at 3 Ward.
+State at end: HP 12, tension 7
+
+ROUND-08: Fire Cult Ambush
+State at start: HP 12, tension 7, printed threat 7, live threat 8
+Table talk:
+- Cultists pour oil across the flagstones.
+- Kael: "Now this is a real room."
+- Tamsin: "That is exactly the wrong sentence to say while standing in oil."
+Play:
+- Kael goes first with Fire Flask. At high tension it still hits for 2, then becomes 3 from his passive.
+- Brin contributes Sure Shot for +2, bringing the total to 5.
+- Tamsin fires Rally Cry. Because at least two players committed cards, total impact rises by 2 to 7.
+- d6 roll = 6, so total impact gets +1.
+Outcome:
+- Final impact 8 vs threat 8. Clear.
+- Kael claims the Glory.
+- Fire Flask heals the party for 1 because tension is 7 or higher.
+- End-of-round draws: Kael draws Arc Bolt, Brin draws Battle Plan, Mira draws Warding Sigil, Tamsin draws Field Dressing.
+- Mira stays at 3 Ward.
+State at end: HP 13, tension 8
+
+ROUND-09: Molten Vault
+State at start: HP 13, tension 8, printed threat 8, live threat 9
+Table talk:
+- Brin is already halfway through the door before anyone agrees on a plan.
+- Mira: "If this explodes, I want it on the record that I objected."
+- Tamsin: "Noted. Now help him before his agenda kills us."
+Play:
+- Brin goes first with Shield Breaker. At tension 8 it becomes 3, then 4 from his passive.
+- Kael follows with Finishing Blow for +3, taking the total to 7.
+- Tamsin uses her active on Brin for +1, taking the total to 8.
+- Mira chooses Hidden Cache over direct impact and draws Guard Wall and Lucky Find.
+- Brin uses Overextend for +2, bringing the total to 10.
+- d6 roll = 3, so no change.
+Outcome:
+- Final impact 10 vs threat 9. Clear.
+- Brin claims the Glory and also draws 1 from the encounter reward, taking a copy of Fire Flask.
+- Because Tamsin's active helped clear, Brin and Tamsin each draw 1. Brin draws Arc Bolt. Tamsin draws Brace.
+- End-of-round baseline draws: Kael draws Shield Breaker, Brin draws Reckless Lunge, Mira draws Hidden Cache, Tamsin draws Scout Ahead.
+- Mira stays at 3 Ward.
+State at end: HP 13, tension 9
+
+ROUND-10: Dragon in the Deep
+State at start: HP 13, tension 9, printed threat 10, live threat 11
+Table talk:
+- The dragon tears loose enough to fill the chamber with wingbeats and chainfire.
+- Kael: "Finally."
+- Mira: "If this is one test and then it is over, the dragon is underbuilt."
+- Tamsin: "Excellent note. Survive first."
+Play:
+- Kael goes first with Shield Breaker. At tension 9 it becomes 3, then 4 from his passive.
+- Kael also declares Overextend for +2, taking the running total to 6.
+- Brin commits Reckless Lunge for +3, taking the total to 9.
+- Tamsin uses Battle Plan on Kael for +1, taking the total to 10 and drawing 1 from her passive. She draws Lucky Find.
+- Mira finally cashes in Arc Bolt for +2, taking the total to 12.
+- d6 roll = 2, so total impact drops by 1.
+Outcome:
+- Final impact 11 vs threat 11. Clear exactly.
+- Kael claims the final 2 Glory for landing the decisive strike while Brin distracts the dragon and Mira drops the chain anchor with magic.
+- Because there is no monster HP or second stage in this run, the dragon resolves in one burst and the quest ends immediately.
+- End state hands:
+  - Kael: 2 cards
+  - Brin: 5 cards
+  - Mira: 9 cards plus 3 Ward
+  - Tamsin: 6 cards
+State at end: HP 13, tension 10
+
+Postgame scoring snapshot
+- Kael Glory: 5 total (Rounds 1, 2, 5, 8, 10 boss for 2)
+- Brin Glory: 3 total (Rounds 3, 7, 9)
+- Tamsin Glory: 0
+- Mira Glory: 0
+
+Agenda check
+- Kael / Slayer: succeeded. He was the clear top contributor on at least Rounds 1, 2, 5, 8, and 10.
+- Brin / Opportunist: succeeded. He claimed rewards at tension 7 or higher in Rounds 7 and 9.
+- Mira / Hoarder: succeeded. She ended with the largest hand plus Ward total by a wide margin.
+- Tamsin / Caretaker: succeeded. The party survived above half HP and she materially enabled prevention and healing across several rounds.
+
+Immediate feel summary
+- Shared party HP was easy to understand and kept table tension focused.
+- Starting hand 3 plus baseline draw 1 gave plenty of options once extra draw cards started appearing.
+- Aggressive classes came online immediately.
+- Support felt useful by round 3.
+- Defensive felt real only once the damage-prevention economy mattered.
+- The boss worked as a stress test for numbers, but not as a satisfying final structure.

@@ -1,0 +1,20 @@
+Entity Cards Used In This Simulation
+
+Enemy entities
+- Ash Imp: HP 2, Attack 1. If it survives the scene, it scorches 1 party HP.
+- Goblin Skulker: HP 2, Attack 1. On hit, the claimant of the scene loses 1 card.
+- Orc Raider: HP 3, Attack 2. On hit, one player discards 1.
+- Ogre Brute: HP 5, Attack 3. If it survives a scene, tension +1.
+- Brood Wyrm: HP 4, Attack 2. On reveal, tension +1.
+- Chainbound Head: HP 5, Attack 2. Boss stage 1.
+- Heartfire Dragon: HP 6, Attack 3. Boss stage 2. On reveal, each player either discards 1 or the party takes 1.
+
+Persistent scene cards
+- Clinging Miasma: Durability 2. At end of each scene, the player with the most cards discards 1 unless someone spends a magical or support action to dispel it.
+- Heavy Door: Durability 4. While closed, the scene's reward cannot be claimed.
+
+Allied entities
+- Cinder Familiar: HP 1. Exhaust for +1 on an arcane action or scout.
+- Tin Golem: HP 3. Exhaust to prevent 1 damage to party HP.
+- Lantern Sprite: HP 1. Exhaust so another player draws 1, then discards 1.
+- Grave Hound: HP 2. Exhaust for +1 damage if attacking a target another player also attacked.

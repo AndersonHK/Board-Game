@@ -1,0 +1,47 @@
+Event Sequence For Quest 004
+
+1. Camp at the Sealed Stair
+- Prep scene only.
+- No hostile spawns, but the standard round structure still applies.
+
+2. Soot-Stall Trader
+- Social scene.
+- Players may haggle, scout, or take selfish setup lines.
+
+3. Kennel Break
+- Exact-name danger scene.
+- Spawn 1 Goblin Chieftain and 2 Goblin Warriors.
+
+4. Cracked Causeway
+- Hazard scene.
+- Each player attempts a save or loses 1 card to the collapse.
+- The scene is fully cleared only after someone secures the crossing.
+
+5. Shrine of Echoes
+- Temptation scene.
+- Greedy reward choices can awaken Ash Miasma as a persistent enchantment.
+
+6. Bound Pilgrim
+- Rescue scene.
+- Rusted Chains count as a blocking hurdle.
+- If Ash Miasma still exists, it remains part of the scene until removed.
+
+7. Kennel Vault
+- Criteria-based danger scene.
+- Spawn 1 Threat 2 humanoid and 2 Threat 1 beasts by creature-deck order.
+- Iron Gate also seals the exit and reward.
+
+8. Continue Kennel Vault If Unresolved
+- Do not reveal a new encounter.
+- Do not grant another default mid-encounter draw.
+- Clear remaining creatures and blocking cards before the descent can continue.
+
+9. Brood Wyrm Hunt
+- Danger scene.
+- Spawn 1 Brood Wyrm.
+- On reveal, escalation +1.
+
+10. Dragon in the Deep
+- Final ordeal.
+- Resolve Chainbound Head first, then Heartfire Dragon.
+- At escalation 10, the normal two-turn cap no longer applies.

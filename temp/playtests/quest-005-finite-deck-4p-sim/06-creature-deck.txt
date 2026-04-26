@@ -1,0 +1,48 @@
+Session Creature Reserve And Criteria Order
+
+Session build rule:
+- Use one copy of each unique creature definition.
+- Add one extra `Ember Bat` instance because `Ember-Bell Nursery` explicitly needs two.
+- Treat the creature layer as a searchable reserve for exact named summons and encounter spawns.
+
+Top-to-bottom criteria order used in this session:
+1. Smoke Seer
+2. Gray Wolf
+3. Ember Bat A
+4. Ember Bat B
+5. Ash Cultist
+6. Goblin Chieftain
+7. Goblin Bruiser
+8. Goblin Cutthroat
+9. Dire Wolf
+10. Furnace Hound
+11. Orc Raider
+12. Skeletal Porter
+13. Cinder Knight
+14. Ash Ogre
+15. Rusted Chains
+16. Iron Gate
+17. Blessing Brazier
+18. Ash Miasma
+19. Warding Circle
+20. Greedfire Vow
+21. Cinder Familiar
+22. Grave Hound
+23. Tin Golem
+24. Ashen Warden
+25. Chainbound Head
+26. Heartfire Dragon
+
+Why this order mattered:
+- `Kennel Vault` asked for `1 Threat 2 humanoid and 2 Threat 1 beasts`.
+- In this reserve order, that produced:
+  - `Smoke Seer` for the Threat 2 humanoid slot
+  - `Gray Wolf` for the first Threat 1 beast slot
+  - `Ember Bat A` for the second Threat 1 beast slot
+
+Exact named spawns used in this session:
+- `Ember-Bell Nursery` -> `Ash Cultist`, `Ember Bat A`, `Ember Bat B`
+- `Furnace Warden Rises` -> `Ashen Warden`
+- `Bound Pilgrim` -> `Rusted Chains`
+- `Reliquary of Cinders` -> `Blessing Brazier`, `Ash Miasma`
+- `Dragon in the Deep` -> `Chainbound Head`, then `Heartfire Dragon`

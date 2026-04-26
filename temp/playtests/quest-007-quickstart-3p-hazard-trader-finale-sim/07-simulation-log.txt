@@ -1,0 +1,361 @@
+Quest 007 Simulation Log
+Run style: quickstart-first, canonical-card session with explicit logging of player-visible procedure gaps
+Dice results consumed in order: 2, 5, 1, 4, 5, 1, 5, 3, 1, 4, 2, 3, 1, 5, 4, 6, 2, 5, 3, 6, 2, 4, 5
+
+Starting state
+- Party HP: 18
+- Escalation: 0
+- Hand limits: Merek 6, Selene 12, Oren 6
+- Fixed player order: Merek -> Selene -> Oren
+
+ROUND-01: Camp At The Sealed Stair
+State at start: HP 18, escalation 0
+Scene:
+- The quest says to begin at escalation 0 with a prep scene instead of a hostile battle.
+Action Turn 1:
+- Merek plays Summon Cinder Familiar and puts Cinder Familiar on his field.
+- Selene plays Hidden Stash and draws Prepared Ground plus Arc Bolt.
+- Oren holds his support cards because no save, discard, or combat test has appeared yet.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Merek draws Shield Breaker.
+- Selene draws Summon Tin Golem.
+- Oren draws Chain Cutter.
+Action Turn 2:
+- Selene plays Prepared Ground under her control.
+- Merek and Oren hold cards for the descent.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The prep scene has no hostile or blocking hurdles, so it clears.
+- Escalation rises to 1.
+
+ROUND-02: Smoke-Flood Gallery
+State at start: HP 18, escalation 1
+Scene:
+- Each player either discards 1 card or makes the party take 1 damage.
+- Merek discards Field Bandage.
+- Selene chooses discard, then spends Smoke Route to cancel that forced discard.
+- Oren discards Mercy Prayer.
+Action Turn 1:
+- Selene uses Study the Signs for +2 to her next non-combat test this turn.
+- Selene attempts to vent the gallery, rolls `2`, adds +2, reaches `4`, and succeeds.
+- Merek and Oren save their actions because the blocking hurdle is gone.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Merek draws Last Step.
+- Selene draws Quick Slash.
+- Oren draws Rally Push.
+Action Turn 2:
+- Merek does not play Field Bandage because it is in the discard pile.
+- Oren keeps Rally Push for the first monster room.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The scene was cleared this round, so one player may return 1 card from graveyard to hand.
+- The table treats `graveyard` as discard pile. Merek returns Field Bandage.
+- Escalation rises to 2.
+
+ROUND-03: Kennel Break
+State at start: HP 18, escalation 2
+Scene:
+- Spawn Goblin Chieftain, Goblin Bruiser, and Goblin Cutthroat.
+Action Turn 1:
+- Oren uses Battle Prayer on Merek.
+- Merek uses the Warrior active with the support bonus for 3 damage to Goblin Chieftain.
+- Selene holds Arc Bolt because the Chieftain is already nearly dead and she does not want to hand Merek the obvious passive draw too early.
+Enemy Turn 1:
+- Goblin Chieftain attacks first. Cinder Familiar is a legal friendly creature target, so the Chieftain attacks it. Prepared Ground reduces the first hostile creature attack this scene by 1, but the boosted Chieftain attack still defeats Cinder Familiar.
+- Goblin Bruiser attacks the party for 1.
+- Goblin Cutthroat attacks the party for 1.
+- Party HP drops to 16.
+Mid-round draw:
+- Merek draws Arc Bolt.
+- Selene draws Blood Price Burst.
+- Oren draws Battle Prayer.
+Action Turn 2:
+- Merek uses Quick Slash on Goblin Chieftain for 1 damage and defeats it.
+- Merek rolls `1` for the Warrior passive on a Threat 2 Elite monster and draws Hidden Stash.
+- Selene holds Blood Price Burst because paying party HP into two small goblins feels wasteful.
+- Oren uses a basic attack on Goblin Cutthroat for 1 damage.
+Enemy Turn 2:
+- Goblin Bruiser attacks the party for 1.
+- Goblin Cutthroat attacks the party for 1.
+- Party HP drops to 14.
+End of round:
+- The scene is unresolved, so escalation rises to 3.
+- Kennel Break failure text gives each surviving goblin +1 Attack next round.
+
+ROUND-04: Continue Kennel Break
+State at start: HP 14, escalation 3
+Scene:
+- Goblin Bruiser has 1 damage on it and +1 Attack this round.
+- Goblin Cutthroat has 1 damage on it and +1 Attack this round.
+Action Turn 1:
+- Merek uses the Warrior active to deal 2 damage to Goblin Bruiser and defeats it.
+- Merek rolls `5` for the Warrior passive on a Threat 1 Common monster and fails to draw.
+- Selene uses Quick Slash to deal 1 damage to Goblin Cutthroat, defeating it.
+- Oren does not get the last hostile, but his previous basic attack set it up.
+Enemy Turn 1:
+- No enemy actions remain.
+Reward:
+- Kennel Break rewards the player who defeats the last hostile creature. Selene draws Hidden Stash.
+Mid-round draw:
+- Merek draws Summon Grave Hound.
+- Selene draws Field Bandage.
+- Oren draws Smoke Route.
+Action Turn 2:
+- Merek plays Hidden Stash from hand and draws Greedfire Vow plus Chain Cutter.
+- Selene holds her larger hand.
+- Oren keeps Rally Push and Battle Prayer ready.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Merek claims Goblin Chieftain.
+- Merek claims Goblin Bruiser.
+- Selene claims Goblin Cutthroat.
+- The scene is clear, so escalation rises to 4.
+
+ROUND-05: Soot-Stall Trader
+State at start: HP 14, escalation 4
+Scene:
+- Trader stock revealed: Greedfire Vow, Chain Cutter, Quick Slash, Field Bandage, Summon Tin Golem.
+Action Turn 1:
+- Merek uses Haggle, rolls `1`, discards Field Bandage, then trades Arc Bolt for Quick Slash.
+- Selene makes a direct trade, swaps Quick Slash for Greedfire Vow, and keeps her long-game plan alive.
+- Oren uses Haggle, rolls `5`, and trades Lockpick Kit for Chain Cutter plus Field Bandage.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Merek draws Dispel Draft.
+- Selene draws Hidden Stash.
+- Oren draws Battle Prayer.
+Action Turn 2:
+- Selene plays Summon Tin Golem, discards Warding Circle as the cost, and puts Tin Golem under her control.
+- Merek keeps Shield Breaker for a real blocker.
+- Oren holds his support hand.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- All players used their trader interaction, so the scene clears.
+- Escalation rises to 5.
+- Furnace Warden Rises is queued as the next scene.
+
+ROUND-06: Furnace Warden Rises
+State at start: HP 14, escalation 5
+Scene:
+- Ashen Warden enters play.
+Action Turn 1:
+- Selene uses the Wizard active to place 2 shield tokens on the party.
+- Merek plays Blood Price Burst, pays 1 party HP, and deals 4 damage to Ashen Warden.
+- Oren keeps Rally Push for the kill window.
+- Party HP is 13 after Blood Price Burst.
+Enemy Turn 1:
+- Ashen Warden uses Furnace Sweep, removing both party shields.
+- It then attacks Tin Golem because Tin Golem is a legal friendly creature target.
+- Prepared Ground reduces the first hostile creature attack this scene by 1, so Tin Golem takes 1 damage.
+Mid-round draw:
+- Merek draws Last Step.
+- Selene draws Study the Signs.
+- Oren draws Mercy Prayer.
+Action Turn 2:
+- Oren uses Rally Push on Merek and Selene.
+- Merek uses the Warrior active with +1 damage and defeats Ashen Warden.
+- Merek rolls `4` for the Warrior passive against a Threat 3 Elite monster and draws Chain Cutter.
+- Selene uses the remaining Rally Push bonus on no target because the boss is already down.
+Reward:
+- Each player draws 1 card: Merek -> Field Bandage, Selene -> Warding Circle, Oren -> Dispel Draft.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Merek claims Ashen Warden.
+- The scene is clear, so escalation rises to 6.
+- Starting with the next scene, the threshold-5 reward-draw tax is active.
+
+ROUND-07: Cracked Causeway
+State at start: HP 13, escalation 6
+Scene:
+- Each player makes a save. On a failed save, that player loses 1 card.
+Immediate saves:
+- Merek rolls `3` and would fail.
+- Oren uses the Cleric passive to add +1, flipping the result to `4`.
+- Merek chooses Shield Breaker as the card he would have lost, and it goes into Oren's hand instead.
+- Selene rolls `1` and would fail; she spends Smoke Route to cancel the forced discard.
+- Oren rolls `5` and succeeds.
+Action Turn 1:
+- Selene uses Study the Signs for +2 to her next non-combat test this turn.
+- Selene attempts to secure the crossing, rolls `4`, adds +2, and clears the blocking hurdle.
+- Merek and Oren hold their cards.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Merek draws Quick Slash.
+- Selene draws Summon Cinder Familiar.
+- Oren draws Mercy Prayer.
+Action Turn 2:
+- Merek plays Field Bandage after the scene is cleared and heals 2 party HP.
+- Party HP rises to 15.
+- Oren keeps Dispel Draft for the next enchantment.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The scene reward lets one player scout the top card of the encounter deck. Selene scouts Shrine of Echoes.
+- The scene is clear, so escalation rises to 7.
+
+ROUND-08: Shrine of Echoes
+State at start: HP 15, escalation 7
+Scene:
+- The shrine bargain is available once per player.
+- Merek takes the bargain, draws Battle Prayer, then discards Chain Cutter.
+- Selene takes the bargain, draws Lockpick Kit, then discards Study the Signs.
+- Oren takes the bargain, draws Hidden Stash, then discards Chain Cutter.
+- Because 2 or more players took the bargain, Ash Miasma spawns.
+Action Turn 1:
+- Oren considers using Dispel Draft but holds it, betting that the party can carry the problem one room and still profit from the extra cards.
+- Selene plays Greedfire Vow, pays 1 party HP, and puts it under her control.
+- Merek keeps Dispel Draft in hand rather than cleaning up the consequence of a bargain everyone chose.
+- Party HP drops to 14.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Merek draws Shield Breaker.
+- Selene draws Field Bandage.
+- Oren draws Dispel Draft.
+Action Turn 2:
+- Nobody removes Ash Miasma.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The bargain is resolved, but Ash Miasma remains.
+- The table uses Shrine of Echoes' failure text as a carry-over exception: Ash Miasma stays in play for the next scene.
+- Because the scene was not cleanly cleared, escalation rises to 8.
+- Ash Miasma makes Selene, the player with the most cards, discard 1 card. Selene discards Field Bandage.
+
+ROUND-09: Bound Pilgrim
+State at start: HP 14, escalation 8
+Scene:
+- Rusted Chains spawns.
+- Ash Miasma remains from Shrine of Echoes.
+Action Turn 1:
+- Oren uses Dispel Draft to remove Ash Miasma.
+- Merek uses Shield Breaker, discards Quick Slash, and deals 3 damage to Rusted Chains, clearing it.
+- Selene holds her action after the rescue clear.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Merek draws Arc Bolt.
+- Selene draws Rally Push.
+- Oren draws Mercy Prayer.
+Action Turn 2:
+- Merek is the active player who completed the rescue clear, so he takes Bound Pilgrim's heal and restores 1 party HP.
+- Party HP rises to 15.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Merek claims Rusted Chains.
+- The scene is clear, so escalation rises to 9.
+
+ROUND-10: Kennel Vault
+State at start: HP 15, escalation 9
+Scene:
+- Criteria spawn from the creature deck: Orc Raider, Ember Bat, and Gray Wolf.
+- Iron Gate also enters play.
+- Threshold 8 is active, so the first hostile creature attack this scene gets +1 Attack.
+Action Turn 1:
+- Oren uses Battle Prayer on Merek.
+- Merek uses the Warrior active with +1 damage to deal 3 damage to Orc Raider, defeating it.
+- Merek rolls `2` for the Warrior passive on a Threat 2 Common monster and draws Warding Circle.
+- Selene uses Arc Bolt to kill Ember Bat.
+Enemy Turn 1:
+- Gray Wolf is the first hostile creature to attack this scene, so threshold 8 raises its Attack from 1 to 2.
+- Prepared Ground reduces that first hostile attack back to 1.
+- Gray Wolf attacks Tin Golem because it is a legal friendly creature target.
+- Tin Golem takes 1 more damage and now has 2 damage on it.
+- Gray Wolf's discard rider does not trigger because Oren used a support effect this turn.
+Mid-round draw:
+- Merek draws Quick Slash.
+- Selene draws Blood Price Burst.
+- Oren draws Battle Prayer.
+Action Turn 2:
+- Selene plays Blood Price Burst, pays 1 party HP, and deals 4 damage to Iron Gate, clearing it.
+- Merek uses Quick Slash to deal 1 damage to Gray Wolf.
+- Oren uses a basic attack to deal the final 1 damage to Gray Wolf.
+Reward:
+- Oren cleared the last remaining hurdle, so he draws Summon Grave Hound from Kennel Vault's reward.
+- Oren is the first player this scene to gain an extra reward draw, so the threshold-5 tax makes him discard Field Bandage.
+Enemy Turn 2:
+- No enemy actions remain.
+End of round:
+- Merek claims Orc Raider.
+- Selene claims Ember Bat and Iron Gate.
+- Oren claims Gray Wolf.
+- The scene is clear, so escalation rises to 10.
+- Dragon in the Deep is revealed next.
+- Party HP is 14 after Blood Price Burst.
+
+ROUND-11: Dragon In The Deep
+State at start: HP 14, escalation 10
+Scene:
+- Stage 1 is Chainbound Head.
+- When Chainbound Head is defeated, Heartfire Dragon spawns.
+Action Turn 1:
+- Oren uses Battle Prayer on Merek.
+- Merek plays Shield Breaker, discards Last Step, and deals 4 damage to Chainbound Head.
+- Selene uses a basic attack for 1 damage and defeats Chainbound Head.
+- Selene claims Chainbound Head.
+- Heartfire Dragon spawns immediately.
+Enemy Turn 1:
+- Heartfire Dragon uses Dragon's Breath and still attacks.
+- Merek rolls `6`; the party takes 1 damage instead of Merek discarding.
+- Selene rolls `2`; Selene discards 1 card.
+- Oren rolls `4`; Oren discards 1 card.
+- Party HP drops to 13 from Dragon's Breath.
+- Heartfire Dragon attacks Tin Golem for 3 because Tin Golem is a legal friendly creature target.
+- Tin Golem is defeated, preventing the party from taking that attack.
+Mid-round draw:
+- Merek draws Prepared Ground.
+- Selene draws Summon Tin Golem.
+- Oren draws Lockpick Kit.
+Action Turn 2:
+- Selene uses the Wizard active to place 2 shield tokens on the party.
+- Oren uses Battle Prayer on Merek.
+- Merek uses the Warrior active with +1 damage to deal 3 damage to Heartfire Dragon.
+Enemy Turn 2:
+- Heartfire Dragon uses Dragon's Breath and still attacks.
+- Merek rolls `5`; the party takes 1 damage instead of Merek discarding.
+- Selene rolls `3`; Selene discards 1 card.
+- Oren rolls `6`; the party takes 1 damage instead of Oren discarding.
+- Party HP drops from 13 to 11.
+- Heartfire Dragon attacks the party for 3.
+- The 2 shield tokens absorb 2 damage.
+- Party HP drops to 10.
+Escalation-10 continuation:
+- The normal two-turn cap is gone, so the ordeal continues without another mandatory draw.
+Ordeal Turn 3:
+- Oren uses his Cleric active to heal 1 party HP before the next breath cycle.
+- Party HP rises to 11.
+- Selene plays Blood Price Burst, pays 1 party HP, and deals 4 damage to Heartfire Dragon.
+- Heartfire Dragon has 7 total damage.
+- Merek uses Arc Bolt for 1 damage, defeating Heartfire Dragon.
+- Merek claims Heartfire Dragon and rolls `5` for the Warrior passive against a Threat 3 Elite monster. The draw succeeds, but the game ends.
+
+End-state
+- Party HP: 10
+- The party survives and wins the quest.
+
+End-state scoring snapshot
+- Merek: Treasure Points 6, Glory Points 19, agenda reward 20, total 45 prestige.
+- Selene: Treasure Points 17, Glory Points 10, agenda reward 20, total 47 prestige.
+- Oren: Treasure Points 7, Glory Points 1, agenda reward 20, total 28 prestige.
+
+Agenda check
+- Merek / Ashes to Ashes: succeeded. His claimed hostile Treasure Value is 19.
+- Selene / Prepared Beyond Reason: succeeded. Her hand plus owned field Treasure Value is 17.
+- Oren / By My Grace: succeeded by run-only `shared-success moment` ruling. He flipped Merek's Cracked Causeway save, enabled Merek's Ashen Warden kill with Rally Push, enabled Merek's Orc Raider kill with Battle Prayer, and enabled the final dragon damage line with Battle Prayer.
+
+Immediate feel summary
+- The current quickstart carried most of the session cleanly, especially claiming, ownership, active player, current claimant, and final-ordeal cadence.
+- The highest-friction player-facing issues were no longer the core round loop; they were card-specific phrases that sound clear until players must score or sequence them.
+- Selene won narrowly because Wizard storage plus Greedfire Vow and retained cards outscored Merek's huge Glory pile by 2 points.

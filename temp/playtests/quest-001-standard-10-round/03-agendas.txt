@@ -1,0 +1,17 @@
+Secret Agenda Deck: Prototype Cards For This Run
+
+Agenda Templates
+- Slayer: gain 3 bonus points if you are top contributor on 3 or more cleared encounters
+- Hoarder: gain 3 bonus points if you end with the most cards plus Wards combined
+- Caretaker: gain 3 bonus points if the party survives above half HP and you prevented or healed 4 or more damage total
+- Opportunist: gain 3 bonus points if you claim 2 or more rewards at tension 7 or higher
+
+Hidden Assignments Used For The Simulation
+- Kael -> Slayer
+- Brin -> Opportunist
+- Mira -> Hoarder
+- Tamsin -> Caretaker
+
+Scoring Reminder
+- These agendas layer on top of the provisional Glory system defined in the rulings log.
+- Everyone still loses if the party dies.

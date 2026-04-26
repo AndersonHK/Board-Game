@@ -9,7 +9,7 @@ This file is the long-term memory for the project. It should retain the durable 
 - Collaboration model: user provides the evolving vision; Codex helps design, document, structure, and iterate
 - Delivery strategy: build a nearly complete minimal horizontal slice first, then turn it into a fully playable vertical slice
 - Art plan: use fully AI-generated art that the user can print for the physical game
-- Current phase: early concept definition and inspiration research
+- Current phase: early concept definition, rules correction, and simulation-driven prototyping
 
 ## Current Understanding
 
@@ -20,6 +20,38 @@ Later on 2026-04-20, the user added the first real concept brief. The game shoul
 The game is intended to be system-agnostic across theme packs. The same mechanical skeleton should support fantasy, sci-fi, steampunk, grimdark, and similar settings, while the flavor names and presentation change. For the first vertical-slice demo, the user is leaning toward a classic D&D-like fantasy setting. A fuller evolving brief is tracked in [design/core-concept.md](./design/core-concept.md), current class identity notes live in [design/class-archetypes.md](./design/class-archetypes.md), and the deck model lives in [design/deck-architecture.md](./design/deck-architecture.md).
 
 Later on 2026-04-20, the user corrected the component structure: the game actually has four decks or deck-like systems, not three. The four are the [world or quest system](./design/deck-architecture.md#world--quest-system), [encounter deck](./design/deck-architecture.md#encounter-deck), [resource-artifact-action deck](./design/deck-architecture.md#resource--artifact--action-deck), and [secret agenda deck](./design/deck-architecture.md#secret-agenda-deck). The game has no explicit traitor. All players are in the same party and share the lose condition of survival, but each player also has a secret agenda and wants to finish with the most points. The current round-flow hypothesis and escalation model are tracked in [design/round-structure.md](./design/round-structure.md).
+
+Later on 2026-04-20, the user corrected a more important misunderstanding in the earlier prototype framing. Encounter cards should not be treated as fixed threat-value cards. They are event or scene cards that may spawn monster cards, force save throws, trigger discards, create bargains, or open preparation windows. Monster cards and player-controlled allied entities such as familiars or golems should likely share a common rules grammar rather than becoming a separate fifth core deck immediately. The action deck should include both battle tools and selfish setup cards that can be used outside battle, so a greedy player can spend time improving their own future position instead of merely skipping help. The desired experience is emergent relationship storytelling: players should feel invested in who was brave, selfish, rescued, indebted, or resentful by the end of the story.
+
+Later that same day, the user clarified that the same event can scale across escalation bands by spawning different enemy cards, such as goblins at low tension, orcs at mid tension, and an ogre at high tension. The user also asked us to design toward the possibility of an auxiliary enemy or entity reserve that could hold monster cards, persistent obstacles like heavy doors, and persistent enchantments like miasma. After that, the user formalized a real [creature deck](../defines/creature-deck.md) and a canonical [core round structure](../defines/core-rules.md): starting hand 3, hand limit 6, standard rounds use two action turns, players act first and enemy monsters act after them in each half of the round, every player and enemy monster takes an action each turn if able, the standard draw happens between turns 1 and 2 once per round and still happens at round end if that window was skipped, unresolved hurdles raise escalation at round end, round-end effects from cards are then triggered, and escalation 10 removes the normal turn cap.
+
+Later still, the user cleaned up the creature-deck wording. Encounters should not use abstract level-based creature packages. Instead, encounter cards either name exact creature cards or specify valid card types, and players then go through the creature deck in order to take the first cards that satisfy the criteria. The user also asked that [defines](../defines/README.md) stay rulebook-like and avoid design-rationale language; broader pacing and interpretation notes should live in the design docs instead.
+
+Later still, the user refined the spawn examples again. The `Ashen Ambush` example should keep its high-escalation `Ogre Brute`, while the medium-escalation example should demonstrate criteria-based spawning with strength references instead of named cards. The user also suggested a likely future creature taxonomy: monsters may carry a threat or strength value, and each rough band may eventually split into a simpler minor versus elite or normal versus major distinction, with round-end effects being much more common on the stronger side of that split. That taxonomy is not yet canonical defines text, but it is now part of the active design direction in [design/deck-architecture.md](./design/deck-architecture.md).
+
+On 2026-04-21, the user asked for a design pass before more canonical `defines/` work. The next focus is naming the three archetypes, drafting rule definitions for each, and using the latest simulated match to inform balancing questions before promotion. The user specifically wants the late-game wizard-like archetype to have a hand limit of 12 instead of 6, the aggressive warrior-like archetype to have a chance to gain a card from monster last hits based on monster threat or strength, and both monster cards and player resource cards to share exactly two rarity types. The user also stated a stronger economic directive: card "cost" should primarily come from discards and sacrifices, with stronger cards being more expensive and weaker cards being more immediate. Research for that direction now lives in [research/yugioh-tribute-and-mtg-discard-costs.md](./research/yugioh-tribute-and-mtg-discard-costs.md), and the current draft design synthesis lives in [design/card-economy-and-rarity.md](./design/card-economy-and-rarity.md). These ideas are being documented for debate first and are not yet canonical `defines/` text.
+
+Later the same day, the user narrowed several of those debate points. The archetype names should remain fantasy-facing, but feel more like player style descriptors than abstract mechanic labels. The late-game wizard-like archetype's hand limit of 12 should apply from the start of the game. The aggressive archetype's reward should be a normal draw, should scale using both monster strength and rarity, and should currently be eligible on every monster kill. For the support archetype, the user pointed back to the earlier cleric-style example already echoed by Quest 003's rescue pattern: when support flips another player's failed save into a success, a card that player would have lost can go to the support player's hand instead of the discard pile. The remaining debate now centers less on broad direction and more on final names, reward probabilities, and exact wording.
+
+Later still on 2026-04-21, the user clarified more of the intended structure. The helped player, not the cleric, should choose which saved card transfers to the support player's hand. The late-game hand-cap archetype should keep the normal starting hand recommendation while gaining the larger cap from the start. The aggressive class should treat kills from its own action cards, creature cards, and class-trait damage as valid for its last-hit passive, and the user wants it to gain a new active trait that deals 1 damage once per turn. For now, the reward curve should span a full d6 ladder from roughly 1-in-6 on weak common monsters up to near-guaranteed or guaranteed draws on strong elite monsters. The user also wants the presentation layer to reflect three escalation zones on the printed tracker, colored green, yellow, and red, with a skull marker at 10, and tiny red circular damage tokens to track HP.
+
+Later still on 2026-04-21, the user proposed a cleaner expression for the aggressive reward model: use `rarity multiplier x monster threat` as the success threshold on a d6, which naturally creates a `1` through `6` reward ladder across common versus elite monsters and the three planned threat tiers. The user also approved the current internal style-label recommendation of `Daring`, `Patient`, and `Nurturing`, while keeping the player-facing fantasy class names for the vertical slice. In addition, the future Quick Start Guide should be written purely for players inside the fantasy presentation. It should not refer to internal design names or developer-facing abstractions. Instead, it should directly teach setup, quest selection, class selection, class traits, starting draws, round flow, turn structure, and card actions in straightforward human-readable terms.
+
+Later still on 2026-04-21, the user confirmed that the strongest aggressive reward band can be fully guaranteed. A `Threat 3 Elite` monster may therefore reach `6` out of `6` on the reward roll. The user also required that all formulas and mechanics be stated explicitly in player-facing materials because players must compute them directly with dice, tokens, and cards. Work has now begun on [quick-start-guide.md](./quick-start-guide.md) as the baseline fantasy teaching sheet, and future simulations should use that guide and log any ambiguous or undocumented mechanics they discover.
+
+On 2026-04-22, the user standardized several more visible rules for the first printable vertical slice. Trader scenes should reveal the top `5` resource cards and give each player exactly `1` trader interaction in that scene, either a direct `1-for-1` swap or a `Haggle` roll where `1-2` means discard `1` and still trade `1-for-1`, `3-4` means trade `1-for-1`, and `5-6` means trade `1` hand card for `2` trader cards. All classes may make a basic `1`-damage attack instead of playing a card or using an active. The user also changed the active abilities to a stronger direct baseline: `Warrior` active deals `2` damage, `Wizard` active places `2` blue shield tokens on the party or any creature and those shields are spent `1-for-1` before damage, and `Cleric` active heals either `1` party HP or `2` HP to any creature. Class passives should now stack by default, and if stacked copies of the same passive would compete for one rescue-style card transfer, only one transfer happens and ties can be broken by a die roll.
+
+Later the same day, the user standardized the table widgets and scoring direction. Damage tokens should be small red circles placed on surviving damageable cards to show damage already dealt. Party HP should be tracked with a red `d20`. Endgame scoring should keep the name `prestige points` and use Treasure Value instead of a separate kill score. The current scoring split is `Treasure Points` from cards in hand plus player-owned cards on the field, `Glory Points` from claimed hostile and blocking cards, and agenda reward. Treasure Value should roughly track card power from `1` to `7`, while agendas should be decisive enough to swing the final total by around `20` points.
+
+Later still on 2026-04-22, the user approved a first production-facing content scope. The first vertical slice should stay as small as possible for physical printing and cutting: `1` quest, `8` random encounters, `1` scripted mid-game ordeal, `1` scripted final ordeal, `12` enemies, `1` mid-game boss, `1` end-game boss, at least `2` friendly summons, at least `2` artifacts, and at least `3` enchantments including `Miasma` and at least `2` player-played enchantments. Artifacts should use the same card grammar as monsters but with `Attack 0`, and summons should enter play through resource cards such as `Summon Golem`. Expensive cards should use visible costs like discard, sacrifice, or HP payment, with `Elite` cards tending to carry those heavier costs. The user also wants `3`-player mode supported explicitly in the quick start, currently testing from a starting point of `18` party HP and `4` starting cards per player, and wants both `3`- and `4`-player simulations run against the new canon.
+
+Later still, the user requested a structured text template system under [../defines](../defines/README.md) so each deck can be defined in human-readable, machine-readable plain text files with one template per deck and one file per card. The eventual Python card-generation script should be able to rely on those fields for names, stats, costs, treasure values, rules text, and flavor text. The user also made a process requirement explicit: playtests may recommend promotions, but nothing should be auto-promoted from playtesting into canon without explicit user approval.
+
+On 2026-04-22, the user tightened the turn-order wording further. Players choose the order of player actions. Enemy monsters act from strongest to weakest, and any toss-up in that ordering is chosen by the players.
+
+Later on 2026-04-22, the user added a default enemy-AI rule for live play. Enemy monsters should use a legal named active ability instead of a normal attack when possible. If they do attack, they must target friendly creatures first if any legal friendly creature target exists; otherwise they attack the party. Explicit card text can override this default, and future effects such as `silence` may stop an ability from being usable.
+
+Later on 2026-04-22, the user clarified an important scope boundary for the printable content files. Numeric deck counts such as `8` random encounters and `64` action cards are vertical-slice production minimums for what must be printed by the end of the slice, not hard runtime caps on the eventual full game's card libraries. The full encounter deck should eventually be much larger, and the full action deck may grow to around `200` cards. Rules text and quest text should therefore avoid accidentally turning those print minimums into permanent gameplay limits.
 
 ## Goals
 
@@ -80,18 +112,69 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 19. The world/quest system defines the setting frame, threshold events, and at least one light rules modifier.
 20. The user wants research on [Stellaris crisis structure](./research/stellaris-crises.md) to inform midpoint and endpoint escalation beats.
 21. The user wants research on [Risk and Ticket to Ride secret-objective patterns](./research/secret-objectives-risk-ticket-to-ride.md) to inform the agenda deck.
+22. Encounter cards are scene events, not simple fixed threat cards.
+23. Events may spawn monsters, hazards, save throws, bargains, or prep windows.
+24. The opening tension-0 round should be a prep beat instead of an immediate battle.
+25. Action cards should support selfish setup and future advantage outside battle, not only direct combat participation.
+26. Emergent relationship storytelling is the guiding principle for the game's feel.
+27. The same event may scale across escalation bands by spawning different entity cards.
+28. Persistent obstacles and enchantments such as heavy doors or miasma are in scope.
+29. Starting hand size is 3 cards.
+30. Hand limit is 6 cards.
+31. A standard round has two action turns with a draw between them.
+32. Each player takes 1 action per turn unless an effect changes that.
+33. Each creature attacks or defends once per turn unless an effect changes that.
+34. If hurdles remain unresolved at round end, escalation rises by 1 and round-end card effects are then triggered.
+35. At escalation 10, the normal turn limit no longer applies.
+36. The creature deck now exists as a formal support deck.
+37. Encounter creature spawning uses exact names or card-type criteria, not abstract level packages.
+38. When criteria are used, players go through the creature deck in order and take the first matching cards.
+39. `defines/` should stay rulebook-like and avoid design rationale.
+40. Criteria-based creature spawning may include strength references.
+41. A future creature taxonomy may use threat or strength values and a minor versus elite split.
+42. The standard draw between turns 1 and 2 happens once per round, not once per encounter, and still happens at round end if the normal draw window was skipped.
+43. Party health is tracked with a red `d20`.
+44. Damage tokens are small red circles that track damage already dealt to surviving damageable cards.
+45. Shield tokens are blue, are removed before damage is applied, and do not persist between scenes unless a card says otherwise.
+46. Every class may make a basic attack for `1` damage instead of playing a card or using a class active.
+47. Class passives stack by default unless an effect says otherwise.
+48. If stacked copies of the same passive would compete for one rescue-style card transfer, only one transfer happens and ties can be broken with a die roll.
+49. The Warrior active should deal `2` damage.
+50. The Wizard active should place `2` shield tokens on the party or any creature.
+51. The Cleric active should heal `1` party HP or `2` HP to any creature.
+52. Trader scenes should reveal the top `5` resource cards and give each player exactly one trader interaction in that scene.
+53. Haggle should resolve as: `1-2` discard `1` then trade `1-for-1`, `3-4` trade `1-for-1`, `5-6` trade `1` hand card for `2` trader cards.
+54. Summoned creatures cannot attack on the turn they are summoned unless a card says otherwise.
+55. Artifacts should use the same card grammar as monsters but with `Attack 0`.
+56. High-threat boss cards may use a named active ability and still attack on the same turn if their card says so.
+57. Endgame scoring should use `prestige points` built from `Treasure Points` in hand plus on-field owned cards, `Glory Points` from claimed hostile and blocking cards, and agenda reward.
+58. Treasure Value should scale roughly from `1` to `7`.
+59. Agenda rewards should be decisive in final scoring, currently targeting around `20` points.
+60. The first vertical slice should include one quest, eight random encounters, one mid-game ordeal, one final ordeal, twelve enemies, a mid-game boss, an end-game boss, at least two summons, at least two artifacts, and at least three enchantments.
+61. Three-player mode should be taught explicitly with a higher party HP total and `4` starting cards per player, currently testing from `18` party HP.
+62. Card definitions should live in human-readable, machine-readable plain text templates under `defines/`.
+63. No playtest finding should be promoted into canon without explicit user approval.
+64. Vertical-slice card-count numbers such as `8` random encounters and `64` action cards are printable minimums, not long-term caps on the full game's deck sizes.
+65. The full game should eventually support a much larger encounter library and potentially around `200` action cards.
+66. Enemy monsters use a legal named active ability before making a normal attack unless card text lets them do both.
+67. Enemy monsters target friendly creatures first if possible, and otherwise target the party.
 
 ### Not Yet Decided
 
-- Exact resolution mechanics for encounters
+- Exact resolution mechanics for events, monsters, hazards, and persistent scene cards
 - Final player count range
 - Final scoring and point model
 - Core mechanics
 - Exact functions and card composition of the four deck systems
 - Exact dice system
-- How players survive or fail within a round
+- How players survive or fail within a scene
 - Exact mid-escalation and end-escalation events for the first quest
 - Whether classes, cards, encounters, or all three scale by tension
+- Whether persistent obstacles and enchantments should stay in the creature deck's rules layer or move to a broader entity reserve
+- The exact two-rarity labels shared by monster cards and player cards
+- The exact reward table and trigger limits for the aggressive last-hit passive
+- The support archetype's matching economy-facing identity hook in this new pass
+- The final presentation details for damage tokens and escalation-track printing
 - Print format requirements
 - Testing cadence
 
@@ -100,12 +183,19 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 - What is the game's core concept and player fantasy?
 - What is the intended player count range beyond the known four-player classroom case?
 - What is the minimum loop required for the first horizontal slice?
-- How exactly do players resolve an encounter each round?
-- How do dice enter the system?
+- How exactly do players resolve a scene each round when that scene may be combat, hazard, social, or persistent?
+- How do dice enter the system: save throws, combat, card effects, or all three?
 - What are points actually measuring, and how are they awarded?
 - What specific secret agenda patterns create tension without making cooperation collapse?
 - Is the HOI4-style tension meter a literal shared track, or more of a design inspiration for threshold-based escalation? Current evidence suggests a literal shared track from 0 to 10, but its exact effects remain open.
 - What is the precise economy or resource model that the aggressive, cautious, and support classes are manipulating?
+- What exact stats or tags should monster cards, persistent scene cards, and allied entity cards share?
+- What exact fields should future monster, resource, archetype, quest, and encounter JSON structures contain once design debate is done?
+- How much of the persistent obstacle and enchantment layer belongs inside the creature deck versus a broader entity reserve?
+- How should hero credit or narrative spotlight be awarded when several players contributed to the same scene?
+- What should the shared rarity system actually be called, and what concrete gameplay promises should each rarity make?
+- How reliable should the aggressive archetype's last-hit card gain be before it starts encouraging unhealthy sandbagging?
+- What exact wording should govern the support archetype's rescue-and-claim card flow when it saves another player from a failed ordeal?
 - What kind of AI art style best fits the game and printing constraints?
 - What rubric or evaluation criteria does the class project need to satisfy?
 
@@ -118,8 +208,9 @@ Later on 2026-04-20, the user corrected the component structure: the game actual
 5. Capture the four-deck model in [design/deck-architecture.md](./design/deck-architecture.md).
 6. Capture the current round and escalation model in [design/round-structure.md](./design/round-structure.md).
 7. Identify the smallest end-to-end playable loop.
-8. Lock the first horizontal-slice scope.
-9. Create component, rules, and production docs as needed.
+8. Use simulation passes to test that loop and correct misunderstandings quickly.
+9. Lock the first horizontal-slice scope.
+10. Create component, rules, and production docs as needed.
 
 ## Documentation Notes
 

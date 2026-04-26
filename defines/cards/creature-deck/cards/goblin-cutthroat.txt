@@ -1,0 +1,18 @@
+Card ID: creature-goblin-cutthroat
+Display Name: Goblin Cutthroat
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Humanoid
+Rarity: Common
+Threat: 1
+Treasure Value: 1
+Hit Points: 2
+Attack: 1
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: No extra rules text.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: Meaner than brave, and faster than either.
+Art Brief: A lean goblin knife-fighter lunging from the dark with scavenged armor.

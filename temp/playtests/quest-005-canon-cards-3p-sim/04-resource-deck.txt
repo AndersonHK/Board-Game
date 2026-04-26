@@ -1,0 +1,82 @@
+Resource Deck Session Map
+
+Canonical deck note:
+- The resource-deck README still says the first-pass deck target is 64 cards.
+- The live card files currently imply 72 cards through their `Copies In Deck` fields.
+- This session followed the more specific card-file copy counts, but only the revealed portion of the deck is listed below because that is all the run actually touched.
+
+Opening Hands
+
+Rowan Flintbrand
+- Shield Breaker
+- Quick Slash
+- Hidden Stash
+- Arc Bolt
+
+Elira Ashglass
+- Study the Signs
+- Summon Tin Golem
+- Smoke Route
+- Prepared Ground
+
+Sister Maelin
+- Mercy Prayer
+- Battle Prayer
+- Summon Cinder Familiar
+- Warding Circle
+
+Prep-Scene Draws
+- Rowan plays Hidden Stash and draws Chain Cutter, then Dispel Draft.
+- Elira summons Tin Golem and discards Smoke Route as the summon cost.
+- Mid-encounter draw: Rowan -> Field Bandage, Elira -> Last Step, Maelin -> Lockpick Kit.
+
+Trader Stock Revealed In Soot-Stall Trader
+- Hidden Stash
+- Last Step
+- Arc Bolt
+- Summon Grave Hound
+- Study the Signs
+
+Trader Outcomes
+- Rowan uses Haggle, rolls `5`, trades Arc Bolt for Last Step and Summon Grave Hound.
+- Elira makes a direct trade and swaps her own Last Step for Hidden Stash.
+- Maelin passes.
+
+Trader-Scene Draws
+- Mid-encounter draw: Rowan -> Quick Slash, Elira -> Mercy Prayer, Maelin -> Shield Breaker.
+- Elira then plays Hidden Stash and draws Smoke Route, then Battle Prayer.
+
+Cracked Causeway Draws
+- Mid-encounter draw: Rowan -> Rally Push, Elira -> Field Bandage, Maelin -> Hidden Stash.
+
+Shrine Of Echoes Bargain And Draws
+- Rowan takes the bargain and draws Quick Slash, then discards Chain Cutter.
+- Maelin takes the bargain and draws Arc Bolt, then discards Lockpick Kit.
+- Mid-encounter draw: Rowan -> Dispel Draft, Elira -> Warding Circle, Maelin -> Lockpick Kit.
+
+Bound Pilgrim Draws
+- Mid-encounter draw: Rowan -> Blood Price Burst, Elira -> Mercy Prayer, Maelin -> Quick Slash.
+
+Furnace Warden Rises Draws
+- Mid-encounter draw: Rowan -> Study the Signs, Elira -> Chain Cutter, Maelin -> Field Bandage.
+- Reward draw on clear: Rowan -> Smoke Route, Elira -> Rally Push, Maelin -> Summon Grave Hound.
+- Because Rowan was the first player that scene to gain an extra reward draw, he then discarded Quick Slash to the threshold-5 smoke rule.
+
+Kennel Break Draws
+- Mid-encounter draw: Rowan -> Arc Bolt, Elira -> Quick Slash, Maelin -> Battle Prayer.
+- Elira claims the scene reward draw for defeating the last hostile creature and draws Dispel Draft.
+- Because Elira was the first player that scene to gain an extra reward draw, she then discarded Smoke Route.
+
+Smoke-Flood Gallery Draws
+- Mid-encounter draw: Rowan -> Last Step, Elira -> Hidden Stash, Maelin -> Arc Bolt.
+- Scene reward on clear: Rowan returns Shield Breaker from graveyard to hand.
+
+Kennel Vault Draws
+- Mid-encounter draw: Rowan -> Battle Prayer, Elira -> Summon Cinder Familiar, Maelin -> Smoke Route.
+- Rowan's Warrior passive on Gray Wolf: Prepared Ground.
+- Continuation reward draw on clear: Elira -> Field Bandage.
+- Because Elira was the first player that scene to gain an extra reward draw, she then discarded Quick Slash.
+
+Dragon In The Deep Draws
+- Warrior passive on Chainbound Head: Rowan draws Hidden Stash.
+- Mid-encounter draw: Rowan -> Battle Prayer, Elira -> Last Step, Maelin -> Warding Circle.

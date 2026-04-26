@@ -1,0 +1,93 @@
+Session Resource Deck
+
+Session build rule:
+- This run uses the concrete `72`-card deck implied by the card-file `Copies In Deck` values, even though the resource-deck README still says `64`.
+
+Draw protocol:
+- When multiple players draw at once, resolve draws in seat order: `Kael -> Brin -> Mira -> Tamsin`.
+
+Top-to-bottom deck order used in this session:
+1. Shield Breaker #2
+2. Shield Breaker #1
+3. Arc Bolt #1
+4. Summon Cinder Familiar #3
+5. Dispel Draft #3
+6. Rally Push #2
+7. Greedfire Vow #1
+8. Summon Grave Hound #1
+9. Quick Slash #3
+10. Quick Slash #2
+11. Prepared Ground #3
+12. Last Step #2
+13. Warding Circle #3
+14. Battle Prayer #3
+15. Warding Circle #1
+16. Prepared Ground #1
+17. Chain Cutter #1
+18. Field Bandage #2
+19. Quick Slash #1
+20. Lockpick Kit #2
+21. Smoke Route #2
+22. Summon Cinder Familiar #4
+23. Last Step #1
+24. Hidden Stash #4
+25. Field Bandage #3
+26. Hidden Stash #2
+27. Lockpick Kit #4
+28. Bonefuel Volley #2
+29. Warding Circle #2
+30. Hidden Stash #3
+31. Blood Price Burst #2
+32. Summon Grave Hound #2
+33. Battle Prayer #4
+34. Summon Tin Golem #1
+35. Study the Signs #3
+36. Rally Push #1
+37. Battle Prayer #1
+38. Greedfire Vow #2
+39. Lockpick Kit #3
+40. Arc Bolt #4
+41. Arc Bolt #3
+42. Study the Signs #1
+43. Prepared Ground #2
+44. Bonefuel Volley #1
+45. Mercy Prayer #1
+46. Study the Signs #2
+47. Dispel Draft #2
+48. Quick Slash #4
+49. Field Bandage #1
+50. Blood Price Burst #1
+51. Dispel Draft #4
+52. Mercy Prayer #3
+53. Dispel Draft #1
+54. Chain Cutter #2
+55. Smoke Route #4
+56. Chain Cutter #4
+57. Chain Cutter #3
+58. Battle Prayer #2
+59. Smoke Route #1
+60. Summon Cinder Familiar #2
+61. Summon Cinder Familiar #1
+62. Warding Circle #4
+63. Prepared Ground #4
+64. Mercy Prayer #4
+65. Summon Tin Golem #2
+66. Mercy Prayer #2
+67. Field Bandage #4
+68. Arc Bolt #2
+69. Lockpick Kit #1
+70. Hidden Stash #1
+71. Study the Signs #4
+72. Smoke Route #3
+
+Cards actually seen during the run:
+- Starting hands: 1-12
+- Trader stock: 13-17
+- Additional seen/drawn cards extended through 42
+
+Notable session deck moments:
+- Brin's first Warrior reward draw came off `Field Bandage #2`.
+- The shrine's optional greed reward became `Smoke Route #2`.
+- Kael's Furnace Warden kill reward became `Hidden Stash #2`.
+- Brin's reliquary reward became `Blood Price Burst #2`.
+- Kael's Kennel Vault reward draw became `Rally Push #1`.

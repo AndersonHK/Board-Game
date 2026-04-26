@@ -1,0 +1,15 @@
+Card ID: resource-battle-prayer
+Display Name: Battle Prayer
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Support
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 2
+Cost: None.
+Timing: Your action.
+Target: Another player this turn.
+Rules Text: Another player gets +1 damage or +1 to a non-combat test this turn.
+Reminder Text: Choose one mode when played.
+Flavor Text: Faith often sounds like someone else's courage arriving on time.
+Art Brief: A cleric-style blessing cast over an ally in the middle of a fight.

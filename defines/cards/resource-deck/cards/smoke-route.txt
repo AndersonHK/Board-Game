@@ -1,0 +1,15 @@
+Card ID: resource-smoke-route
+Display Name: Smoke Route
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Defense
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: When a forced discard would happen.
+Target: One forced discard effect.
+Rules Text: Cancel 1 forced discard.
+Reminder Text: This can protect any player if you can play it at the right time.
+Flavor Text: The fastest path through the room is usually the one nobody wanted to take.
+Art Brief: A fast-moving escape route marked through smoke and collapsed stone.

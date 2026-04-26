@@ -1,0 +1,45 @@
+Event Sequence For Quest 003
+
+1. Camp at the Sealed Stair
+- Prep scene only.
+- No hostile spawns, but the standard round structure still applies.
+
+2. Wandering Merchant
+- Social scene.
+- Players may haggle, scout, or take selfish setup lines.
+
+3. Kennel Break
+- Exact-name danger scene.
+- Spawn 1 Goblin Chieftain and 2 Goblin Warriors.
+
+4. Falling Causeway
+- Hazard scene.
+- Each player attempts a save or loses a card to the collapse.
+
+5. Shrine of Echoes
+- Temptation scene.
+- Greedy play can awaken Clinging Miasma as a persistent enchantment.
+
+6. Bound Pilgrim
+- Rescue scene.
+- Chains count as a blocking hurdle.
+
+7. Caged Hunt
+- Criteria-based danger scene.
+- Spawn 1 Strength 2 humanoid and 2 Strength 1 beasts by creature-deck order.
+- Heavy Door also seals the exit and reward.
+
+8. Continue Caged Hunt If Unresolved
+- Do not reveal a new encounter.
+- Do not grant another default mid-encounter draw.
+- Clear remaining creatures and blocking cards before the descent can continue.
+
+9. Brood Wyrm Hunt
+- Danger scene.
+- Spawn 1 Brood Wyrm.
+- On reveal, tension +1.
+
+10. Dragon in the Deep
+- Final ordeal.
+- Resolve Chainbound Head first, then Heartfire Dragon.
+- At escalation 10, the normal two-turn cap no longer applies.

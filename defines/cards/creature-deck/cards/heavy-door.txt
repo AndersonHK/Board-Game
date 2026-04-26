@@ -1,0 +1,18 @@
+Card ID: creature-heavy-door
+Display Name: Heavy Door
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Artifact
+Creature Type: Structure
+Rarity: Common
+Threat: 1
+Treasure Value: 2
+Hit Points: 4
+Attack: 0
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: While this artifact is in play, the scene remains blocked.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: The door was not built to keep people out. It was built to keep something in.
+Art Brief: A massive reinforced dungeon door with bars, chains, and volcanic soot.

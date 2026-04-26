@@ -1,0 +1,43 @@
+Resource / Action Pool: Prototype Catalog For Quest 001
+
+Important note:
+These 20 entries are prototype card templates, not a finished one-copy physical deck list. During the simulation, draws can create repeat appearances of a template as needed.
+
+Impact cards
+1. Quick Slash - Impact 1.
+2. Torch Jab - Impact 1. If cleared, draw 1.
+3. Sure Shot - Impact 2.
+4. Shield Breaker - Impact 2. At tension 5 or higher, +1 impact.
+5. Reckless Lunge - Impact 3. Discard 1 after play.
+6. Fire Flask - Impact 2. At tension 7 or higher, heal 1 after resolution.
+7. Arc Bolt - Impact 2. Hazard and creature both count.
+8. Finishing Blow - Impact 3. Play only if another card is already committed.
+
+Guard / heal cards
+9. Brace - Prevent 1 damage.
+10. Guard Wall - Prevent 2 damage.
+11. Field Dressing - Heal 2 after resolution.
+12. Warding Sigil - Gain 1 Ward.
+
+Draw / loot cards
+13. Hidden Cache - Draw 2.
+14. Scout Ahead - You draw 1, then another player draws 1.
+15. Salvage Tools - If the encounter clears, draw 2.
+16. Lucky Find - Draw 1 and heal 1.
+
+Teamwork / tension cards
+17. Battle Plan - Another player gets +1 impact.
+18. Rally Cry - If 2 or more players committed cards, total impact +2.
+19. Risky Shortcut - Reduce encounter threat by 1; raise tension by 1 after resolution.
+20. Calm the Room - After resolution, lower tension by 1.
+
+Opening Hands Used For The Simulation
+- Kael: Quick Slash, Reckless Lunge, Salvage Tools
+- Brin: Sure Shot, Battle Plan, Hidden Cache
+- Mira: Guard Wall, Warding Sigil, Hidden Cache
+- Tamsin: Scout Ahead, Brace, Rally Cry
+
+Draw Philosophy Used In The Simulation
+- Baseline end-of-round draws come from the template catalog in fictionally plausible ways.
+- Extra draws from card effects are also drawn from this same template catalog.
+- The run tracks hand pressure and useful card volume, not final print-sheet frequency.

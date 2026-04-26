@@ -1,0 +1,17 @@
+Secret Agenda Deck: Tightened Prestige Prototype Set
+
+Important note:
+- The quick start confirms that each player takes a hidden agenda, but it does not yet define a finished prestige system.
+- This package therefore keeps using temporary hidden objectives plus scene-credit tracking as a simulation stand-in.
+
+Agenda Templates
+- First Name in the Ballad: gain 4 prestige if you land the final blow on the final ordeal or finish with the most danger-scene Spotlight
+- Richer Than the Ruin: gain 4 prestige if you generated at least 4 extra draws or reward claims and no other player generated more
+- Prepared Beyond Reason: gain 4 prestige if you finish with at least 6 cards in hand or 2 persistent assets, and no other player has more stored value
+- By My Grace: gain 4 prestige if your help flips 2 allied failures into successes or directly creates 3 shared-success draw moments
+
+Assignments Used In This Run
+- Kael -> First Name in the Ballad
+- Brin -> Richer Than the Ruin
+- Mira -> Prepared Beyond Reason
+- Tamsin -> By My Grace

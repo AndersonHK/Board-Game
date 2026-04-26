@@ -17,6 +17,8 @@ At the start of a session, read:
 5. Relevant files in [docs/design](./docs/design/) and [docs/research](./docs/research/)
 6. Any task-specific files that are directly relevant
 
+When working on rules teaches, playtest setup, or future simulations, also read [docs/quick-start-guide.md](./docs/quick-start-guide.md).
+
 ## Documentation Rules
 
 1. Treat [docs/project-memory.md](./docs/project-memory.md) as the long-term memory for goals, constraints, principles, decisions, assumptions, and open questions.
@@ -27,6 +29,7 @@ At the start of a session, read:
 6. Preserve uncertainty honestly. If something is undecided, mark it as an open question instead of pretending it is settled.
 7. Keep topic research in separate markdown files under [docs/research](./docs/research/) and link those notes from the design and memory docs that depend on them.
 8. Keep design intent in [docs/design](./docs/design/) rather than burying it only inside the long-term memory file.
+9. Never promote playtest findings into canonical `defines/` or player-facing rules automatically. A simulation may recommend promotion, but canonical promotion requires explicit user approval.
 
 ## Working Principles
 
@@ -35,6 +38,8 @@ At the start of a session, read:
 - Start with a nearly complete minimal horizontal slice, then deepen into a fully playable vertical slice.
 - Keep art, production, and design decisions grounded in what can actually be generated, printed, tested, and explained within the class timeline.
 - Favor reusable documentation over scattered chat-only decisions.
+- Use [docs/quick-start-guide.md](./docs/quick-start-guide.md) as the baseline player-facing rules sheet for future simulations unless a quest or canon define explicitly overrides it.
+- If a simulation hits an ambiguous or undocumented mechanic, record it in that simulation's rulings log and findings so the ambiguity can be resolved and folded back into the guide.
 
 ## Update Triggers
 

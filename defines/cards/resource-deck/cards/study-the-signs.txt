@@ -1,0 +1,15 @@
+Card ID: resource-study-the-signs
+Display Name: Study the Signs
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Utility
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: Your action.
+Target: The encounter deck or one non-combat test this turn.
+Rules Text: Peek at the next encounter card, or gain +2 to your next non-combat test this turn.
+Reminder Text: Choose one mode when played.
+Flavor Text: The dungeon tells you what it wants if you stop trying to be louder than it.
+Art Brief: A cautious explorer studying soot marks and footprints by lantern light.

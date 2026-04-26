@@ -1,0 +1,45 @@
+﻿Encounter Deck Used For Quest 006
+
+Prep Scene
+- Camp at the Sealed Stair
+- This is the quest-mandated escalation-0 prep scene rather than a drawn encounter card.
+
+Random Encounter Pool Used In This Session
+1. Reliquary of Cinders
+2. Soot-Stall Trader
+3. Ember-Bell Nursery
+4. Cracked Causeway
+5. Shrine of Echoes
+6. Bound Pilgrim
+7. Kennel Vault
+8. Smoke-Flood Gallery
+9. Kennel Break
+
+Scripted Insertions
+- After the scene that first ends with escalation at `5`, resolve Furnace Warden Rises before continuing the random stack.
+- After the scene that first ends with escalation at `10`, reveal Dragon in the Deep once the current scene fully ends.
+
+Actual Reveal Sequence Reached In Play
+1. Camp at the Sealed Stair
+2. Reliquary of Cinders
+3. Soot-Stall Trader
+4. Ember-Bell Nursery
+5. Continue Ember-Bell Nursery
+6. Furnace Warden Rises
+7. Cracked Causeway
+8. Shrine of Echoes
+9. Bound Pilgrim
+10. Kennel Vault
+11. Continue Kennel Vault
+12. Dragon in the Deep
+
+Cards Not Reached Before The Final Ordeal
+- Smoke-Flood Gallery
+- Kennel Break
+
+Why This Order Was Useful
+- Reliquary of Cinders forced party-owned versus player-owned questions immediately.
+- Ember-Bell Nursery created the duplicate-spawn and multi-round tests before the midpoint ordeal.
+- Shrine of Echoes into Bound Pilgrim forced a carried-over blocking enchantment.
+- Kennel Vault stressed criteria spawning, `current claimant`, blocking claims, and the threshold-8 hostile-attack boost right before escalation `10`.
+

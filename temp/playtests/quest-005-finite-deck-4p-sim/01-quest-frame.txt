@@ -1,0 +1,55 @@
+Quest: Ashen Depths, Finite Deck Four-Player Session
+Theme: Classic fantasy dungeon descent through ash-choked ruins
+
+Purpose:
+Run a new four-player simulation using the current canonical card files as a real finite session package, while documenting every place where human players would still need hidden rulings.
+
+Core Quest Card Used:
+- Ashen Depths from `defines/cards/quest-deck/cards/ashen-depths.txt`
+
+Quest Track Used In This Session:
+- Start at escalation 0 with a prep scene instead of a hostile battle.
+- When a new scene is fully cleared, raise escalation by 1.
+- If hostile or blocking hurdles remain at end of round, raise escalation by 1.
+- Threshold 5: after the current scene ends, resolve Furnace Warden Rises. Starting with the next scene after that ordeal, the first player each scene to gain an extra reward draw must discard 1 card after that reward resolves.
+- Threshold 8: starting with the next hostile scene, the first hostile creature attack each scene gets +1 Attack.
+- Threshold 10: after the current scene ends, reveal Dragon in the Deep. The normal two-turn round cap is removed for that ordeal.
+
+Shared Table State:
+- Party HP starts at 11.
+- Escalation starts at 0.
+- Damage is tracked with red tokens.
+- Party HP is tracked on a red d20.
+- Shields are tracked with blue tokens.
+
+Session-Specific Prep Scene:
+- Scene name: Sealed Stair Landing
+- Reveal text: The party must brace the collapse, choose what to carry, and open a safe path into the ruin.
+- Scene rule: The scene is cleared when the table completes any two prep actions.
+- Prep actions allowed in this run:
+  - play a setup, summon, support, or enchantment card to the field
+  - succeed on a non-combat test tied to bracing or clearing the descent
+- Reward text: None.
+- Failure text: No special penalty beyond the normal unresolved-scene escalation.
+
+Encounter Sequence Used In This Session:
+1. Sealed Stair Landing (session prep scene)
+2. Soot-Stall Trader
+3. Cracked Causeway
+4. Ember-Bell Nursery
+5. Shrine of Echoes
+6. Furnace Warden Rises
+7. Bound Pilgrim
+8. Reliquary of Cinders
+9. Kennel Vault
+10. Dragon in the Deep
+
+Encounter Notes:
+- `Kennel Break` remained in the shuffled encounter stack but was never reached because escalation hit 10 during Kennel Vault.
+- `Smoke-Flood Gallery` was the unused ninth random file omitted from this session deck because the quest card still says the run should use only eight random encounters.
+
+Win Condition For This Session:
+- Survive Dragon in the Deep and defeat Heartfire Dragon.
+
+Lose Condition:
+- If party HP reaches 0, all players lose immediately.

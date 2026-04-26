@@ -1,0 +1,97 @@
+﻿Resource Deck Session Map
+
+Canonical deck note:
+- The live resource card files currently sum to `72` copies through their `Copies In Deck` fields.
+- This session treats that `72`-card build as the actual shuffled deck for simulation.
+- Only the revealed and touched portion is listed below because that is all the run used.
+
+Opening Hands
+
+Garrick Stonehand
+- Hidden Stash
+- Shield Breaker
+- Quick Slash
+- Arc Bolt
+
+Lyra Vale
+- Prepared Ground
+- Summon Tin Golem
+- Smoke Route
+- Study the Signs
+
+Sister Anwen
+- Warding Circle
+- Battle Prayer
+- Mercy Prayer
+- Dispel Draft
+
+Prep-Scene Draws
+- Garrick plays Hidden Stash and draws Blood Price Burst, then Chain Cutter.
+- Lyra summons Tin Golem and discards Smoke Route as the summon cost.
+- Mid-round draw: Garrick -> Field Bandage, Lyra -> Arc Bolt, Anwen -> Lockpick Kit.
+
+Reliquary Of Cinders Draws
+- Mid-round draw: Garrick -> Hidden Stash, Lyra -> Hidden Stash, Anwen -> Summon Cinder Familiar.
+- Garrick claims the reliquary reward and draws Last Step.
+
+Trader Stock Revealed In Soot-Stall Trader
+- Rally Push
+- Chain Cutter
+- Field Bandage
+- Greedfire Vow
+- Quick Slash
+
+Trader Outcomes
+- Garrick uses Haggle, rolls `6`, and trades Arc Bolt for Rally Push and Quick Slash.
+- Lyra makes a direct trade, swaps Arc Bolt for Greedfire Vow, and keeps planning for long-term value.
+- Anwen passes because she values her current support hand more than the visible stock.
+
+Trader-Scene Draws
+- Mid-round draw: Garrick -> Arc Bolt, Lyra -> Hidden Stash, Anwen -> Shield Breaker.
+- Lyra then plays Hidden Stash and draws Warding Circle, then Summon Grave Hound.
+
+Ember-Bell Nursery Draws
+- Mid-round draw in round 1 of the scene: Garrick -> Quick Slash, Lyra -> Blood Price Burst, Anwen -> Battle Prayer.
+- Garrick then plays Hidden Stash and draws Arc Bolt, then Smoke Route instead of closing the room immediately.
+- Mid-round draw in round 2 of the same scene: Garrick -> Field Bandage, Lyra -> Quick Slash, Anwen -> Lockpick Kit.
+
+Furnace Warden Rises Draws
+- Mid-round draw: Garrick -> Last Step, Lyra -> Study the Signs, Anwen -> Smoke Route.
+- Garrick's Warrior passive on Ashen Warden draws Summon Grave Hound.
+- Reward draw on clear: Garrick -> Field Bandage, Lyra -> Study the Signs, Anwen -> Dispel Draft.
+
+Cracked Causeway Draws
+- Mid-round draw: Garrick -> Smoke Route, Lyra -> Summon Cinder Familiar, Anwen -> Mercy Prayer.
+- Garrick's failed-save rescue sends Last Step into Anwen's hand through the Cleric passive.
+
+Shrine Of Echoes Bargain And Draws
+- Garrick takes the bargain, draws Battle Prayer, then discards Chain Cutter.
+- Lyra takes the bargain, draws Mercy Prayer, then discards Study the Signs.
+- Because Lyra owns Greedfire Vow, that first extra draw in the scene also gives her Lockpick Kit.
+- Mid-round draw: Garrick -> Dispel Draft, Lyra -> Field Bandage, Anwen -> Battle Prayer.
+
+Bound Pilgrim Draws
+- Mid-round draw: Garrick -> Summon Cinder Familiar, Lyra -> Warding Circle, Anwen -> Mercy Prayer.
+
+Kennel Vault Draws
+- Garrick's Warrior passive on Smoke Seer draws Chain Cutter.
+- Mid-round draw in round 1 of the scene: Garrick -> Last Step, Lyra -> Lockpick Kit, Anwen -> Mercy Prayer.
+- Lyra clears Iron Gate in round 2, takes the scene reward draw, and draws Study the Signs.
+- Because Lyra was the first player that scene to gain an extra reward draw, the threshold-5 smoke rule then makes her discard Arc Bolt.
+- Mid-round draw in round 2 of the same scene: Garrick -> Warding Circle, Lyra -> Summon Cinder Familiar, Anwen -> Dispel Draft.
+
+Dragon In The Deep Draws
+- Mid-round draw after Enemy Turn 1: Garrick -> Prepared Ground, Lyra -> Summon Tin Golem, Anwen -> Lockpick Kit.
+
+Notable Forced Discards And Costs
+- Lyra discards Smoke Route to summon Tin Golem during the prep scene.
+- Garrick discards Field Bandage to Ash Cultist's reveal text in Ember-Bell Nursery.
+- Lyra pays `1` party HP to place Greedfire Vow during the second round of Ember-Bell Nursery.
+- Garrick pays `1` party HP for Blood Price Burst against Ashen Warden.
+- Lyra's Greedfire Vow costs the party `1` HP at cleanup in Shrine of Echoes because she gained extra draws that scene.
+- Garrick discards Quick Slash to pay Shield Breaker on Rusted Chains.
+- Lyra discards Hidden Stash to Kennel Vault's unresolved-round pressure.
+- Lyra pays `1` party HP for Blood Price Burst against Iron Gate.
+- Garrick discards Field Bandage to pay Shield Breaker on Chainbound Head.
+- Dragon's Breath causes multiple additional discards during the final ordeal, listed in the simulation log.
+

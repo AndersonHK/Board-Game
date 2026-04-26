@@ -1,0 +1,18 @@
+Card ID: creature-rusted-chains
+Display Name: Rusted Chains
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Artifact
+Creature Type: Restraint
+Rarity: Common
+Threat: 1
+Treasure Value: 1
+Hit Points: 3
+Attack: 0
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: While this artifact is in play, the bound target cannot be freed and the scene remains blocked.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: Old iron still knows how to keep a promise.
+Art Brief: Burned chains wrapped around a prison post in a rescue chamber.

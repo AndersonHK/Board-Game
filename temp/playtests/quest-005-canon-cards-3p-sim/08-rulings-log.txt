@@ -1,0 +1,97 @@
+Rulings Log For Quest 005
+
+RUL-01 - Vertical-slice build size versus full-deck size
+Issue:
+- During the run, the repo looked like it was contradicting itself on encounter and action-card counts.
+Smallest ruling used:
+- Treat `8` random encounters and `64` action cards as vertical-slice printable minimums, not final gameplay caps, and build one legal session-sized subset from the larger libraries.
+Why this was minimal:
+- It preserves the playable session build without forcing the full game's future deck sizes to stay tiny.
+Impact on the run:
+- The session remained reproducible, and the later user clarification confirmed this was the intended interpretation.
+Promotion target:
+- already clarified in docs
+
+RUL-02 - Action order inside each action turn
+Issue:
+- The quick start says each player takes 1 action per turn, but it does not say whether order is fixed, rotating, or chosen.
+Smallest ruling used:
+- The table chooses action order each turn.
+Why this was minimal:
+- It adds no new widget and lets support timing matter.
+Impact on the run:
+- Maelin's Battle Prayer timing became strategically meaningful in several scenes.
+Promotion target:
+- quick start
+
+RUL-03 - Default target number for non-combat tests
+Issue:
+- Several encounter cards and utility cards refer to non-combat tests, but the visible player-facing rules only define a default number for saves.
+Smallest ruling used:
+- If a non-combat test has no printed target number, it succeeds on `4+` on a `d6`, matching the save baseline.
+Why this was minimal:
+- It reuses the only explicit default number the quick start currently teaches.
+Impact on the run:
+- Cracked Causeway and Smoke-Flood Gallery were playable without inventing a second dice system.
+Promotion target:
+- quick start
+
+RUL-04 - Named spawns versus criteria-spawn order
+Issue:
+- The creature-deck rules explain criteria-based searches, but the visible materials still do not explain how exact-name searches should interact with that ordered reserve.
+Smallest ruling used:
+- Exact-name spawns search the reserve for the named card without changing the session's criteria-spawn order.
+Why this was minimal:
+- It preserves the creature-deck grammar without making named spawns accidentally reshuffle future criteria scenes.
+Impact on the run:
+- Kennel Break and Dragon in the Deep stayed easy to execute, and Kennel Vault still had a stable criteria result later.
+Promotion target:
+- design doc or creature-deck define
+
+RUL-05 - Claimed hostile cards and the personal score pile
+Issue:
+- The agenda cards and prestige scoring now imply a claimed hostile-card economy, but the quick start still does not explain who claims defeated hostile cards.
+Smallest ruling used:
+- The player who deals the final point of damage to a hostile card claims it into a personal score pile.
+Why this was minimal:
+- It aligns with the most intuitive "credit for the final hit" reading.
+Impact on the run:
+- The actual agenda cards became usable, especially First Name in the Ballad.
+Promotion target:
+- quick start or core-rules prestige section
+
+RUL-06 - The meaning of `current claimant`
+Issue:
+- Gray Wolf and Kennel Vault refer to the `current claimant`, but the visible materials never define that term.
+Smallest ruling used:
+- The current claimant is the player currently closest to the scene reward, defined here as the player who most recently advanced the last remaining hostile or blocking hurdle.
+Why this was minimal:
+- It turns the phrase into a visible state derived from the scene instead of adding a new token.
+Impact on the run:
+- Kennel Vault's unresolved-round discard could resolve without a table argument.
+Promotion target:
+- quick start or encounter glossary
+
+RUL-07 - Threshold-5 reward-draw timing
+Issue:
+- The quest says the first player each scene to gain extra reward draws must discard 1 after that reward resolves, but some reward draws can happen in multi-player contexts.
+Smallest ruling used:
+- The player who triggered or cleared the reward counts as the first player to gain that extra reward draw.
+Why this was minimal:
+- It anchors the rule to a visible cause rather than trying to invent simultaneous priority.
+Impact on the run:
+- Kennel Break and continued Kennel Vault both resolved cleanly.
+Promotion target:
+- quest card or quick start
+
+RUL-08 - Summon and enchantment scoring
+Issue:
+- Resource cards such as Summon Tin Golem and Warding Circle create matching entity cards, but the quick-start scoring text would double-count them unless the table knows how to treat that transformation.
+Smallest ruling used:
+- Score the resulting permanent once rather than both the spent spell card and the permanent it created.
+Why this was minimal:
+- It matches how a real player would intuitively think about "the thing I own on the field."
+Impact on the run:
+- Endgame prestige was tallied without obvious double counting.
+Promotion target:
+- quick start prestige example

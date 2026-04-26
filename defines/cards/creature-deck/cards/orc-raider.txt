@@ -1,0 +1,18 @@
+Card ID: creature-orc-raider
+Display Name: Orc Raider
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Humanoid
+Rarity: Common
+Threat: 2
+Treasure Value: 2
+Hit Points: 3
+Attack: 2
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: On hit, one player discards 1 card.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: He steals momentum first and valuables second.
+Art Brief: A brutal orc raider kicking through embers with a jagged axe.

@@ -1,0 +1,21 @@
+﻿Secret Agendas Used For This Run
+
+Assignments
+
+1. Garrick Stonehand -> Ashes to Ashes
+- Goal Text: succeed if the total Treasure Value of hostile cards you claimed is 10 or higher
+- Reward Text: gain 20 prestige points
+
+2. Lyra Vale -> Richer Than the Ruin
+- Goal Text: succeed if you finish with the highest total Treasure Value in hand plus on-field owned cards
+- Reward Text: gain 20 prestige points
+
+3. Sister Anwen -> Keeper of Relics
+- Goal Text: succeed if you end the game owning at least 2 artifacts, enchantments, or summons on the field
+- Reward Text: gain 20 prestige points
+
+Why This Mix Was Chosen
+- Garrick's agenda forces the run to care about a real hostile-claim procedure.
+- Lyra's agenda stresses the difference between claimed hostile cards and hand-plus-field Treasure.
+- Anwen's agenda pressures ownership rules for field permanents, especially because this session also uses Blessing Brazier and multiple summons or enchantments.
+

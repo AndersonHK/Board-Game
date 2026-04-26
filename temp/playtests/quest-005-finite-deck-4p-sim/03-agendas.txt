@@ -1,0 +1,32 @@
+Agenda Deck Used For This Session
+
+Assigned agendas:
+- Kael -> `First Name in the Ballad`
+- Brin -> `Ashes to Ashes`
+- Mira -> `Prepared Beyond Reason`
+- Tamsin -> `By My Grace`
+
+Assigned agenda text:
+
+Kael - First Name in the Ballad
+- Succeed if you defeat Heartfire Dragon or finish with the highest total Treasure Value from hostile cards you claimed.
+- Reward: 20 prestige points.
+
+Brin - Ashes to Ashes
+- Succeed if the total Treasure Value of hostile cards you claimed is 10 or higher.
+- Reward: 20 prestige points.
+
+Mira - Prepared Beyond Reason
+- Succeed if you end the game with at least 12 Treasure Value in hand and on-field owned cards.
+- Reward: 20 prestige points.
+
+Tamsin - By My Grace
+- Succeed if you cause 3 shared-success moments or 2 failed saves to become successes.
+- Reward: 20 prestige points.
+
+Unused agenda files left out of the deal:
+- `Keeper of Relics`
+- `Richer Than the Ruin`
+
+Tracking note for this run:
+- Because the live canon still does not define a printed hostile-claim procedure, this session tracked claimed hostile cards in a separate score pile as logged in [08-rulings-log.txt](./08-rulings-log.txt).

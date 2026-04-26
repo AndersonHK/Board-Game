@@ -1,0 +1,17 @@
+Card ID: encounter-smoke-flood-gallery
+Display Name: Smoke-Flood Gallery
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: hazard, discard, pressure
+Escalation Use: Random encounter
+Reveal Text: Each player either discards 1 card or makes the party take 1 damage.
+Spawn Text: No creature spawn.
+Scene Rule: A player may spend an action to vent the gallery with a non-combat test.
+Clear Condition: The gallery has been vented.
+Reward Text: If cleared this round, one player may return 1 card from graveyard to hand.
+Failure Text: If unresolved at end of round, the party takes 1 damage.
+Treasure Value: 0
+Rules Text: This scene is a hand-pressure counterpart to direct HP loss.
+Flavor Text: The old murals are gone under smoke thick enough to bruise.
+Art Brief: A long hall of statues and murals flooded with dark furnace smoke.

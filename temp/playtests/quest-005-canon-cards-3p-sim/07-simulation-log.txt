@@ -1,0 +1,313 @@
+Quest 005 Simulation Log
+Run style: canonical card-definition pass, three players, quickstart-first execution, and explicit logging of player-visible gaps
+Dice results consumed in order: 5, 3, 4, 5, 2, 4, 3, 5, 1, 6, 2, 5, 3
+
+Starting state
+- Party HP: 18
+- Escalation: 0
+- Hand limits: Rowan 6, Elira 12, Maelin 6
+
+ROUND-01: Camp at the Sealed Stair
+State at start: HP 18, escalation 0
+Scene:
+- The party reaches the sealed descent and follows the quest card's prep-scene instruction.
+Action Turn 1:
+- Rowan plays Hidden Stash and immediately draws Chain Cutter and Dispel Draft because he wants the dungeon to pay him before it bites him.
+- Elira plays Summon Tin Golem, discards Smoke Route to pay the cost, and puts Tin Golem onto her field.
+- Maelin plays Warding Circle and establishes the first long-term shield engine on the table.
+Mid-encounter draw:
+- Rowan draws Field Bandage.
+- Elira draws Last Step.
+- Maelin draws Lockpick Kit.
+Action Turn 2:
+- Rowan holds Shield Breaker because he wants the first real monster to feel expensive.
+- Elira plays Prepared Ground and quietly turns the room into a safer future problem.
+- Maelin plays Summon Cinder Familiar and keeps Battle Prayer for the first meaningful race.
+Outcome:
+- The prep scene works cleanly with the standard round structure.
+- Warding Circle places 1 shield token on the party at round end.
+- The scene is fully cleared, so escalation rises to 1.
+
+ROUND-02: Soot-Stall Trader
+State at start: HP 18, escalation 1
+Scene:
+- Trader stock revealed: Hidden Stash, Last Step, Arc Bolt, Summon Grave Hound, Study the Signs.
+Action Turn 1:
+- Rowan uses Haggle, rolls `5`, and trades Arc Bolt for Last Step plus Summon Grave Hound.
+- Elira makes a direct trade, gives up her own Last Step, and takes Hidden Stash instead because long-term card volume matters more to her than one clean finisher.
+- Maelin passes; she does not want to trade away support tools yet.
+Mid-encounter draw:
+- Rowan draws Quick Slash.
+- Elira draws Mercy Prayer.
+- Maelin draws Shield Breaker.
+Action Turn 2:
+- Elira immediately plays Hidden Stash and draws Smoke Route plus Battle Prayer.
+- Rowan holds his attacks and lets the social scene stay social.
+- Maelin watches who sounds generous and who sounds transactional.
+Outcome:
+- The quickstart trader procedure is now fully executable from visible materials.
+- The scene is fully cleared, so escalation rises to 2.
+
+ROUND-03: Cracked Causeway
+State at start: HP 18, escalation 2
+Scene:
+- Reveal text: each player makes a save or loses 1 card.
+Immediate saves:
+- Rowan rolls `3` and would lose Field Bandage.
+- Maelin uses the Cleric passive to add `+1`, changing the result to `4`.
+- Because the failure became a success, Rowan chooses Field Bandage as the would-have-been-lost card and puts it into Maelin's hand instead.
+- Elira rolls `4` and succeeds.
+- Maelin rolls `5` and succeeds.
+Action Turn 1:
+- Elira plays Study the Signs for `+2` on her next non-combat test this turn.
+- Rowan complains that the bridge would be simpler if it had hit points.
+- Maelin keeps Battle Prayer because the rescue already paid her once.
+Mid-encounter draw:
+- Rowan draws Rally Push.
+- Elira draws Field Bandage.
+- Maelin draws Hidden Stash.
+Action Turn 2:
+- Elira attempts the crossing test, rolls `2`, adds `+2`, reaches `4`, and secures the causeway.
+- Rowan arrives first physically, but everyone at the table knows Elira is the reason the party is actually across.
+Outcome:
+- This is the first place where the visible materials failed real players: the encounter and cards need a default non-combat test number, so the session used `4+` by ruling.
+- The scene is fully cleared, so escalation rises to 3.
+
+ROUND-04: Shrine of Echoes
+State at start: HP 18, escalation 3
+Scene:
+- The shrine bargain is available once per player.
+- Rowan takes it, draws Quick Slash, and discards Chain Cutter.
+- Maelin also takes it, draws Arc Bolt, and discards Lockpick Kit.
+- Because 2 players took the bargain, Ash Miasma spawns.
+Action Turn 1:
+- Rowan wants the draw and not the cleanup.
+- Elira chooses not to spend Dispel Draft yet because she expects the next room to punish unresolved pressure harder than this shrine already is.
+- Maelin pockets the emotional leverage of having taken the same bargain Rowan took.
+Mid-encounter draw:
+- Rowan draws Dispel Draft.
+- Elira draws Warding Circle.
+- Maelin draws Lockpick Kit.
+Action Turn 2:
+- Nobody removes Ash Miasma.
+- The table can clear the bargain, but it cannot clear the room.
+Outcome:
+- Ash Miasma remains as a blocking enchantment.
+- The scene is unresolved, so escalation rises to 4.
+- Ash Miasma then makes the player with the most cards discard 1; Elira discards Mercy Prayer.
+- Because Shrine of Echoes explicitly carries Ash Miasma forward if it remains, the curse stays in play for the next scene.
+
+ROUND-05: Bound Pilgrim
+State at start: HP 18, escalation 4
+Scene:
+- Rusted Chains spawns.
+- Ash Miasma remains part of the scene from the previous room.
+Action Turn 1:
+- Rowan uses Shield Breaker, discards Quick Slash, and deals 3 damage to Rusted Chains, breaking them immediately.
+- Elira uses Dispel Draft to remove Ash Miasma from the scene.
+- Maelin does not need to spend support on the rescue because the other two already solved both blockers cleanly.
+Mid-encounter draw:
+- Rowan draws Blood Price Burst.
+- Elira draws Mercy Prayer.
+- Maelin draws Quick Slash.
+Action Turn 2:
+- Maelin uses the Cleric active to heal 1 party HP, but because the party is still at full HP the effect is wasted; this is the first moment the active feels weaker than the support cards in hand.
+Outcome:
+- The rescue scene is fully cleared.
+- Escalation rises to 5.
+- The quest card immediately inserts the scripted mid-game ordeal next.
+
+ROUND-06: Furnace Warden Rises
+State at start: HP 18, escalation 5
+Scene:
+- Ashen Warden enters play.
+- The threshold-5 smoke rule is now active starting with this scene.
+Action Turn 1:
+- Rowan uses Blood Price Burst, pays 1 party HP, and deals 4 damage to Ashen Warden.
+- Elira follows with Quick Slash for 1, putting the boss at 5 damage taken.
+- Maelin holds Battle Prayer because she wants it on a kill, not on setup damage.
+Creature turn:
+- Ashen Warden uses Furnace Sweep, removing the party's Warding Circle shield.
+- It then attacks for 2.
+- Prepared Ground reduces that first hostile attack by 1.
+- Tin Golem prevents 1 more.
+- Party HP stays at 17.
+Mid-encounter draw:
+- Rowan draws Study the Signs.
+- Elira draws Chain Cutter.
+- Maelin draws Field Bandage.
+Action Turn 2:
+- Maelin uses Battle Prayer on Rowan.
+- Rowan uses the Warrior active for 3 total damage and defeats Ashen Warden.
+- Rowan rolls `6` on the Warrior passive against a Threat 3 Elite target; the draw succeeds automatically in practice and Rowan draws Hidden Stash.
+Reward:
+- Each player draws 1: Rowan -> Smoke Route, Elira -> Rally Push, Maelin -> Summon Grave Hound.
+- Rowan was the first player that scene to gain an extra reward draw, so he discards Quick Slash to the threshold-5 smoke rule.
+Outcome:
+- Ashen Warden goes to Rowan's claimed hostile pile.
+- The scripted ordeal is fully cleared, so escalation rises to 6.
+
+ROUND-07: Kennel Break
+State at start: HP 17, escalation 6
+Scene:
+- Spawn: Goblin Chieftain, Goblin Bruiser, Goblin Cutthroat.
+Action Turn 1:
+- Maelin uses Battle Prayer on Rowan.
+- Rowan uses the Warrior active for 3 total damage on Goblin Chieftain.
+- Elira follows with Quick Slash for 1 and defeats Goblin Chieftain before Rowan can claim it.
+Creature turn:
+- Prepared Ground reduces Goblin Bruiser's attack from 1 to 0.
+- Goblin Cutthroat attacks for 1, which the new Warding Circle shield absorbs.
+- Party HP stays at 17.
+Mid-encounter draw:
+- Rowan draws Arc Bolt.
+- Elira draws Quick Slash.
+- Maelin draws Battle Prayer.
+Action Turn 2:
+- Maelin uses Battle Prayer on Rowan again.
+- Rowan uses the Warrior active for 3 total damage and defeats Goblin Bruiser.
+- Rowan rolls `4` for the Warrior passive on a Threat 1 Common kill and fails the draw.
+- Elira uses Last Step on Goblin Cutthroat, defeats it, and draws Dispel Draft.
+- Because Elira gained the first extra reward draw in this scene, the threshold-5 smoke rule makes her discard Smoke Route afterward.
+Outcome:
+- Elira claims Goblin Chieftain and Goblin Cutthroat.
+- Rowan claims Goblin Bruiser.
+- The scene is fully cleared, so escalation rises to 7.
+
+ROUND-08: Smoke-Flood Gallery
+State at start: HP 17, escalation 7
+Scene:
+- Reveal text: each player either discards 1 card or makes the party take 1 damage.
+Immediate fallout:
+- Rowan discards Dispel Draft.
+- Elira protects her stocked hand and lets the party take 1 damage.
+- Maelin discards Quick Slash.
+- Party HP drops to 16.
+Action Turn 1:
+- Rowan uses Study the Signs to peek the next encounter and confirms Kennel Vault is coming.
+- Elira keeps her hand intact for the vent test rather than spending cards on no-board pressure.
+- Maelin uses Battle Prayer on Elira for `+1` to the upcoming non-combat test.
+Mid-encounter draw:
+- Rowan draws Last Step.
+- Elira draws Hidden Stash.
+- Maelin draws Arc Bolt.
+Action Turn 2:
+- Elira makes the vent test, rolls `3`, adds `+1`, reaches `4`, and clears the gallery.
+- Maelin uses the Cleric active to heal 1 party HP after the smoke damage.
+- Party HP returns to 17.
+Reward:
+- Rowan returns Shield Breaker from graveyard to hand.
+Outcome:
+- The scene is fully cleared, so escalation rises to 8.
+- The threshold-8 hostile-attack bonus is now live for future hostile scenes.
+
+ROUND-09: Kennel Vault
+State at start: HP 17, escalation 8
+Scene:
+- Criteria spawn in a single top-to-bottom pass: Gray Wolf, Orc Raider, Ember Bat.
+- Iron Gate also enters play.
+- Threshold 8 is active, so the first hostile creature attack this scene gets +1 Attack.
+Action Turn 1:
+- Maelin uses Battle Prayer on Rowan.
+- Rowan uses Shield Breaker, discards Arc Bolt, and deals 4 damage to Orc Raider, defeating it outright.
+- Rowan rolls `5` on the Warrior passive against a Threat 2 Common kill and fails.
+- Elira uses Arc Bolt on Ember Bat and defeats it.
+- Gray Wolf and Iron Gate remain.
+Creature turn:
+- Gray Wolf is the first hostile creature to attack this scene, so threshold 8 raises its attack from 1 to 2.
+- Because Maelin used a support effect this turn, Gray Wolf's discard rider does not trigger.
+- Tin Golem prevents 1 damage and a Warding Circle shield absorbs the other 1.
+- Party HP stays at 17.
+Mid-encounter draw:
+- Rowan draws Prepared Ground.
+- Elira draws Summon Cinder Familiar.
+- Maelin draws Smoke Route.
+Action Turn 2:
+- Rowan uses the Warrior active for 2 damage on Gray Wolf and defeats it.
+- Rowan rolls `1` on the Warrior passive against a Threat 1 Common kill and succeeds, drawing Prepared Ground.
+- Elira hits Iron Gate for 1.
+- Maelin hits Iron Gate for 1 more.
+Outcome:
+- Iron Gate remains with 2 damage on it, so the scene is unresolved.
+- Escalation rises to 9.
+- Kennel Vault also makes the current claimant discard 1. By ruling, Elira is the current claimant because she is still closest to the scene reward through the gate line, so she discards Hidden Stash.
+
+ROUND-10: Continue Kennel Vault
+State at start: HP 17, escalation 9
+Scene:
+- The same encounter continues.
+- No new reveal occurs.
+- No default mid-encounter draw occurs because the encounter already used its one draw.
+Action Turn 1:
+- Maelin uses Battle Prayer on Elira.
+- Elira uses Blood Price Burst, pays 1 party HP, and deals 5 total damage to Iron Gate.
+- Iron Gate breaks and the scene clears immediately.
+- Party HP drops to 16 from the cost.
+Reward:
+- Elira claims the scene reward draw and takes Field Bandage.
+- Because Elira was the first player this scene to gain an extra reward draw, she then discards Quick Slash to the threshold-5 smoke rule.
+Outcome:
+- The continued-encounter rule again works cleanly: no second default draw happened.
+- The scene is fully cleared, so escalation rises to 10.
+- The quest now reveals the final ordeal instead of continuing the random deck.
+
+ROUND-11: Dragon In The Deep
+State at start: HP 16, escalation 10
+Scene:
+- Stage 1: Chainbound Head.
+- Stage 2: Heartfire Dragon once Chainbound Head is defeated.
+Action Turn 1:
+- Maelin uses Battle Prayer on Rowan.
+- Rowan uses Blood Price Burst, pays 1 party HP, and deals 5 total damage to Chainbound Head, defeating it immediately.
+- Party HP drops to 15.
+- Rowan rolls `6` on the Warrior passive against a Threat 3 Elite kill and draws Hidden Stash.
+- Heartfire Dragon reveals.
+- Elira uses a basic attack for 1 damage on Heartfire Dragon because she wants to save Last Step for a cleaner line later.
+Creature turn:
+- Heartfire Dragon uses Dragon's Breath and still attacks this turn.
+- Rowan rolls `2` and discards 1 card.
+- Elira rolls `5`, so the party takes 1 damage instead of her discarding.
+- Maelin rolls `3` and discards 1 card.
+- Party HP drops to 14 from Dragon's Breath.
+- Elira uses the Wizard active to place 2 shield tokens on the party.
+- Together with the Warding Circle shield already in play, those 3 shields absorb the full dragon attack.
+- Party HP stays at 14 after the attack.
+Mid-encounter draw:
+- Rowan draws Battle Prayer.
+- Elira draws Last Step.
+- Maelin draws Warding Circle.
+Action Turn 2:
+- Maelin uses Battle Prayer on Rowan.
+- Rowan uses the Warrior active for 3 total damage on Heartfire Dragon.
+- Elira uses Last Step for 1 more damage.
+- Heartfire Dragon is now at 5 damage taken.
+Creature turn:
+- Heartfire Dragon attacks for 3.
+- Tin Golem prevents 1.
+- The fresh Warding Circle shield absorbs 1.
+- Party HP drops from 14 to 13.
+Escalation-10 exception:
+- The normal two-turn cap no longer applies.
+- No extra default mid-encounter draw is granted.
+Ordeal Turn 3:
+- Maelin uses Battle Prayer on Rowan one last time.
+- Elira uses a basic attack for 1 damage, bringing Heartfire Dragon to 6 damage taken.
+- Rowan uses Quick Slash for 2 total damage thanks to Battle Prayer and defeats Heartfire Dragon.
+Outcome:
+- Rowan claims Chainbound Head and Heartfire Dragon.
+- The party survives the final ordeal on 13 HP.
+
+End-state scoring snapshot
+- Rowan prestige worksheet total: 66
+- Elira prestige worksheet total: 51
+- Maelin prestige worksheet total: 49
+
+Agenda check
+- Rowan / First Name in the Ballad: succeeded by defeating Heartfire Dragon
+- Elira / Prepared Beyond Reason: succeeded; she ended with at least 12 Treasure Value in hand plus on-field permanents
+- Maelin / By My Grace: succeeded; she created 1 failed-save rescue and at least 3 shared-success moments
+
+Immediate feel summary
+- The game is now much closer to a real card-driven session than the older prototype runs were.
+- The quickstart plus canonical cards can carry most of a three-player game.
+- The remaining confusion is no longer about broad concept; it is about missing table procedure, count conflicts, and score/claim handling.

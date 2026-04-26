@@ -1,0 +1,15 @@
+Card ID: resource-lockpick-kit
+Display Name: Lockpick Kit
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Utility
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: Your action.
+Target: One door, vault, or restraint test.
+Rules Text: Gain +2 to the targeted test. If the test clears the last blocking hurdle, draw 1 card.
+Reminder Text: This is a tempo card for gates, chains, and vaults.
+Flavor Text: The first click is hope. The second is profit.
+Art Brief: Fine lockpicks and small tools arranged in a rolled leather case.

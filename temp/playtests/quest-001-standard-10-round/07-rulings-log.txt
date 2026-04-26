@@ -1,0 +1,94 @@
+Rulings Log For Quest 001
+
+RUL-01 - Prototype deck interpretation
+Issue:
+- The design docs define a resource-action deck concept, but not whether the 20 listed cards are a final finite deck or a reusable prototype catalog.
+Patch used:
+- Treat 04-resource-pool.txt as a catalog of repeatable template cards for this run.
+Applied:
+- Before ROUND-01.
+Impact on the run:
+- Let the simulation test card economy and role behavior without pretending the deck frequency is already solved.
+
+RUL-02 - Provisional point currency
+Issue:
+- The docs describe hidden agendas and private scoring pressure, but do not define a general points track.
+Patch used:
+- Each cleared encounter awards 1 Glory to one claimant among the material contributors.
+- The final boss awards 2 Glory.
+- Hidden agendas are worth 3 bonus points if completed.
+Applied:
+- Before ROUND-01.
+Impact on the run:
+- Made the semi-cooperative tension legible, especially for Kael and Brin.
+
+RUL-03 - Threshold timing
+Issue:
+- The docs say tension rises after the round, but threshold timing is not yet formalized.
+Patch used:
+- Threshold effects trigger when tension is raised at end of round and apply to later rounds, not the current round.
+Applied:
+- Confirmed when ROUND-05 ended and the run moved into ROUND-06.
+Impact on the run:
+- Cleanly turned on the midpoint escalation without retroactively changing ROUND-05.
+
+RUL-04 - Non-combat resolution language
+Issue:
+- Merchant, rescue, and vault encounters are not cleanly "combat," but the current system still wants one generic resolution number.
+Patch used:
+- Any card or ability that directly changes the group problem counts as contribution, even if the fiction is social, navigational, or logistical instead of offensive.
+Applied:
+- First needed in ROUND-03.
+Impact on the run:
+- Kept one shared resolution language across all encounter types.
+
+RUL-05 - Damage prevention timing
+Issue:
+- It was unclear whether prevention changes encounter success or only HP loss.
+Patch used:
+- First compute total impact, then apply the d6 modifier, then compare to threat.
+- If there is a shortfall, prevention and Wards reduce only the HP loss; they do not turn the encounter into a clear.
+Applied:
+- First needed in ROUND-04.
+Impact on the run:
+- Produced cleaner consequences and made defensive play about mitigation rather than stealth success conversion.
+
+RUL-06 - Overextend uses party HP, not personal HP
+Issue:
+- The aggressive active references failure pain, but the run intentionally has no per-player HP track.
+Patch used:
+- On a failed overextend, add 1 extra damage to the shared party HP instead of tracking personal injury.
+Applied:
+- First needed in ROUND-06.
+Impact on the run:
+- Preserved the risk of aggression while keeping the health model simple.
+
+RUL-07 - High-tension agenda band
+Issue:
+- The Opportunist agenda needed a concrete threshold.
+Patch used:
+- "High tension" means tension 7 or higher for this run.
+Applied:
+- Confirmed in ROUND-07.
+Impact on the run:
+- Made Brin's agenda readable and aligned it with the crisis band described in round-structure.md.
+
+RUL-08 - No hand limit
+Issue:
+- Hand cap is undefined in the docs.
+Patch used:
+- No hand limit for this pass.
+Applied:
+- Implicit from ROUND-01 through ROUND-10.
+Impact on the run:
+- Mira's hoarding engine snowballed hard and exposed how much draw can accumulate when nothing trims hands.
+
+RUL-09 - Boss persistence intentionally omitted
+Issue:
+- The docs do not yet define monster HP, phases, or multi-round boss structure.
+Patch used:
+- Dragon in the Deep is resolved as a single threat 11 encounter with no separate HP track.
+Applied:
+- ROUND-10.
+Impact on the run:
+- Good for checking raw number pressure, weak for climax feel.

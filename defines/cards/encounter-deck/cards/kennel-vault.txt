@@ -1,0 +1,17 @@
+Card ID: encounter-kennel-vault
+Display Name: Kennel Vault
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: hostile, criteria-spawn, gate
+Escalation Use: Random encounter
+Reveal Text: Spawn by criteria from the creature deck in a single top-to-bottom pass.
+Spawn Text: Spawn 1 Threat 2 humanoid and 2 Threat 1 beasts. Also spawn Iron Gate.
+Scene Rule: The exit and the reward remain blocked while Iron Gate is in play.
+Clear Condition: Defeat or clear every hostile creature and Iron Gate.
+Reward Text: The player who clears the last blocking hurdle gains 1 extra resource draw.
+Failure Text: If unresolved at end of round, raise escalation by 1 as normal and the current claimant discards 1 card.
+Treasure Value: 0
+Rules Text: Use criteria spawning for the hostile creatures. Iron Gate is a blocking hurdle.
+Flavor Text: Chains, cages, and one lock too thick to trust.
+Art Brief: A vault chamber lined with cages and an iron gate, with movement behind the bars.

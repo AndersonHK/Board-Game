@@ -1,0 +1,15 @@
+Card ID: resource-prepared-ground
+Display Name: Prepared Ground
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Setup
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 2
+Cost: None.
+Timing: Your action.
+Target: Your field.
+Rules Text: Ongoing. The first hostile creature attack each scene deals 1 less damage.
+Reminder Text: This card stays in play under your control.
+Flavor Text: A safer room is still treasure if everyone else forgot to make one.
+Art Brief: Barricades, trip-lines, and defensive footing prepared in a corridor.

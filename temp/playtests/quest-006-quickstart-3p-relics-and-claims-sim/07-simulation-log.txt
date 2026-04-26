@@ -1,0 +1,380 @@
+﻿Quest 006 Simulation Log
+Run style: quickstart-first, canonical-card session with explicit logging of player-visible procedure gaps
+Dice results consumed in order: 6, 2, 1, 5, 3, 4, 2, 2, 4, 1, 2, 6, 4, 5, 2, 6
+
+Starting state
+- Party HP: 18
+- Escalation: 0
+- Hand limits: Garrick 6, Lyra 12, Anwen 6
+
+ROUND-01: Camp at the Sealed Stair
+State at start: HP 18, escalation 0
+Scene:
+- The party reaches the sealed descent and follows the quest card's prep-scene instruction.
+Action Turn 1:
+- Garrick plays Hidden Stash and immediately draws Blood Price Burst and Chain Cutter because he wants the ruin to pay him before it starts charging interest.
+- Lyra plays Summon Tin Golem, discards Smoke Route as the cost, and puts Tin Golem onto her field.
+- Anwen plays Warding Circle and starts the slow protection plan immediately.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Garrick draws Field Bandage.
+- Lyra draws Arc Bolt.
+- Anwen draws Lockpick Kit.
+Action Turn 2:
+- Lyra plays Prepared Ground and quietly turns the stair landing into a defensible route for later hostile scenes.
+- Garrick holds Shield Breaker because he wants a real target for it.
+- Anwen keeps Battle Prayer and Dispel Draft in hand.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Warding Circle places 1 shield token on the party.
+- The prep scene is clear, so escalation rises to 1.
+
+ROUND-02: Reliquary of Cinders
+State at start: HP 18, escalation 1
+Scene:
+- Blessing Brazier enters under party control.
+- Ash Miasma enters as a hostile enchantment.
+Action Turn 1:
+- Anwen uses Dispel Draft to remove Ash Miasma from the scene immediately.
+- Lyra uses Study the Signs to peek the next encounter and sees Soot-Stall Trader.
+- Garrick refuses to spend a damage card on an already-solved room and waits for a way to claim the reliquary itself.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Garrick draws Hidden Stash.
+- Lyra draws Hidden Stash.
+- Anwen draws Summon Cinder Familiar.
+Action Turn 2:
+- Garrick spends his action to claim the chamber reward and draws Last Step.
+- Lyra uses Blessing Brazier's once-per-scene ability to place 1 shield token on the party.
+- Anwen keeps Battle Prayer ready for the next real fight.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The room is clear, so escalation rises to 2.
+- Blessing Brazier stays on the shared field as a party-controlled relic.
+
+ROUND-03: Soot-Stall Trader
+State at start: HP 18, escalation 2
+Scene:
+- Trader stock revealed: Rally Push, Chain Cutter, Field Bandage, Greedfire Vow, Quick Slash.
+Action Turn 1:
+- Garrick uses Haggle, rolls `6`, and swaps Arc Bolt for Rally Push plus Quick Slash.
+- Lyra makes a direct trade, gives up Arc Bolt, and takes Greedfire Vow because permanent value matters more to her than one sharp attack.
+- Anwen passes rather than surrender her support tools.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Garrick draws Arc Bolt.
+- Lyra draws Hidden Stash.
+- Anwen draws Shield Breaker.
+Action Turn 2:
+- Lyra plays Hidden Stash and draws Warding Circle plus Summon Grave Hound.
+- Anwen plays Summon Cinder Familiar under her control because Keeper of Relics is already whispering to her.
+- Garrick lets the market scene stay social instead of forcing violence into it.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The trader scene is clear, so escalation rises to 3.
+- Warding Circle places 1 shield token on the party.
+
+ROUND-04: Ember-Bell Nursery
+State at start: HP 18, escalation 3
+Scene:
+- Spawn 2 Ember Bats and 1 Ash Cultist.
+- Ash Cultist's reveal text forces one player to discard 1 card; Garrick discards Field Bandage.
+Action Turn 1:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses the Warrior active for 3 total damage and kills Ash Cultist.
+- Garrick rolls `2` for the Warrior passive on a Threat 1 Common target and fails the draw.
+- Lyra uses Arc Bolt on one Ember Bat and kills it cleanly.
+Enemy Turn 1:
+- The remaining Ember Bat attacks.
+- Prepared Ground reduces that first hostile attack of the scene by 1, so the attack deals 0.
+Mid-round draw:
+- Garrick draws Quick Slash.
+- Lyra draws Blood Price Burst.
+- Anwen draws Battle Prayer.
+Action Turn 2:
+- Garrick chooses greed over tempo and plays Hidden Stash, drawing Arc Bolt and Smoke Route instead of finishing the room.
+- Lyra uses Blessing Brazier to place 1 shield token on the party.
+- Anwen keeps her second Battle Prayer for the continuation round.
+Enemy Turn 2:
+- The remaining Ember Bat attacks again.
+- The shield from Blessing Brazier absorbs the damage.
+End of round:
+- The nursery is unresolved, so escalation rises to 4.
+- The encounter failure text deals 1 party damage from spreading fire.
+- Party HP drops to 17.
+
+ROUND-05: Continue Ember-Bell Nursery
+State at start: HP 17, escalation 4
+Scene:
+- The second Ember Bat remains.
+Action Turn 1:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses the Warrior active for 3 total damage and kills the last Ember Bat.
+- Garrick rolls `1` for the Warrior passive on a Threat 1 Common target and succeeds, drawing Summon Grave Hound.
+- With the room already clear, Lyra still gets her normal action because the current rules say to finish the round structure.
+- Lyra plays Greedfire Vow, pays 1 party HP, and puts the enchantment onto her field.
+Enemy Turn 1:
+- No enemy actions remain.
+Mid-round draw:
+- Garrick draws Field Bandage.
+- Lyra draws Quick Slash.
+- Anwen draws Lockpick Kit.
+Action Turn 2:
+- Nobody spends extra cards into an empty room.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The scene is clear, so escalation rises to 5.
+- The midpoint scripted ordeal is inserted next.
+- Party HP is now 16 after Greedfire Vow's placement cost.
+
+ROUND-06: Furnace Warden Rises
+State at start: HP 16, escalation 5
+Scene:
+- Ashen Warden enters play.
+Action Turn 1:
+- Garrick uses Blood Price Burst, pays 1 party HP, and deals 4 damage to Ashen Warden.
+- Lyra follows with Quick Slash for 1 more damage.
+- Anwen holds her support until the kill matters.
+Enemy Turn 1:
+- Ashen Warden uses Furnace Sweep, but there are no party shields left to strip between scenes.
+- Ashen Warden then attacks for 2.
+- Prepared Ground reduces that first hostile attack of the scene to 1.
+- Tin Golem prevents the last 1 damage.
+- Party HP stays at 15.
+Mid-round draw:
+- Garrick draws Last Step.
+- Lyra draws Study the Signs.
+- Anwen draws Smoke Route.
+Action Turn 2:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses the Warrior active for 3 total damage and defeats Ashen Warden.
+- Garrick rolls `5` on the Warrior passive against a Threat 3 Elite target and succeeds automatically in practice, drawing Summon Grave Hound.
+- Because the room is already clear, Lyra still spends her action on Hidden Stash and draws more long-term value.
+Reward:
+- Each player draws 1 card: Garrick -> Field Bandage, Lyra -> Study the Signs, Anwen -> Dispel Draft.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Garrick claims Ashen Warden.
+- The scene is clear, so escalation rises to 6.
+- Starting with the next scene, the threshold-5 reward-draw tax is now active.
+
+ROUND-07: Cracked Causeway
+State at start: HP 15, escalation 6
+Scene:
+- Each player makes a save or loses 1 card.
+Immediate saves:
+- Garrick rolls `3` and would fail.
+- Anwen uses the Cleric passive to add `+1`, flipping Garrick's result to `4`.
+- Garrick chooses Last Step as the card he would have lost, and it goes into Anwen's hand instead.
+- Lyra rolls `4` and succeeds.
+- Anwen rolls `2` and fails her own save, losing Lockpick Kit.
+Action Turn 1:
+- Lyra plays Study the Signs for `+2` to her next non-combat test this turn.
+- Garrick waits because the room wants finesse more than damage.
+- Anwen keeps her remaining cards flexible.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Garrick draws Smoke Route.
+- Lyra draws Summon Cinder Familiar.
+- Anwen draws Mercy Prayer.
+Action Turn 2:
+- Lyra attempts the crossing test, rolls `2`, adds `+2`, reaches `4`, and secures the causeway.
+- Garrick takes no post-clear greed action because he wants cards for the red-zone fights.
+- Anwen lets the room end quietly.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Lyra scouts the next encounter and sees Shrine of Echoes.
+- The scene is clear, so escalation rises to 7.
+
+ROUND-08: Shrine of Echoes
+State at start: HP 15, escalation 7
+Scene:
+- The shrine bargain is available once per player.
+- Garrick takes it, draws Battle Prayer, and discards Chain Cutter.
+- Lyra also takes it, draws Mercy Prayer, and discards Study the Signs.
+- Because Lyra owns Greedfire Vow, that first extra draw in the scene gives her 1 more card: Lockpick Kit.
+- Because two players took the bargain, Ash Miasma spawns.
+Action Turn 1:
+- Garrick holds Dispel Draft instead of using it because he thinks the miasma might be another player's problem next room.
+- Lyra keeps leaning into setup instead of cleanup.
+- Anwen refuses to spend her fresh Dispel Draft here because she expects a carried-over rescue room to matter more.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Garrick draws Dispel Draft.
+- Lyra draws Field Bandage.
+- Anwen draws Battle Prayer.
+Action Turn 2:
+- Nobody removes Ash Miasma.
+- The table clears the bargain but not the room.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- The scene is unresolved, so escalation rises to 8.
+- Ash Miasma makes the player with the most cards discard 1; Lyra discards Mercy Prayer.
+- Greedfire Vow sees that Lyra gained extra draws this scene, so the party loses 1 HP.
+- Because Shrine of Echoes says unresolved Ash Miasma stays in play, the curse carries into the next scene.
+- Party HP drops to 14.
+
+ROUND-09: Bound Pilgrim
+State at start: HP 14, escalation 8
+Scene:
+- Rusted Chains spawns.
+- The carried-over Ash Miasma remains in the room.
+Action Turn 1:
+- Anwen uses Dispel Draft to remove Ash Miasma.
+- Garrick uses Shield Breaker, discards Quick Slash, and deals 3 damage to Rusted Chains, breaking them immediately.
+- Lyra still gets her action after the clear and plays Warding Circle onto her field.
+Enemy Turn 1:
+- No enemy actions.
+Mid-round draw:
+- Garrick draws Summon Cinder Familiar.
+- Lyra draws Warding Circle.
+- Anwen draws Mercy Prayer.
+Action Turn 2:
+- Because Bound Pilgrim says the active player may heal 1 party HP if the rescue clears this round, Garrick takes that heal as the acting player who broke the last restraint.
+- Party HP returns to 15.
+- Nobody spends further cards.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Garrick claims Rusted Chains as a cleared blocking card.
+- The scene is clear, so escalation rises to 9.
+
+ROUND-10: Kennel Vault
+State at start: HP 15, escalation 9
+Scene:
+- Criteria spawn in one top-to-bottom pass: Gray Wolf, Smoke Seer, Ember Bat.
+- Iron Gate also enters play.
+- Threshold 8 is active, so the first hostile creature attack this scene gets +1 Attack.
+Action Turn 1:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses the Warrior active for 3 total damage and kills Smoke Seer.
+- Garrick rolls `4` on the Warrior passive against a Threat 2 Elite target and succeeds, drawing Chain Cutter.
+- Lyra uses Arc Bolt and kills Ember Bat.
+Enemy Turn 1:
+- Gray Wolf is the first hostile creature to attack this scene, so threshold 8 raises its Attack from 1 to 2.
+- Prepared Ground reduces that first hostile attack back down to 1.
+- Because friendly creatures must be targeted first if legal, Gray Wolf attacks Tin Golem instead of the party.
+- Tin Golem takes 1 damage.
+- Gray Wolf's discard rider does not trigger because Anwen used a support effect this turn.
+Mid-round draw:
+- Garrick draws Last Step.
+- Lyra draws Lockpick Kit.
+- Anwen draws Mercy Prayer.
+Action Turn 2:
+- Anwen uses Battle Prayer on Lyra.
+- Lyra basic attacks Iron Gate for 2 total damage.
+- Garrick basic attacks Gray Wolf for 1 damage.
+Enemy Turn 2:
+- Gray Wolf attacks Tin Golem again for 1 damage.
+- Because Anwen used a support effect this turn, Gray Wolf's discard rider is again suppressed.
+End of round:
+- Iron Gate remains with 2 damage on it.
+- Gray Wolf remains with 1 damage on it.
+- The scene is unresolved, so escalation rises to 10.
+- Kennel Vault then forces the current claimant to discard 1 card.
+- By this run's claimant ruling, Lyra is currently closest to the reward because she most recently advanced the last major blocking hurdle, so she discards Hidden Stash.
+
+ROUND-11: Continue Kennel Vault
+State at start: HP 15, escalation 10
+Scene:
+- The same scene continues.
+- The final ordeal does not begin yet because the current scene has not ended.
+Action Turn 1:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses the Warrior active for 3 total damage and kills Gray Wolf.
+- Garrick rolls `1` on the Warrior passive against a Threat 1 Common target and succeeds, drawing Warding Circle.
+- Lyra uses Blood Price Burst, pays 1 party HP, and deals 4 damage to Iron Gate, clearing it completely.
+Enemy Turn 1:
+- No enemy actions remain.
+Reward:
+- Lyra clears the last blocking hurdle and takes the scene's extra reward draw, drawing Study the Signs.
+- Because she is the first player this scene to gain an extra reward draw, the threshold-5 smoke rule makes her discard Arc Bolt afterward.
+Mid-round draw:
+- Garrick draws Warding Circle.
+- Lyra draws Summon Cinder Familiar.
+- Anwen draws Dispel Draft.
+Action Turn 2:
+- Lyra already owns enough room to spend her action on pure positioning and keeps her cards.
+- Garrick and Anwen also hold for the final ordeal.
+Enemy Turn 2:
+- No enemy actions.
+End of round:
+- Garrick claims Gray Wolf.
+- Lyra claims Iron Gate.
+- The scene is clear. Escalation remains at 10, and Dragon in the Deep now reveals.
+- Party HP is 14 after Blood Price Burst.
+
+ROUND-12: Dragon In The Deep
+State at start: HP 14, escalation 10
+Scene:
+- Stage 1 is Chainbound Head.
+- When Chainbound Head falls, Heartfire Dragon appears.
+Action Turn 1:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses Shield Breaker, discards Field Bandage, and deals 4 damage to Chainbound Head.
+- Lyra uses a basic attack for 1 and defeats Chainbound Head, claiming the last hit before Garrick can do it.
+- Heartfire Dragon appears immediately.
+Enemy Turn 1:
+- Heartfire Dragon uses Dragon's Breath and still attacks.
+- Garrick rolls `2` and discards 1 card.
+- Lyra rolls `6`, so the party takes 1 damage instead of her discarding.
+- Anwen rolls `4` and discards 1 card.
+- Party HP drops to 13 from Dragon's Breath.
+- Lyra uses the Wizard active to place 2 shield tokens on the party.
+- Tin Golem prevents 1 damage from the dragon's normal attack.
+- The 2 shield tokens absorb the other 2 damage.
+- Party HP stays at 13.
+Mid-round draw:
+- Garrick draws Prepared Ground.
+- Lyra draws Summon Tin Golem.
+- Anwen draws Lockpick Kit.
+Action Turn 2:
+- Anwen uses Battle Prayer on Garrick.
+- Garrick uses the Warrior active for 3 damage to Heartfire Dragon.
+- Lyra uses Last Step for 1 more damage.
+- Heartfire Dragon is now at 4 damage taken.
+Enemy Turn 2:
+- Heartfire Dragon uses Dragon's Breath again.
+- Garrick rolls `5`, so the party takes 1 damage instead of his discard.
+- Lyra rolls `2` and discards 1 card.
+- Anwen rolls `6`, so the party takes 1 damage instead of her discard.
+- Party HP drops from 13 to 11.
+- Heartfire Dragon then attacks for 3.
+- Tin Golem is already exhausted from the earlier enemy turn this round.
+- No shields remain.
+- Party HP drops from 11 to 8.
+Escalation-10 continuation:
+- The normal two-turn cap is gone, so the ordeal keeps going without another mandatory draw this round.
+Ordeal Turn 3:
+- Anwen uses Battle Prayer on Lyra.
+- Lyra uses Blood Price Burst, pays 1 party HP, and deals 5 total damage to Heartfire Dragon.
+- Heartfire Dragon is defeated before another enemy turn occurs.
+- Party HP ends at 7.
+
+End-state scoring snapshot
+- Garrick prestige worksheet total: 44
+- Lyra prestige worksheet total: 52
+- Anwen prestige worksheet total: 32
+
+Agenda check
+- Garrick / Ashes to Ashes: succeeded; his claimed hostile Treasure Value reaches at least 10
+- Lyra / Richer Than the Ruin: succeeded; she ends with the highest hand-plus-field Treasure total
+- Anwen / Keeper of Relics: succeeded; she ends with at least 2 player-owned permanents on the field
+
+Immediate feel summary
+- The current quickstart is finally carrying the basics of saves, tests, multi-round draws, and hostile pressure cleanly.
+- The remaining friction is now concentrated in claim procedure, ownership language, and a few undefined card-facing terms rather than in the overall game loop.
+- Lyra's win here came from a very readable mix of greed, permanent ownership, and stolen final credit, which is exactly the kind of story this design says it wants.
+

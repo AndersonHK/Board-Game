@@ -1,0 +1,29 @@
+﻿Simulation Roster: Three Players, Three Unique Classes
+
+1. Garrick Stonehand
+- Class: Warrior
+- Persona: wants the dungeon to remember who put the biggest threats down for good
+- Quick-start passive: when Garrick deals the final point of damage to a monster with his own action card, creature, or Warrior trait damage, roll 1d6 and draw 1 if the result is less than or equal to `monster threat x rarity multiplier`
+- Quick-start active: once per turn, Garrick may deal `2` damage
+- Hidden priority: hostile claims, blocking claims, and visible kill credit
+
+2. Lyra Vale
+- Class: Wizard
+- Persona: wants to leave the ruin richer than everyone else, not just alive
+- Quick-start passive: hand limit `12`
+- Quick-start active: once per scene, place `2` shield tokens on the party or any creature
+- Hidden priority: end with the largest hand-plus-field Treasure pile while turning the dungeon's relics into long-term ownership
+
+3. Sister Anwen
+- Class: Cleric
+- Persona: wants to look helpful while quietly finishing the game surrounded by wards, allies, and relics
+- Quick-start passive: once per scene, when another player makes a save, give that roll `+1`; if that flips failure into success, that player chooses `1` card they would have lost and puts it into Anwen's hand instead
+- Quick-start active: once per scene, heal `1` party HP or `2` HP to any creature
+- Hidden priority: own enough permanents to satisfy a relic-focused agenda without ever looking openly selfish
+
+Starting Hand Notes:
+- All players use the quest card's three-player starting hand size of `4`.
+- Garrick and Anwen use the baseline hand limit of `6`.
+- Lyra uses the Wizard hand limit of `12` from the start of the game.
+- The roster intentionally stresses three different prestige routes: claims, retained wealth, and owned permanents.
+

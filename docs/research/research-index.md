@@ -34,6 +34,11 @@ This file tracks topic research notes that feed the design. The current concept 
 - Notes: [secret-objectives-risk-ticket-to-ride.md](./secret-objectives-risk-ticket-to-ride.md)
 - Why it matters: hidden personal goals can create tension, bluffing, and divergent incentives without requiring a literal traitor role.
 
+### Yu-Gi-Oh Tribute Costs and MTG Discard Balancing
+
+- Notes: [yugioh-tribute-and-mtg-discard-costs.md](./yugioh-tribute-and-mtg-discard-costs.md)
+- Why it matters: helps shape a card-economy model where stronger effects are paid for with discards or sacrifices, while also warning against hand denial and randomness that make card play feel overly punitive.
+
 ## Usage Rule
 
 When a design choice depends on one of these inspirations, cite the specific topic note in the relevant design doc instead of re-explaining the research from scratch.

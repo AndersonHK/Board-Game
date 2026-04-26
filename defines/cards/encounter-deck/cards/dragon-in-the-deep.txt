@@ -1,0 +1,17 @@
+Card ID: encounter-dragon-in-the-deep
+Display Name: Dragon in the Deep
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Scripted Ordeal
+Scene Tags: scripted, final, dragon, boss
+Escalation Use: Reveal only when the quest reaches escalation 10.
+Reveal Text: Spawn Chainbound Head. When Chainbound Head is defeated, spawn Heartfire Dragon.
+Spawn Text: Stage 1 is Chainbound Head. Stage 2 is Heartfire Dragon.
+Scene Rule: At escalation 10 the normal two-turn round cap is removed. This ordeal still uses the normal mandatory standard draw of 1 card per player each round.
+Clear Condition: Defeat Heartfire Dragon.
+Reward Text: None. This scene decides survival and final prestige.
+Failure Text: If party HP reaches 0 at any point, all players lose immediately.
+Treasure Value: 0
+Rules Text: Heartfire Dragon uses Dragon's Breath and still attacks on the same turn.
+Flavor Text: The mountain kept one last mouth hidden under all the others.
+Art Brief: A chained dragon head breaking loose above a vast furnace cavern, with the true body coiled in the fire below.

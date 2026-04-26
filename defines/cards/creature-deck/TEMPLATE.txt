@@ -1,0 +1,43 @@
+Template Name: Creature Deck Template
+Template Version: 1
+Purpose: One file per shared entity card in the creature deck grammar, including enemies, bosses, artifacts, enchantments, and allied summons.
+
+Required Fields:
+- Card ID
+- Display Name
+- Deck
+- Card Type
+- Subtype
+- Creature Type
+- Rarity
+- Threat
+- Treasure Value
+- Hit Points
+- Attack
+- Combat Targetable
+- Summon Sickness
+- Rules Text
+- Active Ability
+- Round End Text
+- Flavor Text
+- Art Brief
+
+Field Order:
+Card ID:
+Display Name:
+Deck:
+Card Type:
+Subtype:
+Creature Type:
+Rarity:
+Threat:
+Treasure Value:
+Hit Points:
+Attack:
+Combat Targetable:
+Summon Sickness:
+Rules Text:
+Active Ability:
+Round End Text:
+Flavor Text:
+Art Brief:

@@ -1,0 +1,44 @@
+Encounter Deck Used For Quest 005
+
+Important canon conflict:
+- The Ashen Depths quest card says to use `8` random encounters.
+- The encounter card folder currently contains `9` random encounters.
+- This session used `8` random encounters and left `Reliquary of Cinders` out of the shuffled stack as the smallest way to respect the quest card.
+
+Prep Scene
+- Camp at the Sealed Stair
+- This is the quest-mandated escalation-0 prep scene rather than a drawn encounter card.
+
+Random Encounter Stack Used In This Session
+1. Soot-Stall Trader
+2. Cracked Causeway
+3. Shrine of Echoes
+4. Bound Pilgrim
+5. Kennel Break
+6. Smoke-Flood Gallery
+7. Kennel Vault
+8. Ember-Bell Nursery
+
+Scripted Insertions
+- After the scene that first ended with escalation at `5`, insert Furnace Warden Rises before continuing the random stack.
+- After the scene that first ended with escalation at `10`, reveal Dragon in the Deep instead of continuing the random stack.
+
+Unused Random Encounter
+- Reliquary of Cinders
+
+Actual Reveal Sequence Reached In Play
+1. Camp at the Sealed Stair
+2. Soot-Stall Trader
+3. Cracked Causeway
+4. Shrine of Echoes
+5. Bound Pilgrim
+6. Furnace Warden Rises
+7. Kennel Break
+8. Smoke-Flood Gallery
+9. Kennel Vault
+10. Continue Kennel Vault
+11. Dragon in the Deep
+
+Cards Not Reached Before The Final Ordeal
+- Ember-Bell Nursery
+- the unused ninth random encounter, Reliquary of Cinders

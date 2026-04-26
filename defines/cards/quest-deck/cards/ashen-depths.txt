@@ -1,0 +1,22 @@
+Card ID: quest-ashen-depths
+Display Name: Ashen Depths
+Deck: Quest Deck
+Card Type: Quest
+Theme: Classic fantasy dungeon descent through ash-choked ruins
+Player Count: 3-4
+Starting Party HP (4P): 11
+Starting Party HP (3P): 18
+Starting Hand Size (4P): 3
+Starting Hand Size (3P): 4
+Escalation Track: 0-10
+Setup Text: Begin at escalation 0 with a prep scene instead of a hostile battle.
+Ongoing Quest Rule: When a new scene is fully cleared, raise escalation by 1. If hostile or blocking hurdles remain at end of round, raise escalation by 1.
+Threshold 5: After the current scene ends, resolve the scripted ordeal Furnace Warden Rises. Starting with the next scene, the first player each scene to gain an extra draw from a reward must discard 1 card after that reward resolves.
+Threshold 8: Ash Pressure Rises. In hostile scenes, the first hostile creature attack each scene gets +1 Attack.
+Threshold 10: After the current scene ends, reveal Dragon in the Deep. At escalation 10 the normal two-turn round cap no longer applies.
+Lose Condition: If party HP reaches 0, all players lose.
+Win Condition: Survive the final ordeal and defeat Heartfire Dragon.
+Treasure Value: 0
+Rules Text: This quest uses one prep scene, a shuffled random encounter deck, one scripted mid-game ordeal, and one scripted final ordeal. Use a red d20 for party HP. In 3-player mode, start at 18 party HP and 4 cards each.
+Flavor Text: The ruin keeps breathing long after its builders are ash.
+Art Brief: A massive stair descending into a volcanic dungeon, with soot in the air, cracked stone saints, and orange furnace light below.

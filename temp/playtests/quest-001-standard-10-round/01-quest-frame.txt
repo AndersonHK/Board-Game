@@ -1,0 +1,27 @@
+Quest: Ashen Depths
+Theme: Classic fantasy dungeon descent
+
+Premise:
+The party enters a volcanic ruin beneath a dead mountain, chasing rumors of a chained dragon and a vault full of relics. The deeper they go, the more the ruin wakes up around them.
+
+Core Track:
+- Start tension: 0
+- Midpoint threshold at tension 5: "The dragon stirs"
+- Climax: round 10 final ordeal, Dragon in the Deep
+
+Quest Trait:
+- Once per round, one player may Scout: draw 1 card, then discard 1 card.
+
+Threshold Effect:
+- The dragon stirs: after tension reaches 5, all later encounters gain +1 threat.
+
+Lose Condition:
+- If party HP reaches 0, the entire party loses.
+
+Win Condition For This Simulation:
+- Survive all 10 rounds and clear or outlast the final ordeal.
+
+Quest Tone Notes:
+- Early rounds should feel like pressure mixed with opportunity.
+- Midpoint should feel like the dungeon becoming active, not just numbers going up.
+- The boss should expose whether a single-round threat check is enough for climactic monsters.

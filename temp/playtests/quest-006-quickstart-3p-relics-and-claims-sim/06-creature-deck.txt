@@ -1,0 +1,83 @@
+﻿Creature And Entity Session Map
+
+Session reserve order used for criteria spawning
+- This order matters for criteria-based searches.
+- Exact-name spawns search the reserve for the named card without rewriting the criteria order used later.
+
+1. Gray Wolf
+2. Smoke Seer
+3. Ember Bat
+4. Orc Raider
+5. Furnace Hound
+6. Dire Wolf
+7. Ash Cultist
+8. Goblin Bruiser
+9. Goblin Cutthroat
+10. Goblin Chieftain
+11. Cinder Knight
+12. Ash Ogre
+13. Skeletal Porter
+14. Heavy Door
+15. Iron Gate
+16. Rusted Chains
+17. Ash Miasma
+18. Blessing Brazier
+19. Cinder Familiar
+20. Grave Hound
+21. Tin Golem
+22. Warding Circle
+23. Greedfire Vow
+24. Ashen Warden
+25. Chainbound Head
+26. Heartfire Dragon
+
+Duplicate-Copy Session Ruling
+- Ember-Bell Nursery requires `2 Ember Bats`, but the creature deck files still define only one unique Ember Bat card with no copy-count field.
+- This session therefore used one extra Ember Bat instance as a run-only reserve duplicate.
+
+Exact-Name Spawns Used
+
+Reliquary Of Cinders
+- Blessing Brazier
+- Ash Miasma
+
+Ember-Bell Nursery
+- Ember Bat
+- Ember Bat
+- Ash Cultist
+
+Bound Pilgrim
+- Rusted Chains
+- carried-over Ash Miasma from Shrine of Echoes
+
+Furnace Warden Rises
+- Ashen Warden
+
+Dragon In The Deep
+- Chainbound Head
+- then Heartfire Dragon when Chainbound Head is defeated
+
+Criteria Spawn Used
+
+Kennel Vault instruction
+- Spawn `1 Threat 2 humanoid` and `2 Threat 1 beasts` in a single top-to-bottom pass.
+
+Result from the session reserve order
+- Gray Wolf satisfies the first `Threat 1 beast` slot.
+- Smoke Seer satisfies the `Threat 2 humanoid` slot.
+- Ember Bat satisfies the second `Threat 1 beast` slot.
+- Iron Gate is then added by the encounter card.
+
+Friendly Permanents Used
+- Blessing Brazier under party control
+- Tin Golem under Lyra's control
+- Warding Circle under Anwen's control
+- Cinder Familiar under Anwen's control
+- Greedfire Vow under Lyra's control
+- Warding Circle under Lyra's control
+
+Claim Tracking Used
+- Garrick claims Ash Cultist, the second Ember Bat, Ashen Warden, Rusted Chains, Smoke Seer, and Gray Wolf.
+- Lyra claims the first Ember Bat, Iron Gate, Chainbound Head, and Heartfire Dragon.
+- Party-controlled Blessing Brazier remains on the shared field and is not claimed by one player for prestige in this run.
+

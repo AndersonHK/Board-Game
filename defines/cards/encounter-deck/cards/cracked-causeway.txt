@@ -1,0 +1,17 @@
+Card ID: encounter-cracked-causeway
+Display Name: Cracked Causeway
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: hazard, save, traversal
+Escalation Use: Random encounter
+Reveal Text: Each player makes a save. On a failed save, that player loses 1 card.
+Spawn Text: No creature spawn.
+Scene Rule: A player may use a non-combat test action to secure the crossing. The crossing counts as a blocking hurdle until secured.
+Clear Condition: The crossing has been secured.
+Reward Text: If the scene is cleared this round, one player may scout the top card of the encounter deck.
+Failure Text: If unresolved at end of round, the party takes 1 damage.
+Treasure Value: 0
+Rules Text: Default saves succeed on 4+ unless modified. Cleric rescue effects can change failed saves here.
+Flavor Text: The bridge hangs over a shaft of furnace wind and falling stone.
+Art Brief: A shattered stone bridge over a glowing chasm, with missing slabs and blowing ash.

@@ -1,0 +1,41 @@
+Encounter Deck Session Map
+
+Canonical deck note:
+- Scripted ordeals are not shuffled into the random encounter deck.
+- Random encounters are shuffled together.
+- This session uses a predetermined shuffled order to make the run reproducible.
+
+Scripted Quest Encounters
+- Furnace Warden Rises: inserted when escalation reaches `5` and the current scene ends.
+- Dragon in the Deep: revealed when escalation reaches `10` and the current scene ends.
+
+Random Encounter Order Used
+
+1. Smoke-Flood Gallery
+- Purpose in this run: test hazard reveal choices, forced discard prevention, non-combat tests, and the undefined `graveyard` word.
+
+2. Kennel Break
+- Purpose in this run: test exact-name combat spawns, friendly summon targeting, Warrior claim incentives, and a multi-round hostile scene.
+
+3. Soot-Stall Trader
+- Purpose in this run: test trader interaction procedure and whether real players can distinguish trader exchange value from reward draws.
+
+4. Cracked Causeway
+- Purpose in this run: test saves, Cleric passive card transfer, default test numbers, and reward scouting.
+
+5. Shrine of Echoes
+- Purpose in this run: test bargain draws, Ash Miasma spawning, and the carry-over text tension with normal scene clearing.
+
+6. Bound Pilgrim
+- Purpose in this run: test carried-over Ash Miasma, `active player`, rescue reward timing, and blocking-card claims.
+
+7. Kennel Vault
+- Purpose in this run: test criteria spawning, Iron Gate as a blocking artifact, threshold-8 hostile pressure, `current claimant`, and the threshold-5 reward-draw tax.
+
+Unused Random Encounters In This Run
+- Ember-Bell Nursery
+- Reliquary of Cinders
+
+Encounter Notes
+- Smoke-Flood Gallery, Cracked Causeway, and Soot-Stall Trader create table pressure without normal enemy turns.
+- Shrine of Echoes creates the largest player-facing ambiguity in this run because its failure text says Ash Miasma can remain for the next scene, while the normal clear condition says no blocking card can remain.
