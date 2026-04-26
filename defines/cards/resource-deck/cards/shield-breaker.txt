@@ -10,6 +10,5 @@ Cost: Discard 1 card.
 Timing: Your action.
 Target: One creature or artifact.
 Rules Text: Deal 3 damage to the target.
-Reminder Text: This is a visible discard-cost spike card.
-Flavor Text: If the line won't bend, spend something until it does.
-Art Brief: A brutal overhead strike shattering armor or iron braces.
+Flavor Text: If the line will not bend, spend something dear enough to make it listen.
+Art Brief: A brutal overhead blow shatters armor, a shield-rune, or iron bracing in a burst of sparks; include the discarded card cost visually as a torn map or burned keepsake falling away.

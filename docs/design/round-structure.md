@@ -4,14 +4,13 @@ This file captures the current round-flow hypothesis and escalation logic. The b
 
 ## Current Round Hypothesis
 
-The older sketch of "draw encounter, solve threat, play actions, raise tension" is too flat for the current design direction.
+The older sketch of "draw encounter, solve threat, play actions, raise escalation" is too flat for the current design direction.
 
 The better working model is:
 
-1. at tension 0, run a prep scene instead of a hostile encounter
+1. at escalation 0, run a prep scene instead of a hostile encounter
 2. reveal the next encounter event
-3. resolve the event's immediate text
-4. spawn any monsters, hazards, doors, enchantments, or tests created by that event
+3. resolve the event's `Reveal Text`, including any monsters, hazards, doors, enchantments, or tests created by that event
 5. `Action Turn 1`: every player takes 1 action if able, in an order chosen by the players
 6. `Enemy Turn 1`: every enemy monster takes 1 action if able, from strongest to weakest, with toss-ups chosen by the players
 7. standard draw: each player draws 1 card once per round
@@ -25,12 +24,27 @@ Unless changed by card effects, class abilities, or scene text, players get one 
 
 If a round ends before the normal between-turn draw window is reached, that standard draw still happens at round end. The default draw is once per round, not once per encounter.
 If a scene clears during a round, finish the current round structure unless a card or quest says the scene ends immediately.
+When a scene reward condition is met, the current quickstart resolves that reward immediately unless the card says otherwise, then the table finishes the current round structure.
+
+## Prep Scene Procedure
+
+The current vertical slice begins at escalation `0` with a prep scene.
+
+The working player-facing procedure is:
+
+1. run one normal non-hostile round
+2. let players use legal setup actions, card plays, class actives, and other normal action windows
+3. if no hostile or blocking hurdles are created, the prep scene clears at end of round
+4. the quest then raises escalation as normal for clearing a new scene
+
+This procedure was promoted from Quest 007's ruling because the quest card states that a prep scene exists, but there is not currently a dedicated prep encounter card.
 
 ## Escalation Track
 
 - current range: 0 to 10
-- likely midpoint spike: 5 or 6
-- likely climax: 10
+- midpoint spike: 5 in the current `Ashen Depths` quest
+- additional late pressure: 8 in the current `Ashen Depths` quest
+- climax: 10
 
 This suggests a short, structured arc that fits a 30 to 40 minute session.
 
@@ -56,16 +70,16 @@ Because the same event or card can mean different things at different escalation
 
 This is especially promising for a one-week project because it creates replayable tension by context instead of by content volume.
 
-## Candidate Escalation Bands
+## Current Escalation Bands
 
-Not yet confirmed, but a clean first pass could be:
+The current quickstart uses:
 
-- 0 to 3: prep / opportunity-rich / lower danger
-- 4 to 6: pressure / midpoint disruption / harder tradeoffs
-- 7 to 9: crisis / high stakes / best cards matter
-- 10: climax / boss or final ordeal
+- `0-3`: early / green
+- `4-6`: mid / yellow
+- `7-9`: late / red
+- `10`: final ordeal / skull
 
-That banding is an inference, not a settled rule.
+This is now player-facing for the vertical slice, though future quests may rename or reinterpret the bands.
 
 ## Tracker Presentation Direction
 
@@ -76,7 +90,16 @@ The user wants the printed escalation meter to communicate the three main pressu
 - red for the late band
 - a skull symbol next to `10` for the final ordeal
 
-This presentation also lines up cleanly with the current draft assumption of three strength tiers for monsters and reward scaling.
+This presentation also lines up cleanly with the current three threat tiers for monsters and Warrior reward scaling.
+
+## Damage And Reward Timing Clarifications
+
+The latest quickstart includes two small but important table-play defaults:
+
+- excess damage to a single target does not carry over to the party or another target unless a card says otherwise
+- rewards resolve when their condition is met unless a card says otherwise, even if the table then finishes the rest of the round
+
+These defaults keep common play cases from needing designer interpretation, especially when friendly creatures absorb enemy attacks or a scene clears during `Action Turn 1`.
 
 ## Event Scaling Example
 
@@ -85,20 +108,19 @@ One useful pattern is to let the same encounter blurb spawn different entity car
 For example:
 
 - `Ashen Ambush`
-  - low tension: spawn 2 goblin skulkers
-  - mid tension: spawn 2 orc raiders
-  - high tension: spawn 1 ogre brute
+  - low escalation: spawn 2 goblin skulkers
+  - mid escalation: spawn 2 orc raiders
+  - high escalation: spawn 1 ogre brute
 
 This keeps encounter text reusable while letting escalation visibly change the fiction.
 
-## Current Unknowns
+## Remaining Future Questions
 
-- Is scene resolution simultaneous, negotiated, or turn-based?
-- What exactly counts as "dealing with" an event when the scene is a trap, bargain, or rescue instead of a fight?
-- Can players refuse to contribute to a group problem?
-- When are agenda scoring opportunities evaluated?
-- What do dice resolve: save throws, card effects, combat, or all of the above?
-- How long should spawned monster cards or persistent scene cards remain in play?
+- How many different non-combat scene patterns can the game support before the quickstart needs another reference sheet?
+- Should future quests add printed prep-scene cards, or is the current generic prep procedure enough?
+- How often should persistent cards carry forward between scenes without making cleanup confusing?
+- How much support-success tracking can agendas ask for before scoring becomes too interpretive?
+- Should future combat keywords ever add damage carry-over, or should no spillover remain the default unless printed?
 
 ## Horizontal Slice Suggestion
 

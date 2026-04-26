@@ -36,7 +36,7 @@ Examples already named by the user:
 - steampunk
 - grimdark
 
-For the first vertical slice, the default mapping is likely:
+For the first vertical slice, the current mapping is:
 
 - aggressive archetype -> rogue / barbarian / warrior flavor family
 - defensive archetype -> wizard / sorcerer flavor family
@@ -62,13 +62,20 @@ At the same time, each player also has a hidden personal agenda and is trying to
 
 The desired emotional output is not clean optimization. It is bitter-sweet heroism, negotiation, credit-stealing, rescue, and lingering table memory about who helped whom and who chose greed at the wrong moment.
 
+### Release-Candidate Choice Principle
+
+Late vertical-demo card edits clarified that high-pressure effects should usually give players a consequential choice instead of only imposing a random result. The strongest version of this pattern asks players to choose between helping the group and protecting themselves, then uses dice to make the chosen risk feel volatile rather than predetermined.
+
+For example, a boss pressure effect is more on-theme when each player chooses between personal card loss and shared party damage than when the card simply tells each player what happens. The randomness should make the chosen line tense, while the choice itself should surface cooperation, selfishness, and blame.
+
 ## Escalation Frame
 
 The current escalation track runs from 0 to 10.
 
 - At 0, the players begin with a prep scene outside or near the top of the dungeon.
-- Around 5 or 6, the quest likely introduces a major midpoint escalation.
-- At 10, the quest reaches its climax, such as facing the dragon in the D&D-flavored example.
+- At 5, the current vertical-slice quest introduces a major midpoint escalation.
+- At 8, the current vertical-slice quest adds late hostile pressure.
+- At 10, the current vertical-slice quest reaches its climax by revealing the final dragon ordeal.
 
 The world/quest system may also define a light ongoing rule modifier or a scene mix shift. More specific structure lives in [deck-architecture.md](./deck-architecture.md) and [round-structure.md](./round-structure.md).
 
@@ -86,7 +93,7 @@ Instead, each encounter card is better framed as an event or scene prompt. An ev
 
 This means the "problem" of a round is authored first by the event text, and only then expressed mechanically through whatever entities, rolls, losses, choices, or opportunities that event creates.
 
-The same event can also scale by escalation band. For example, an ambush scene might spawn goblins at low tension, orcs at mid tension, and an ogre at high tension. That sort of blurb-driven escalation currently feels more correct than assigning the event one fixed challenge number.
+The same event can also scale by escalation band. For example, an ambush scene might spawn goblins at low escalation, orcs at mid escalation, and an ogre at high escalation. That sort of blurb-driven escalation currently feels more correct than assigning the event one fixed challenge number.
 
 ## Entity Layer Direction
 
@@ -105,7 +112,7 @@ That layer should ideally share one lightweight grammar so the game does not spl
 
 The resource / artifact / action deck should include both immediate conflict tools and selfish long-term setup cards.
 
-The current draft cost philosophy now also points toward stronger cards being paid for through discards and sacrifices rather than through a separate mana-style economy. The more detailed discussion of that direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md).
+The current cost philosophy points toward stronger cards being paid for through discards, sacrifices, or party HP rather than through a separate mana-style economy. The more detailed discussion of that direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md).
 
 That matters because a greedy player should be able to spend a scene making themselves stronger, drawing deeper, or setting up future dominance instead of merely "passing" while others do the hard work. That choice is part of the drama.
 
@@ -147,15 +154,14 @@ This suggests the class layer may be less about combat roles in the RPG sense an
 - Prep beats and non-combat beats are important. If every round is a fight with a bigger number, the story will feel mechanical instead of lived-in.
 - Persistent entities such as monsters, familiars, doors, and miasma may be one of the best places to create memory and attachment in a short session.
 
-## Unknowns Blocking Rules Work
+## Remaining Design Questions Beyond The Vertical Slice
 
-- What exact actions can players take from the resource-action deck?
 - What exact grammar should monster cards, persistent scene cards, and player-controlled ally cards share?
-- Does the game need a formal enemy or entity reserve in addition to the four core decks?
 - What does scene resolution actually require when the scene is not combat?
-- How are points or spotlight awarded?
-- What do players spend, lose, and protect?
 - How do midpoint and endpoint quest escalations manifest in a single 30 to 40 minute session?
+- How much should future quests rely on a formal entity reserve versus the current creature deck?
+- Does Wizard Treasure scoring need adjustment if hand retention and owned permanents outscore Glory too often?
+- How many support-success triggers can agendas ask players to track before scoring becomes too interpretive?
 
 ## Working Hypothesis
 

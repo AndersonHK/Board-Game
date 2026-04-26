@@ -80,26 +80,35 @@ This class should convert volatility into upside. It wants explosive turns, shar
 - active should create a short pressure spike or high-variance play
 - avoid giving it simply "bigger numbers" with no tradeoff
 
-### 2026-04-21 Draft Rule Direction
+### Current Vertical-Slice Rule
 
-- user-requested passive direction: this archetype should have a chance to gain a normal draw when it scores the last hit on a monster
-- the chance should scale using both monster strength and rarity
-- the user wants this available on every monster kill, not capped once per round
-- the kill must come from that player's own action card, creature card, or class trait damage
-- this is promising because Quest 003 already proved that kill credit creates drama
-- this is also dangerous because Quest 003 showed that an aggressive player may delay honest contribution while waiting for a safe finishing window
+For the vertical-slice fantasy rules, the `Warrior` has:
 
-### 2026-04-21 Draft Active Direction
+- a passive kill reward when the Warrior deals the final point of damage to a monster with their own action card, creature card, or Warrior trait damage
+- a `1d6` reward roll that succeeds on `monster threat x rarity multiplier`
+- `Common = 1` and `Elite = 2` as rarity multipliers
+- `Threat 1`, `Threat 2`, and `Threat 3` as the current monster threat tiers
+- no once-per-round cap on the passive in the current quickstart
+- an active that deals `2` damage once per turn
 
-- all classes should have a baseline `1`-damage basic attack as a normal action
-- the aggressive class active should sit above that baseline and deal `2` damage once per turn
-- this keeps the Warrior clearly more explosive than the shared fallback line
-- this also increases the need to define the last-hit passive carefully, because the active makes kill stealing easier by design
+The current reward ladder is:
 
-### Questions Before Canonization
+- `Threat 1 Common`: draw on `1`
+- `Threat 2 Common`: draw on `1-2`
+- `Threat 3 Common`: draw on `1-3`
+- `Threat 1 Elite`: draw on `1-2`
+- `Threat 2 Elite`: draw on `1-4`
+- `Threat 3 Elite`: draw on `1-6`
 
-1. Do summoned allied creatures or borrowed damage effects count for the kill if they were controlled by the aggressive player?
-2. Are there any monster exceptions, such as bosses with special defeat text, that should not trigger the passive?
+This formula is intentionally easy to compute at the table and preserves the design idea that bigger, rarer monsters create bigger personal incentives. It also makes the strongest elite kills guaranteed rewards, which is desirable for drama but still needs balance watching because kill credit can encourage sandbagging.
+
+All classes also have the shared fallback option of a basic `1`-damage attack as a normal action. The Warrior active sits above that baseline, which makes the class visibly more explosive and makes kill stealing part of its intended tension.
+
+### Remaining Watchpoints
+
+1. Borrowed or support-granted damage should be watched carefully so kill credit stays legible.
+2. Bosses currently can trigger the passive if they are monsters; future boss exceptions should be printed explicitly if needed.
+3. Quest 003 and Quest 007 both suggest kill credit is exciting, but it can still reward waiting for safe finishing windows.
 
 ## Archetype 2: Defensive / Cautious
 
@@ -138,25 +147,21 @@ This class should convert patience and restraint into compounding value. It want
 - active should reduce downside, deny threats, or convert stored value efficiently
 - avoid making it purely passive to the point of feeling inert
 
-### 2026-04-21 Draft Rule Direction
+### Current Vertical-Slice Rule
 
-- user-requested passive direction: this archetype's max hand size is `12` instead of `6`
-- the user wants this active from the start of the game
-- this fits the established "save, stockpile, preserve, then outlast" identity very cleanly
-- Quest 003 is important context here because the baseline hand limit of `6` already felt good under pressure, so `12` is a dramatic asymmetry rather than a minor perk
+For the vertical-slice fantasy rules, the `Wizard` has:
 
-### 2026-04-22 Draft Active Direction
+- a passive hand limit of `12` instead of `6`, active from the start of the game
+- the normal starting hand size for the player count; the larger hand limit does not grant extra draws
+- an active, once per scene, that places `2` shield tokens on the party or on any creature
+- shield tokens prevent damage `1` for `1` and expire when the scene ends unless a card says otherwise
 
-- once per scene, place `2` shield tokens on the party or on any creature
-- shield tokens should prevent damage `1` for `1` and expire when the scene ends
-- the user explicitly wants this targeting to stay broad rather than friendly-only, because simplicity matters more than a narrow thematic restriction
+This fits the "save, stockpile, preserve, then outlast" identity cleanly. Quest 003 and Quest 007 are important context because the baseline hand limit of `6` already felt meaningful, so `12` is a dramatic asymmetry rather than a minor perk.
 
-### Questions Before Canonization
+### Remaining Watchpoints
 
-1. Does this archetype still begin with the normal starting hand of `3`, or should storage identity also change setup?
-2. Should this archetype get any compensating weakness, such as slower draw, weaker burst, or more expensive big cards?
-3. Should the support and aggressive archetypes get any way to pressure or exploit oversized hands, or is this meant to be a mostly safe privilege?
-4. Do we want a printed reminder that the larger hand cap affects cleanup only and does not create extra draw windows by itself?
+1. Quest 007 suggests Wizard Treasure scoring plus owned permanents can narrowly beat very high Warrior Glory scoring, which may be fun or may need later adjustment.
+2. The larger hand cap may need a compensating weakness only if further tests show it outpaces the other scoring routes too reliably.
 
 ## Archetype 3: Support / Cooperative
 
@@ -193,26 +198,22 @@ This class should profit from relationships. It wants systems where helping, bar
 - active should create temporary alliances, aid, or redistribution with upside
 - avoid making it feel like the "kingmaker only" class
 
-### 2026-04-21 Draft Rule Direction
+### Current Vertical-Slice Rule
 
-- the user's earlier cleric-style example is now the clearest support anchor:
-- when this archetype turns an ally's failed save into a success, a card that ally would have lost can go to the support player's hand instead of the discard pile
-- the helped player should choose the card, not the support player
-- Quest 003 already stress-tested a lighter version of this pattern through Tamsin's rescue passive, and it created exactly the right kind of "you helped me, but you also profited" table tension
-- this is a strong candidate for the support-side economy privilege because it gains cards through intervention rather than storage or killing blows
+For the vertical-slice fantasy rules, the `Cleric` has:
 
-### 2026-04-22 Active Direction
+- a passive, once per scene, that gives another player's save `+1`
+- if that `+1` turns a failure into a success, the helped player chooses `1` card they would have lost, and that card goes to the Cleric's hand instead of the discard pile
+- if multiple Clerics could claim the same rescue-style transfer, only `1` transfer happens and ties are broken with a d6 roll
+- an active, once per scene, that heals `1` party HP or `2` HP to any creature
 
-- once per scene, heal `1` party HP or `2` HP to any creature
-- the user wants the targeting to stay broad, including hostile creatures if that ever matters in a scene
-- duplicate support passives should stack by default, but only one rescue-style card transfer should happen for a single saved card-loss event
+This keeps the support economy distinct: the Cleric gains through intervention rather than hoarding or kill credit. Quest 003 and Quest 007 both show that this creates the desired "you helped me, but you also profited" table tension.
 
-### Questions Before Canonization
+### Remaining Watchpoints
 
-1. Should the support rescue passive trigger only when it flips a failed save into a success, or whenever it prevents another player's card loss by any means?
-2. If an ally would lose multiple cards, should support rescue only `1`, or should stronger support effects scale that number?
-3. Should this be the passive, while the active remains a once-per-scene bonus to saves or tests?
-4. Should the support rescue work only on ordeal-style saves and non-combat losses, or on combat-linked discard effects too?
+1. The vertical slice currently triggers the passive only when the Cleric's save modifier flips another player's failed save into a success.
+2. Broader "prevented allied loss" triggers may still be useful future design space, but they are not part of the current quickstart passive.
+3. The `By My Grace` agenda now needs concrete support-success examples printed on the card, because support scoring should not require designer interpretation.
 
 ## Cross-Archetype Tension
 
@@ -245,8 +246,8 @@ Any class ability set should be judged by these questions:
 
 ## Current Debate Focus
 
-Before any of this moves into [../../defines](../../defines/README.md), we should settle:
+For the vertical-slice demo, the core class rules above are now player-facing in [../quick-start-guide.md](../quick-start-guide.md). Remaining debate is mostly balance and edge-case clarity:
 
-- any edge cases on warrior kill credit
-- the exact support rescue grammar
-- whether the storage archetype needs any real drawback to offset `12` hand size from setup
+- whether Warrior kill credit needs future exceptions for unusual bosses or heavily support-modified damage
+- whether Wizard's `12` hand limit plus owned permanents scores too efficiently
+- whether future support designs should broaden rescue beyond flipped saves

@@ -10,6 +10,5 @@ Cost: None.
 Timing: Your action.
 Target: One chain, gate, rubble, or restraint test.
 Rules Text: Gain +2 to the targeted non-combat test.
-Reminder Text: Best used on blocking artifacts and restraints.
-Flavor Text: A small tool and a better plan.
-Art Brief: Heavy cutters and pry bars laid out on a scorched cloth.
+Flavor Text: A small tool, a steady hand, and the insult of preparation.
+Art Brief: Heavy cutters, wedges, and pry bars lie on a scorched cloth beside snapped chain links; show practical dungeon gear lit by orange furnace glow, with no magic, just competence.

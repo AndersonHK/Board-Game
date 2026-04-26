@@ -7,9 +7,16 @@ This file is the canonical map of the repository structure and the purpose of im
 ```text
 /
 |-- assets/
+|   |-- card-atlas-definition.md
+|   |-- card-text-fit-report.md
+|   |-- print-and-bundle-package.md
+|   |-- scripts/
+|   |   |-- calculate_card_layout.py
+|   |   `-- check_card_text_fit.py
 |   `-- README.md
 |-- CODEX.md
 |-- defines/
+|   |-- card-layout.md
 |   |-- cards/
 |   |   |-- agenda-deck/
 |   |   |   |-- TEMPLATE.txt
@@ -99,7 +106,13 @@ This file is the canonical map of the repository structure and the purpose of im
 
 ## File Guide
 
-- [../assets/README.md](../assets/README.md): notes for the future canonical art and print-asset folder.
+- [../assets/README.md](../assets/README.md): notes for the canonical art and print-asset folder.
+- [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md): Edition 0 card atlas plan for letter-size printing and cutting, including the exact card grid, cut marks, sheet IDs, and per-sheet card assignments.
+- [../assets/card-text-fit-report.md](../assets/card-text-fit-report.md): generated report checking all current card definitions against the standard layout.
+- [../assets/print-and-bundle-package.md](../assets/print-and-bundle-package.md): Edition 0 physical production manifest covering cards, rules sheets, board widgets, tokens, dice, bundling groups, and remaining playability gaps.
+- [../assets/scripts/calculate_card_layout.py](../assets/scripts/calculate_card_layout.py): script that derives [../defines/card-layout.md](../defines/card-layout.md) from the card atlas size.
+- [../assets/scripts/check_card_text_fit.py](../assets/scripts/check_card_text_fit.py): script that checks card `.txt` files against [../defines/card-layout.md](../defines/card-layout.md).
+- [../defines/card-layout.md](../defines/card-layout.md): generated standard Edition 0 card-front layout and machine-readable layout spec.
 - [../CODEX.md](../CODEX.md): root operating instructions for Codex, including how to maintain project documentation.
 - [../defines/README.md](../defines/README.md): index for canonical numeric and rules-define files.
 - [../defines/cards/README.md](../defines/cards/README.md): canonical card-data format, folder layout, and template usage for the first printable vertical slice.

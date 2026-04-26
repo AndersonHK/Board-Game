@@ -10,6 +10,5 @@ Cost: Pay 1 party HP.
 Timing: Your action.
 Target: One creature or artifact.
 Rules Text: Deal 4 damage to the target.
-Reminder Text: This is a direct HP-payment damage spike.
-Flavor Text: Some doors only open after somebody pays in red.
-Art Brief: A violent blood-fueled spell detonating against a heavy target.
+Flavor Text: Some doors only open after the dungeon is paid in red, and they never give change.
+Art Brief: A desperate caster presses a bleeding palm to a rune, releasing a red shockwave that detonates against a stone-plated enemy or sealed iron door; the magic should feel costly, bright, and ugly.

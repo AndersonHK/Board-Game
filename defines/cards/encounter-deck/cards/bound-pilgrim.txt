@@ -5,13 +5,12 @@ Card Type: Encounter
 Encounter Class: Random
 Scene Tags: rescue, artifact, support
 Escalation Use: Random encounter
-Reveal Text: Spawn Rusted Chains. If Ash Miasma is already in play from a previous scene, it remains part of this scene.
-Spawn Text: Spawn Rusted Chains.
-Scene Rule: The pilgrim is not freed until Rusted Chains is gone and any carried-over blocking card is gone.
-Clear Condition: Rusted Chains and any carried-over blocking card are gone.
-Reward Text: If the rescue is cleared this round, the active player may heal 1 party HP.
-Failure Text: If unresolved at end of round, the party takes 1 damage.
+Reveal Text: A cough answers from under the ash, still human, still chained. Spawn Rusted Chains; if Ash Miasma carried over, include it.
+Scene Rule: Clear all blocking cards to free the pilgrim.
+Clear Condition: No blocking cards remain.
+Reward Text: If cleared this round, the active player heals 1 party HP.
+Failure Text: If unresolved at round end, the party takes 1 damage.
 Treasure Value: 0
-Rules Text: Use the active player definition for this scene's rescue reward.
-Flavor Text: Someone is still alive under the ash. That is either hope or a trap.
-Art Brief: A smoke-blackened traveler hanging from chained masonry in a collapsed rescue chamber.
+Rules Text: None.
+Flavor Text: Hope sounds different when it is coughing.
+Art Brief: A smoke-blackened traveler hangs from rusted chains bolted into collapsed masonry, one hand barely visible under ash. The chamber should feel intimate and dangerous: rescue light from a lantern, black soot on skin, and the suggestion that the chains may not be the only thing holding them there.

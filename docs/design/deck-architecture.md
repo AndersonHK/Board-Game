@@ -1,6 +1,6 @@
 # Deck Architecture
 
-This file defines the current deck structure. The broader design brief lives in [core-concept.md](./core-concept.md). Round timing lives in [round-structure.md](./round-structure.md). Canonical baseline rules live in [../../defines/core-rules.md](../../defines/core-rules.md) and [../../defines/creature-deck.md](../../defines/creature-deck.md). Research that informs quest escalation and secret objectives lives in [../research/stellaris-crises.md](../research/stellaris-crises.md) and [../research/secret-objectives-risk-ticket-to-ride.md](../research/secret-objectives-risk-ticket-to-ride.md). Current draft cost and rarity direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md).
+This file defines the current deck structure. The broader design brief lives in [core-concept.md](./core-concept.md). Round timing lives in [round-structure.md](./round-structure.md). Canonical baseline rules live in [../../defines/core-rules.md](../../defines/core-rules.md) and [../../defines/creature-deck.md](../../defines/creature-deck.md). Research that informs quest escalation and secret objectives lives in [../research/stellaris-crises.md](../research/stellaris-crises.md) and [../research/secret-objectives-risk-ticket-to-ride.md](../research/secret-objectives-risk-ticket-to-ride.md). Current cost and rarity direction lives in [card-economy-and-rarity.md](./card-economy-and-rarity.md).
 
 ## Overview
 
@@ -32,14 +32,14 @@ This is not necessarily a normal shuffled deck. It defines the overarching story
 - establish the theme context, such as dungeon crawl or ring-destruction quest
 - define what happens at key escalation thresholds
 - slightly nudge the rules with a scenario trait
-- frame the start state at tension 0 and the climax at tension 10
+- frame the start state at escalation 0 and the climax at escalation 10
 
 ### Example
 
 For a D&D-style quest:
 
-- tension 0: players begin outside or near the top of the dungeon with a prep scene
-- tension 10: players face the dragon
+- escalation 0: players begin outside or near the top of the dungeon with a prep scene
+- escalation 10: players face the dragon
 - scenario trait example: the first round is setup only, before the descent begins
 
 ### Design Notes
@@ -70,6 +70,8 @@ Each round after the prep beat, the party draws an encounter card representing t
 - An encounter may spawn monster cards, hazards, save throws, bargains, or downtime-style preparation windows.
 - Different escalation bands may cause the same encounter to spawn nastier entities, harsher losses, or more tempting rewards.
 - Not every encounter should be combat. Variety is part of the pacing.
+- Printable encounter text should treat drawing the card as the reveal. Players immediately see all text on the encounter card, so there is no separate hidden spawn step for the template to model. Immediate scene setup, including spawned monsters, hazards, allies, and persistent cards, belongs in `Reveal Text`.
+- Encounter cards should not restate rules already present on spawned entity cards. The encounter should own the scene frame and any scene-specific rule; spawned cards should own their own active abilities, round-end effects, targeting rules, and persistence.
 
 ### Important Correction
 
@@ -79,7 +81,7 @@ Instead, the event text determines what mechanics matter in that scene. For exam
 
 - "Falling Causeway" may trigger save rolls and card loss
 - "Wandering Merchant" may create a bargaining and draw opportunity
-- "Ashen Ambush" may spawn goblins at low tension, orcs at mid tension, and an ogre at high tension
+- "Ashen Ambush" may spawn goblins at low escalation, orcs at mid escalation, and an ogre at high escalation
 
 That means the encounter deck is closer to a scene-authoring system than a stack of simple challenge ratings.
 
@@ -101,7 +103,7 @@ The creature deck is the formal source of spawned enemies and creature packages.
 This lets encounters specify either:
 
 - exact named spawns, such as `1 Goblin Chieftain and 2 Goblin Warriors`
-- typed criteria, such as `1 Strength 2 humanoid and 2 Strength 1 beasts`
+- typed criteria, such as `1 Threat 2 humanoid and 2 Threat 1 beasts`
 
 without bloating the encounter text itself.
 
@@ -113,30 +115,30 @@ Low-complexity creatures may simply attack and defend, while tougher creatures o
 
 The creature deck now appears to want a small amount of formal taxonomy beyond just names.
 
-Useful candidate fields are:
+Current useful fields are:
 
 - creature type, such as humanoid, beast, undead, or construct
-- strength or threat value, so encounters can request a rough power band without naming a specific card
-- a split such as minor versus elite, or normal versus major, to communicate whether round-end effects are likely
+- threat value, so encounters can request a rough power band without naming a specific card
+- rarity, currently `Common` or `Elite`, to communicate power, copy count, and likely complexity
 - a shared rarity field that can also exist on resource cards, so search criteria and effect expectations can use one common language across both systems
 
 One promising interpretation is:
 
 - weaker or minor creatures usually attack and defend without extra round-end text
-- elite or major creatures at the same rough strength band are more likely to carry undesirable round-end effects
+- elite creatures at the same rough threat band are more likely to carry undesirable round-end effects
 
 That direction is not fully formalized yet, but it already seems useful for writing encounters and organizing the creature deck.
 
 ## Shared Rarity Direction
 
-The current design discussion is moving toward exactly two rarity bands shared by:
+The current vertical slice uses two main rarity bands shared by:
 
 - monster cards
 - player resource / artifact / action cards
 
-This is not in `defines/` yet, but it has clear structural benefits:
+Those bands are `Common` and `Elite`. This has clear structural benefits:
 
-- encounter cards can search by strength plus rarity
+- encounter cards can search by threat plus rarity
 - elite monsters can more easily imply stronger round-end consequences
 - elite player cards can more easily imply heavier discard or sacrifice costs
 - both sides of the game can teach one common power language instead of two unrelated labels
@@ -182,6 +184,17 @@ That means cards in this layer can reasonably include:
 
 This broader scope is important because it gives selfish players something interesting to do besides simply refusing to help.
 
+### Trader Scene Baseline
+
+The current vertical slice has a concrete trader pattern:
+
+- reveal the top `5` resource cards as trader stock
+- each player gets exactly `1` trader interaction
+- direct trade means swapping `1` hand card with `1` revealed trader card
+- `Haggle` is a `1d6` risk roll: `1-2` discard `1` then trade `1-for-1`, `3-4` trade `1-for-1`, and `5-6` trade `1` hand card for `2` trader cards
+
+This belongs in the design docs because it is not just a card-specific rule. It is the current model for social/economic scenes that give players a selfish setup option without stopping the shared round structure.
+
 ### Current Cost Direction
 
 The newest design push suggests this deck should divide broadly into:
@@ -191,7 +204,7 @@ The newest design push suggests this deck should divide broadly into:
 
 That direction appears compatible with the existing simulation evidence, but it needs more balancing discussion before becoming canonical rules text.
 
-### Tension Scaling Idea
+### Escalation Scaling Idea
 
 The user suggested that cards may change value by escalation band. Example:
 

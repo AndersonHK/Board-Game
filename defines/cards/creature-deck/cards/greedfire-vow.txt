@@ -11,8 +11,8 @@ Hit Points: 0
 Attack: 0
 Combat Targetable: No
 Summon Sickness: No
-Rules Text: This enchantment enters under a player's control and is not a combat target.
+Rules Text: Enters under a player's control. Not a combat target.
 Active Ability: None.
-Round End Text: The first time this enchantment's owner gains an extra draw each scene, draw 1 more card. At round end, that player loses 1 party HP if they gained any extra draw this scene.
-Flavor Text: The promise is always profitable until the bill arrives.
+Round End Text: Once each scene, when its owner gains an extra draw, draw 1 more. At round end, that player loses 1 party HP if they gained an extra draw.
+Flavor Text: Profitable until the bill arrives.
 Art Brief: A red-orange pact sigil written in flame above a treasure hoard.

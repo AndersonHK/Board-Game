@@ -10,6 +10,5 @@ Cost: Discard 1 card.
 Timing: Your action.
 Target: Your field.
 Rules Text: Place Tin Golem on the field under your control.
-Reminder Text: Tin Golem is a durable defensive summon with summon sickness.
-Flavor Text: A better shield if you can afford the metal and the memory.
-Art Brief: A small armored construct assembling itself from tin plates and glowing joints.
+Flavor Text: It is a better shield if you can afford both the metal and the memory.
+Art Brief: A squat tin construct assembles from dented plates, rivets, kettle scraps, and glowing joint-runes; show one discarded memory-token or letter being folded into its chest.

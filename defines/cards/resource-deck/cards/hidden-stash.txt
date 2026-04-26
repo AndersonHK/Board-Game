@@ -10,6 +10,5 @@ Cost: None.
 Timing: Your action.
 Target: Yourself.
 Rules Text: Draw 2 cards.
-Reminder Text: This is a simple greed and setup card.
-Flavor Text: The old ruin always pays someone first.
-Art Brief: A stash of coins and tools hidden behind a cracked stone panel.
+Flavor Text: The ruin always pays someone first, and judges them after.
+Art Brief: A cracked stone panel has been pried open to reveal coins, twine, chalk, a narrow dagger, and a dry ration wrapped in waxed cloth; the stash should look useful, secret, and faintly suspicious.

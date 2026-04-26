@@ -5,13 +5,12 @@ Card Type: Encounter
 Encounter Class: Random
 Scene Tags: hazard, save, traversal
 Escalation Use: Random encounter
-Reveal Text: Each player makes a save. On a failed save, that player loses 1 card.
-Spawn Text: No creature spawn.
-Scene Rule: A player may use a non-combat test action to secure the crossing. The crossing counts as a blocking hurdle until secured.
-Clear Condition: The crossing has been secured.
-Reward Text: If the scene is cleared this round, one player may scout the top card of the encounter deck.
-Failure Text: If unresolved at end of round, the party takes 1 damage.
+Reveal Text: The bridge cracks over furnace wind and falling stone. Each player saves; on a fail, lose 1 card.
+Scene Rule: Spend 1 action to secure the crossing.
+Clear Condition: The crossing is secured.
+Reward Text: If cleared this round, scout the top encounter card.
+Failure Text: If unresolved at round end, the party takes 1 damage.
 Treasure Value: 0
-Rules Text: Default saves succeed on 4+ unless modified. Cleric rescue effects can change failed saves here.
-Flavor Text: The bridge hangs over a shaft of furnace wind and falling stone.
-Art Brief: A shattered stone bridge over a glowing chasm, with missing slabs and blowing ash.
+Rules Text: Blocking hurdle until secured.
+Flavor Text: The bridge remembers being whole. Your feet do not care.
+Art Brief: A broken stone causeway spans a vertical furnace shaft, with missing slabs, orange light far below, and ash blowing upward like weather in reverse. Show small figures crossing carefully while cracked saints or old railings crumble at the edges.

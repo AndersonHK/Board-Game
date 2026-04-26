@@ -11,7 +11,6 @@ Required Fields:
 - Scene Tags
 - Escalation Use
 - Reveal Text
-- Spawn Text
 - Scene Rule
 - Clear Condition
 - Reward Text
@@ -30,7 +29,6 @@ Encounter Class:
 Scene Tags:
 Escalation Use:
 Reveal Text:
-Spawn Text:
 Scene Rule:
 Clear Condition:
 Reward Text:

@@ -11,7 +11,7 @@ Starting Hand Size (3P): 4
 Escalation Track: 0-10
 Setup Text: Begin at escalation 0 with a prep scene instead of a hostile battle.
 Ongoing Quest Rule: When a new scene is fully cleared, raise escalation by 1. If hostile or blocking hurdles remain at end of round, raise escalation by 1.
-Threshold 5: After the current scene ends, resolve the scripted ordeal Furnace Warden Rises. Starting with the next scene, the first player each scene to gain an extra draw from a reward must discard 1 card after that reward resolves.
+Threshold 5: After the current scene ends, resolve Furnace Warden Rises. Starting with the next scene, the first player each scene to gain an extra draw from encounter Reward Text must discard 1 card after that reward resolves.
 Threshold 8: Ash Pressure Rises. In hostile scenes, the first hostile creature attack each scene gets +1 Attack.
 Threshold 10: After the current scene ends, reveal Dragon in the Deep. At escalation 10 the normal two-turn round cap no longer applies.
 Lose Condition: If party HP reaches 0, all players lose.

@@ -10,6 +10,5 @@ Cost: None.
 Timing: After a scene is cleared.
 Target: The party.
 Rules Text: Heal 2 party HP.
-Reminder Text: This does not target creatures.
 Flavor Text: Rough hands and clean cloth still beat brave speeches.
-Art Brief: Blood-stained bandages, herbs, and a leather healer's kit.
+Art Brief: A battered leather healer's kit opens on dungeon stone: clean cloth, bitter herbs, a bone needle, and a trembling hand tying a bandage while battle smoke rolls past in the background.

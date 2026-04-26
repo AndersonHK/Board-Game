@@ -5,13 +5,12 @@ Card Type: Encounter
 Encounter Class: Random
 Scene Tags: artifact, enchantment, greed
 Escalation Use: Random encounter
-Reveal Text: Spawn Blessing Brazier and Ash Miasma.
-Spawn Text: Blessing Brazier enters under party control. Ash Miasma enters as a hostile enchantment.
-Scene Rule: While Blessing Brazier is in play, a player may use its active ability once per scene. While Ash Miasma is in play, resolve its round-end text.
-Clear Condition: Ash Miasma is gone and the chamber's reward has been claimed.
-Reward Text: The player who claims the reliquary reward gains 1 extra draw.
-Failure Text: If unresolved at end of round, the player with the most cards discards 1.
+Reveal Text: The reliquary blesses the worthy and strangles the greedy. Spawn Blessing Brazier under party control and Ash Miasma hostile.
+Scene Rule: Claim the reward after Ash Miasma is gone.
+Clear Condition: Ash Miasma gone; reward claimed.
+Reward Text: The claimant gains 1 extra draw.
+Failure Text: If unresolved at round end, the player with the most cards discards 1.
 Treasure Value: 0
-Rules Text: Blessing Brazier is party-controlled. Ash Miasma is hostile.
-Flavor Text: The reliquary still blesses the worthy and strangles the greedy.
-Art Brief: A sacred furnace reliquary with a glowing brazier at its center and hostile ash hanging in the air.
+Rules Text: None.
+Flavor Text: Blessing and curse share the same flame.
+Art Brief: A sacred furnace reliquary stands in a circular chamber, its central brazier glowing gold while black ash curls around it like a jealous spirit. The room should feel holy and predatory at once: offerings, cracked icons, and greedy handprints in soot.

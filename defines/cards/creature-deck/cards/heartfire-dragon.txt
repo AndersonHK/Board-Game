@@ -12,7 +12,7 @@ Attack: 3
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: This boss may use Dragon's Breath and still attack on the same turn.
-Active Ability: Dragon's Breath - Each player rolls 1d6. On 1-4 that player discards 1 card. On 5-6 the party takes 1 damage instead.
+Active Ability: Dragon's Breath - Each player chooses one: roll 1d6, discarding no cards on 1-2, 1 card on 3-4, or 2 cards on 5-6; or make the party take 1d3 damage.
 Round End Text: None.
 Flavor Text: The second stage is not angrier. It is finally awake.
 Art Brief: A colossal fire dragon fully uncoiled inside a magma-lit cavern.

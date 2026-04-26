@@ -9,7 +9,7 @@ This file is the long-term memory for the project. It should retain the durable 
 - Collaboration model: user provides the evolving vision; Codex helps design, document, structure, and iterate
 - Delivery strategy: build a nearly complete minimal horizontal slice first, then turn it into a fully playable vertical slice
 - Art plan: use fully AI-generated art that the user can print for the physical game
-- Current phase: early concept definition, rules correction, and simulation-driven prototyping
+- Current phase: vertical-demo release cleanup, print-readiness, and final rules/card wording checks
 
 ## Current Understanding
 
@@ -52,6 +52,12 @@ On 2026-04-22, the user tightened the turn-order wording further. Players choose
 Later on 2026-04-22, the user added a default enemy-AI rule for live play. Enemy monsters should use a legal named active ability instead of a normal attack when possible. If they do attack, they must target friendly creatures first if any legal friendly creature target exists; otherwise they attack the party. Explicit card text can override this default, and future effects such as `silence` may stop an ability from being usable.
 
 Later on 2026-04-22, the user clarified an important scope boundary for the printable content files. Numeric deck counts such as `8` random encounters and `64` action cards are vertical-slice production minimums for what must be printed by the end of the slice, not hard runtime caps on the eventual full game's card libraries. The full encounter deck should eventually be much larger, and the full action deck may grow to around `200` cards. Rules text and quest text should therefore avoid accidentally turning those print minimums into permanent gameplay limits.
+
+On 2026-04-26, the user made final-pass vertical-demo edits to [Heartfire Dragon](../defines/cards/creature-deck/cards/heartfire-dragon.txt) and [Reliquary of Cinders](../defines/cards/encounter-deck/cards/reliquary-of-cinders.txt). The design takeaway is that high-pressure card effects should favor meaningful player choice over imposed luck, especially choices between personal loss and shared party harm. Randomness should make each chosen risk tense, not replace the choice. The production takeaway is that drawing an encounter card is the reveal: players immediately see all text on that card, so the encounter template should not include a separate `Spawn Text` field. Immediate scene setup belongs in `Reveal Text`.
+
+Later on 2026-04-26, a quickstart preservation pass converted [quick-start-guide.md](./quick-start-guide.md) into five letter-size printable reference sheets and promoted several Quest 007 rulings into player-facing text or card wording. The preserved rules include direct trade definition, escalation-0 prep scene procedure, immediate reward timing, discard-pile wording, threshold-5 reward-draw tax scope, Shrine of Echoes carry-over behavior, support-success agenda examples, sacrifice definition, and the default that excess damage to one target does not spill over unless a card says otherwise. The design docs were also cleaned so current vertical-slice rules are marked as current rather than stale draft directions.
+
+Later on 2026-04-26, work began on the production asset package. [assets/print-and-bundle-package.md](../assets/print-and-bundle-package.md) is now the canonical Edition 0 physical manifest. It defines the printed card counts, quick-start sheets, background table board, escalation meter and needle, player areas, token counts, required dice, bundling groups, and a playability sanity-check gap list. The current identified package gaps are party HP maximum, once-per-scene tracking convention, physical class reference cards, final board art layout, token sheet layout, card backs, and the escalation needle attachment method.
 
 ## Goals
 
@@ -158,6 +164,19 @@ Later on 2026-04-22, the user clarified an important scope boundary for the prin
 65. The full game should eventually support a much larger encounter library and potentially around `200` action cards.
 66. Enemy monsters use a legal named active ability before making a normal attack unless card text lets them do both.
 67. Enemy monsters target friendly creatures first if possible, and otherwise target the party.
+68. High-pressure card effects should generally give players a meaningful choice before randomness resolves the risk.
+69. Encounter templates should not include a separate `Spawn Text` field because drawing the encounter card reveals all information on that card; immediate setup belongs in `Reveal Text`.
+70. The quickstart should be maintained as printable letter-size reference sheets, currently split into five sheets.
+71. Escalation-0 prep scenes use a normal non-hostile round and clear at round end if no hostile or blocking hurdles exist.
+72. Earned scene rewards resolve immediately unless the card says otherwise, then the table finishes the current round structure.
+73. Direct trade means swapping `1` hand card with `1` revealed trader card.
+74. Excess damage to one target does not carry over to the party or another target unless a card says otherwise.
+75. Threshold-5 reward-draw tax in Ashen Depths applies to extra draws from encounter `Reward Text`.
+76. The Edition 0 production bundle is tracked in [assets/print-and-bundle-package.md](../assets/print-and-bundle-package.md).
+77. The physical package should include a background table board, escalation meter, paper needle, red damage tokens, blue shield tokens, generic used markers, current claimant marker, threshold tax marker, proxy tokens, `1` red `d20`, and `1` d6.
+78. Edition 0 cards use the atlas plan in [assets/card-atlas-definition.md](../assets/card-atlas-definition.md): standard cards are `2.125 in x 3.6667 in`, quest cards may span two columns at `4.25 in x 3.6667 in`, and the current `15` front atlases cover `166` physical cards, `167` occupied slots, and `13` blank/proxy slots.
+79. The standard Edition 0 card-front layout is generated in [defines/card-layout.md](../defines/card-layout.md) from the atlas card size, and current card text fit is checked by [assets/scripts/check_card_text_fit.py](../assets/scripts/check_card_text_fit.py).
+80. Resource-card `Reminder Text` is deprecated for Edition 0 and removed from the resource template. Repeated teaching such as cost timing, choose-one modes, combat targets, permanents, and summon sickness belongs in the rules sheets.
 
 ### Not Yet Decided
 
