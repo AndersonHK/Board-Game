@@ -101,6 +101,12 @@ The latest quickstart includes two small but important table-play defaults:
 
 These defaults keep common play cases from needing designer interpretation, especially when friendly creatures absorb enemy attacks or a scene clears during `Action Turn 1`.
 
+## Simultaneous One-Time Effects
+
+The current table resolver for simultaneous one-time eligibility is now general, not Cleric-only. If two or more players are eligible for the same one-time effect and only one player can receive it, each eligible player rolls `1d6`; highest roll receives the effect, and tied high rolls reroll among the tied players.
+
+This preserves the original Cleric passive precedent while giving future cards and scene rewards a single default answer when multiple players qualify at the same timing.
+
 ## Event Scaling Example
 
 One useful pattern is to let the same encounter blurb spawn different entity cards by escalation band.

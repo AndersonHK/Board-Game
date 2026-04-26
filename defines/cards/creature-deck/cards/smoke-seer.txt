@@ -7,8 +7,8 @@ Creature Type: Humanoid
 Rarity: Elite
 Threat: 2
 Treasure Value: 3
-Hit Points: 3
-Attack: 1
+Hit Points: 4
+Attack: 2
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: Magical. The first time a player gains an extra draw each scene, that player discards 1 card.

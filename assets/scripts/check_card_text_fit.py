@@ -123,11 +123,64 @@ def printable_lines(card: dict, layout: dict) -> list[str]:
         if value in SKIP_VALUES:
             continue
         label = LABELS.get(field, field)
+        if card.get("Deck") == "Agenda Deck" and label == "Reward":
+            continue
+        if card.get("Deck") == "Agenda Deck" and label == "Fail" and value.strip().lower() == "gain 0 prestige points.":
+            continue
         if field == "Flavor Text":
             lines.append(f"\"{value}\"")
         else:
             lines.append(f"{label}: {value}")
     return lines
+
+
+def quest_panel_fit(card: dict, layout: dict, avg_glyph_width_em: float) -> tuple[int, int]:
+    full_width = chars_per_line(layout["safe_width_pt"], layout["body_font_pt"], avg_glyph_width_em)
+    half_width = chars_per_line(layout["safe_width_pt"] / 2 - 8, layout["body_font_pt"], avg_glyph_width_em)
+    panels = [
+        (
+            [
+                f"{card.get('Player Count', '')} players | "
+                f"4P: {card.get('Starting Party HP (4P)', '')} HP, hand {card.get('Starting Hand Size (4P)', '')} | "
+                f"3P: {card.get('Starting Party HP (3P)', '')} HP, hand {card.get('Starting Hand Size (3P)', '')} | "
+                f"Escalation {card.get('Escalation Track', '')}"
+            ],
+            full_width,
+            2,
+        ),
+        (
+            [card.get("Setup Text", ""), card.get("Rules Text", "")],
+            full_width,
+            6,
+        ),
+        (
+            [
+                f"Rule: {card.get('Ongoing Quest Rule', '')}",
+                f"Esc 5: {card.get('Threshold 5', '')}",
+                f"Esc 8: {card.get('Threshold 8', '')}",
+                f"Esc 10: {card.get('Threshold 10', '')}",
+            ],
+            full_width,
+            13,
+        ),
+        (
+            [card.get("Win Condition", ""), f"\"{card.get('Flavor Text', '')}\""],
+            half_width,
+            7,
+        ),
+        (
+            [card.get("Lose Condition", "")],
+            half_width,
+            4,
+        ),
+    ]
+    used = 0
+    capacity = 0
+    for lines, width, panel_capacity in panels:
+        panel_lines = sum(wrapped_line_count(line, width) for line in lines if line not in SKIP_VALUES)
+        used += panel_lines
+        capacity += panel_capacity
+    return used, capacity
 
 
 def check_card(spec: dict, card: dict) -> dict:
@@ -138,8 +191,11 @@ def check_card(spec: dict, card: dict) -> dict:
     title_width = chars_per_line(layout["safe_width_pt"], layout["title_font_pt"], avg)
     title_lines = wrapped_line_count(card.get("Display Name", ""), title_width)
     title_capacity = max(1, int((layout["title_box_in"] * 72) // (layout["title_font_pt"] * 1.1)))
-    body_lines = sum(wrapped_line_count(line, body_width) for line in printable_lines(card, layout))
-    body_capacity = layout["estimated_body_lines"]
+    if card.get("Deck") == "Quest Deck":
+        body_lines, body_capacity = quest_panel_fit(card, layout, avg)
+    else:
+        body_lines = sum(wrapped_line_count(line, body_width) for line in printable_lines(card, layout))
+        body_capacity = layout["estimated_body_lines"]
     ratio = body_lines / body_capacity if body_capacity else math.inf
     status = "PASS"
     if title_lines > title_capacity or body_lines > body_capacity:

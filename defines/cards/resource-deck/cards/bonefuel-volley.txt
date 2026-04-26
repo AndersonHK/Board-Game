@@ -9,6 +9,6 @@ Treasure Value: 5
 Cost: Sacrifice 1 friendly creature.
 Timing: Your action.
 Target: Up to two creatures or artifacts.
-Rules Text: Divide 5 damage among the targets.
+Rules Text: Divide 7 damage among the targets.
 Flavor Text: The worst ammunition always used to have a name, and someone still remembers it.
 Art Brief: A loyal summoned creature breaks apart into luminous bone shards and ash-white force, arcing toward two enemies; the image should hold a split second of grief before the volley lands.

@@ -9,6 +9,6 @@ Treasure Value: 2
 Cost: None.
 Timing: Your action.
 Target: Your field.
-Rules Text: Ongoing. The first hostile creature attack each scene deals 1 less damage.
+Rules Text: Ongoing. The first hostile creature attack each scene deals 2 less damage.
 Flavor Text: A safer room is still treasure if everyone else forgot to make one.
 Art Brief: A narrow dungeon corridor has been quietly transformed with chalk marks, trip-lines, wedged stones, shielded corners, and a hidden brace; it should read as clever preparation, not a fortress.

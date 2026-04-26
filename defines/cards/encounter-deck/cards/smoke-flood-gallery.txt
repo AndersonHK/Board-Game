@@ -10,7 +10,6 @@ Scene Rule: Spend 1 action to vent with a non-combat test.
 Clear Condition: The gallery is vented.
 Reward Text: If cleared this round, return 1 card from the discard pile to hand.
 Failure Text: If unresolved at round end, the party takes 1 damage.
-Treasure Value: 0
 Rules Text: None.
 Flavor Text: The old heroes on the walls disappear first.
 Art Brief: A long gallery of statues and heroic murals is swallowed by dark furnace smoke. Make the smoke thick enough to feel physical, bruised purple-black at the edges, with half-seen faces in the murals vanishing as the party pushes through.

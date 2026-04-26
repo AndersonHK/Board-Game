@@ -19,13 +19,21 @@ Edition 0 cards use a `4 x 3` portrait grid:
 
 This is intentionally not poker-card size. It is an atlas-first prototype size chosen because each card is an exact integer-factor slice of a letter-size sheet. It minimizes wasted paper, creates simple straight cuts, and gives encounter cards more vertical text space than a standard playing card.
 
-Quest cards are special reference cards and may span `2` adjacent atlas columns:
+Quest cards are special reference cards and may span a `2 x 2` atlas block:
 
 - quest card width: `2.125 x 2 = 4.25 in`
-- quest card height: `3.6667 in`
-- exact quest card size: `4 1/4 in x 3 2/3 in`
+- quest card height: `3.6667 x 2 = 7.3334 in`
+- exact quest card size: `4 1/4 in x 7 1/3 in`
 
-When cutting a quest card, do not cut the vertical line between its two occupied slots.
+When cutting a quest card, do not cut the vertical or horizontal lines inside its four occupied slots.
+
+Class reference cards may span `2` adjacent atlas columns:
+
+- class reference width: `2.125 x 2 = 4.25 in`
+- class reference height: `3.6667 in`
+- exact class reference size: `4 1/4 in x 3 2/3 in`
+
+When cutting a class reference card, do not cut the vertical line between its two occupied slots.
 
 Print at `100%` scale. Do not use fit-to-page scaling unless the whole atlas is being rederived from the new printed dimensions.
 
@@ -77,14 +85,20 @@ When a card has multiple copies on a sheet, place identical copies in consecutiv
 
 ## Backing Policy
 
-The front atlases below are canonical for Edition 0. Back art is not yet finalized, but the atlas system should assume one matching back atlas per hidden deck group:
+The front atlases below are canonical for Edition 0. The atlas pipeline generates one matching back atlas for every front atlas, using the appropriate back per occupied slot:
 
-- Encounter back
-- Resource back
-- Creature / Entity back
-- Secret Agenda back
+- `ASHEN DEPTHS` back for the quest card and quest-triggered unique cards that must stay identifiable outside the generic random decks. The back keeps the front-family color: quest cards use the quest palette, unique creatures use the creature/entity palette, and scripted encounters use the encounter palette.
+- `ASHEN DEPTHS` back for quest-specific scripted encounters and quest-triggered ordeals that must stay identifiable outside the generic encounter pool.
+- `ENCOUNTER` back for generic encounter cards, including random encounters used by the current quest.
+- `RESOURCE` back for resource/action cards. They share the fantasy setting with the class cards, but their card-back identity stays resource-first so they remain easy to sort.
+- `FANTASY PACK` back for class reference cards. These use the utility/hero grey palette.
+- `ENTITY` back for generic creature/entity deck cards.
+- `AGENDA` back for secret agenda cards.
+- Shared reference back for dividers, proxies, and other non-deck utility cards that are not part of the broader fantasy pack.
 
-Quest and class reference cards may be single-sided for Edition 0. If they receive backs, use a visible reference back rather than a hidden-deck back.
+Backs are assigned per slot, not only per atlas sheet. This matters for mixed reference sheets: class references use `FANTASY PACK`, resource overflow slots use `RESOURCE`, and secret agenda slots use `AGENDA`.
+
+Ashen Depths-specific backs are intentional. They make quest-triggered uniques and scripted quest ordeals easy to separate from reusable random or generic cards after cutting, sorting, or playtesting. Hero/class cards are not Ashen Depths-specific; they belong to the broader fantasy setting pack.
 
 If printing duplex, every front atlas must be paired with the matching back atlas and tested once on the target printer for flip direction. If duplex alignment is unreliable, print fronts only and sleeve cards with opaque backs or blank backing paper.
 
@@ -92,35 +106,44 @@ If printing duplex, every front atlas must be paired with the matching back atla
 
 | Atlas Group | Sheets | Physical Cards Printed | Occupied Slots | Blank / Proxy Slots |
 | --- | ---: | ---: | ---: | ---: |
-| Reference Atlas | `1` | `10` | `11` | `1` |
-| Encounter Atlas | `1` | `11` | `11` | `1` |
+| Reference Atlas | `2` | `18` | `24` | `0` |
+| Encounter Atlas | `1` | `12` | `12` | `0` |
 | Resource Atlas | `6` | `72` | `72` | `0` |
-| Creature / Entity Atlas | `7` | `73` | `73` | `11` |
-| Total | `15` | `166` | `167` | `13` |
+| Creature / Entity Atlas | `7` | `84` | `84` | `0` |
+| Total | `16` | `186` | `192` | `0` |
 
-Blank slots should become named proxy blanks, rules reminders, or spare damage/shield token art before final layout.
+All front-atlas slots are currently assigned to printable cards.
 
 ## Reference Atlas
 
 ### ATLAS-REF-01
 
-Use this sheet for cards that do not belong in a shuffled deck.
+Use this sheet for the quest, all class references, and two secret agenda cards.
 
 | Slot | Card |
 | ---: | --- |
-| `01-02` | Ashen Depths, two-slot quest card |
-| `03` | Ashes to Ashes |
-| `04` | By My Grace |
-| `05` | First Name in the Ballad |
-| `06` | Keeper of Relics |
-| `07` | Prepared Beyond Reason |
-| `08` | Richer Than the Ruin |
-| `09` | Warrior reference |
-| `10` | Wizard reference |
-| `11` | Cleric reference |
-| `12` | Blank proxy |
+| `01-02,05-06` | Ashen Depths, four-slot quest card |
+| `03-04` | Warrior reference |
+| `07-08` | Wizard reference |
+| `09` | Prepared Beyond Reason |
+| `10` | Richer Than the Ruin |
+| `11-12` | Cleric reference |
 
-Production note: Secret agendas are hidden cards in play, but they fit cleanly on this mixed reference sheet for front printing. They still need the Secret Agenda back if printed duplex.
+### ATLAS-REF-02
+
+Use this sheet for secret agenda cards and resource overflow cards.
+
+| Slot Range | Card | Copies |
+| --- | --- | ---: |
+| `01` | Ashes to Ashes | `1` |
+| `02` | By My Grace | `1` |
+| `03` | First Name in the Ballad | `1` |
+| `04` | Keeper of Relics | `1` |
+| `05-06` | Oathbound Strike | `2` |
+| `07-08` | Borrowed Time | `2` |
+| `09-12` | Brace Together | `4` |
+
+Production note: Secret agendas are hidden cards in play, but they fit cleanly on the mixed reference sheets for front printing. The generated back atlases give those slots the `AGENDA` back for duplex printing. Class reference slots on the same mixed sheet use the `FANTASY PACK` back.
 
 ## Encounter Atlas
 
@@ -137,11 +160,11 @@ Production note: Secret agendas are hidden cards in play, but they fit cleanly o
 | `07` | Shrine of Echoes |
 | `08` | Smoke-Flood Gallery |
 | `09` | Soot-Stall Trader |
-| `10` | Furnace Warden Rises |
-| `11` | Dragon in the Deep |
-| `12` | Encounter proxy / divider |
+| `10` | Ember Tax Patrol |
+| `11` | Furnace Warden Rises |
+| `12` | Dragon in the Deep |
 
-After cutting, keep slots `10-11` outside the random encounter deck. They are scripted ordeals.
+After cutting, keep slots `11-12` outside the random encounter deck. They are scripted ordeals and use `ASHEN DEPTHS` backs. Slots `01-10` are random encounters and use `ENCOUNTER` backs.
 
 ## Resource Atlases
 
@@ -259,28 +282,26 @@ After cutting, keep slots `10-11` outside the random encounter deck. They are sc
 | Slot Range | Card | Copies |
 | --- | --- | ---: |
 | `01` | Heartfire Dragon | `1` |
-| `02-12` | Creature proxy blanks | `11` |
-
-The creature proxy blanks are intentional. They are useful if a run temporarily needs more physical copies than the deck definition contains, or if a damaged/misprinted card needs a stand-in.
+| `02-05` | Ash Skulk | `4` |
+| `06-09` | Cinder Sapper | `4` |
+| `10-11` | Grave Knight | `2` |
+| `12` | Kiln Pup | `1` |
 
 ## Cutting And Sorting Checklist
 
 After printing and cutting:
 
-1. Put `ATLAS-ENC-01` slots `01-09` into the random encounter deck.
-2. Put `ATLAS-ENC-01` slots `10-11` into the scripted ordeal packet.
-3. Shuffle all `ATLAS-RES-*` cards into the resource deck.
-4. Shuffle all `ATLAS-CRE-*` nonblank cards into the creature / entity deck unless a quest setup instructs otherwise.
-5. Put Secret Agenda cards from `ATLAS-REF-01` slots `03-08` into the secret agenda deck.
-6. Keep `Ashen Depths` and class references visible with the rules sheets.
-7. Keep proxy blanks separate from the live decks until needed.
+1. Put `ATLAS-ENC-01` slots `01-10` into the random encounter deck.
+2. Put `ATLAS-ENC-01` slots `11-12` into the scripted ordeal packet.
+3. Shuffle all `ATLAS-RES-*` cards and `ATLAS-REF-02` slots `05-12` into the resource deck.
+4. Shuffle all `ATLAS-CRE-*` cards into the creature / entity deck unless a quest setup instructs otherwise.
+5. Put Secret Agenda cards from `ATLAS-REF-01` slots `09-10` and `ATLAS-REF-02` slots `01-04` into the secret agenda deck.
+6. Keep `Ashen Depths` and class references from `ATLAS-REF-01` visible with the rules sheets.
 
 ## Open Production Decisions
 
 These do not block a hand-cut prototype, but they should be resolved before generating final print PDFs.
 
-1. Decide whether blank atlas slots become proxy cards, divider cards, or reminder cards.
-2. Finalize hidden-deck back art for Encounter, Resource, Creature / Entity, and Secret Agenda cards.
-3. Test whether `2.125 in` card width is comfortable for the most text-heavy encounter cards after art is added.
-4. Decide whether class references stay card-sized or become larger dashboard panels.
-5. Decide whether final atlases include crop marks, registration marks, or only the full-page grid.
+1. Proof the generated back identities on the duplex PDF: `ASHEN DEPTHS`, `ENCOUNTER`, `RESOURCE`, `FANTASY PACK`, `ENTITY`, and `AGENDA`.
+2. Test whether `2.125 in` card width is comfortable for the most text-heavy encounter cards after art is added.
+3. Decide whether final atlases include crop marks, registration marks, or only the full-page grid.

@@ -7,12 +7,22 @@ This file is the canonical map of the repository structure and the purpose of im
 ```text
 /
 |-- assets/
+|   |-- card-art/
+|   |   `-- AI_ART_HANDOFF.md
 |   |-- card-atlas-definition.md
 |   |-- card-text-fit-report.md
+|   |-- generated/
+|   |-- printed-materials-index.md
 |   |-- print-and-bundle-package.md
 |   |-- scripts/
+|   |   |-- build_card_atlases.py
 |   |   |-- calculate_card_layout.py
-|   |   `-- check_card_text_fit.py
+|   |   |-- card_rendering_common.py
+|   |   |-- check_card_text_fit.py
+|   |   |-- generate_card_backs.py
+|   |   |-- generate_card_frames.py
+|   |   `-- generate_printable_cards.py
+|   |-- widget-and-token-definitions.md
 |   `-- README.md
 |-- CODEX.md
 |-- defines/
@@ -107,11 +117,20 @@ This file is the canonical map of the repository structure and the purpose of im
 ## File Guide
 
 - [../assets/README.md](../assets/README.md): notes for the canonical art and print-asset folder.
+- [../assets/card-art/AI_ART_HANDOFF.md](../assets/card-art/AI_ART_HANDOFF.md): generated handoff for a future AI-art session, listing card IDs, prompts, and final destination paths.
 - [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md): Edition 0 card atlas plan for letter-size printing and cutting, including the exact card grid, cut marks, sheet IDs, and per-sheet card assignments.
 - [../assets/card-text-fit-report.md](../assets/card-text-fit-report.md): generated report checking all current card definitions against the standard layout.
+- [../assets/generated/](../assets/generated/): reproducible PNG outputs from the card rendering pipeline, including card fronts, frames, optional backs, and front atlases.
+- [../assets/printed-materials-index.md](../assets/printed-materials-index.md): exact read list for printed-materials-only playtests and a list of non-printed docs to defer until after the run.
 - [../assets/print-and-bundle-package.md](../assets/print-and-bundle-package.md): Edition 0 physical production manifest covering cards, rules sheets, board widgets, tokens, dice, bundling groups, and remaining playability gaps.
+- [../assets/scripts/build_card_atlases.py](../assets/scripts/build_card_atlases.py): script that merges rendered card fronts into front-only printable atlas PNGs according to [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md).
 - [../assets/scripts/calculate_card_layout.py](../assets/scripts/calculate_card_layout.py): script that derives [../defines/card-layout.md](../defines/card-layout.md) from the card atlas size.
+- [../assets/scripts/card_rendering_common.py](../assets/scripts/card_rendering_common.py): shared card parser, layout loader, font helpers, and drawing utilities for the PNG card pipeline.
 - [../assets/scripts/check_card_text_fit.py](../assets/scripts/check_card_text_fit.py): script that checks card `.txt` files against [../defines/card-layout.md](../defines/card-layout.md).
+- [../assets/scripts/generate_card_backs.py](../assets/scripts/generate_card_backs.py): script that creates optional generated card-back texture PNGs.
+- [../assets/scripts/generate_card_frames.py](../assets/scripts/generate_card_frames.py): script that creates reusable deck-specific frame PNGs.
+- [../assets/scripts/generate_printable_cards.py](../assets/scripts/generate_printable_cards.py): script that renders individual printable card-front PNGs and refreshes the AI art handoff.
+- [../assets/widget-and-token-definitions.md](../assets/widget-and-token-definitions.md): player-facing definitions for printed widgets, dice, tokens, table-board rectangles, and open widget production gaps.
 - [../defines/card-layout.md](../defines/card-layout.md): generated standard Edition 0 card-front layout and machine-readable layout spec.
 - [../CODEX.md](../CODEX.md): root operating instructions for Codex, including how to maintain project documentation.
 - [../defines/README.md](../defines/README.md): index for canonical numeric and rules-define files.

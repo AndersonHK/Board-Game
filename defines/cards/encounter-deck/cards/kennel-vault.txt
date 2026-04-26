@@ -10,7 +10,6 @@ Scene Rule: None.
 Clear Condition: No hostile creatures or Iron Gate remain.
 Reward Text: The player who clears the last blocker gains 1 extra resource draw.
 Failure Text: If unresolved at round end, the current claimant discards 1 card.
-Treasure Value: 0
 Rules Text: None.
 Flavor Text: Chains, cages, and one lock too thick to trust.
 Art Brief: A dungeon vault lined with cages, feeding slots, and a heavy iron gate too thick for comfort. Show movement behind several bars but keep some threats partly hidden; the lock and chains should dominate the foreground like the room's real monster.

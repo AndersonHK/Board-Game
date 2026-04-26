@@ -10,7 +10,6 @@ Scene Rule: Claim the reward after Ash Miasma is gone.
 Clear Condition: Ash Miasma gone; reward claimed.
 Reward Text: The claimant gains 1 extra draw.
 Failure Text: If unresolved at round end, the player with the most cards discards 1.
-Treasure Value: 0
 Rules Text: None.
 Flavor Text: Blessing and curse share the same flame.
 Art Brief: A sacred furnace reliquary stands in a circular chamber, its central brazier glowing gold while black ash curls around it like a jealous spirit. The room should feel holy and predatory at once: offerings, cracked icons, and greedy handprints in soot.

@@ -2,7 +2,6 @@ Card ID: agenda-keeper-of-relics
 Display Name: Keeper of Relics
 Deck: Agenda Deck
 Card Type: Agenda
-Treasure Value: 0
 Goal Text: Succeed if you end the game owning at least 2 artifacts, enchantments, or summons on the field.
 Reward Text: Gain 20 prestige points.
 Failure Text: Gain 0 prestige points.

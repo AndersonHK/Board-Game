@@ -2,7 +2,6 @@ Card ID: agenda-first-name-in-the-ballad
 Display Name: First Name in the Ballad
 Deck: Agenda Deck
 Card Type: Agenda
-Treasure Value: 0
 Goal Text: Succeed if you defeat Heartfire Dragon or finish with the highest total Treasure Value from hostile cards you claimed.
 Reward Text: Gain 20 prestige points.
 Failure Text: Gain 0 prestige points.

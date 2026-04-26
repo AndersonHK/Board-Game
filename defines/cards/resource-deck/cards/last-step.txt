@@ -9,6 +9,6 @@ Treasure Value: 4
 Cost: None.
 Timing: Your action.
 Target: One combat target or damageable blocking hurdle.
-Rules Text: Deal 1 damage. If this defeats a creature or clears the last blocking hurdle, draw 1 card.
+Rules Text: Deal 2 damage. If this defeats a creature or clears the last blocking hurdle, draw 1 card.
 Flavor Text: Heroes remember the final inch because songs rarely mention the climb.
 Art Brief: A tired hero plants one foot on broken stone and drives a final careful strike into a nearly defeated enemy or cracked obstacle; the pose should feel earned rather than flashy.

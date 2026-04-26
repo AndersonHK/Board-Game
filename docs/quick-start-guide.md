@@ -8,7 +8,7 @@ Print production notes:
 - Keep strong contrast against any generated parchment, stone, ash, or gothic background texture.
 -->
 
-## Sheet 1: Setup
+## Sheet 1: Prepare The Table
 
 ### Goal
 
@@ -21,20 +21,23 @@ Survive the quest together. If party HP reaches `0`, all players lose. At the en
 - red `d20` for party HP
 - encounter deck
 - resource / action deck
-- creature deck
+- entity deck
 - secret agenda deck
 - red damage tokens
 - blue shield tokens
+- yellow used tokens
+- green reminder tokens
+- guitar pick for escalation
 - `1` d6
 
-### Setup
+### Table Setup
 
 1. Place the quest where everyone can read it.
 2. Set escalation to `0`.
 3. Set party HP to the quest's starting HP.
-4. Shuffle the encounter, resource, creature, and secret agenda decks.
+4. Shuffle the encounter, resource, entity, and secret agenda decks.
 5. Put damage and shield tokens within reach.
-6. Leave room for the current encounter, spawned cards, discard piles, and each player's score pile.
+6. Place the current encounter in the Current Encounter board slot. Leave room beside the board for spawned cards, ordinary discard piles, and each player's personal score pile.
 7. Choose a fixed player order. Seat order is the default.
 
 ### Players
@@ -79,40 +82,25 @@ At escalation `10`, reveal the quest's final ordeal.
 
 **Passive: Kill Reward**
 
-When you deal the final point of damage to a monster with your own action card, creature card, or Warrior trait damage, roll `1d6`.
+Final point of damage to a monster from your action card, creature card, or Warrior trait: roll `1d6`.
 
-Draw `1` card if the result is less than or equal to:
+Draw `1` card if the result is less than or equal to `monster threat x rarity multiplier` (`Common x1`, `Elite x2`).
 
-`monster threat x rarity multiplier`
+**Active: Heavy Strike**
 
-| Monster | Draw On |
-| --- | --- |
-| Threat 1 Common | `1` |
-| Threat 2 Common | `1-2` |
-| Threat 3 Common | `1-3` |
-| Threat 1 Elite | `1-2` |
-| Threat 2 Elite | `1-4` |
-| Threat 3 Elite | `1-6` |
-
-Common multiplier is `1`. Elite multiplier is `2`.
-
-This passive triggers only from monster kills.
-
-**Active**
-
-Once per turn, deal `2` damage. If this kills a monster, it can trigger Kill Reward.
+Once per turn, deal `2` damage to one non-flying, non-artifact target. If this kills a monster, it can trigger Kill Reward.
 
 ### Wizard
 
-**Passive**
+**Passive: Deep Study**
 
 Your hand limit is `12` instead of `6`.
 
-**Active**
+**Active: Shield Ward**
 
 Once per scene, place `2` blue shield tokens on the party or any creature.
 
-Shield tokens prevent damage `1` for `1`. Remove shields before adding damage tokens or reducing party HP. Unused shields from this active do not carry into the next scene.
+Shield tokens each prevent `1` damage. Remove shields before damage tokens or party HP loss. Unused shields from this active expire at scene end.
 
 ### Cleric
 
@@ -120,13 +108,11 @@ Shield tokens prevent damage `1` for `1`. Remove shields before adding damage to
 
 Once per scene, when another player makes a save, you may give that roll `+1`.
 
-If your `+1` changes a failure into a success, that player chooses `1` card they would have lost. Put that card into your hand instead of the discard pile.
+If that turns failure into success, that player chooses `1` card they would have lost. Put it into your hand instead of the discard pile.
 
-The helped player chooses the card.
+If multiple Clerics could claim this, use the one-time tie break rule.
 
-If multiple Clerics could claim the same transfer, only `1` transfer happens. Break the tie with a d6 roll.
-
-**Active**
+**Active: Healing Prayer**
 
 Once per scene, heal one:
 
@@ -159,6 +145,17 @@ If a scene clears during a round, resolve any earned reward immediately unless t
 
 Players may still use legal action windows in non-hostile rooms or after all scene hurdles are cleared.
 
+### End Of Round
+
+Resolve in this order:
+
+1. Player-controlled round-end effects in fixed player order.
+2. Monster and hostile round-end effects, strongest to weakest.
+3. Encounter unresolved text and failure text.
+4. Quest escalation and threshold triggers.
+5. Discard down to hand limit.
+6. End the round.
+
 ### Player Actions
 
 On your action, do one meaningful thing:
@@ -184,17 +181,6 @@ If an enemy has a legal named active ability, it uses that instead of a normal a
 
 If an enemy attacks, it targets a legal friendly creature first. If no friendly creature is legal, it attacks the party.
 
-### End Of Round
-
-Resolve in this order:
-
-1. Player-controlled round-end effects in fixed player order.
-2. Monster and hostile round-end effects, strongest to weakest.
-3. Encounter unresolved text and failure text.
-4. Quest escalation and threshold triggers.
-5. Discard down to hand limit.
-6. End the round.
-
 ### Escalation Advancement
 
 - When the party fully clears a new scene, advance escalation by `1`.
@@ -213,7 +199,7 @@ Resolve in this order:
 - `Friendly`: controlled by a player or the party.
 - `Blocking hurdle`: anything that prevents the scene from being cleared.
 - `Clear`: remove or resolve every hostile and blocking hurdle required by the scene.
-- `Claim`: place a hostile or blocking card in your score pile.
+- `Claim`: place a hostile or blocking card in your personal score pile.
 - `Own`: a card belongs to you for scoring.
 - `Control`: you may use that card's effects.
 - `Party-controlled`: shared by the party, not owned by one player unless a card says otherwise.
@@ -226,6 +212,12 @@ Resolve in this order:
 - `Flying`: a flying target.
 - `Exhaust`: rotate or mark a card after using an exhaust ability. Ready it at the start of the next round.
 - `On hit`: resolves when an attack successfully deals at least `1` damage after shields and prevention.
+
+### One-Time Tie Breaks
+
+If `2` or more players are eligible for the same one-time effect and only `1` player can receive it, each eligible player rolls `1d6`.
+
+Highest roll receives the effect. Reroll ties among tied players.
 
 ### Saves And Tests
 
@@ -257,13 +249,13 @@ Summoned creatures cannot attack on the turn they are summoned unless a card say
 
 ### Spawning By Criteria
 
-Some encounters name exact cards. Take those named cards from the creature deck or reserve. If a required physical copy is unavailable, use a token proxy with the same name, stats, rules text, and Treasure Value.
+Some encounters name exact cards. Take those named cards from the entity deck or reserve. If a required physical copy is unavailable, use a printed proxy card with the same name, stats, rules text, and Treasure Value.
 
 Other encounters use criteria, such as `1 Threat 2 humanoid`.
 
 For criteria:
 
-1. Go through the creature deck from top to bottom once.
+1. Go through the entity deck from top to bottom once.
 2. Take the first legal matches.
 3. Do not sort or search multiple times unless a card says otherwise.
 
@@ -286,7 +278,7 @@ Discard unused trader stock when the scene ends.
 
 When your action removes the final HP, resistance, or blocking condition from a hostile or blocking card, claim that card.
 
-Put claimed cards in your score pile. They count for Glory Points at the end of the game.
+Put claimed cards in your own personal score pile. Kills are tracked per player, and claimed cards count for that player's Glory Points at the end of the game.
 
 If a reward is tied to clearing the last hurdle, the player who cleared that hurdle receives the reward unless the encounter says otherwise.
 
@@ -314,3 +306,5 @@ Glory Points:
 - Treasure Value of hostile and blocking cards you claimed
 
 Do not score discarded cards unless a card says otherwise. Party-controlled cards do not count for one player unless a card says otherwise.
+
+Ordinary discard piles and score piles do not need board spaces. Put spent, defeated, unused, or temporary discards in small table piles beside the relevant deck or player area. Keep claimed cards in a personal score pile beside your own play area.

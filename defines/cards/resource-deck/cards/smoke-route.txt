@@ -9,6 +9,6 @@ Treasure Value: 1
 Cost: None.
 Timing: When a forced discard would happen.
 Target: One forced discard effect.
-Rules Text: Cancel 1 forced discard.
+Rules Text: Cancel 2 forced discard.
 Flavor Text: The fastest path through the room is usually the one nobody wanted to take.
 Art Brief: A chalk arrow and a smear of lantern light reveal a narrow crawlway through furnace smoke and collapsed stone; silhouettes duck through while danger searches the wrong passage.

@@ -10,7 +10,6 @@ Scene Rule: The first non-flying basic attack this scene gets -1 damage.
 Clear Condition: Defeat all hostile creatures in this scene.
 Reward Text: If cleared in 1 round, each player keeps 1 extra card at cleanup.
 Failure Text: If unresolved at round end, the party takes 1 damage.
-Treasure Value: 0
 Rules Text: None.
 Flavor Text: Every bell-shaped ember on the ceiling hatches teeth.
 Art Brief: A vaulted nursery chamber is packed with bell-shaped ember cocoons hanging from chains and stone ribs. Several cocoons burst at once, releasing bat-like fire creatures in sparks and teeth, while a cultist silhouette raises a hand beneath the swarm.

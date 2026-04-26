@@ -7,8 +7,8 @@ Creature Type: Dragon
 Rarity: Elite
 Threat: 3
 Treasure Value: 7
-Hit Points: 8
-Attack: 3
+Hit Points: 11
+Attack: 4
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: This boss may use Dragon's Breath and still attack on the same turn.

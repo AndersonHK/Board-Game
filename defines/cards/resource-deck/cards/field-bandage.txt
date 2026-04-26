@@ -9,6 +9,6 @@ Treasure Value: 1
 Cost: None.
 Timing: After a scene is cleared.
 Target: The party.
-Rules Text: Heal 2 party HP.
+Rules Text: Heal 3 party HP.
 Flavor Text: Rough hands and clean cloth still beat brave speeches.
 Art Brief: A battered leather healer's kit opens on dungeon stone: clean cloth, bitter herbs, a bone needle, and a trembling hand tying a bandage while battle smoke rolls past in the background.

@@ -1,0 +1,18 @@
+Card ID: creature-grave-knight
+Display Name: Grave Knight
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Undead
+Rarity: Rare
+Threat: 3
+Treasure Value: 5
+Hit Points: 7
+Attack: 3
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: Basic attacks against this creature deal 1 less damage, to a minimum of 0.
+Active Ability: None.
+Round End Text: If this creature survives the round, the current claimant discards 1 card.
+Flavor Text: It remembers every oath except mercy.
+Art Brief: An undead knight in ash-caked mail rising from a cracked tomb slab, its sword glowing dull red under furnace light.

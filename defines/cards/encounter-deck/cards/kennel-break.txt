@@ -10,7 +10,6 @@ Scene Rule: None.
 Clear Condition: Defeat all hostile creatures.
 Reward Text: Last hostile defeated: that player gains 1 extra resource draw.
 Failure Text: If unresolved at round end, each surviving goblin gets +1 Attack next round.
-Treasure Value: 0
 Rules Text: None.
 Flavor Text: The growl comes before the latch finishes breaking.
 Art Brief: A rusted gate gives way into a kennel-chamber of broken straw, hooks, and old feeding chains. Goblin shapes surge forward from the pen with knives and clubs, while claw marks on the walls imply worse things were kept here before them.

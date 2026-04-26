@@ -10,7 +10,6 @@ Scene Rule: At escalation 10, ignore the two-turn round cap.
 Clear Condition: Defeat Heartfire Dragon.
 Reward Text: None.
 Failure Text: If party HP reaches 0 at any point, all players lose immediately.
-Treasure Value: 0
 Rules Text: This scene decides survival and final prestige.
 Flavor Text: The mountain kept one last mouth hidden, and it learned patience.
 Art Brief: A chained dragon head tears loose above a vast furnace cavern, but the composition reveals the horror gradually: the head is only the visible portion, while the true body coils deep below in molten light. Use scale, smoke, and tiny heroes to make the scene feel terminal.

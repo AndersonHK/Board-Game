@@ -7,11 +7,11 @@ Creature Type: Humanoid
 Rarity: Elite
 Threat: 2
 Treasure Value: 3
-Hit Points: 4
-Attack: 2
+Hit Points: 5
+Attack: 3
 Combat Targetable: Yes
 Summon Sickness: No
-Rules Text: While another goblin is in play, the first goblin attack each turn gets +1 Attack.
+Rules Text: While another goblin is in play, the first goblin attack each turn gets +2 Attack.
 Active Ability: None.
 Round End Text: None.
 Flavor Text: A boss measured by how many others die before him.

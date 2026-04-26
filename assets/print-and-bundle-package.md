@@ -2,23 +2,41 @@
 
 This manifest defines the complete physical package for the Edition 0 vertical-demo bundle. It is the production checklist for what must be printed, cut, sleeved or bundled, and placed on the table so the game can be played from the quick-start guide and cards.
 
-Canonical rules live in [../docs/quick-start-guide.md](../docs/quick-start-guide.md), [../defines/core-rules.md](../defines/core-rules.md), and [../defines/creature-deck.md](../defines/creature-deck.md). Canonical card data lives in [../defines/cards/](../defines/cards/).
+Printed player-facing rules live in [../docs/quick-start-guide.md](../docs/quick-start-guide.md). Printed card data lives in [../defines/cards/](../defines/cards/). For printed-materials-only playtests, use [printed-materials-index.md](./printed-materials-index.md) as the read list and defer non-printed rule references until after the run.
 
 ## Production Target
 
 - Format: classroom-printable physical prototype.
 - Paper target: US letter-size sheets.
 - Card target: letter-size printable atlases using the card size and sheet assignments in [card-atlas-definition.md](./card-atlas-definition.md).
-- Rules target: five letter-size quick-start sheets from [../docs/quick-start-guide.md](../docs/quick-start-guide.md).
-- Board target: one printed table board or mat with labeled placement rectangles.
-- Widget target: printed escalation meter, paper needle, and printed token sheets.
-- Non-paper components: `1` red `d20`, `1` d6, and a small fastener or substitute for the escalation needle.
+- Rules target: ten letter-size quick-start sheets from [../docs/quick-start-guide.md](../docs/quick-start-guide.md).
+- Board target: three portrait letter-size board pages placed side by side into one `25.5 in x 11 in` table organizer.
+- Widget target: printed vertical escalation meter and printed token sheets.
+- Non-paper components: `1` red `d20`, `1` d6, and `1` guitar pick for the escalation arrow.
+
+Player-facing widget and token definitions live in [widget-and-token-definitions.md](./widget-and-token-definitions.md).
 
 ## Card Package
 
+Generated card print assets:
+
+- Front atlas PNGs: `assets/generated/atlases/fronts/`
+- Back atlas PNGs: `assets/generated/atlases/backs/`
+- Duplex card atlas PDF: `assets/generated/print/card-atlases-duplex.pdf`
+- Individual back textures: `assets/generated/card-backs/`
+
+Back identity policy:
+
+- Ashen Depths quest card, scripted ordeals, and quest-triggered unique creatures use `ASHEN DEPTHS` backs so they are easy to separate from generic pools.
+- Random encounter cards use `ENCOUNTER` backs even when they are bundled with the current quest.
+- Resource/action cards use `RESOURCE` backs. They belong to the same broad fantasy setting as the class cards, but their back identity stays resource-first for sorting.
+- Class reference cards use `FANTASY PACK` backs because they are broad-setting hero/class references, not Ashen Depths-specific cards.
+- Generic creature/entity cards use `ENTITY` backs.
+- Secret agenda cards use `AGENDA` backs.
+
 ### Quest Deck
 
-Print `1` two-slot quest reference card.
+Print `1` four-slot quest reference card.
 
 | Card | Copies |
 | --- | ---: |
@@ -28,14 +46,15 @@ The quest card must be readable from the table because it owns starting HP, star
 
 ### Encounter Deck
 
-Print `11` encounter cards.
+Print `12` encounter cards.
 
-Random encounters are shuffled together. Scripted ordeals are held outside the random encounter deck until the quest calls for them.
+Random encounters are shuffled into the encounter deck. Scripted ordeals are held outside the encounter deck until the quest calls for them.
 
 | Encounter | Type | Copies |
 | --- | --- | ---: |
 | Bound Pilgrim | Random | `1` |
 | Cracked Causeway | Random | `1` |
+| Ember Tax Patrol | Random | `1` |
 | Ember-Bell Nursery | Random | `1` |
 | Kennel Break | Random | `1` |
 | Kennel Vault | Random | `1` |
@@ -46,11 +65,11 @@ Random encounters are shuffled together. Scripted ordeals are held outside the r
 | Furnace Warden Rises | Scripted Ordeal | `1` |
 | Dragon in the Deep | Scripted Ordeal | `1` |
 
-Production note: the encounter deck currently has `9` random encounters, which is above the original minimum of `8`.
+Production note: the encounter deck currently has `10` random encounters, which is above the original minimum of `8`.
 
 ### Resource / Action Deck
 
-Print `72` resource cards.
+Print `80` resource cards.
 
 | Card | Copies |
 | --- | ---: |
@@ -58,6 +77,8 @@ Print `72` resource cards.
 | Battle Prayer | `4` |
 | Blood Price Burst | `2` |
 | Bonefuel Volley | `2` |
+| Borrowed Time | `2` |
+| Brace Together | `4` |
 | Chain Cutter | `4` |
 | Dispel Draft | `4` |
 | Field Bandage | `4` |
@@ -66,6 +87,7 @@ Print `72` resource cards.
 | Last Step | `2` |
 | Lockpick Kit | `4` |
 | Mercy Prayer | `4` |
+| Oathbound Strike | `2` |
 | Prepared Ground | `4` |
 | Quick Slash | `4` |
 | Rally Push | `2` |
@@ -77,22 +99,24 @@ Print `72` resource cards.
 | Summon Tin Golem | `2` |
 | Warding Circle | `4` |
 
-### Creature / Entity Deck
+### Entity Deck
 
-Print `73` creature/entity cards.
+Print `84` creature/entity cards.
 
-Common cards use `4` copies. Elite cards use `2` copies, except quest-unique scripted bosses and boss stages, which use `1` copy.
+Common cards use `4` copies. Elite and Rare cards use `2` copies, except quest-unique scripted bosses and boss stages, which use `1` copy.
 
 | Card | Subtype | Copies |
 | --- | --- | ---: |
 | Ash Cultist | Enemy | `4` |
 | Ash Miasma | Enchantment | `2` |
 | Ash Ogre | Enemy | `2` |
+| Ash Skulk | Enemy | `4` |
 | Ashen Warden | Boss | `1` |
 | Blessing Brazier | Artifact | `2` |
 | Chainbound Head | Boss | `1` |
 | Cinder Familiar | Ally | `2` |
 | Cinder Knight | Enemy | `2` |
+| Cinder Sapper | Enemy | `4` |
 | Dire Wolf | Enemy | `2` |
 | Ember Bat | Enemy | `4` |
 | Furnace Hound | Enemy | `4` |
@@ -100,11 +124,13 @@ Common cards use `4` copies. Elite cards use `2` copies, except quest-unique scr
 | Goblin Chieftain | Enemy | `2` |
 | Goblin Cutthroat | Enemy | `4` |
 | Grave Hound | Ally | `2` |
+| Grave Knight | Enemy | `2` |
 | Gray Wolf | Enemy | `4` |
 | Greedfire Vow | Enchantment | `2` |
 | Heartfire Dragon | Boss | `1` |
 | Heavy Door | Artifact | `4` |
 | Iron Gate | Artifact | `4` |
+| Kiln Pup | Enemy | `1` |
 | Orc Raider | Enemy | `4` |
 | Rusted Chains | Artifact | `4` |
 | Skeletal Porter | Enemy | `4` |
@@ -127,7 +153,7 @@ Print `6` agenda cards.
 
 ### Class Reference Cards
 
-Print `3` class reference cards or one shared class reference panel.
+Print `3` two-slot class reference cards.
 
 | Class | Copies |
 | --- | ---: |
@@ -135,17 +161,19 @@ Print `3` class reference cards or one shared class reference panel.
 | Wizard | `1` |
 | Cleric | `1` |
 
-These can be generated from the class section of the quick-start guide. They are not currently defined as card files under [../defines/cards/](../defines/cards/), but the package should include them so players do not need to pass the rules sheet around constantly.
+These are generated from the class section of the quick-start guide as two-slot reference cards, so players do not need to pass the rules sheet around constantly.
 
 ## Rules Sheets
 
-Print [../docs/quick-start-guide.md](../docs/quick-start-guide.md) as `5` letter-size reference sheets:
+Print [../docs/quick-start-guide.md](../docs/quick-start-guide.md) as `10` letter-size reference sheets:
 
 1. Setup
 2. Classes
 3. Round And Actions
 4. Cards And Scenes
 5. Trader And Scoring
+
+The generated print asset is `assets/generated/guide/quick-start-guide.pdf`, with `10` letter-size pages.
 
 Layout guidance:
 
@@ -156,46 +184,55 @@ Layout guidance:
 
 ## Paper Widgets
 
+See [widget-and-token-definitions.md](./widget-and-token-definitions.md) for the player-facing physical-state definitions of these widgets.
+
 ### Background Table Board
 
-Print `1` landscape letter-size table board or mat.
+Print `3` portrait letter-size table board pages and place them side by side from left to right.
+
+Generated board files:
+
+- `assets/generated/board/table-board-full.png`
+- `assets/generated/board/BOARD-PAGE-01-left.png`
+- `assets/generated/board/BOARD-PAGE-02-center.png`
+- `assets/generated/board/BOARD-PAGE-03-right.png`
+
+The assembled board is `25.5 in x 11 in`. A two-page board was rejected because the safe printable area is too tight for the quest reference, all deck zones, escalation, tokens, and six shared-card slots.
+
+Deck, current-scene, and shared-party placement guides should match the physical standard card size, `2.125 in x 3.6667 in`. The quest reference guide should match the four-slot quest card size, `4.25 in x 7.3334 in`.
 
 It should contain titled rectangles for:
 
 - Quest
 - Escalation Meter
 - Party HP
-- Current Encounter / Scene
-- Random Encounter Deck
+- Current Encounter
+- Encounter Deck
 - Scripted Ordeals
 - Resource Deck
-- Resource Discard Pile
-- Creature / Entity Deck
-- Creature / Entity Discard Pile
+- Entity Deck
 - Secret Agenda Deck
-- Trader Stock
 - Token Bank
-- Shared Party-Controlled Cards
+- Shared Party-Controlled Cards, as six full-size standard-card slots
 - Fixed Player Order
-- Player Score Piles
 
 The board is not a spatial map. It is an organizer for the card-table state.
 
+Ordinary discard piles, trader stock, and player score piles are not printed board zones. Place spent resource cards, defeated unclaimed cards, revealed trader stock, unused trader stock, and other temporary discards on the table beside the relevant deck or player area. Cards claimed from kills go into the claiming player's personal score pile beside their own play area so each player's kills remain trackable.
+
 ### Escalation Meter
 
-Print `1` escalation meter from `0` to `10`.
+Print `1` large vertical escalation meter from `0` to `10`.
 
 Required features:
 
 - `0-3`: green early zone
 - `4-6`: yellow mid zone
 - `7-9`: red late zone
-- `10`: skull or final-ordeal marker
-- enough space for a paper needle, paperclip, coin, or small marker
+- `10`: printed `10`, skull, or final-ordeal marker
+- enough side space for a guitar pick used as the escalation arrow
 
-Print `1` small paper needle.
-
-Bundling note: include one small brad, paperclip, binder clip, or equivalent marker solution. If no fastener is available, use the needle as a loose pointer or replace it with a coin.
+Do not print or bundle a paper needle. Use the guitar pick beside the current number as the escalation arrow.
 
 ### Player Areas
 
@@ -217,6 +254,8 @@ Player mats are optional for playability, but they make ownership and scoring mu
 
 ## Tokens And Markers
 
+See [widget-and-token-definitions.md](./widget-and-token-definitions.md) for token appearance, counts, and tracking use.
+
 ### Required Tokens
 
 Print and cut:
@@ -225,19 +264,17 @@ Print and cut:
 | --- | ---: | --- |
 | Red damage tokens | `40` | Damage already dealt to surviving damageable cards |
 | Blue shield tokens | `20` | Shield tokens on party or creatures |
-| Generic used markers | `16` | Once-per-scene, first-time, or used-this-round effects |
-| Current claimant marker | `1` | Tracks the current claimant when the table might forget |
-| Active player marker | `1` | Optional aid for larger tables or teaching |
-| Threshold tax marker | `1` | Reminds the table whether Ashen Depths threshold-5 reward tax has fired this scene |
-| Proxy tokens | `12` | Temporary extra copies if a required physical card runs out |
+| Yellow used markers | `16` | Once-per-scene, first-time, exhausted, or used-this-round effects |
+| Green reminder markers | `12` | Claimant, threshold tax, active player, or other temporary reminders |
 
 ### Token Notes
 
-- Red damage tokens should be small red circles.
-- Blue shield tokens should be visually distinct from damage tokens.
-- Generic used markers can be gray, black, or brass.
-- Proxy tokens should have a blank line or write-in space for the copied card name.
-- The current claimant marker can be a small banner, hand icon, crown, or labeled coin-sized token.
+- The physical prototype uses four-color plastic bingo chips: red, blue, yellow, and green.
+- The chips are `7/8 in` diameter, and the board's token-bank circles are printed at that physical size.
+- Red damage tokens and blue shield tokens should remain visually distinct.
+- Yellow used markers cover once-per-scene, first-time, exhausted, and used-this-round effects.
+- Green reminder markers cover current claimant, threshold tax, active player, and similar temporary memory aids.
+- Use printed proxy cards, not plastic tokens, if a required physical card copy runs out.
 
 ## Dice And Non-Paper Components
 
@@ -245,7 +282,7 @@ Bundle:
 
 - `1` red `d20` for party HP
 - `1` d6 for saves, Haggle, Warrior rewards, tie-breaks, and random effects
-- `1` small fastener or substitute for the escalation needle
+- `1` guitar pick for the escalation track arrow
 - optional card sleeves or small bags for deck separation
 
 The red `d20` is specifically the party HP tracker, not a die used for rolling.
@@ -258,10 +295,10 @@ Bundle the package into these labeled groups:
 2. Table board and widgets
 3. Tokens and dice
 4. Quest card
-5. Random encounter deck
+5. Encounter deck
 6. Scripted ordeal cards
-7. Resource deck
-8. Creature / entity deck
+7. Resource deck, including overflow resource cards from `ATLAS-REF-02` slots `05-12`
+8. Entity deck
 9. Secret agenda deck
 10. Class references
 
@@ -273,30 +310,30 @@ Before final printing, confirm:
 
 - card fronts match the atlas sheet assignments in [card-atlas-definition.md](./card-atlas-definition.md)
 - every card has art, title, and readable rules text
-- every card back is distinguishable by deck or intentionally shared
+- every card back follows the intended identity policy: `ASHEN DEPTHS` for quest-specific cards, `ENCOUNTER` for random encounters, `RESOURCE` for resource/action cards, `FANTASY PACK` for broader class references, `ENTITY` for generic entities, and `AGENDA` for secret agendas
 - quick-start sheets fit on letter paper with comfortable margins
-- the escalation meter and needle are large enough to read from across the table
+- the vertical escalation meter is large enough to read from across the table
 - red damage tokens and blue shield tokens are visually distinct in dim classroom lighting
 - the background board leaves enough room for real card piles, not just labels
-- player score piles are physically obvious
-- the random encounter deck and scripted ordeals cannot be accidentally shuffled together
+- each player's personal score pile is physically obvious in that player's own area
+- the encounter deck and scripted ordeals cannot be accidentally shuffled together
 
 ## Playability Sanity Check
 
 With this package, the Edition 0 vertical demo should be playable from the printed materials:
 
 - setup is covered by the quick-start, quest card, board, decks, dice, and tokens
-- party HP is tracked by the red `d20`
-- escalation is tracked by the printed meter and needle
+- party HP is tracked by the red `d20`, with party shield tokens placed in the Party HP box
+- escalation is tracked by the printed vertical meter and the guitar-pick arrow
 - entity damage is tracked by red damage tokens
 - shields are tracked by blue shield tokens
 - hand size and cleanup are tracked by each player's hand and class reference
 - fixed player order is tracked by seating, the board, or player mats
-- claims and scoring are tracked by player score piles
-- discard piles are represented on the board
+- claims, kills, and scoring are tracked by per-player score piles kept in each player's own area
+- discard piles are placed on the table beside the relevant deck or player area
 - current claimant has a marker if the table needs it
 - once-per-scene and first-time effects can use generic used markers
-- proxy tokens cover missing physical copies
+- printed proxy cards cover missing physical copies
 
 ## Gaps Or Final Decisions To Close
 
@@ -304,8 +341,5 @@ These are not blockers for a supervised classroom prototype, but they should be 
 
 1. Party HP maximum is not explicitly defined. Cards can heal party HP, but the rules do not say whether party HP can exceed its starting value. Recommended default: party HP cannot exceed the quest's starting party HP for the current player count unless a card says otherwise.
 2. Once-per-scene and first-time effects need a printed tracking convention. The package includes generic used markers, but the quick-start should eventually say whether players mark the card, rotate it, or place a marker on it.
-3. Class reference cards are needed physically but are not yet represented in [../defines/cards/](../defines/cards/). They can be generated from the quick-start for Edition 0.
-4. The background board's exact visual layout is not yet defined as an asset file. This manifest defines the needed rectangles, but not the finished printable board art.
-5. Token art and token sheet layout are not yet defined as asset files. The counts and purposes are defined here.
-6. Card back art is not yet defined. The atlas assumes distinct hidden-deck backs for Encounter, Resource, Creature / Entity, and Secret Agenda cards.
-7. The escalation needle attachment method should be chosen based on available materials: brad, paperclip, coin, or loose marker.
+3. Duplex card backs should be proofed once for printer flip direction and alignment before printing the full deck.
+4. Bring `1` guitar pick for the escalation arrow.

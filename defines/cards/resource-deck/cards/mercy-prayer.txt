@@ -9,6 +9,6 @@ Treasure Value: 2
 Cost: None.
 Timing: When another player would discard.
 Target: Another player.
-Rules Text: That player discards 1 fewer card. You draw 1 card.
+Rules Text: That player discards 1 fewer card. You draw 2 card.
 Flavor Text: Mercy is still mercy when it keeps receipts.
 Art Brief: A kneeling supplicant catches another adventurer's falling cards before they scatter into ash, while a dim halo of candlelight forms protective script around both figures.

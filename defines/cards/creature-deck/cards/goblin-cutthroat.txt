@@ -7,8 +7,8 @@ Creature Type: Humanoid
 Rarity: Common
 Threat: 1
 Treasure Value: 1
-Hit Points: 2
-Attack: 1
+Hit Points: 3
+Attack: 2
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: No extra rules text.

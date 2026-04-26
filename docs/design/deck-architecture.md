@@ -226,6 +226,7 @@ After choosing a class, each player takes a hidden agenda card.
 - tug players away from pure collective optimization
 - remain secret from other players
 - create traitor-like tension without an actual traitor role
+- award explicit prestige points when completed, but carry no base Treasure Value of their own
 
 ### Example Direction
 
@@ -238,6 +239,7 @@ After choosing a class, each player takes a hidden agenda card.
 
 - The most relevant lesson from [Risk and Ticket to Ride objective research](../research/secret-objectives-risk-ticket-to-ride.md) is that secret goals work best when they are legible enough to matter but hidden enough to create uncertainty.
 - These agendas should create selfish play, but not sabotage so strong that the party cannot realistically survive.
+- As of 2026-04-26, agenda cards no longer define or print `Treasure Value: 0`; their scoring value comes only from their printed prestige reward.
 
 ## Design Tension Summary
 

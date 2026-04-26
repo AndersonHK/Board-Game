@@ -10,8 +10,9 @@ This folder uses one shared entity grammar for:
 
 Current vertical-slice scope seeded here:
 
-- `12` standard enemies
+- `16` standard enemies
 - `3` boss-stage cards
+- `1` unique boss companion
 - `3` allied summons
 - `3` enchantments
 - `4` artifacts

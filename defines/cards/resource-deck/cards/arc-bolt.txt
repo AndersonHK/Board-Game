@@ -9,6 +9,6 @@ Treasure Value: 2
 Cost: None.
 Timing: Your action.
 Target: One combat target.
-Rules Text: Deal 2 damage to a flying or magical target; otherwise 1 damage.
+Rules Text: Deal 3 damage to a flying or magical target; otherwise 2 damage.
 Flavor Text: A narrow line of power is still enough if it finds the right crack.
 Art Brief: A thin blue-white bolt cuts through dense black smoke and strikes a winged ember-creature midair; the light should feel precise, surgical, and almost too quiet for the damage it causes.

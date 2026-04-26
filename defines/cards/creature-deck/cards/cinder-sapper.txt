@@ -1,0 +1,18 @@
+Card ID: creature-cinder-sapper
+Display Name: Cinder Sapper
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Humanoid
+Rarity: Common
+Threat: 2
+Treasure Value: 2
+Hit Points: 4
+Attack: 2
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: The first time this creature damages a friendly creature each scene, also deal 1 damage to the party.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: Some miners learn where stone is weakest. Others learn where courage is.
+Art Brief: A soot-streaked saboteur with cracked goggles, a coal-black pick, and a satchel of ember charges near a dungeon support pillar.

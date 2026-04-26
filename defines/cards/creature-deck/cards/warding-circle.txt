@@ -13,6 +13,6 @@ Combat Targetable: No
 Summon Sickness: No
 Rules Text: This enchantment enters under a player's control and is not a combat target.
 Active Ability: None.
-Round End Text: At end of each round, place 1 shield token on the party.
+Round End Text: At end of each round, place 2 shield token on the party.
 Flavor Text: The line does not stop the fire. It teaches the fire some manners.
 Art Brief: A glowing blue protective circle inscribed on dungeon stone.

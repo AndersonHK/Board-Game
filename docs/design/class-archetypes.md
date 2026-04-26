@@ -204,7 +204,7 @@ For the vertical-slice fantasy rules, the `Cleric` has:
 
 - a passive, once per scene, that gives another player's save `+1`
 - if that `+1` turns a failure into a success, the helped player chooses `1` card they would have lost, and that card goes to the Cleric's hand instead of the discard pile
-- if multiple Clerics could claim the same rescue-style transfer, only `1` transfer happens and ties are broken with a d6 roll
+- if multiple Clerics could claim the same rescue-style transfer, only `1` transfer happens and the general one-time tie break rule decides who receives it
 - an active, once per scene, that heals `1` party HP or `2` HP to any creature
 
 This keeps the support economy distinct: the Cleric gains through intervention rather than hoarding or kill credit. Quest 003 and Quest 007 both show that this creates the desired "you helped me, but you also profited" table tension.

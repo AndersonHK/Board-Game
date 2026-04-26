@@ -1,5 +1,5 @@
 Template Name: Agenda Deck Template
-Template Version: 1
+Template Version: 2
 Purpose: One file per secret agenda card.
 
 Required Fields:
@@ -7,7 +7,6 @@ Required Fields:
 - Display Name
 - Deck
 - Card Type
-- Treasure Value
 - Goal Text
 - Reward Text
 - Failure Text
@@ -20,7 +19,6 @@ Card ID:
 Display Name:
 Deck:
 Card Type:
-Treasure Value:
 Goal Text:
 Reward Text:
 Failure Text:

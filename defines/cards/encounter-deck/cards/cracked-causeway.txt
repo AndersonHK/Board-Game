@@ -10,7 +10,6 @@ Scene Rule: Spend 1 action to secure the crossing.
 Clear Condition: The crossing is secured.
 Reward Text: If cleared this round, scout the top encounter card.
 Failure Text: If unresolved at round end, the party takes 1 damage.
-Treasure Value: 0
 Rules Text: Blocking hurdle until secured.
 Flavor Text: The bridge remembers being whole. Your feet do not care.
 Art Brief: A broken stone causeway spans a vertical furnace shaft, with missing slabs, orange light far below, and ash blowing upward like weather in reverse. Show small figures crossing carefully while cracked saints or old railings crumble at the edges.

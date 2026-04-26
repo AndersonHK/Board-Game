@@ -23,7 +23,9 @@ def read_atlas_card_size() -> dict:
     width_match = re.search(r"card width:\s*`[^=]+=\s*([0-9.]+)\s*in`", text)
     height_match = re.search(r"card height:\s*`[^=]+=\s*([0-9.]+)\s*in`", text)
     quest_width_match = re.search(r"quest card width:\s*`[^=]+=\s*([0-9.]+)\s*in`", text)
-    quest_height_match = re.search(r"quest card height:\s*`([0-9.]+)\s*in`", text)
+    quest_height_match = re.search(r"quest card height:\s*`(?:[^=]+=\s*)?([0-9.]+)\s*in`", text)
+    class_width_match = re.search(r"class reference width:\s*`[^=]+=\s*([0-9.]+)\s*in`", text)
+    class_height_match = re.search(r"class reference height:\s*`([0-9.]+)\s*in`", text)
     sheet_match = re.search(r"Use US letter paper:\s*`([0-9.]+)\s*in x\s*([0-9.]+)\s*in`", text)
     grid_match = re.search(r"use a\s*`(\d+) x (\d+)`\s*portrait grid", text, re.IGNORECASE)
 
@@ -39,6 +41,8 @@ def read_atlas_card_size() -> dict:
         "card_height_in": float(height_match.group(1)),
         "quest_card_width_in": float(quest_width_match.group(1)) if quest_width_match else float(width_match.group(1)) * 2,
         "quest_card_height_in": float(quest_height_match.group(1)) if quest_height_match else float(height_match.group(1)),
+        "class_card_width_in": float(class_width_match.group(1)) if class_width_match else float(width_match.group(1)) * 2,
+        "class_card_height_in": float(class_height_match.group(1)) if class_height_match else float(height_match.group(1)),
     }
 
 
@@ -49,6 +53,9 @@ def build_spec() -> dict:
     safe_width_in = atlas["card_width_in"] - 2 * (safe_margin_in + cut_tolerance_in)
     safe_height_in = atlas["card_height_in"] - 2 * (safe_margin_in + cut_tolerance_in)
     quest_safe_width_in = atlas["quest_card_width_in"] - 2 * (safe_margin_in + cut_tolerance_in)
+    quest_safe_height_in = atlas["quest_card_height_in"] - 2 * (safe_margin_in + cut_tolerance_in)
+    class_safe_width_in = atlas["class_card_width_in"] - 2 * (safe_margin_in + cut_tolerance_in)
+    class_safe_height_in = atlas["class_card_height_in"] - 2 * (safe_margin_in + cut_tolerance_in)
 
     spec = {
         "spec_version": 1,
@@ -69,7 +76,16 @@ def build_spec() -> dict:
             "cut_tolerance_in": cut_tolerance_in,
             "safe_margin_in": safe_margin_in,
             "safe_width_in": round(quest_safe_width_in, 4),
-            "safe_height_in": round(safe_height_in, 4),
+            "safe_height_in": round(quest_safe_height_in, 4),
+            "atlas_slot_span": "2 columns x 2 rows",
+        },
+        "class_card": {
+            "width_in": atlas["class_card_width_in"],
+            "height_in": atlas["class_card_height_in"],
+            "cut_tolerance_in": cut_tolerance_in,
+            "safe_margin_in": safe_margin_in,
+            "safe_width_in": round(class_safe_width_in, 4),
+            "safe_height_in": round(class_safe_height_in, 4),
             "atlas_slot_span": "2 columns x 1 row",
         },
         "text_model": {
@@ -106,7 +122,7 @@ def build_spec() -> dict:
                 "title_box_in": 0.30,
                 "art_box_in": 0.88,
                 "type_line_box_in": 0.18,
-                "footer_box_in": 0.12,
+                "footer_box_in": 0.0,
                 "body_font_pt": 6.35,
                 "body_line_height_pt": 7.25,
                 "printed_fields": ["Reveal Text", "Scene Rule", "Clear Condition", "Reward Text", "Failure Text", "Rules Text", "Flavor Text"],
@@ -125,13 +141,13 @@ def build_spec() -> dict:
             "quest_reference": {
                 "applies_to": ["Quest Deck"],
                 "card_size": "quest_card",
-                "title_font_pt": 9.0,
-                "title_box_in": 0.30,
-                "art_box_in": 0.54,
-                "type_line_box_in": 0.14,
+                "title_font_pt": 15.0,
+                "title_box_in": 0.42,
+                "art_box_in": 2.45,
+                "type_line_box_in": 0.24,
                 "footer_box_in": 0.0,
-                "body_font_pt": 6.6,
-                "body_line_height_pt": 7.3,
+                "body_font_pt": 10.0,
+                "body_line_height_pt": 11.5,
                 "printed_fields": [
                     "Quest Stat Line",
                     "Setup Text",
@@ -145,19 +161,45 @@ def build_spec() -> dict:
                     "Flavor Text",
                 ],
             },
+            "class_reference": {
+                "applies_to": ["Utility"],
+                "card_size": "class_card",
+                "title_font_pt": 11.0,
+                "title_box_in": 0.30,
+                "art_box_in": 1.24,
+                "type_line_box_in": 0.0,
+                "footer_box_in": 0.0,
+                "body_font_pt": 8.2,
+                "body_line_height_pt": 9.25,
+                "printed_fields": ["Rules Text"],
+            },
         },
     }
     for layout in spec["layouts"].values():
-        layout_safe_width_in = quest_safe_width_in if layout.get("card_size") == "quest_card" else safe_width_in
-        layout["card_width_in"] = round(atlas["quest_card_width_in"] if layout.get("card_size") == "quest_card" else atlas["card_width_in"], 4)
-        layout["card_height_in"] = round(atlas["quest_card_height_in"] if layout.get("card_size") == "quest_card" else atlas["card_height_in"], 4)
+        if layout.get("card_size") == "quest_card":
+            layout_width_in = atlas["quest_card_width_in"]
+            layout_height_in = atlas["quest_card_height_in"]
+            layout_safe_width_in = quest_safe_width_in
+            layout_safe_height_in = quest_safe_height_in
+        elif layout.get("card_size") == "class_card":
+            layout_width_in = atlas["class_card_width_in"]
+            layout_height_in = atlas["class_card_height_in"]
+            layout_safe_width_in = class_safe_width_in
+            layout_safe_height_in = class_safe_height_in
+        else:
+            layout_width_in = atlas["card_width_in"]
+            layout_height_in = atlas["card_height_in"]
+            layout_safe_width_in = safe_width_in
+            layout_safe_height_in = safe_height_in
+        layout["card_width_in"] = round(layout_width_in, 4)
+        layout["card_height_in"] = round(layout_height_in, 4)
         layout["safe_width_in"] = round(layout_safe_width_in, 4)
-        layout["safe_height_in"] = round(safe_height_in, 4)
+        layout["safe_height_in"] = round(layout_safe_height_in, 4)
         fixed_in = sum(
             layout.get(key, 0.0)
             for key in ("title_box_in", "art_box_in", "type_line_box_in", "stats_box_in", "footer_box_in")
         )
-        body_box_in = safe_height_in - fixed_in
+        body_box_in = layout_safe_height_in - fixed_in
         layout["body_box_in"] = round(body_box_in, 4)
         layout["body_box_pt"] = round(body_box_in * 72, 2)
         layout["safe_width_pt"] = round(layout_safe_width_in * 72, 2)
@@ -182,6 +224,7 @@ def markdown_table(spec: dict) -> str:
 def render_markdown(spec: dict) -> str:
     card = spec["card"]
     quest_card = spec["quest_card"]
+    class_card = spec["class_card"]
     sheet = spec["sheet"]
     spec_json = json.dumps(spec, indent=2)
     return f"""# Card Layout
@@ -200,10 +243,12 @@ python .\\assets\\scripts\\calculate_card_layout.py --write
 - Atlas grid: `{sheet['columns']} x {sheet['rows']}`
 - Card size: `{card['width_in']} in x {card['height_in']} in`
 - Quest card size: `{quest_card['width_in']} in x {quest_card['height_in']} in`
+- Class reference size: `{class_card['width_in']} in x {class_card['height_in']} in`
 - Cut tolerance: `{card['cut_tolerance_in']} in`
 - Safe margin inside cut tolerance: `{card['safe_margin_in']} in`
 - Safe content area: `{card['safe_width_in']} in x {card['safe_height_in']} in`
 - Quest safe content area: `{quest_card['safe_width_in']} in x {quest_card['safe_height_in']} in`
+- Class reference safe content area: `{class_card['safe_width_in']} in x {class_card['safe_height_in']} in`
 
 ## Front Anatomy
 
@@ -215,7 +260,7 @@ All card fronts use the same visual stack:
 4. Rules text box.
 5. Optional lower flavor or value strip.
 
-Deck layouts vary by the card size and the height assigned to the art and text areas. Encounter cards intentionally give more room to rules text. Quest reference cards use the two-slot quest card size defined in the atlas so their setup and threshold rules remain readable.
+Deck layouts vary by the card size and the height assigned to the art and text areas. Encounter cards intentionally give more room to rules text. Quest reference cards use the four-slot quest card size defined in the atlas, with visible sections for stats, setup, escalation, win, and lose text. Class references use a two-slot card size with one shared body font size across all class cards.
 
 ## Calculated Text Areas
 
@@ -230,7 +275,8 @@ The fit model uses an average glyph width of `{spec['text_model']['avg_glyph_wid
 - Print `Display Name` in the title band.
 - Print rules fields with short labels unless the final renderer has deck-specific iconography.
 - Flavor text is printable, but it is the first field to cut if a card must be tightened.
-- Quest cards use the `quest_reference` layout and the two-slot quest card size because they carry setup and threshold rules.
+- Quest cards use the `quest_reference` layout and the four-slot quest card size because they carry setup and threshold rules.
+- Class reference cards use the `class_reference` layout and the two-slot class reference size.
 
 ## Machine-Readable Layout Spec
 

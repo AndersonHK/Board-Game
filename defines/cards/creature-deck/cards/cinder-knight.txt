@@ -7,8 +7,8 @@ Creature Type: Construct
 Rarity: Elite
 Threat: 3
 Treasure Value: 4
-Hit Points: 5
-Attack: 2
+Hit Points: 7
+Attack: 3
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: Basic attacks against this creature deal 1 less damage, to a minimum of 0.

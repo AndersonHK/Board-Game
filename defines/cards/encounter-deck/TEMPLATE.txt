@@ -1,5 +1,5 @@
 Template Name: Encounter Deck Template
-Template Version: 1
+Template Version: 2
 Purpose: One file per encounter card, including random encounters and scripted ordeal cards.
 
 Required Fields:
@@ -15,7 +15,6 @@ Required Fields:
 - Clear Condition
 - Reward Text
 - Failure Text
-- Treasure Value
 - Rules Text
 - Flavor Text
 - Art Brief
@@ -33,7 +32,6 @@ Scene Rule:
 Clear Condition:
 Reward Text:
 Failure Text:
-Treasure Value:
 Rules Text:
 Flavor Text:
 Art Brief:

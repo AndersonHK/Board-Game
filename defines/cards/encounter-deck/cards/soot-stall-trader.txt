@@ -10,7 +10,6 @@ Scene Rule: Each player may trade once: direct trade or Haggle.
 Clear Condition: All players traded or passed.
 Reward Text: None.
 Failure Text: None.
-Treasure Value: 0
 Rules Text: Haggle 1d6: 1-2 discard 1 then trade 1-for-1; 3-4 trade 1-for-1; 5-6 trade 1 for 2. Discard unused stock at scene end.
 Flavor Text: Certainty is cheaper underground, especially when it is fake.
 Art Brief: A soot-streaked merchant stall is wedged into cracked dungeon masonry under a single hanging lantern. Piles of scavenged rope, oil, blades, charms, and dubious maps crowd the counter; the trader should look useful, amused, and impossible to fully trust.

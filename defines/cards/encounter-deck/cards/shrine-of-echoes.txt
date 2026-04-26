@@ -10,7 +10,6 @@ Scene Rule: Players may still take normal actions.
 Clear Condition: Bargain resolved.
 Reward Text: Resolver gains 1 extra draw.
 Failure Text: If Ash Miasma remains at scene end, carry it forward. This overrides normal clearing.
-Treasure Value: 0
 Rules Text: None.
 Flavor Text: The shrine answers in your voice, but not with your mercy.
 Art Brief: A cracked prayer alcove crowded with ember candles, smoke-script, and tiny reflected mouths in the stone. The image should suggest a bargain happening silently: hands reaching toward light, shadows reaching back, and ash gathering where words should be.
