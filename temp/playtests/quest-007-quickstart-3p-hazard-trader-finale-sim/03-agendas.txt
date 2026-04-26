@@ -1,0 +1,24 @@
+Agenda Draws
+
+Merek Ashford
+- Agenda: Ashes to Ashes
+- Goal Text: Succeed if the total Treasure Value of hostile cards you claimed is 10 or higher.
+- Reward Text: Gain 20 prestige points.
+- Why it fits this run: Merek is incentivized to chase elite hostile claims and final hits, even when the party might prefer cleaner shared problem solving.
+
+Selene Voss
+- Agenda: Prepared Beyond Reason
+- Goal Text: Succeed if you end the game with at least 12 Treasure Value in hand and on-field owned cards.
+- Reward Text: Gain 20 prestige points.
+- Why it fits this run: Selene tests whether the Wizard's `12` hand limit and permanent ownership route can score without needing the richest-at-table agenda.
+
+Brother Oren
+- Agenda: By My Grace
+- Goal Text: Succeed if you cause 3 shared-success moments or 2 failed saves to become successes.
+- Reward Text: Gain 20 prestige points.
+- Why it fits this run: Oren tests whether the phrase `shared-success moments` is concrete enough for real players to adjudicate from card text.
+
+Unused Agenda Cards:
+- First Name in the Ballad
+- Keeper of Relics
+- Richer Than the Ruin

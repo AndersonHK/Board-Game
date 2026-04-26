@@ -1,0 +1,60 @@
+Creature Deck Session Map
+
+Canonical deck note:
+- Common cards have `4` copies.
+- Elite and Rare cards have `2` copies unless a card says otherwise.
+- Quest-unique scripted cards have `1` copy.
+- Quest-unique scripted cards include Ashen Warden, Chainbound Head, and Heartfire Dragon.
+- Criteria searches use one top-to-bottom pass through the creature deck.
+
+Exact-Name Spawns Used
+
+Kennel Break
+- Goblin Chieftain
+- Goblin Bruiser
+- Goblin Cutthroat
+
+Furnace Warden Rises
+- Ashen Warden
+
+Shrine of Echoes
+- Ash Miasma
+
+Bound Pilgrim
+- Rusted Chains
+- carried-over Ash Miasma from Shrine of Echoes
+
+Dragon in the Deep
+- Chainbound Head
+- Heartfire Dragon
+
+Player-Created Entities Used
+
+Merek
+- Cinder Familiar from Summon Cinder Familiar
+
+Selene
+- Prepared Ground from Prepared Ground
+- Tin Golem from Summon Tin Golem
+- Greedfire Vow from Greedfire Vow
+
+Criteria Spawn Setup For Kennel Vault
+
+Instruction:
+- Spawn 1 Threat 2 humanoid and 2 Threat 1 beasts. Also spawn Iron Gate.
+
+Creature-deck order segment used for criteria:
+1. Orc Raider: Threat 2 humanoid
+2. Ember Bat: Threat 1 beast
+3. Gray Wolf: Threat 1 beast
+
+Result:
+- Orc Raider fills the Threat 2 humanoid slot.
+- Ember Bat fills the first Threat 1 beast slot.
+- Gray Wolf fills the second Threat 1 beast slot.
+- Iron Gate enters as a named blocking artifact from the encounter text.
+
+Friendly Creature Targeting Notes
+- Cinder Familiar absorbed the first Goblin Chieftain attack and was defeated.
+- Tin Golem absorbed several later enemy attacks because enemy monsters must target a legal friendly creature before attacking the party.
+- Tin Golem's `Exhaust: Prevent 1 damage to the party` mattered only when damage would hit the party; it did not prevent damage to itself.

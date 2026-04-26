@@ -1,0 +1,102 @@
+Resource Deck Session Map
+
+Canonical deck note:
+- The live resource card files currently sum to `72` copies through their `Copies In Deck` fields.
+- This session treats that `72`-card build as the actual shuffled deck for simulation.
+- Only the revealed and touched portion is listed below because that is all the run used.
+
+Opening Hands
+
+Merek Ashford
+- Quick Slash
+- Blood Price Burst
+- Field Bandage
+- Summon Cinder Familiar
+
+Selene Voss
+- Study the Signs
+- Hidden Stash
+- Warding Circle
+- Smoke Route
+
+Brother Oren
+- Battle Prayer
+- Dispel Draft
+- Mercy Prayer
+- Lockpick Kit
+
+Prep-Scene Draws
+- Selene plays Hidden Stash and draws Prepared Ground, then Arc Bolt.
+- Mid-round draw: Merek -> Shield Breaker, Selene -> Summon Tin Golem, Oren -> Chain Cutter.
+
+Smoke-Flood Gallery Draws
+- Selene spends Smoke Route to cancel her chosen forced discard.
+- Merek discards Field Bandage to the gallery reveal.
+- Oren discards Mercy Prayer to the gallery reveal.
+- Mid-round draw: Merek -> Last Step, Selene -> Quick Slash, Oren -> Rally Push.
+- Gallery reward returns Field Bandage from discard to Merek's hand.
+
+Kennel Break Draws
+- Mid-round draw in round 1 of the scene: Merek -> Arc Bolt, Selene -> Blood Price Burst, Oren -> Battle Prayer.
+- Merek's Warrior passive on Goblin Chieftain draws Hidden Stash.
+- Selene defeats the last hostile and draws Summon Cinder Familiar from the scene reward.
+- Mid-round draw in round 2 of the scene: Merek -> Summon Grave Hound, Selene -> Field Bandage, Oren -> Smoke Route.
+
+Soot-Stall Trader Stock
+- Greedfire Vow
+- Chain Cutter
+- Quick Slash
+- Field Bandage
+- Summon Tin Golem
+
+Trader Outcomes
+- Merek uses Haggle, rolls `1`, discards Field Bandage, then trades Arc Bolt for Quick Slash.
+- Selene directly trades Quick Slash for Greedfire Vow.
+- Oren uses Haggle, rolls `5`, and trades Lockpick Kit for Chain Cutter plus Field Bandage.
+
+Trader-Scene Draws
+- Mid-round draw: Merek -> Dispel Draft, Selene -> Hidden Stash, Oren -> Battle Prayer.
+- Selene plays Summon Tin Golem and discards Warding Circle as the summon cost.
+
+Furnace Warden Rises Draws
+- Merek pays `1` party HP for Blood Price Burst.
+- Mid-round draw: Merek -> Last Step, Selene -> Study the Signs, Oren -> Mercy Prayer.
+- Merek's Warrior passive on Ashen Warden draws Chain Cutter.
+- Reward draw on clear: Merek -> Field Bandage, Selene -> Warding Circle, Oren -> Dispel Draft.
+
+Cracked Causeway Draws
+- Merek's failed save is flipped by Oren; Merek chooses Shield Breaker as the card he would have lost, and it goes into Oren's hand.
+- Selene spends Smoke Route from hand to cancel her failed-save discard.
+- Mid-round draw: Merek -> Quick Slash, Selene -> Summon Cinder Familiar, Oren -> Mercy Prayer.
+
+Shrine Of Echoes Bargains And Draws
+- Merek takes the bargain, draws Battle Prayer, then discards Chain Cutter.
+- Selene takes the bargain, draws Lockpick Kit, then discards Study the Signs.
+- Oren takes the bargain, draws Hidden Stash, then discards Chain Cutter.
+- Mid-round draw: Merek -> Shield Breaker, Selene -> Field Bandage, Oren -> Dispel Draft.
+
+Bound Pilgrim Draws
+- Merek discards Quick Slash to pay Shield Breaker on Rusted Chains.
+- Mid-round draw: Merek -> Arc Bolt, Selene -> Rally Push, Oren -> Mercy Prayer.
+
+Kennel Vault Draws
+- Merek's Warrior passive on Orc Raider draws Warding Circle.
+- Mid-round draw: Merek -> Quick Slash, Selene -> Blood Price Burst, Oren -> Battle Prayer.
+- Oren clears the last hostile and takes the scene reward draw: Summon Grave Hound.
+- The threshold-5 reward-draw tax then makes Oren discard Field Bandage.
+
+Dragon In The Deep Draws
+- Merek discards Last Step to pay Shield Breaker on Chainbound Head.
+- Mid-round draw after Enemy Turn 1: Merek -> Prepared Ground, Selene -> Summon Tin Golem, Oren -> Lockpick Kit.
+- Dragon's Breath discards and HP-loss rolls are listed in the simulation log.
+
+Notable Costs And Discards
+- Merek discards Field Bandage to Smoke-Flood Gallery.
+- Oren discards Mercy Prayer to Smoke-Flood Gallery.
+- Merek discards Field Bandage after a failed Haggle result.
+- Selene discards Warding Circle to summon Tin Golem.
+- Merek pays `1` party HP for Blood Price Burst against Ashen Warden.
+- Selene later pays `1` party HP to place Greedfire Vow.
+- Merek discards Quick Slash to pay Shield Breaker on Rusted Chains.
+- Oren discards Field Bandage to the threshold-5 reward-draw tax.
+- Merek discards Last Step to pay Shield Breaker on Chainbound Head.
