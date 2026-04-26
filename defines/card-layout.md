@@ -240,10 +240,12 @@ The fit model uses an average glyph width of `0.52em`. It is a production sanity
         "Threshold 5",
         "Threshold 8",
         "Threshold 10",
-        "Lose Condition",
-        "Win Condition",
-        "Rules Text",
-        "Flavor Text"
+          "Lose Condition",
+          "Win Condition",
+          "Win Flavor Text",
+          "Lose Flavor Text",
+          "Rules Text",
+          "Flavor Text"
       ],
       "card_width_in": 4.25,
       "card_height_in": 7.3334,

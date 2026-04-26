@@ -15,8 +15,11 @@ Rules for the art session:
 - If an existing final image is portrait or crops badly, treat it as visual reference only and replace it with a landscape version at the same `Destination Path`.
 - It is fine to generate larger source images than the final card window; the renderer will crop and fit them.
 - Save final images as PNG files at the listed `Destination Path`.
-- Raw, experimental, or alternate images can live in `assets/card-art/incoming/` until selected.
-- This session is assigned `GROUP-CREATURE-01` only. Do not generate images for any other task group.
+- Keep raw, experimental, or alternate images in `assets/card-art/incoming/TASK_GROUP_ID/` or the image tool's current-session output folder until selected.
+- When selecting or moving final PNGs, inspect only images produced in this task group's current session or in `assets/card-art/incoming/TASK_GROUP_ID/`.
+- Do not search, reuse, copy, or infer from other task-group folders, other image-session folders, or unrelated existing final art. Cross-session image reuse can silently put the right filename on the wrong picture.
+- Before finishing, compare the selected image against the row's `Display Name` and `Art Brief`; if the subject does not match, regenerate it instead of saving it.
+- This session is assigned `GROUP-CREATURE-01` only. Do not generate images for any other task group. When staging alternates, use `assets/card-art/incoming/GROUP-CREATURE-01/`.
 
 | Task Group | Card ID | Display Name | Deck | Source | Destination Path | Art Window | Exact Aspect | Suggested Exact Source Size | Fallback Aspect | Art Brief |
 | --- | --- | --- | --- | --- | --- | ---: | --- | ---: | --- | --- |

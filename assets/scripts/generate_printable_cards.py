@@ -387,12 +387,16 @@ def quest_panel_text(card: dict, panel: str) -> str:
         return "\n".join(part for part in parts if part.split(": ", 1)[-1] not in SKIP_VALUES)
     if panel == "win":
         parts = [card.get("Win Condition", "")]
-        flavor = card.get("Flavor Text", "")
+        flavor = card.get("Win Flavor Text", "")
         if flavor not in SKIP_VALUES:
             parts.append(f'"{flavor}"')
         return "\n".join(part for part in parts if part not in SKIP_VALUES)
     if panel == "lose":
-        return card.get("Lose Condition", "")
+        parts = [card.get("Lose Condition", "")]
+        flavor = card.get("Lose Flavor Text", "")
+        if flavor not in SKIP_VALUES:
+            parts.append(f'"{flavor}"')
+        return "\n".join(part for part in parts if part not in SKIP_VALUES)
     return ""
 
 
@@ -492,23 +496,37 @@ def draw_quest_card(card: dict, spec: dict) -> tuple[Image.Image, list[RenderIss
     if not found_art and card.get("_kind") == "defined":
         issues.append(RenderIssue(card_id, f"Missing art at {card_art_path(card)}"))
 
+    type_box = boxes["type"]
+    type_flavor = card.get("Flavor Text", "")
     type_font, type_lines, type_clipped = fit_font_for_text(
         draw,
         type_line(card),
         "body_bold",
-        28,
-        18,
-        boxes["type"][2] - boxes["type"][0] - 24,
-        boxes["type"][3] - boxes["type"][1] - 6,
+        26 if type_flavor not in SKIP_VALUES else 28,
+        17,
+        type_box[2] - type_box[0] - 24,
+        (type_box[3] - type_box[1]) // (2 if type_flavor not in SKIP_VALUES else 1),
     )
-    draw_centered_lines(
-        draw,
-        (boxes["type"][0] + 12, boxes["type"][1] + 3, boxes["type"][2] - 12, boxes["type"][3] - 3),
-        type_lines[:2],
-        type_font,
-        style["ink"],
-        spacing=0,
-    )
+    if type_flavor not in SKIP_VALUES:
+        type_line_box = (type_box[0] + 12, type_box[1] + 2, type_box[2] - 12, type_box[1] + (type_box[3] - type_box[1]) // 2)
+        flavor_box = (type_box[0] + 12, type_line_box[3] - 2, type_box[2] - 12, type_box[3] - 3)
+    else:
+        type_line_box = (type_box[0] + 12, type_box[1] + 3, type_box[2] - 12, type_box[3] - 3)
+        flavor_box = None
+    draw_centered_lines(draw, type_line_box, type_lines[:2], type_font, style["ink"], spacing=0)
+    if flavor_box:
+        flavor_font, flavor_lines, flavor_clipped = fit_font_for_text(
+            draw,
+            f'"{type_flavor}"',
+            "italic",
+            21,
+            14,
+            flavor_box[2] - flavor_box[0],
+            flavor_box[3] - flavor_box[1],
+        )
+        draw_centered_lines(draw, flavor_box, flavor_lines[:1], flavor_font, flavor_text_color(style), spacing=0)
+        if flavor_clipped:
+            issues.append(RenderIssue(card_id, "Quest type flavor line reached minimum font."))
     if type_clipped:
         issues.append(RenderIssue(card_id, "Quest type line reached minimum font."))
 
@@ -946,7 +964,10 @@ def art_handoff_header(title: str, extra_rule: str | None = None) -> list[str]:
         "- If an existing final image is portrait or crops badly, treat it as visual reference only and replace it with a landscape version at the same `Destination Path`.",
         "- It is fine to generate larger source images than the final card window; the renderer will crop and fit them.",
         "- Save final images as PNG files at the listed `Destination Path`.",
-        "- Raw, experimental, or alternate images can live in `assets/card-art/incoming/` until selected.",
+        "- Keep raw, experimental, or alternate images in `assets/card-art/incoming/TASK_GROUP_ID/` or the image tool's current-session output folder until selected.",
+        "- When selecting or moving final PNGs, inspect only images produced in this task group's current session or in `assets/card-art/incoming/TASK_GROUP_ID/`.",
+        "- Do not search, reuse, copy, or infer from other task-group folders, other image-session folders, or unrelated existing final art. Cross-session image reuse can silently put the right filename on the wrong picture.",
+        "- Before finishing, compare the selected image against the row's `Display Name` and `Art Brief`; if the subject does not match, regenerate it instead of saving it.",
     ]
     if extra_rule:
         lines.append(extra_rule)
@@ -970,7 +991,7 @@ def write_group_handoff_files(groups: list[tuple[str, str, list[dict]]], spec: d
         "Session instruction template:",
         "",
         "```text",
-        "You are assigned TASK_GROUP_ID. Open assets/card-art/session-groups/TASK_GROUP_ID.md and generate only the cards listed there. Save each final PNG to its listed Destination Path. Do not edit card definition files or generate cards from other groups.",
+        "You are assigned TASK_GROUP_ID. Open assets/card-art/session-groups/TASK_GROUP_ID.md and generate only the cards listed there. When choosing final images, use only images generated in this current session or staged under assets/card-art/incoming/TASK_GROUP_ID/. Do not inspect, search, copy, or reuse images from other generated-image session folders, task-group folders, or existing final-art folders. Save each final PNG to its listed Destination Path. Do not edit card definition files or generate cards from other groups.",
         "```",
         "",
         "| Task Group | Scope | Cards | Handoff File |",
@@ -981,7 +1002,7 @@ def write_group_handoff_files(groups: list[tuple[str, str, list[dict]]], spec: d
         output_path = ART_GROUP_ROOT / filename
         lines = art_handoff_header(
             f"AI Art Handoff: {group_id}",
-            f"- This session is assigned `{group_id}` only. Do not generate images for any other task group.",
+            f"- This session is assigned `{group_id}` only. Do not generate images for any other task group. When staging alternates, use `assets/card-art/incoming/{group_id}/`.",
         )
         for card in group_cards:
             lines.append(art_handoff_row(card, spec, group_id))

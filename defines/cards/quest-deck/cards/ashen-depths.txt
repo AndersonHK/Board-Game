@@ -16,7 +16,9 @@ Threshold 8: In hostile scenes, the first hostile creature attack each scene get
 Threshold 10: After the current scene ends, reveal Dragon in the Deep. At escalation 10, ignore the two-turn round cap.
 Lose Condition: If party HP reaches 0, all players lose.
 Win Condition: Survive the final ordeal and defeat Heartfire Dragon.
+Win Flavor Text: The dragon falls; the depths keep only echoes.
+Lose Flavor Text: The deep does not hate; it only keeps what falls.
 Treasure Value: 0
-Rules Text: Use the random encounter deck, scripted escalation 5 and 10 ordeals, and a red d20 for party HP. 3P starts at 18 party HP and 4 cards each.
+Rules Text: Use the encounter deck, scripted escalation 5 and 10 ordeals, and a red d20 for party HP. 3P starts at 18 party HP and 4 cards each.
 Flavor Text: The ruin keeps breathing long after its builders are ash.
 Art Brief: A massive stair descending into a volcanic dungeon, with soot in the air, cracked stone saints, and orange furnace light below.
