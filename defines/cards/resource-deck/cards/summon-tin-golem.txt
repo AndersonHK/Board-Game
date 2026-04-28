@@ -3,7 +3,7 @@ Display Name: Summon Tin Golem
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Summon
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 4
 Cost: Discard 1 card.

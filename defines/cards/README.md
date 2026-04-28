@@ -30,10 +30,12 @@ Required fields should remain in template order so later scripts can parse them 
 
 - `Card ID` should be unique, lowercase, and dash-separated.
 - `Display Name` is the printed title.
-- `Treasure Value` should be present on every scored card.
+- `Treasure Value` should be present on card types that score through base treasure value. Agenda and encounter rewards score only through explicit printed reward text unless their templates change.
 - `Rules Text` should match what the player needs to execute at the table.
 - `Flavor Text` is optional for execution, but should exist when it belongs on the printed card.
 - `Art Brief` is not required to print the rules box, but is included so a later generation pipeline can match card data to art direction.
+
+Card files live in `defines/cards/<deck>/cards/`. Templates live one level above that folder. When scripting over decks, iterate deck directories and then their `cards/` child instead of relying on a single wildcard path.
 
 ## Promotion Rule
 

@@ -119,13 +119,13 @@ Current useful fields are:
 
 - creature type, such as humanoid, beast, undead, or construct
 - threat value, so encounters can request a rough power band without naming a specific card
-- rarity, currently `Common` or `Elite`, to communicate power, copy count, and likely complexity
+- rarity, currently `Common` or `Rare`, to communicate power, copy count, and likely complexity
 - a shared rarity field that can also exist on resource cards, so search criteria and effect expectations can use one common language across both systems
 
 One promising interpretation is:
 
 - weaker or minor creatures usually attack and defend without extra round-end text
-- elite creatures at the same rough threat band are more likely to carry undesirable round-end effects
+- Rare creatures at the same rough threat band are more likely to carry undesirable round-end effects
 
 That direction is not fully formalized yet, but it already seems useful for writing encounters and organizing the creature deck.
 
@@ -136,11 +136,11 @@ The current vertical slice uses two main rarity bands shared by:
 - monster cards
 - player resource / artifact / action cards
 
-Those bands are `Common` and `Elite`. This has clear structural benefits:
+Those bands are `Common` and `Rare`. This has clear structural benefits:
 
 - encounter cards can search by threat plus rarity
-- elite monsters can more easily imply stronger round-end consequences
-- elite player cards can more easily imply heavier discard or sacrifice costs
+- Rare monsters can more easily imply stronger round-end consequences
+- Rare player cards can more easily imply heavier discard or sacrifice costs
 - both sides of the game can teach one common power language instead of two unrelated labels
 
 ## Resource / Artifact / Action Deck

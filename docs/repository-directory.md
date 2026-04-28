@@ -2,26 +2,65 @@
 
 This file is the canonical map of the repository structure and the purpose of important files and folders. Long-term project context lives in [project-memory.md](./project-memory.md). Repo-wide Codex instructions live in [../CODEX.md](../CODEX.md). The user-facing entry point remains [../README.md](../README.md).
 
+## Fast Paths
+
+- General design or rules context: start with [../CODEX.md](../CODEX.md), [../README.md](../README.md), [project-memory.md](./project-memory.md), and this file.
+- Printed-materials-only playtest: start from [../assets/printed-materials-index.md](../assets/printed-materials-index.md) and defer non-printed design context until after the run.
+- Card data work: read [../defines/cards/README.md](../defines/cards/README.md), then the relevant deck README, deck `TEMPLATE.txt`, and `cards/` folder.
+- Print pipeline work: start with [../assets/README.md](../assets/README.md), then [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md), [../assets/board-layout-definition.md](../assets/board-layout-definition.md), and the relevant script in [../assets/scripts](../assets/scripts/).
+- Playtest evidence review: use [../temp/playtests](../temp/playtests/) as evidence only; promotion into [../defines](../defines/README.md) still requires explicit user approval.
+
 ## Current Structure
 
 ```text
 /
 |-- assets/
 |   |-- card-art/
-|   |   `-- AI_ART_HANDOFF.md
+|   |   |-- archive/
+|   |   |   `-- portrait-reference/<deck-slug>/<card-art>.png
+|   |   |-- final/
+|   |   |   `-- <deck-slug>/<card-id>.png
+|   |   |-- incoming/
+|   |   |   `-- GROUP-*/<card-id>.source.png and review contact sheets
+|   |   |-- session-groups/
+|   |   |   `-- GROUP-*.md generation batches by deck/story group
+|   |   |-- AI_ART_HANDOFF.md
+|   |   `-- AI_ART_SESSION_GROUPS.md
+|   |-- board-layout-definition.md
 |   |-- card-atlas-definition.md
 |   |-- card-text-fit-report.md
+|   |-- fedex-printing-plan.md
 |   |-- generated/
+|   |   |-- atlases/
+|   |   |   |-- fronts/ATLAS-*.png
+|   |   |   `-- backs/ATLAS-*.png
+|   |   |-- board/
+|   |   |   `-- table-board-full.png and BOARD-PAGE-0*.png
+|   |   |-- card-backs/
+|   |   |   `-- <back-style>.png
+|   |   |-- card-frames/
+|   |   |   `-- <layout>.png plus common/rare variants
+|   |   |-- card-fronts/
+|   |   |   `-- <deck-slug>/<card-id>.png
+|   |   |-- guide/
+|   |   |   `-- quick-start-guide.pdf
+|   |   `-- print/
+|   |       `-- complete/split atlas PDFs and table-board-pages.pdf
 |   |-- printed-materials-index.md
 |   |-- print-and-bundle-package.md
 |   |-- scripts/
 |   |   |-- build_card_atlases.py
+|   |   |-- build_duplex_card_atlas_pdf.py
 |   |   |-- calculate_card_layout.py
 |   |   |-- card_rendering_common.py
+|   |   |-- check_card_art_integrity.py
 |   |   |-- check_card_text_fit.py
 |   |   |-- generate_card_backs.py
 |   |   |-- generate_card_frames.py
-|   |   `-- generate_printable_cards.py
+|   |   |-- generate_printable_cards.py
+|   |   |-- generate_quick_start_guide.py
+|   |   |-- generate_table_board.py
+|   |   `-- print_pdf_common.py
 |   |-- widget-and-token-definitions.md
 |   `-- README.md
 |-- CODEX.md
@@ -30,19 +69,24 @@ This file is the canonical map of the repository structure and the purpose of im
 |   |-- cards/
 |   |   |-- agenda-deck/
 |   |   |   |-- TEMPLATE.txt
-|   |   |   `-- cards/
+|   |   |   |-- README.md
+|   |   |   `-- cards/<agenda-id>.txt
 |   |   |-- creature-deck/
 |   |   |   |-- TEMPLATE.txt
-|   |   |   `-- cards/
+|   |   |   |-- README.md
+|   |   |   `-- cards/<enemy-boss-artifact-summon-id>.txt
 |   |   |-- encounter-deck/
 |   |   |   |-- TEMPLATE.txt
-|   |   |   `-- cards/
+|   |   |   |-- README.md
+|   |   |   `-- cards/<encounter-or-ordeal-id>.txt
 |   |   |-- quest-deck/
 |   |   |   |-- TEMPLATE.txt
-|   |   |   `-- cards/
+|   |   |   |-- README.md
+|   |   |   `-- cards/<quest-id>.txt
 |   |   |-- resource-deck/
 |   |   |   |-- TEMPLATE.txt
-|   |   |   `-- cards/
+|   |   |   |-- README.md
+|   |   |   `-- cards/<resource-action-id>.txt
 |   |   `-- README.md
 |   |-- core-rules.md
 |   |-- creature-deck.md
@@ -50,49 +94,26 @@ This file is the canonical map of the repository structure and the purpose of im
 |-- README.md
 |-- temp/
 |   `-- playtests/
+|       |-- 2026-04-26-printed-only-3p-sim/
+|       |   `-- README/setup, playtest log, temporary rulings, findings/deferred comparison
+|       |-- 2026-04-26-printed-package-3p-sealed-sim/
+|       |   `-- 00 package/setup, 01 session log, 02 package findings, 03 doc comparison
 |       |-- quest-001-standard-10-round/
-|           |-- 00-source-map.md
-|           |-- 01-quest-frame.txt
-|           |-- 02-player-roster.txt
-|           |-- 03-agendas.txt
-|           |-- 04-resource-pool.txt
-|           |-- 05-encounters.txt
-|           |-- 06-simulation-log.txt
-|           |-- 07-rulings-log.txt
-|           `-- 08-findings.md
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 resource pool, 05 encounters, 06 log, 07 rulings, 08 findings
 |       |-- quest-002-event-driven-10-round/
-|           |-- 00-source-map.md
-|           |-- 01-quest-frame.txt
-|           |-- 02-player-roster.txt
-|           |-- 03-agendas.txt
-|           |-- 04-action-pool.txt
-|           |-- 05-events.txt
-|           |-- 06-entities.txt
-|           |-- 07-simulation-log.txt
-|           |-- 08-rulings-log.txt
-|           `-- 09-findings.md
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 action pool, 05 events, 06 entities, 07 log, 08 rulings, 09 findings
 |       |-- quest-003-canon-stress-test-10-round/
-|           |-- 00-source-map.md
-|           |-- 01-quest-frame.txt
-|           |-- 02-player-roster.txt
-|           |-- 03-agendas.txt
-|           |-- 04-action-pool.txt
-|           |-- 05-events.txt
-|           |-- 06-entities.txt
-|           |-- 07-simulation-log.txt
-|           |-- 08-rulings-log.txt
-|           `-- 09-findings.md
-|       `-- quest-004-quickstart-4p-sim/
-|           |-- 00-source-map.md
-|           |-- 01-quest-frame.txt
-|           |-- 02-player-roster.txt
-|           |-- 03-agendas.txt
-|           |-- 04-action-pool.txt
-|           |-- 05-events.txt
-|           |-- 06-entities.txt
-|           |-- 07-simulation-log.txt
-|           |-- 08-rulings-log.txt
-|           `-- 09-findings.md
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 action pool, 05 events, 06 entities, 07 log, 08 rulings, 09 findings
+|       |-- quest-004-quickstart-4p-sim/
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 action pool, 05 events, 06 entities, 07 log, 08 rulings, 09 findings
+|       |-- quest-005-canon-cards-3p-sim/
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 resource deck, 05 encounter deck, 06 creature deck, 07 log, 08 rulings, 09 findings
+|       |-- quest-005-finite-deck-4p-sim/
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 resource deck, 05 encounter deck, 06 creature deck, 07 log, 08 rulings, 09 findings
+|       |-- quest-006-quickstart-3p-relics-and-claims-sim/
+|       |   `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 resource deck, 05 encounter deck, 06 creature deck, 07 log, 08 rulings, 09 findings
+|       `-- quest-007-quickstart-3p-hazard-trader-finale-sim/
+|           `-- 00 source map, 01 quest frame, 02 roster, 03 agendas, 04 resource deck, 05 encounter deck, 06 creature deck, 07 log, 08 rulings, 09 findings
 `-- docs/
     |-- design/
     |   |-- card-economy-and-rarity.md
@@ -117,19 +138,27 @@ This file is the canonical map of the repository structure and the purpose of im
 ## File Guide
 
 - [../assets/README.md](../assets/README.md): notes for the canonical art and print-asset folder.
-- [../assets/card-art/AI_ART_HANDOFF.md](../assets/card-art/AI_ART_HANDOFF.md): generated handoff for a future AI-art session, listing card IDs, prompts, and final destination paths.
+- [../assets/card-art/AI_ART_HANDOFF.md](../assets/card-art/AI_ART_HANDOFF.md): generated art checklist listing card IDs, prompts, and final destination paths.
+- [../assets/card-art/AI_ART_SESSION_GROUPS.md](../assets/card-art/AI_ART_SESSION_GROUPS.md): grouped AI-art generation session plan.
+- [../assets/board-layout-definition.md](../assets/board-layout-definition.md): generated three-page table-board layout, page assembly order, and board footprint rationale.
 - [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md): Edition 0 card atlas plan for letter-size printing and cutting, including the exact card grid, cut marks, sheet IDs, and per-sheet card assignments.
 - [../assets/card-text-fit-report.md](../assets/card-text-fit-report.md): generated report checking all current card definitions against the standard layout.
-- [../assets/generated/](../assets/generated/): reproducible PNG outputs from the card rendering pipeline, including card fronts, frames, optional backs, and front atlases.
+- [../assets/fedex-printing-plan.md](../assets/fedex-printing-plan.md): FedEx-oriented print setup, proofing notes, and current atlas PDF filenames.
+- [../assets/generated/](../assets/generated/): reproducible PNG and PDF outputs from the rendering pipeline, including card fronts, frames, backs, atlases, board pages, quick-start guide, and print PDFs.
 - [../assets/printed-materials-index.md](../assets/printed-materials-index.md): exact read list for printed-materials-only playtests and a list of non-printed docs to defer until after the run.
 - [../assets/print-and-bundle-package.md](../assets/print-and-bundle-package.md): Edition 0 physical production manifest covering cards, rules sheets, board widgets, tokens, dice, bundling groups, and remaining playability gaps.
-- [../assets/scripts/build_card_atlases.py](../assets/scripts/build_card_atlases.py): script that merges rendered card fronts into front-only printable atlas PNGs according to [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md).
+- [../assets/scripts/build_card_atlases.py](../assets/scripts/build_card_atlases.py): script that merges rendered card fronts and generated backs into printable atlas PNGs according to [../assets/card-atlas-definition.md](../assets/card-atlas-definition.md).
+- [../assets/scripts/build_duplex_card_atlas_pdf.py](../assets/scripts/build_duplex_card_atlas_pdf.py): script that builds the complete duplex atlas PDF plus two email-sized split PDFs; backs are unmirrored by default, with `--mirror-backs` preserving the old pre-flipped workflow.
 - [../assets/scripts/calculate_card_layout.py](../assets/scripts/calculate_card_layout.py): script that derives [../defines/card-layout.md](../defines/card-layout.md) from the card atlas size.
 - [../assets/scripts/card_rendering_common.py](../assets/scripts/card_rendering_common.py): shared card parser, layout loader, font helpers, and drawing utilities for the PNG card pipeline.
+- [../assets/scripts/check_card_art_integrity.py](../assets/scripts/check_card_art_integrity.py): script that scans final card art for exact and near-duplicate images.
 - [../assets/scripts/check_card_text_fit.py](../assets/scripts/check_card_text_fit.py): script that checks card `.txt` files against [../defines/card-layout.md](../defines/card-layout.md).
-- [../assets/scripts/generate_card_backs.py](../assets/scripts/generate_card_backs.py): script that creates optional generated card-back texture PNGs.
+- [../assets/scripts/generate_card_backs.py](../assets/scripts/generate_card_backs.py): script that creates generated card-back texture PNGs.
 - [../assets/scripts/generate_card_frames.py](../assets/scripts/generate_card_frames.py): script that creates reusable deck-specific frame PNGs.
 - [../assets/scripts/generate_printable_cards.py](../assets/scripts/generate_printable_cards.py): script that renders individual printable card-front PNGs and refreshes the AI art handoff.
+- [../assets/scripts/generate_quick_start_guide.py](../assets/scripts/generate_quick_start_guide.py): script that renders [quick-start-guide.md](./quick-start-guide.md) as the generated guide PDF.
+- [../assets/scripts/generate_table_board.py](../assets/scripts/generate_table_board.py): script that renders the full table-board PNG, three printable board page slices, and `assets/generated/print/table-board-pages.pdf`.
+- [../assets/scripts/print_pdf_common.py](../assets/scripts/print_pdf_common.py): shared multipage-PDF writer used by the atlas and board print generators.
 - [../assets/widget-and-token-definitions.md](../assets/widget-and-token-definitions.md): player-facing definitions for printed widgets, dice, tokens, table-board rectangles, and open widget production gaps.
 - [../defines/card-layout.md](../defines/card-layout.md): generated standard Edition 0 card-front layout and machine-readable layout spec.
 - [../CODEX.md](../CODEX.md): root operating instructions for Codex, including how to maintain project documentation.
@@ -163,6 +192,12 @@ This file is the canonical map of the repository structure and the purpose of im
 - [../temp/playtests/quest-002-event-driven-10-round/](../temp/playtests/quest-002-event-driven-10-round/): temporary second-pass simulation package built around scene events, spawned entities, non-combat pacing, and stronger relationship drama.
 - [../temp/playtests/quest-003-canon-stress-test-10-round/](../temp/playtests/quest-003-canon-stress-test-10-round/): temporary third-pass simulation package focused on stress-testing recently canonized `defines/` rules, creature-deck order, multi-round encounter flow, and escalation-10 behavior.
 - [../temp/playtests/quest-004-quickstart-4p-sim/](../temp/playtests/quest-004-quickstart-4p-sim/): temporary fourth-pass simulation package focused on quick-start teachability, four-player class selection, and how much of the game a real table can run from visible materials alone.
+- [../temp/playtests/quest-005-canon-cards-3p-sim/](../temp/playtests/quest-005-canon-cards-3p-sim/): temporary simulation package using current canonical card definitions.
+- [../temp/playtests/quest-005-finite-deck-4p-sim/](../temp/playtests/quest-005-finite-deck-4p-sim/): temporary finite-deck simulation package.
+- [../temp/playtests/quest-006-quickstart-3p-relics-and-claims-sim/](../temp/playtests/quest-006-quickstart-3p-relics-and-claims-sim/): temporary quick-start simulation focused on relics and claiming.
+- [../temp/playtests/quest-007-quickstart-3p-hazard-trader-finale-sim/](../temp/playtests/quest-007-quickstart-3p-hazard-trader-finale-sim/): temporary quick-start simulation focused on hazards, trader flow, and finale pressure.
+- [../temp/playtests/2026-04-26-printed-only-3p-sim/](../temp/playtests/2026-04-26-printed-only-3p-sim/): temporary printed-materials-only simulation package.
+- [../temp/playtests/2026-04-26-printed-package-3p-sealed-sim/](../temp/playtests/2026-04-26-printed-package-3p-sealed-sim/): temporary sealed printed-package simulation package.
 
 ## Documentation Conventions
 
@@ -175,11 +210,11 @@ This file is the canonical map of the repository structure and the purpose of im
 
 ## Planned Growth
 
-These areas are likely to appear later once the game concept is defined:
+Likely future growth areas:
 
 - more design documents for rules, mechanics, and components
-- art references and generated assets
-- printable production files
+- more final art references and generated assets
+- revised printable production files after proofing
 - playtest notes and iteration logs
 
 When those folders or files are created, add them here with a short purpose statement and links.

@@ -86,7 +86,7 @@ For the vertical-slice fantasy rules, the `Warrior` has:
 
 - a passive kill reward when the Warrior deals the final point of damage to a monster with their own action card, creature card, or Warrior trait damage
 - a `1d6` reward roll that succeeds on `monster threat x rarity multiplier`
-- `Common = 1` and `Elite = 2` as rarity multipliers
+- `Common = 1` and `Rare = 2` as rarity multipliers
 - `Threat 1`, `Threat 2`, and `Threat 3` as the current monster threat tiers
 - no once-per-round cap on the passive in the current quickstart
 - an active that deals `2` damage once per turn
@@ -96,11 +96,11 @@ The current reward ladder is:
 - `Threat 1 Common`: draw on `1`
 - `Threat 2 Common`: draw on `1-2`
 - `Threat 3 Common`: draw on `1-3`
-- `Threat 1 Elite`: draw on `1-2`
-- `Threat 2 Elite`: draw on `1-4`
-- `Threat 3 Elite`: draw on `1-6`
+- `Threat 1 Rare`: draw on `1-2`
+- `Threat 2 Rare`: draw on `1-4`
+- `Threat 3 Rare`: draw on `1-6`
 
-This formula is intentionally easy to compute at the table and preserves the design idea that bigger, rarer monsters create bigger personal incentives. It also makes the strongest elite kills guaranteed rewards, which is desirable for drama but still needs balance watching because kill credit can encourage sandbagging.
+This formula is intentionally easy to compute at the table and preserves the design idea that bigger, rarer monsters create bigger personal incentives. It also makes the strongest Rare kills guaranteed rewards, which is desirable for drama but still needs balance watching because kill credit can encourage sandbagging.
 
 All classes also have the shared fallback option of a basic `1`-damage attack as a normal action. The Warrior active sits above that baseline, which makes the class visibly more explosive and makes kill stealing part of its intended tension.
 

@@ -25,6 +25,7 @@ This file lists the exact player-facing materials for an Edition 0 vertical-demo
 - [../defines/cards/encounter-deck/cards/cracked-causeway.txt](../defines/cards/encounter-deck/cards/cracked-causeway.txt)
 - [../defines/cards/encounter-deck/cards/dragon-in-the-deep.txt](../defines/cards/encounter-deck/cards/dragon-in-the-deep.txt)
 - [../defines/cards/encounter-deck/cards/ember-bell-nursery.txt](../defines/cards/encounter-deck/cards/ember-bell-nursery.txt)
+- [../defines/cards/encounter-deck/cards/ember-tax-patrol.txt](../defines/cards/encounter-deck/cards/ember-tax-patrol.txt)
 - [../defines/cards/encounter-deck/cards/furnace-warden-rises.txt](../defines/cards/encounter-deck/cards/furnace-warden-rises.txt)
 - [../defines/cards/encounter-deck/cards/kennel-break.txt](../defines/cards/encounter-deck/cards/kennel-break.txt)
 - [../defines/cards/encounter-deck/cards/kennel-vault.txt](../defines/cards/encounter-deck/cards/kennel-vault.txt)

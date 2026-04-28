@@ -9,7 +9,7 @@ Printed player-facing rules live in [../docs/quick-start-guide.md](../docs/quick
 - Format: classroom-printable physical prototype.
 - Paper target: US letter-size sheets.
 - Card target: letter-size printable atlases using the card size and sheet assignments in [card-atlas-definition.md](./card-atlas-definition.md).
-- Rules target: ten letter-size quick-start sheets from [../docs/quick-start-guide.md](../docs/quick-start-guide.md).
+- Rules target: ten letter-size quick-start pages from [../docs/quick-start-guide.md](../docs/quick-start-guide.md), organized as five player-facing sections.
 - Board target: three portrait letter-size board pages placed side by side into one `25.5 in x 11 in` table organizer.
 - Widget target: printed vertical escalation meter and printed token sheets.
 - Non-paper components: `1` red `d20`, `1` d6, and `1` guitar pick for the escalation arrow.
@@ -22,7 +22,8 @@ Generated card print assets:
 
 - Front atlas PNGs: `assets/generated/atlases/fronts/`
 - Back atlas PNGs: `assets/generated/atlases/backs/`
-- Duplex card atlas PDF: `assets/generated/print/card-atlases-duplex.pdf`
+- Complete duplex card atlas PDF: `assets/generated/print/card-atlases-duplex-complete.pdf`
+- Split duplex card atlas PDFs for email: `assets/generated/print/card-atlases-duplex-part-1.pdf` and `assets/generated/print/card-atlases-duplex-part-2.pdf`
 - Individual back textures: `assets/generated/card-backs/`
 
 Back identity policy:
@@ -103,7 +104,7 @@ Print `80` resource cards.
 
 Print `84` creature/entity cards.
 
-Common cards use `4` copies. Elite and Rare cards use `2` copies, except quest-unique scripted bosses and boss stages, which use `1` copy.
+Common cards use `4` copies. Rare cards use `2` copies, except quest-unique scripted bosses and boss stages, which use `1` copy.
 
 | Card | Subtype | Copies |
 | --- | --- | ---: |
@@ -165,7 +166,7 @@ These are generated from the class section of the quick-start guide as two-slot 
 
 ## Rules Sheets
 
-Print [../docs/quick-start-guide.md](../docs/quick-start-guide.md) as `10` letter-size reference sheets:
+Print [../docs/quick-start-guide.md](../docs/quick-start-guide.md) as `10` letter-size pages organized into `5` player-facing reference sections:
 
 1. Setup
 2. Classes
@@ -192,6 +193,7 @@ Print `3` portrait letter-size table board pages and place them side by side fro
 
 Generated board files:
 
+- `assets/generated/print/table-board-pages.pdf`
 - `assets/generated/board/table-board-full.png`
 - `assets/generated/board/BOARD-PAGE-01-left.png`
 - `assets/generated/board/BOARD-PAGE-02-center.png`
@@ -341,5 +343,5 @@ These are not blockers for a supervised classroom prototype, but they should be 
 
 1. Party HP maximum is not explicitly defined. Cards can heal party HP, but the rules do not say whether party HP can exceed its starting value. Recommended default: party HP cannot exceed the quest's starting party HP for the current player count unless a card says otherwise.
 2. Once-per-scene and first-time effects need a printed tracking convention. The package includes generic used markers, but the quick-start should eventually say whether players mark the card, rotate it, or place a marker on it.
-3. Duplex card backs should be proofed once for printer flip direction and alignment before printing the full deck.
+3. Duplex card backs should be proofed once for printer flip direction and alignment before printing the full deck. The default atlas PDFs use unmirrored backs for ordinary double-sided printing; mirrored backs are an explicit generator option for printers that require them.
 4. Bring `1` guitar pick for the escalation arrow.

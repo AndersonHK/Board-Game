@@ -4,7 +4,7 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Boss
 Creature Type: Construct
-Rarity: Elite
+Rarity: Rare
 Threat: 3
 Treasure Value: 5
 Hit Points: 10

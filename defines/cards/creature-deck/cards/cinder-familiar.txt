@@ -4,7 +4,7 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Ally
 Creature Type: Summon
-Rarity: Elite
+Rarity: Rare
 Threat: 1
 Treasure Value: 3
 Hit Points: 2

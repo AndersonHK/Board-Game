@@ -9,19 +9,17 @@ Current first-pass printable deck: `80` cards total.
 Composition rule:
 
 - each `Common` card appears `4` times
-- each `Elite` card appears `2` times
-- each `Rare` card appears `2` times, if a later card uses that word
+- each `Rare` card appears `2` times
 
 Current Edition 0 composition:
 
 - `15` Common card definitions at `4` copies each = `60`
-- `8` Elite card definitions at `2` copies each = `16`
-- `2` Rare card definitions at `2` copies each = `4`
+- `10` Rare card definitions at `2` copies each = `20`
 - total = `80`
 
 The full game's eventual action deck can be much larger, potentially far beyond this Edition 0 print count. This README tracks the vertical-slice print target rather than a final cap.
 
-## Why 64
+## Why 80
 
 This first pass is intentionally sized for a four-player session with:
 

@@ -100,7 +100,7 @@ Backs are assigned per slot, not only per atlas sheet. This matters for mixed re
 
 Ashen Depths-specific backs are intentional. They make quest-triggered uniques and scripted quest ordeals easy to separate from reusable random or generic cards after cutting, sorting, or playtesting. Hero/class cards are not Ashen Depths-specific; they belong to the broader fantasy setting pack.
 
-If printing duplex, every front atlas must be paired with the matching back atlas and tested once on the target printer for flip direction. If duplex alignment is unreliable, print fronts only and sleeve cards with opaque backs or blank backing paper.
+If printing duplex, every front atlas must be paired with the matching back atlas and tested once on the target printer for flip direction. The default generated PDF uses unmirrored backs because FedEx-style duplex printing treats odd pages as fronts and the following even pages as backs. The atlas PDF builder still supports horizontally mirrored backs with `--mirror-backs` for printers or workflows that require pre-flipped back pages. If duplex alignment is unreliable, print fronts only and sleeve cards with opaque backs or blank backing paper.
 
 ## Atlas Summary
 

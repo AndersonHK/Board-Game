@@ -2,7 +2,7 @@
 
 <!--
 Print production notes:
-- Intended as 5 letter-size reference sheets.
+- Organized as 5 player-facing reference sheets/sections; the current generated PDF renders as 10 letter-size pages.
 - Use readable body text around 10 pt or larger after layout.
 - Reserve gothic/fantasy display fonts for titles and major headings; use a clearer serif or sans-serif for rules text.
 - Keep strong contrast against any generated parchment, stone, ash, or gothic background texture.
@@ -84,7 +84,7 @@ At escalation `10`, reveal the quest's final ordeal.
 
 Final point of damage to a monster from your action card, creature card, or Warrior trait: roll `1d6`.
 
-Draw `1` card if the result is less than or equal to `monster threat x rarity multiplier` (`Common x1`, `Elite x2`).
+Draw `1` card if the result is less than or equal to `monster threat x rarity multiplier` (`Common x1`, `Rare x2`).
 
 **Active: Heavy Strike**
 

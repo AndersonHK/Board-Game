@@ -1,6 +1,6 @@
 # FedEx Printing Plan
 
-Research date: 2026-04-26
+Research date: 2026-04-28
 
 This plan is for producing the current Edition 0 physical prototype at FedEx Office using US letter-size color prints.
 
@@ -13,6 +13,7 @@ FedEx's own pages confirm:
 - `Copies & Custom Documents` supports `8.5 in x 11 in`, full-color printing, single- or double-sided printing, and multiple paper types.
 - Available paper options shown for this product include `Laser (24 lb.)`, `Laser (32 lb.)`, `Laser Recycled (28 lb.)`, `30% Recycled (20 lb.)`, `Laser (60 lb.)`, `Laser (80 lb.)`, `Gloss Text (32 lb.)`, `Matte Cover (100 lb.)`, `Water Resistant (7.7 Mil)`, and several color papers.
 - FedEx supports double-sided custom documents by uploading a 2-page PDF or separate front/back files and assigning the first file/page as front and second as back.
+- FedEx Print & Go accepts files by email at `printandgo@fedex.com`; FedEx notes that large files may fail because many email providers limit attachments to `25 MB` or less.
 - FedEx offers cutting as a finishing option for `Copies & Custom Documents`, with half, thirds, and quarter cuts listed publicly.
 - FedEx accepts PDF as the preferred print format and also accepts common image formats including PNG and JPG.
 - FedEx recommends 300 DPI for most prints.
@@ -24,6 +25,7 @@ Sources:
 - FedEx Office document printing overview: https://www.office.fedex.com/default/document-printing
 - FedEx Office FAQ: https://www.office.fedex.com/default/faq.html
 - FedEx Office self-service copy and print overview: https://www.office.fedex.com/default/copy-and-print-services
+- FedEx Office Print & Go: https://www.office.fedex.com/default/print-and-go
 
 ## Current FedEx Price Notes
 
@@ -77,7 +79,9 @@ The PNG metadata currently reports `96 DPI`, but the actual pixel dimensions are
 
 Files:
 
-- Duplex print document: `assets/generated/print/card-atlases-duplex.pdf`
+- Complete duplex print document: `assets/generated/print/card-atlases-duplex-complete.pdf`
+- Email-sized duplex print document, first half: `assets/generated/print/card-atlases-duplex-part-1.pdf`
+- Email-sized duplex print document, second half: `assets/generated/print/card-atlases-duplex-part-2.pdf`
 - `assets/generated/atlases/fronts/ATLAS-REF-01.png`
 - `assets/generated/atlases/fronts/ATLAS-REF-02.png`
 - `assets/generated/atlases/fronts/ATLAS-ENC-01.png`
@@ -91,7 +95,7 @@ Files:
 
 Count: `16` letter-size card-atlas sheets.
 
-Keep the PNG atlases for design inspection and single-sheet proofs. Use the duplex PDF for the full double-sided card print job; its back pages are horizontally mirrored for portrait long-edge duplex printing. Print one duplex test sheet first because small front/back alignment errors matter after cutting.
+Keep the PNG atlases for design inspection and single-sheet proofs. Use the complete duplex PDF when uploading through FedEx's web flow, or email the two split PDFs separately if your mail provider cannot send the complete atlas. Back pages are not mirrored by default; the generator's old mirrored-back behavior is available with `--mirror-backs` only for workflows that require pre-flipped backs. Print one duplex test sheet first because small front/back alignment errors matter after cutting.
 
 ### Card Backs
 
@@ -101,7 +105,7 @@ Card backs are not expected to be the same price as single-sided fronts. FedEx t
 
 Recommended first-pass approach:
 
-1. Print one duplex proof using the `ATLAS-ENC-01` front/back page pair from `assets/generated/print/card-atlases-duplex.pdf`.
+1. Print one duplex proof using the `ATLAS-ENC-01` front/back page pair from the complete or split duplex atlas PDFs.
 2. Use `Matte Cover (100 lb.)` if available for duplex. If the store cannot duplex that stock reliably, use single-sided fronts with opaque sleeves.
 3. Confirm long-edge vs short-edge flip direction before printing the remaining decks.
 4. Check front/back alignment after cutting one card.
@@ -127,6 +131,7 @@ Question for the store: "For 16 letter-size sheets on `Matte Cover (100 lb.)`, f
 
 Files:
 
+- `assets/generated/print/table-board-pages.pdf`
 - `assets/generated/board/BOARD-PAGE-01-left.png`
 - `assets/generated/board/BOARD-PAGE-02-center.png`
 - `assets/generated/board/BOARD-PAGE-03-right.png`

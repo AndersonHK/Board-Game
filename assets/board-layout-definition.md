@@ -67,3 +67,4 @@ Outputs:
 - `assets/generated/board/BOARD-PAGE-01-left.png`
 - `assets/generated/board/BOARD-PAGE-02-center.png`
 - `assets/generated/board/BOARD-PAGE-03-right.png`
+- `assets/generated/print/table-board-pages.pdf`

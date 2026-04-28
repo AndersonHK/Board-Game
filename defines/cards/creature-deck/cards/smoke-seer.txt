@@ -4,7 +4,7 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Enemy
 Creature Type: Humanoid
-Rarity: Elite
+Rarity: Rare
 Threat: 2
 Treasure Value: 3
 Hit Points: 4

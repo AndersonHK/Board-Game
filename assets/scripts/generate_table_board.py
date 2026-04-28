@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw
 
 from card_rendering_common import (
     GENERATED_ROOT,
+    PRINT_ROOT,
     PRINT_DPI,
     draw_centered_lines,
     fit_font_for_text,
@@ -17,6 +18,7 @@ from card_rendering_common import (
     text_size,
     wrap_text,
 )
+from print_pdf_common import save_multipage_pdf
 
 
 PAGE_WIDTH_IN = 8.5
@@ -27,6 +29,7 @@ PAGE_HEIGHT_PX = int(PAGE_HEIGHT_IN * PRINT_DPI)
 BOARD_WIDTH_PX = PAGE_WIDTH_PX * PAGE_COUNT
 BOARD_HEIGHT_PX = PAGE_HEIGHT_PX
 OUT_DIR = GENERATED_ROOT / "board"
+BOARD_PDF_PATH = PRINT_ROOT / "table-board-pages.pdf"
 STANDARD_CARD_WIDTH_IN = 2.125
 STANDARD_CARD_HEIGHT_IN = 3.6667
 QUEST_CARD_WIDTH_IN = STANDARD_CARD_WIDTH_IN * 2
@@ -400,14 +403,18 @@ def build_board() -> Image.Image:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    PRINT_ROOT.mkdir(parents=True, exist_ok=True)
     board = build_board()
     full_path = OUT_DIR / "table-board-full.png"
     board.save(full_path)
     page_names = ["BOARD-PAGE-01-left.png", "BOARD-PAGE-02-center.png", "BOARD-PAGE-03-right.png"]
+    pages: list[Image.Image] = []
     for index, name in enumerate(page_names):
         left = index * PAGE_WIDTH_PX
         page = board.crop((left, 0, left + PAGE_WIDTH_PX, PAGE_HEIGHT_PX))
         page.save(OUT_DIR / name)
+        pages.append(page)
+    save_multipage_pdf(BOARD_PDF_PATH, pages, PRINT_DPI)
     print(f"Wrote {full_path}")
     for name in page_names:
         print(f"Wrote {OUT_DIR / name}")

@@ -38,7 +38,7 @@ def frame_card_for_layout(layout_name: str, tier: str) -> dict:
     else:
         deck = next(deck for deck, mapped in LAYOUT_BY_DECK.items() if mapped == layout_name)
         card["Deck"] = deck
-    card["Rarity"] = "Elite" if tier == "rare" else "Common"
+    card["Rarity"] = "Rare" if tier == "rare" else "Common"
     return card
 
 

@@ -128,9 +128,9 @@ This keeps encounter text reusable while letting escalation visibly change the f
 - How much support-success tracking can agendas ask for before scoring becomes too interpretive?
 - Should future combat keywords ever add damage carry-over, or should no spillover remain the default unless printed?
 
-## Horizontal Slice Suggestion
+## Historical Horizontal Slice Note
 
-For the first horizontal slice, the round should probably prove only these things:
+Before Edition 0 became a printable vertical slice, the first horizontal slice needed to prove only these things:
 
 - escalation changes event pressure and card value
 - class traits alter how each player contributes

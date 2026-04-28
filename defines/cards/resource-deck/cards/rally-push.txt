@@ -3,7 +3,7 @@ Display Name: Rally Push
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Support
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 4
 Cost: None.

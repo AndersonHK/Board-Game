@@ -14,6 +14,7 @@ The generated board is `25.5 in x 11 in` when assembled. It uses three portrait 
 
 Generated board files:
 
+- `assets/generated/print/table-board-pages.pdf`
 - `assets/generated/board/table-board-full.png`
 - `assets/generated/board/BOARD-PAGE-01-left.png`
 - `assets/generated/board/BOARD-PAGE-02-center.png`

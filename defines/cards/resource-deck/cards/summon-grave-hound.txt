@@ -3,7 +3,7 @@ Display Name: Summon Grave Hound
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Summon
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 4
 Cost: Pay 1 party HP.

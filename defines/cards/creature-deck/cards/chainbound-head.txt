@@ -4,7 +4,7 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Boss
 Creature Type: Dragon
-Rarity: Elite
+Rarity: Rare
 Threat: 3
 Treasure Value: 6
 Hit Points: 7

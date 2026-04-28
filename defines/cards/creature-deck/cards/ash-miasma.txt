@@ -4,7 +4,7 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Enchantment
 Creature Type: Curse
-Rarity: Elite
+Rarity: Rare
 Threat: 2
 Treasure Value: 3
 Hit Points: 0

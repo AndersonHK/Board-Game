@@ -19,6 +19,8 @@ At the start of a session, read:
 
 When working on rules teaches, playtest setup, or future simulations, also read [docs/quick-start-guide.md](./docs/quick-start-guide.md).
 
+For printed-materials-only playtests, follow [assets/printed-materials-index.md](./assets/printed-materials-index.md) first and defer design docs, non-printed rule references, and prior playtests until after the run.
+
 ## Documentation Rules
 
 1. Treat [docs/project-memory.md](./docs/project-memory.md) as the long-term memory for goals, constraints, principles, decisions, assumptions, and open questions.
@@ -35,7 +37,7 @@ When working on rules teaches, playtest setup, or future simulations, also read 
 
 - Ask clarifying questions when uncertainty could materially affect design or scope.
 - Optimize for a strong playable result within one week, not for theoretical completeness.
-- Start with a nearly complete minimal horizontal slice, then deepen into a fully playable vertical slice.
+- Treat the Edition 0 vertical slice as the current working prototype, and keep changes grounded in what can be printed, tested, and explained within the class timeline.
 - Keep art, production, and design decisions grounded in what can actually be generated, printed, tested, and explained within the class timeline.
 - Favor reusable documentation over scattered chat-only decisions.
 - Use [docs/quick-start-guide.md](./docs/quick-start-guide.md) as the baseline player-facing rules sheet for future simulations unless a quest or canon define explicitly overrides it.
@@ -74,4 +76,4 @@ Update design docs in [docs/design](./docs/design/) when:
 
 ## Current State
 
-The project has moved from intake into early concept definition. The current durable brief, four-deck model, archetype structure, and research notes are summarized in [docs/project-memory.md](./docs/project-memory.md) and expanded in [docs/design](./docs/design/) and [docs/research](./docs/research/).
+The project is in Edition 0 vertical-demo cleanup and print-readiness. Current canon includes player-facing quick-start rules, card definitions under [defines/cards](./defines/cards/README.md), generated card/board assets under [assets/generated](./assets/README.md), and production manifests under [assets](./assets/README.md). The durable brief, four-deck model, archetype structure, and research notes are summarized in [docs/project-memory.md](./docs/project-memory.md) and expanded in [docs/design](./docs/design/) and [docs/research](./docs/research/).

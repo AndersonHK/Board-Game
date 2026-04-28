@@ -3,7 +3,7 @@ Display Name: Greedfire Vow
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Enchantment
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 5
 Cost: Pay 1 party HP.
