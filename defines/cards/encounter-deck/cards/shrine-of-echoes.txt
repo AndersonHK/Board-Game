@@ -5,13 +5,11 @@ Card Type: Encounter
 Encounter Class: Random
 Scene Tags: temptation, reward, enchantment
 Escalation Use: Random encounter
-Reveal Text: Each player may take the shrine bargain once. A player who takes it draws 1 card, then discards 1 card.
-Spawn Text: If 2 or more players take the bargain, spawn Ash Miasma.
-Scene Rule: Players may still use normal actions while the shrine bargain is active.
-Clear Condition: The bargain has been resolved and no blocking card remains.
-Reward Text: The player who resolves the shrine gains 1 extra draw.
-Failure Text: If Ash Miasma is spawned and remains at end of scene, it stays in play for the next scene.
-Treasure Value: 0
-Rules Text: This scene creates a selfish setup choice that can carry pressure into later scenes.
-Flavor Text: The shrine gives exactly what you ask for, and always keeps a little of your voice.
-Art Brief: A cracked prayer alcove full of ember candles and whispering smoke.
+Reveal Text: The shrine gives exactly what you ask for and keeps a little of your voice. Each player may draw 1, then discard 1; if 2 or more do, spawn Ash Miasma.
+Scene Rule: Players may still take normal actions.
+Clear Condition: Bargain resolved.
+Reward Text: Resolver gains 1 extra draw.
+Failure Text: If Ash Miasma remains at scene end, carry it forward. This overrides normal clearing.
+Rules Text: None.
+Flavor Text: The shrine answers in your voice, but not with your mercy.
+Art Brief: A cracked prayer alcove crowded with ember candles, smoke-script, and tiny reflected mouths in the stone. The image should suggest a bargain happening silently: hands reaching toward light, shadows reaching back, and ash gathering where words should be.

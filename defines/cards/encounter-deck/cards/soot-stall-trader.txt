@@ -5,13 +5,11 @@ Card Type: Encounter
 Encounter Class: Random
 Scene Tags: social, trader, greed, setup
 Escalation Use: Random encounter
-Reveal Text: Reveal the top 5 cards of the resource deck as trader stock.
-Spawn Text: No hostile spawn.
-Scene Rule: Each player gets exactly 1 trader interaction in this scene. On that interaction, choose a direct trade or Haggle. Direct trade: swap 1 card from hand with 1 trader card. Haggle: roll 1d6. On 1-2, discard 1 card, then trade 1-for-1. On 3-4, trade 1-for-1. On 5-6, trade 1 hand card for 2 trader cards.
-Clear Condition: All players have either used or passed their one trader interaction.
-Reward Text: None beyond the trader exchanges themselves.
+Reveal Text: A lantern winks under a cracked arch; rope, oil, knives, and half-truths gleam in the soot-stall. Reveal the top 5 resource cards as trader stock.
+Scene Rule: Each player may trade once: direct trade or Haggle.
+Clear Condition: All players traded or passed.
+Reward Text: None.
 Failure Text: None.
-Treasure Value: 0
-Rules Text: Leave unrecruited trader cards face up until the scene ends, then discard them.
-Flavor Text: Rope, oil, knives, and half-truths are cheaper underground if you sound certain.
-Art Brief: A soot-streaked merchant stall wedged into dungeon masonry, lit by a hanging lantern and piled with scavenged gear.
+Rules Text: Haggle 1d6: 1-2 discard 1 then trade 1-for-1; 3-4 trade 1-for-1; 5-6 trade 1 for 2. Discard unused stock at scene end.
+Flavor Text: Certainty is cheaper underground, especially when it is fake.
+Art Brief: A soot-streaked merchant stall is wedged into cracked dungeon masonry under a single hanging lantern. Piles of scavenged rope, oil, blades, charms, and dubious maps crowd the counter; the trader should look useful, amused, and impossible to fully trust.

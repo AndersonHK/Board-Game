@@ -4,15 +4,15 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Enemy
 Creature Type: Beast
-Rarity: Elite
+Rarity: Rare
 Threat: 2
 Treasure Value: 3
-Hit Points: 4
-Attack: 2
+Hit Points: 5
+Attack: 3
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: None.
 Active Ability: None.
-Round End Text: If this creature survives the round, the party takes 1 damage.
+Round End Text: If this creature survives the round, the party takes 2 damage.
 Flavor Text: Hunger with a larger silhouette.
 Art Brief: A massive wolf with ash in its fur and glowing eyes in the furnace light.

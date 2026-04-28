@@ -3,13 +3,12 @@ Display Name: Summon Grave Hound
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Summon
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 4
 Cost: Pay 1 party HP.
 Timing: Your action.
 Target: Your field.
 Rules Text: Place Grave Hound on the field under your control.
-Reminder Text: This is a direct HP-payment summon card.
-Flavor Text: The dead can still hunt if you feed them a little living breath.
-Art Brief: A spectral war hound clawing its way out of a grave-sigil.
+Flavor Text: The dead can still hunt if you feed them a mouthful of living breath.
+Art Brief: A spectral war hound claws out of a grave-sigil made from ash, bone dust, and fresh blood; its ribs glow faintly, and its loyalty should feel purchased, not given.

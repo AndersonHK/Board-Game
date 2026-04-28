@@ -9,7 +9,6 @@ Treasure Value: 1
 Cost: None.
 Timing: Your action.
 Target: One door, vault, or restraint test.
-Rules Text: Gain +2 to the targeted test. If the test clears the last blocking hurdle, draw 1 card.
-Reminder Text: This is a tempo card for gates, chains, and vaults.
+Rules Text: Gain +3 to the targeted test. If the test clears the last blocking hurdle, draw 1 card.
 Flavor Text: The first click is hope. The second is profit.
-Art Brief: Fine lockpicks and small tools arranged in a rolled leather case.
+Art Brief: A rolled leather case of picks, tension tools, chalk, wire, and tiny oil vials sits beside a half-open vault lock; focus on close-up hands, scratched metal, and the thrill of the second click.

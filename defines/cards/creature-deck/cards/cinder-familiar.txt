@@ -4,15 +4,15 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Ally
 Creature Type: Summon
-Rarity: Elite
+Rarity: Rare
 Threat: 1
 Treasure Value: 3
-Hit Points: 1
-Attack: 1
+Hit Points: 2
+Attack: 2
 Combat Targetable: Yes
 Summon Sickness: Yes
 Rules Text: This creature cannot attack on the turn it is summoned.
-Active Ability: Exhaust: Give +1 to a magical action or support effect.
+Active Ability: Exhaust: Give +2 to a magical action or support effect.
 Round End Text: None.
 Flavor Text: It is half spark, half helpful habit.
 Art Brief: A small fox-like fire familiar hovering beside a spellcaster.

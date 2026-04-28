@@ -9,7 +9,6 @@ Treasure Value: 2
 Cost: None.
 Timing: Your action.
 Target: Another player this turn.
-Rules Text: Another player gets +1 damage or +1 to a non-combat test this turn.
-Reminder Text: Choose one mode when played.
-Flavor Text: Faith often sounds like someone else's courage arriving on time.
-Art Brief: A cleric-style blessing cast over an ally in the middle of a fight.
+Rules Text: Another player gets +2 damage or +2 to a non-combat test this turn.
+Flavor Text: Faith often sounds like courage arriving in someone else's voice.
+Art Brief: A soot-streaked cleric braces one hand on a cracked altar and throws a warm gold blessing across the battlefield toward an ally about to strike; ash and sparks bend around the prayer like wind.

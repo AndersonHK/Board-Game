@@ -9,7 +9,6 @@ Treasure Value: 1
 Cost: None.
 Timing: Your action.
 Target: One combat target.
-Rules Text: Deal 1 damage.
-Reminder Text: This can target creatures and damageable artifacts unless they say otherwise.
+Rules Text: Deal 2 damage.
 Flavor Text: Fast enough to matter is sometimes all a hero gets.
-Art Brief: A clean blade strike cutting across an enemy silhouette.
+Art Brief: A close, clean blade stroke flashes across an enemy silhouette in the instant before either combatant can fully react; use motion blur, sparks, and tight framing.

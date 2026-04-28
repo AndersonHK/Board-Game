@@ -5,13 +5,11 @@ Card Type: Encounter
 Encounter Class: Random
 Scene Tags: hostile, swarm, flying
 Escalation Use: Random encounter
-Reveal Text: The nursery bursts open in sparks and shrieking wings.
-Spawn Text: Spawn 2 Ember Bats and 1 Ash Cultist.
-Scene Rule: The first time a player uses a non-flying basic attack in this scene, reduce that attack by 1 damage.
+Reveal Text: The nursery bursts open in sparks and shrieking wings, spawning 2 Ember Bats and 1 Ash Cultist.
+Scene Rule: The first non-flying basic attack this scene gets -1 damage.
 Clear Condition: Defeat all hostile creatures in this scene.
-Reward Text: If cleared in 1 round, each player may keep 1 extra card at cleanup this scene.
-Failure Text: If unresolved at end of round, the party takes 1 damage from spreading fire.
-Treasure Value: 0
-Rules Text: This scene pressures flying answers and anti-swarm tempo.
+Reward Text: If cleared in 1 round, each player keeps 1 extra card at cleanup.
+Failure Text: If unresolved at round end, the party takes 1 damage.
+Rules Text: None.
 Flavor Text: Every bell-shaped ember on the ceiling hatches teeth.
-Art Brief: A vaulted nursery chamber filled with hanging ember cocoons and a burst of bat-like fire creatures.
+Art Brief: A vaulted nursery chamber is packed with bell-shaped ember cocoons hanging from chains and stone ribs. Several cocoons burst at once, releasing bat-like fire creatures in sparks and teeth, while a cultist silhouette raises a hand beneath the swarm.

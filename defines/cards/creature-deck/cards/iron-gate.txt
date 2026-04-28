@@ -7,7 +7,7 @@ Creature Type: Structure
 Rarity: Common
 Threat: 2
 Treasure Value: 2
-Hit Points: 4
+Hit Points: 6
 Attack: 0
 Combat Targetable: Yes
 Summon Sickness: No

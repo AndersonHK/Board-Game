@@ -1,0 +1,14 @@
+Card ID: resource-oathbound-strike
+Display Name: Oathbound Strike
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Attack
+Rarity: Rare
+Copies In Deck: 2
+Treasure Value: 4
+Cost: Discard 1 card.
+Timing: Your action.
+Target: One creature or artifact.
+Rules Text: Deal 4 damage. If this defeats the target, draw 1 card.
+Flavor Text: Some promises are sharp enough to keep themselves.
+Art Brief: A battle-worn hero drives a glowing weapon through ash-dark armor while oath-script flares around the blade, bright gold against smoke and furnace red.

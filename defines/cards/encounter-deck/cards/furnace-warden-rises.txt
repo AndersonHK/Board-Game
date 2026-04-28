@@ -5,13 +5,11 @@ Card Type: Encounter
 Encounter Class: Scripted Ordeal
 Scene Tags: scripted, mid-game, boss
 Escalation Use: Reveal only when the quest reaches escalation 5.
-Reveal Text: Spawn Ashen Warden.
-Spawn Text: Ashen Warden enters play immediately.
-Scene Rule: Ashen Warden uses Furnace Sweep and still attacks on the same turn if its card says so.
-Clear Condition: Defeat Ashen Warden.
+Reveal Text: The kiln-bell tolls from inside the furnace, and the guard-forger drags itself upright. Spawn Ashen Warden and Kiln Pup.
+Scene Rule: None.
+Clear Condition: Defeat Ashen Warden and Kiln Pup.
 Reward Text: When cleared, each player draws 1 card.
-Failure Text: If unresolved at end of round, the party takes 2 damage.
-Treasure Value: 0
-Rules Text: This is the quest's scripted midpoint pressure spike.
-Flavor Text: The bell does not wake a guard. It wakes the thing that forged the guard.
-Art Brief: A towering furnace sentinel pulling itself out of an opened kiln chamber.
+Failure Text: If unresolved at round end, the party takes 2 damage.
+Rules Text: Scripted midpoint pressure spike.
+Flavor Text: Some bells call worshippers. This one calls its own god.
+Art Brief: A towering furnace sentinel drags itself from an opened kiln chamber, built from riveted iron, slag, and old guard armor fused into one body. Its chest glows like a forge door, and the kiln-bell should hang above it like a crown or warning.

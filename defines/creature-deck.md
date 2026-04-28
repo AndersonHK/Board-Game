@@ -27,7 +27,7 @@ Persistent obstacles or enchantments such as `Heavy Door` or `Miasma` can use th
 ## Copy Counts And Proxies
 
 - Common cards have `4` copies in the creature deck.
-- Elite and Rare cards have `2` copies in the creature deck unless a card says otherwise.
+- Rare cards have `2` copies in the creature deck unless a card says otherwise.
 - Quest-unique scripted cards have `1` copy.
 - Quest-unique scripted cards include unique bosses and ordeal stages such as `Ashen Warden`, `Chainbound Head`, and `Heartfire Dragon`.
 - If an encounter requires more copies than are physically available, use coins or other ad-hoc tokens as extra copies.

@@ -9,7 +9,6 @@ Treasure Value: 2
 Cost: None.
 Timing: Your action.
 Target: One enchantment or artifact.
-Rules Text: Remove 1 enchantment from the scene, or deal 2 damage to one artifact.
-Reminder Text: Choose one mode when played.
+Rules Text: Remove 1 enchantment from the scene, or deal 3 damage to one artifact.
 Flavor Text: Some curses leave if you open a better door for the air.
-Art Brief: A sweep of magical wind tearing through smoke and old wards.
+Art Brief: A glass vial breaks against stone and releases a clean spiral of pale wind, peeling black smoke and old curse-runes off a relic; the magic should look like fresh air invading a sick room.

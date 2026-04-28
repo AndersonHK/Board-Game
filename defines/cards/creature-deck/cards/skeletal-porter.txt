@@ -7,11 +7,11 @@ Creature Type: Undead
 Rarity: Common
 Threat: 1
 Treasure Value: 1
-Hit Points: 2
-Attack: 0
+Hit Points: 3
+Attack: 1
 Combat Targetable: Yes
 Summon Sickness: No
-Rules Text: While this creature is in play, the first artifact you target each round takes 1 less damage.
+Rules Text: While this creature is in play, the first artifact you target each round takes 2 less damage.
 Active Ability: None.
 Round End Text: None.
 Flavor Text: It died carrying the door and still hasn't put it down.

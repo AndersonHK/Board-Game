@@ -1,0 +1,14 @@
+Card ID: resource-borrowed-time
+Display Name: Borrowed Time
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Tactic
+Rarity: Rare
+Copies In Deck: 2
+Treasure Value: 4
+Cost: Discard 1 card.
+Timing: Round end.
+Target: One encounter escalation increase or party damage.
+Rules Text: Prevent that escalation increase or party damage. The scene remains unresolved.
+Flavor Text: The ruin always collects. Heroes only negotiate the hour.
+Art Brief: A tense party braces beneath falling ash as a cracked hourglass of ember light pauses in midair, holding back a collapsing dungeon corridor for one impossible moment.

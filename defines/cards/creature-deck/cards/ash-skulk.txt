@@ -1,0 +1,18 @@
+Card ID: creature-ash-skulk
+Display Name: Ash Skulk
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Humanoid
+Rarity: Common
+Threat: 1
+Treasure Value: 1
+Hit Points: 2
+Attack: 1
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: On hit, the current claimant discards 1 card.
+Active Ability: None.
+Round End Text: None.
+Flavor Text: It waits where the torchlight gives up.
+Art Brief: A thin ash-covered dungeon stalker crouching behind broken masonry with a hooked knife and pale eyes in the smoke.

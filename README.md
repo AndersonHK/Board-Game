@@ -1,6 +1,6 @@
 # Board Game
 
-This repository is the working space for a one-week class board game project. The game concept is not fully specified yet; we are starting from a high-level brief and will design toward a nearly complete minimal horizontal slice first, then a fully playable vertical slice after that.
+This repository is the working space for a one-week class board game project. It now contains the Edition 0 fantasy vertical-slice rules, card definitions, generated card/board assets, and FedEx-oriented print package for a playable classroom prototype.
 
 The core Codex project docs live here:
 
@@ -12,5 +12,8 @@ The core Codex project docs live here:
 - [docs/design/deck-architecture.md](./docs/design/deck-architecture.md) - the four-deck system and each deck's role.
 - [docs/design/round-structure.md](./docs/design/round-structure.md) - current round flow, escalation logic, and pacing notes.
 - [docs/research/research-index.md](./docs/research/research-index.md) - topic research notes and source links.
+- [assets/printed-materials-index.md](./assets/printed-materials-index.md) - exact printed-materials read list for playtests.
+- [assets/print-and-bundle-package.md](./assets/print-and-bundle-package.md) - current physical production manifest.
+- [assets/fedex-printing-plan.md](./assets/fedex-printing-plan.md) - current FedEx print setup and generated PDF list.
 
-When the game design starts to solidify, this README should stay lightweight and point to the more detailed design and production docs that are added later.
+This README should stay lightweight and point to the detailed design, rules, and production docs as the prototype changes.

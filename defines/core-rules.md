@@ -16,12 +16,16 @@ This file records canonical baseline rules for table play.
 
 ## Table Tracking
 
+- The standard decks are the encounter deck, resource deck, entity deck, and secret agenda deck. Scripted ordeals are kept separate from the shuffled encounter deck until the quest calls for them.
 - Party health is tracked with a red `d20`.
 - Damage tokens are small red circles placed on a creature or other damageable card when it takes damage and survives.
 - Damage tokens track damage already dealt.
 - Shield tokens are blue.
 - Shield tokens are removed before damage tokens are added or party HP is lost.
 - Shield tokens prevent damage `1` for `1` and do not persist between scenes unless a card or quest says otherwise.
+- Yellow tokens mark used, exhausted, once-per-scene, or first-time effects when the table needs a reminder.
+- Green tokens mark temporary reminders such as current claimant, active player, or threshold tax when needed.
+- The table board does not reserve a score-pile zone. Each player keeps claimed cards in a personal score pile beside their own play area.
 
 ## Core Terms
 
@@ -48,13 +52,15 @@ This file records canonical baseline rules for table play.
 ## Actions
 
 - On a normal action, a player may play a card, use a class active, take a non-combat scene action, or make a basic attack.
+- If a played card has a discard, sacrifice, HP, or other printed cost, pay that cost before resolving the card's effect.
+- If a played card gives multiple options with `or`, choose one option when playing it unless the card says otherwise.
 - Every class may make a basic attack for `1` damage instead of playing a card or using a class active.
 - Basic attacks may target creatures and other damageable blocking cards unless that card says it cannot be targeted by combat.
 - Enchantments are not combat targets by default because they do not use HP and attack values unless a card or quest says otherwise.
 - A player may spend an action to attack with one friendly creature they control if that creature can attack.
-- Friendly summoned creatures do not take independent full turns unless a card says otherwise.
+- Friendly summoned creatures cannot attack on the turn they are summoned and do not take independent full turns unless a card says otherwise.
 - A player may use a friendly creature's printed exhaust ability at its allowed timing. If no timing is printed, use it during that player's action.
-- When a player plays a resource card that creates a permanent, discard the resource card after paying its costs and resolving the effect, then place the matching permanent under the stated control.
+- When a player plays a resource card that creates a permanent, discard the resource card after resolving it, then place the matching permanent under the stated control.
 
 ## Standard Round Structure
 
@@ -85,7 +91,13 @@ Players may still use action windows in non-hostile rooms or after all scene hur
 
 - Class passives stack by default unless a card, class rule, or quest says otherwise.
 - If multiple copies of the same passive could claim the same one-time card transfer or loot event, resolve only one transfer unless the effect says otherwise.
-- If more than one player is eligible for that one transfer, break the tie with a `d6` roll among the eligible players.
+- If more than one player is eligible for that one transfer, use the one-time tie break rule.
+
+## One-Time Tie Breaks
+
+- If two or more players are eligible for the same one-time effect and only one player can receive it, each eligible player rolls `1d6`.
+- The highest roll receives the effect.
+- Reroll ties among tied players.
 
 ## Escalation And Unresolved Hurdles
 

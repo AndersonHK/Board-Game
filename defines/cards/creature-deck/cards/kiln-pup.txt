@@ -1,0 +1,18 @@
+Card ID: creature-kiln-pup
+Display Name: Kiln Pup
+Deck: Creature Deck
+Card Type: Creature
+Subtype: Enemy
+Creature Type: Beast
+Rarity: Rare
+Threat: 2
+Treasure Value: 3
+Hit Points: 4
+Attack: 2
+Combat Targetable: Yes
+Summon Sickness: No
+Rules Text: While Ashen Warden is in this scene, prevent 1 damage from the first attack that damages Ashen Warden each round. Deal that damage to Kiln Pup instead.
+Active Ability: None.
+Round End Text: If Ashen Warden is in this scene and Kiln Pup survives the round, the party takes 1 damage.
+Flavor Text: It was not forged to guard the Warden. It just likes him.
+Art Brief: A compact furnace hound with oversized ember eyes, soot-black paws, and a little iron collar, padding beside the Ashen Warden with cute loyalty and dangerous kiln-fire breath.

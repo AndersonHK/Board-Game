@@ -7,7 +7,7 @@ Creature Type: Restraint
 Rarity: Common
 Threat: 1
 Treasure Value: 1
-Hit Points: 3
+Hit Points: 4
 Attack: 0
 Combat Targetable: Yes
 Summon Sickness: No

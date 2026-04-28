@@ -10,6 +10,5 @@ Cost: None.
 Timing: Your action.
 Target: Your field.
 Rules Text: Place Warding Circle on the field under your control.
-Reminder Text: Warding Circle is an enchantment entity, not a combat target.
 Flavor Text: Draw the line first. Explain it later.
-Art Brief: A glowing blue protective sigil traced onto stone.
+Art Brief: A blue-white protective circle is hastily traced across cracked dungeon stone, interrupting ash and claw marks; the line should look imperfect but stubbornly alive.

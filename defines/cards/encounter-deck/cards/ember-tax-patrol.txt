@@ -1,0 +1,15 @@
+Card ID: encounter-ember-tax-patrol
+Display Name: Ember Tax Patrol
+Deck: Encounter Deck
+Card Type: Encounter
+Encounter Class: Random
+Scene Tags: hostile, patrol, discard
+Escalation Use: Random encounter
+Reveal Text: At escalation 0-3, reveal Ash Skulk. At escalation 4-6, reveal Cinder Sapper. At escalation 7+, reveal Grave Knight. If the named card is unavailable, reveal the first Enemy with the same Threat.
+Scene Rule: Hostile scene.
+Clear Condition: All hostile creatures from this scene are defeated.
+Reward Text: The current claimant draws 1 card.
+Failure Text: None.
+Rules Text: None.
+Flavor Text: The ruin has learned to charge interest in fear.
+Art Brief: A grim dungeon patrol collects tribute beneath hanging ember lanterns: ash-stained scouts, a saboteur with glowing charges, and the looming shadow of an undead knight deeper in the smoke.

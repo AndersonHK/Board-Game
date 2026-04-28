@@ -2,7 +2,6 @@ Card ID: agenda-richer-than-the-ruin
 Display Name: Richer Than the Ruin
 Deck: Agenda Deck
 Card Type: Agenda
-Treasure Value: 0
 Goal Text: Succeed if you finish with the highest total Treasure Value in hand plus on-field owned cards.
 Reward Text: Gain 20 prestige points.
 Failure Text: Gain 0 prestige points.

@@ -4,6 +4,7 @@ This folder is reserved for canonical rule defines, numeric baselines, reusable 
 
 Current canonical files:
 
+- [card-layout.md](./card-layout.md): generated standard front layout for Edition 0 cards, derived from the asset atlas card size and used by text-fit checks.
 - [core-rules.md](./core-rules.md): baseline hand rules, standard round flow, and escalation timing.
 - [creature-deck.md](./creature-deck.md): the formal creature deck definition and its role in scene spawning.
 - [cards/README.md](./cards/README.md): canonical vertical-slice card-data format, folder layout, and template index.

@@ -4,7 +4,7 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Enchantment
 Creature Type: Curse
-Rarity: Elite
+Rarity: Rare
 Threat: 2
 Treasure Value: 3
 Hit Points: 0
@@ -13,6 +13,6 @@ Combat Targetable: No
 Summon Sickness: No
 Rules Text: This enchantment is not a combat target. Remove it with dispel text or scene rules.
 Active Ability: None.
-Round End Text: At end of each scene, the player with the most cards discards 1 card.
+Round End Text: At end of each scene, the player with the most cards discards 2 card.
 Flavor Text: The air remembers every greedy breath.
 Art Brief: Thick ash smoke hanging in coils through a shrine chamber.

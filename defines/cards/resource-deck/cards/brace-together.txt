@@ -1,0 +1,14 @@
+Card ID: resource-brace-together
+Display Name: Brace Together
+Deck: Resource Deck
+Card Type: Resource
+Subtype: Support
+Rarity: Common
+Copies In Deck: 4
+Treasure Value: 1
+Cost: None.
+Timing: Your action.
+Target: The party or one creature.
+Rules Text: Place 1 shield token on the target. Then one player may discard 1 card to draw 1 card.
+Flavor Text: A shield is stronger when nobody has to hold it alone.
+Art Brief: Adventurers lock shields and shoulders in a smoke-filled stone hall while blue protective light passes between them like a shared breath.

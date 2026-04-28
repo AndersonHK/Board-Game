@@ -4,11 +4,11 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Boss
 Creature Type: Dragon
-Rarity: Elite
+Rarity: Rare
 Threat: 3
 Treasure Value: 6
-Hit Points: 5
-Attack: 2
+Hit Points: 7
+Attack: 3
 Combat Targetable: Yes
 Summon Sickness: No
 Rules Text: While this card is in play, Heartfire Dragon cannot be targeted.

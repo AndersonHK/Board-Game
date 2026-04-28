@@ -3,13 +3,12 @@ Display Name: Last Step
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Attack
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 4
 Cost: None.
 Timing: Your action.
 Target: One combat target or damageable blocking hurdle.
-Rules Text: Deal 1 damage. If this defeats a creature or clears the last blocking hurdle, draw 1 card.
-Reminder Text: This is a finisher and credit card.
-Flavor Text: Heroes remember the final inch more than the whole climb.
-Art Brief: A decisive finishing strike against a nearly-fallen enemy.
+Rules Text: Deal 2 damage. If this defeats a creature or clears the last blocking hurdle, draw 1 card.
+Flavor Text: Heroes remember the final inch because songs rarely mention the climb.
+Art Brief: A tired hero plants one foot on broken stone and drives a final careful strike into a nearly defeated enemy or cracked obstacle; the pose should feel earned rather than flashy.

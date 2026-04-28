@@ -3,13 +3,12 @@ Display Name: Rally Push
 Deck: Resource Deck
 Card Type: Resource
 Subtype: Support
-Rarity: Elite
+Rarity: Rare
 Copies In Deck: 2
 Treasure Value: 4
 Cost: None.
 Timing: Your action.
 Target: Two players this turn.
-Rules Text: Two players each get +1 damage this turn.
-Reminder Text: This is strongest in scenes with multiple blockers or a race for the last hit.
-Flavor Text: One order shouted well can feel like courage arriving twice.
-Art Brief: Two allies surging forward together under a battle command.
+Rules Text: Two players each get +2 damage this turn.
+Flavor Text: One order, shouted well, can make two frightened heroes remember their names.
+Art Brief: Two allies surge forward from opposite sides of the frame under a shouted command, one raising a weapon and the other breaking through smoke; show momentum, trust, and battlefield noise.

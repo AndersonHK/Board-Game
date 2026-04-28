@@ -4,15 +4,15 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Ally
 Creature Type: Summon
-Rarity: Elite
+Rarity: Rare
 Threat: 2
 Treasure Value: 4
-Hit Points: 2
-Attack: 1
+Hit Points: 3
+Attack: 2
 Combat Targetable: Yes
 Summon Sickness: Yes
 Rules Text: This creature cannot attack on the turn it is summoned.
-Active Ability: Exhaust: Give +1 damage against a target another player already damaged this turn.
+Active Ability: Exhaust: Give +2 damage against a target another player already damaged this turn.
 Round End Text: None.
 Flavor Text: It likes the smell of a fight someone else already started.
 Art Brief: A spectral hound with grave-dust fur tracking a wounded target.

@@ -2,8 +2,7 @@ Card ID: agenda-by-my-grace
 Display Name: By My Grace
 Deck: Agenda Deck
 Card Type: Agenda
-Treasure Value: 0
-Goal Text: Succeed if you cause 3 shared-success moments or 2 failed saves to become successes.
+Goal Text: Succeed if your support effects cause 3 successes that would otherwise fail. Count failed saves flipped to success, final needed damage added, lethal party damage prevented, or a final blocking test cleared.
 Reward Text: Gain 20 prestige points.
 Failure Text: Gain 0 prestige points.
 Reveal Timing: Reveal at end of game.

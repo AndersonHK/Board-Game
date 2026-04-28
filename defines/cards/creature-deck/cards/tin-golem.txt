@@ -4,15 +4,15 @@ Deck: Creature Deck
 Card Type: Creature
 Subtype: Ally
 Creature Type: Summon
-Rarity: Elite
+Rarity: Rare
 Threat: 2
 Treasure Value: 4
-Hit Points: 3
-Attack: 0
+Hit Points: 4
+Attack: 1
 Combat Targetable: Yes
 Summon Sickness: Yes
 Rules Text: This creature cannot attack on the turn it is summoned.
-Active Ability: Exhaust: Prevent 1 damage to the party.
+Active Ability: Exhaust: Prevent 2 damage to the party.
 Round End Text: None.
 Flavor Text: A bodyguard assembled from whatever the ruin forgot to melt.
 Art Brief: A chunky tin-plated golem standing protectively in a dungeon corridor.

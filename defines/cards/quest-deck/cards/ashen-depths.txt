@@ -9,14 +9,16 @@ Starting Party HP (3P): 18
 Starting Hand Size (4P): 3
 Starting Hand Size (3P): 4
 Escalation Track: 0-10
-Setup Text: Begin at escalation 0 with a prep scene instead of a hostile battle.
-Ongoing Quest Rule: When a new scene is fully cleared, raise escalation by 1. If hostile or blocking hurdles remain at end of round, raise escalation by 1.
-Threshold 5: After the current scene ends, resolve the scripted ordeal Furnace Warden Rises. Starting with the next scene, the first player each scene to gain an extra draw from a reward must discard 1 card after that reward resolves.
-Threshold 8: Ash Pressure Rises. In hostile scenes, the first hostile creature attack each scene gets +1 Attack.
-Threshold 10: After the current scene ends, reveal Dragon in the Deep. At escalation 10 the normal two-turn round cap no longer applies.
+Setup Text: Start at escalation 0 with a prep scene instead of a hostile battle.
+Ongoing Quest Rule: When a scene clears, raise escalation by 1. If hostile or blocking hurdles remain at round end, raise escalation by 1.
+Threshold 5: After the current scene ends, resolve Furnace Warden Rises. From the next scene on, the first player each scene who gains an extra encounter Reward draw discards 1 card after it resolves.
+Threshold 8: In hostile scenes, the first hostile creature attack each scene gets +1 Attack.
+Threshold 10: After the current scene ends, reveal Dragon in the Deep. At escalation 10, ignore the two-turn round cap.
 Lose Condition: If party HP reaches 0, all players lose.
 Win Condition: Survive the final ordeal and defeat Heartfire Dragon.
+Win Flavor Text: The dragon falls; the depths keep only echoes.
+Lose Flavor Text: The deep does not hate; it only keeps what falls.
 Treasure Value: 0
-Rules Text: This quest uses one prep scene, a shuffled random encounter deck, one scripted mid-game ordeal, and one scripted final ordeal. Use a red d20 for party HP. In 3-player mode, start at 18 party HP and 4 cards each.
+Rules Text: Use the encounter deck, scripted escalation 5 and 10 ordeals, and a red d20 for party HP. 3P starts at 18 party HP and 4 cards each.
 Flavor Text: The ruin keeps breathing long after its builders are ash.
 Art Brief: A massive stair descending into a volcanic dungeon, with soot in the air, cracked stone saints, and orange furnace light below.

@@ -10,6 +10,5 @@ Cost: None.
 Timing: Your action.
 Target: Your field.
 Rules Text: Place Cinder Familiar on the field under your control.
-Reminder Text: Summoned creatures cannot attack on the turn they are summoned unless a card says otherwise.
 Flavor Text: Small fire listens best when it has a name.
-Art Brief: A wizard calling a fox-like fire familiar into a ring of ash.
+Art Brief: A fox-like familiar made of ember, coal, and bright eyes steps out of a ring of ash toward an outstretched hand; make it charming but a little dangerous, like a candle with opinions.
